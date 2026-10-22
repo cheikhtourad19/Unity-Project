@@ -1,0 +1,550 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea23.narration.fr",
+  "language": "fr",
+  "kind": "narration",
+  "audioSha256": "4e7fb44ad87890cf22bbf609a06035fc24d202ebe7ebb60593bfca6f5865841e",
+  "scriptSha256": "87bd27f99f633451eb0aba3085a0c83f18c25374ac93e7348ca8ee921f2f6c75",
+  "durationSeconds": 29.387755,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020007,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.04,
+      "endSeconds": 3.461,
+      "text": "Ce sarcophage de granite\nappartenait à Hapmen, un haut"
+    },
+    {
+      "startSeconds": 3.461,
+      "endSeconds": 4.962,
+      "text": "fonctionnaire de l’Égypte\nancienne."
+    },
+    {
+      "startSeconds": 5.442,
+      "endSeconds": 8.763,
+      "text": "Ses parois portent des\ntextes et des figures de"
+    },
+    {
+      "startSeconds": 8.763,
+      "endSeconds": 11.864,
+      "text": "divinités funéraires. À\nl’intérieur, la déesse Nout est"
+    },
+    {
+      "startSeconds": 12.004,
+      "endSeconds": 15.245,
+      "text": "représentée au fond de la\ncuve. Observez les reliefs et"
+    },
+    {
+      "startSeconds": 15.245,
+      "endSeconds": 17.906,
+      "text": "la manière dont ils\nentourent l’espace destiné au"
+    },
+    {
+      "startSeconds": 17.906,
+      "endSeconds": 21.788,
+      "text": "défunt. Le sarcophage fut\nplus tard réutilisé pour des"
+    },
+    {
+      "startSeconds": 21.788,
+      "endSeconds": 24.928,
+      "text": "ablutions dans la mosquée\nIbn Touloun, au Caire."
+    },
+    {
+      "startSeconds": 25.129,
+      "endSeconds": 27.97,
+      "text": "Cette œuvre conserve ainsi\nles traces de plusieurs"
+    },
+    {
+      "startSeconds": 27.97,
+      "endSeconds": 29.21,
+      "text": "usages au fil du temps."
+    }
+  ],
+  "words": [
+    {
+      "text": "Ce",
+      "startSeconds": 0.04,
+      "endSeconds": 0.1,
+      "alignmentScore": 0.9983
+    },
+    {
+      "text": "sarcophage",
+      "startSeconds": 0.1801,
+      "endSeconds": 0.7403,
+      "alignmentScore": 0.9588
+    },
+    {
+      "text": "de",
+      "startSeconds": 0.7603,
+      "endSeconds": 0.8003,
+      "alignmentScore": 0.9986
+    },
+    {
+      "text": "granite",
+      "startSeconds": 0.8603,
+      "endSeconds": 1.2804,
+      "alignmentScore": 0.9804
+    },
+    {
+      "text": "appartenait",
+      "startSeconds": 1.3805,
+      "endSeconds": 1.9807,
+      "alignmentScore": 0.9758
+    },
+    {
+      "text": "à",
+      "startSeconds": 2.0807,
+      "endSeconds": 2.1007,
+      "alignmentScore": 0.9982
+    },
+    {
+      "text": "Hapmen,",
+      "startSeconds": 2.2608,
+      "endSeconds": 2.7009,
+      "alignmentScore": 0.7615
+    },
+    {
+      "text": "un",
+      "startSeconds": 3.1211,
+      "endSeconds": 3.2211,
+      "alignmentScore": 0.932
+    },
+    {
+      "text": "haut",
+      "startSeconds": 3.2811,
+      "endSeconds": 3.4212,
+      "alignmentScore": 0.8341
+    },
+    {
+      "text": "fonctionnaire",
+      "startSeconds": 3.4612,
+      "endSeconds": 4.0014,
+      "alignmentScore": 0.9774
+    },
+    {
+      "text": "de",
+      "startSeconds": 4.0214,
+      "endSeconds": 4.0814,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "l’Égypte",
+      "startSeconds": 4.1014,
+      "endSeconds": 4.4815,
+      "alignmentScore": 0.8984
+    },
+    {
+      "text": "ancienne.",
+      "startSeconds": 4.5216,
+      "endSeconds": 4.8817,
+      "alignmentScore": 0.9902
+    },
+    {
+      "text": "Ses",
+      "startSeconds": 5.4419,
+      "endSeconds": 5.5619,
+      "alignmentScore": 0.7431
+    },
+    {
+      "text": "parois",
+      "startSeconds": 5.5819,
+      "endSeconds": 5.962,
+      "alignmentScore": 0.9688
+    },
+    {
+      "text": "portent",
+      "startSeconds": 6.0021,
+      "endSeconds": 6.4222,
+      "alignmentScore": 0.626
+    },
+    {
+      "text": "des",
+      "startSeconds": 6.6023,
+      "endSeconds": 6.7223,
+      "alignmentScore": 0.9944
+    },
+    {
+      "text": "textes",
+      "startSeconds": 6.8223,
+      "endSeconds": 7.2225,
+      "alignmentScore": 0.9313
+    },
+    {
+      "text": "et",
+      "startSeconds": 7.5626,
+      "endSeconds": 7.6626,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "des",
+      "startSeconds": 7.8827,
+      "endSeconds": 8.0027,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "figures",
+      "startSeconds": 8.0628,
+      "endSeconds": 8.4629,
+      "alignmentScore": 0.9282
+    },
+    {
+      "text": "de",
+      "startSeconds": 8.6029,
+      "endSeconds": 8.683,
+      "alignmentScore": 0.9529
+    },
+    {
+      "text": "divinités",
+      "startSeconds": 8.763,
+      "endSeconds": 9.3432,
+      "alignmentScore": 0.897
+    },
+    {
+      "text": "funéraires.",
+      "startSeconds": 9.4032,
+      "endSeconds": 9.9634,
+      "alignmentScore": 0.9727
+    },
+    {
+      "text": "À",
+      "startSeconds": 10.3035,
+      "endSeconds": 10.3235,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "l’intérieur,",
+      "startSeconds": 10.3435,
+      "endSeconds": 10.8237,
+      "alignmentScore": 0.9795
+    },
+    {
+      "text": "la",
+      "startSeconds": 10.8837,
+      "endSeconds": 10.9438,
+      "alignmentScore": 0.9981
+    },
+    {
+      "text": "déesse",
+      "startSeconds": 11.0238,
+      "endSeconds": 11.2839,
+      "alignmentScore": 0.4122
+    },
+    {
+      "text": "Nout",
+      "startSeconds": 11.3239,
+      "endSeconds": 11.5039,
+      "alignmentScore": 0.9162
+    },
+    {
+      "text": "est",
+      "startSeconds": 11.664,
+      "endSeconds": 11.784,
+      "alignmentScore": 0.72
+    },
+    {
+      "text": "représentée",
+      "startSeconds": 12.0041,
+      "endSeconds": 12.5843,
+      "alignmentScore": 0.9228
+    },
+    {
+      "text": "au",
+      "startSeconds": 12.6843,
+      "endSeconds": 12.7444,
+      "alignmentScore": 0.9985
+    },
+    {
+      "text": "fond",
+      "startSeconds": 12.8044,
+      "endSeconds": 12.9845,
+      "alignmentScore": 0.9571
+    },
+    {
+      "text": "de",
+      "startSeconds": 13.0245,
+      "endSeconds": 13.0645,
+      "alignmentScore": 0.9977
+    },
+    {
+      "text": "la",
+      "startSeconds": 13.1045,
+      "endSeconds": 13.1645,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "cuve.",
+      "startSeconds": 13.2445,
+      "endSeconds": 13.5647,
+      "alignmentScore": 0.9962
+    },
+    {
+      "text": "Observez",
+      "startSeconds": 13.9648,
+      "endSeconds": 14.3849,
+      "alignmentScore": 0.9462
+    },
+    {
+      "text": "les",
+      "startSeconds": 14.4049,
+      "endSeconds": 14.505,
+      "alignmentScore": 0.8861
+    },
+    {
+      "text": "reliefs",
+      "startSeconds": 14.545,
+      "endSeconds": 15.0051,
+      "alignmentScore": 0.9937
+    },
+    {
+      "text": "et",
+      "startSeconds": 15.1652,
+      "endSeconds": 15.2252,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "la",
+      "startSeconds": 15.2452,
+      "endSeconds": 15.3052,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "manière",
+      "startSeconds": 15.3653,
+      "endSeconds": 15.7254,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "dont",
+      "startSeconds": 15.7654,
+      "endSeconds": 15.9055,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "ils",
+      "startSeconds": 15.9855,
+      "endSeconds": 16.1055,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "entourent",
+      "startSeconds": 16.1655,
+      "endSeconds": 16.5057,
+      "alignmentScore": 0.9178
+    },
+    {
+      "text": "l’espace",
+      "startSeconds": 16.5057,
+      "endSeconds": 17.0859,
+      "alignmentScore": 0.9245
+    },
+    {
+      "text": "destiné",
+      "startSeconds": 17.2859,
+      "endSeconds": 17.6861,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "au",
+      "startSeconds": 17.7861,
+      "endSeconds": 17.8461,
+      "alignmentScore": 0.9965
+    },
+    {
+      "text": "défunt.",
+      "startSeconds": 17.9061,
+      "endSeconds": 18.2463,
+      "alignmentScore": 0.6889
+    },
+    {
+      "text": "Le",
+      "startSeconds": 18.7464,
+      "endSeconds": 18.8064,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "sarcophage",
+      "startSeconds": 18.8665,
+      "endSeconds": 19.4667,
+      "alignmentScore": 0.9738
+    },
+    {
+      "text": "fut",
+      "startSeconds": 19.5067,
+      "endSeconds": 19.6467,
+      "alignmentScore": 0.9833
+    },
+    {
+      "text": "plus",
+      "startSeconds": 19.7268,
+      "endSeconds": 19.9268,
+      "alignmentScore": 0.9973
+    },
+    {
+      "text": "tard",
+      "startSeconds": 19.9668,
+      "endSeconds": 20.2669,
+      "alignmentScore": 0.9687
+    },
+    {
+      "text": "réutilisé",
+      "startSeconds": 20.507,
+      "endSeconds": 21.0672,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "pour",
+      "startSeconds": 21.1673,
+      "endSeconds": 21.3073,
+      "alignmentScore": 0.9861
+    },
+    {
+      "text": "des",
+      "startSeconds": 21.3873,
+      "endSeconds": 21.7274,
+      "alignmentScore": 0.9851
+    },
+    {
+      "text": "ablutions",
+      "startSeconds": 21.7875,
+      "endSeconds": 22.3877,
+      "alignmentScore": 0.87
+    },
+    {
+      "text": "dans",
+      "startSeconds": 22.4477,
+      "endSeconds": 22.5877,
+      "alignmentScore": 0.9103
+    },
+    {
+      "text": "la",
+      "startSeconds": 22.6078,
+      "endSeconds": 22.6678,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "mosquée",
+      "startSeconds": 22.7478,
+      "endSeconds": 23.1479,
+      "alignmentScore": 0.822
+    },
+    {
+      "text": "Ibn",
+      "startSeconds": 23.348,
+      "endSeconds": 23.5481,
+      "alignmentScore": 0.9
+    },
+    {
+      "text": "Touloun,",
+      "startSeconds": 23.7081,
+      "endSeconds": 24.0883,
+      "alignmentScore": 0.8084
+    },
+    {
+      "text": "au",
+      "startSeconds": 24.3884,
+      "endSeconds": 24.4484,
+      "alignmentScore": 0.4888
+    },
+    {
+      "text": "Caire.",
+      "startSeconds": 24.5484,
+      "endSeconds": 24.8485,
+      "alignmentScore": 0.2559
+    },
+    {
+      "text": "Cette",
+      "startSeconds": 25.1286,
+      "endSeconds": 25.3287,
+      "alignmentScore": 0.9704
+    },
+    {
+      "text": "œuvre",
+      "startSeconds": 25.3687,
+      "endSeconds": 25.5488,
+      "alignmentScore": 0.9601
+    },
+    {
+      "text": "conserve",
+      "startSeconds": 25.5888,
+      "endSeconds": 25.9689,
+      "alignmentScore": 0.9713
+    },
+    {
+      "text": "ainsi",
+      "startSeconds": 26.0489,
+      "endSeconds": 26.369,
+      "alignmentScore": 0.9423
+    },
+    {
+      "text": "les",
+      "startSeconds": 26.6091,
+      "endSeconds": 26.7292,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "traces",
+      "startSeconds": 26.7692,
+      "endSeconds": 27.1493,
+      "alignmentScore": 0.9629
+    },
+    {
+      "text": "de",
+      "startSeconds": 27.1693,
+      "endSeconds": 27.2293,
+      "alignmentScore": 0.985
+    },
+    {
+      "text": "plusieurs",
+      "startSeconds": 27.3294,
+      "endSeconds": 27.8896,
+      "alignmentScore": 0.9761
+    },
+    {
+      "text": "usages",
+      "startSeconds": 27.9696,
+      "endSeconds": 28.4097,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "au",
+      "startSeconds": 28.4898,
+      "endSeconds": 28.5498,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "fil",
+      "startSeconds": 28.6098,
+      "endSeconds": 28.7499,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "du",
+      "startSeconds": 28.8099,
+      "endSeconds": 28.8699,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "temps.",
+      "startSeconds": 28.9499,
+      "endSeconds": 29.13,
+      "alignmentScore": 0.9882
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea23.narration.fr",
+    "wordCount": 78,
+    "cueCount": 10,
+    "meanAlignmentScore": 0.9265,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

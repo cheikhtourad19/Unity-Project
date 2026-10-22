@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea19.audio_description.en",
+  "language": "en",
+  "kind": "audio_description",
+  "audioSha256": "c3103e1f3f783c11e9e51e041b67e3b866c972e45b8cbc0af33d6552ed62d62c",
+  "scriptSha256": "7e3dcfe17ad7bf7f6962a667f211c0903237d57664c93385ed07f7554658672e",
+  "durationSeconds": 23.719184,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020021,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.08,
+      "endSeconds": 3.844,
+      "text": "The sculpture preserves a\nhuman head and upper torso."
+    },
+    {
+      "startSeconds": 4.925,
+      "endSeconds": 8.889,
+      "text": "A striped headdress frames\nthe face and extends down"
+    },
+    {
+      "startSeconds": 8.949,
+      "endSeconds": 9.91,
+      "text": "onto the shoulders."
+    },
+    {
+      "startSeconds": 11.071,
+      "endSeconds": 14.535,
+      "text": "Missing parts make the\ntorso’s outline uneven."
+    },
+    {
+      "startSeconds": 15.716,
+      "endSeconds": 17.618,
+      "text": "The stone varies in colour."
+    },
+    {
+      "startSeconds": 18.539,
+      "endSeconds": 19.98,
+      "text": "The figure faces forward,"
+    },
+    {
+      "startSeconds": 20.641,
+      "endSeconds": 23.424,
+      "text": "giving particular prominence\nto the face."
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "startSeconds": 0.0801,
+      "endSeconds": 0.1602,
+      "alignmentScore": 0.9934
+    },
+    {
+      "text": "sculpture",
+      "startSeconds": 0.2202,
+      "endSeconds": 0.7408,
+      "alignmentScore": 0.925
+    },
+    {
+      "text": "preserves",
+      "startSeconds": 0.8008,
+      "endSeconds": 1.3614,
+      "alignmentScore": 0.9656
+    },
+    {
+      "text": "a",
+      "startSeconds": 1.4014,
+      "endSeconds": 1.4215,
+      "alignmentScore": 0.987
+    },
+    {
+      "text": "human",
+      "startSeconds": 1.5015,
+      "endSeconds": 1.8419,
+      "alignmentScore": 0.9776
+    },
+    {
+      "text": "head",
+      "startSeconds": 1.922,
+      "endSeconds": 2.1622,
+      "alignmentScore": 0.998
+    },
+    {
+      "text": "and",
+      "startSeconds": 2.6828,
+      "endSeconds": 2.8029,
+      "alignmentScore": 0.993
+    },
+    {
+      "text": "upper",
+      "startSeconds": 3.0031,
+      "endSeconds": 3.2233,
+      "alignmentScore": 0.805
+    },
+    {
+      "text": "torso.",
+      "startSeconds": 3.3434,
+      "endSeconds": 3.7639,
+      "alignmentScore": 0.8984
+    },
+    {
+      "text": "A",
+      "startSeconds": 4.9251,
+      "endSeconds": 4.9451,
+      "alignmentScore": 0.9962
+    },
+    {
+      "text": "striped",
+      "startSeconds": 5.0452,
+      "endSeconds": 5.4456,
+      "alignmentScore": 0.9492
+    },
+    {
+      "text": "headdress",
+      "startSeconds": 5.5057,
+      "endSeconds": 6.0262,
+      "alignmentScore": 0.9532
+    },
+    {
+      "text": "frames",
+      "startSeconds": 6.4266,
+      "endSeconds": 6.807,
+      "alignmentScore": 0.835
+    },
+    {
+      "text": "the",
+      "startSeconds": 6.847,
+      "endSeconds": 6.9271,
+      "alignmentScore": 0.9976
+    },
+    {
+      "text": "face",
+      "startSeconds": 6.9872,
+      "endSeconds": 7.3476,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "and",
+      "startSeconds": 7.768,
+      "endSeconds": 7.8681,
+      "alignmentScore": 0.9975
+    },
+    {
+      "text": "extends",
+      "startSeconds": 7.8881,
+      "endSeconds": 8.4287,
+      "alignmentScore": 0.9835
+    },
+    {
+      "text": "down",
+      "startSeconds": 8.4887,
+      "endSeconds": 8.8091,
+      "alignmentScore": 0.9846
+    },
+    {
+      "text": "onto",
+      "startSeconds": 8.9492,
+      "endSeconds": 9.1694,
+      "alignmentScore": 0.98
+    },
+    {
+      "text": "the",
+      "startSeconds": 9.2095,
+      "endSeconds": 9.2695,
+      "alignmentScore": 0.9706
+    },
+    {
+      "text": "shoulders.",
+      "startSeconds": 9.3496,
+      "endSeconds": 9.8301,
+      "alignmentScore": 0.916
+    },
+    {
+      "text": "Missing",
+      "startSeconds": 11.0714,
+      "endSeconds": 11.3717,
+      "alignmentScore": 0.5969
+    },
+    {
+      "text": "parts",
+      "startSeconds": 11.4518,
+      "endSeconds": 11.8322,
+      "alignmentScore": 0.4809
+    },
+    {
+      "text": "make",
+      "startSeconds": 11.9123,
+      "endSeconds": 12.1325,
+      "alignmentScore": 0.5411
+    },
+    {
+      "text": "the",
+      "startSeconds": 12.1725,
+      "endSeconds": 12.2526,
+      "alignmentScore": 0.9979
+    },
+    {
+      "text": "torso’s",
+      "startSeconds": 12.3127,
+      "endSeconds": 12.7932,
+      "alignmentScore": 0.8453
+    },
+    {
+      "text": "outline",
+      "startSeconds": 12.9533,
+      "endSeconds": 13.4138,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "uneven.",
+      "startSeconds": 13.9944,
+      "endSeconds": 14.4549,
+      "alignmentScore": 0.9979
+    },
+    {
+      "text": "The",
+      "startSeconds": 15.7162,
+      "endSeconds": 15.7963,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "stone",
+      "startSeconds": 15.8563,
+      "endSeconds": 16.2968,
+      "alignmentScore": 0.9814
+    },
+    {
+      "text": "varies",
+      "startSeconds": 16.557,
+      "endSeconds": 16.9374,
+      "alignmentScore": 0.9586
+    },
+    {
+      "text": "in",
+      "startSeconds": 17.0576,
+      "endSeconds": 17.1376,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "colour.",
+      "startSeconds": 17.2177,
+      "endSeconds": 17.538,
+      "alignmentScore": 0.6115
+    },
+    {
+      "text": "The",
+      "startSeconds": 18.5391,
+      "endSeconds": 18.6192,
+      "alignmentScore": 0.9785
+    },
+    {
+      "text": "figure",
+      "startSeconds": 18.6992,
+      "endSeconds": 18.9795,
+      "alignmentScore": 0.7285
+    },
+    {
+      "text": "faces",
+      "startSeconds": 19.0796,
+      "endSeconds": 19.46,
+      "alignmentScore": 0.9964
+    },
+    {
+      "text": "forward,",
+      "startSeconds": 19.5401,
+      "endSeconds": 19.9005,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "giving",
+      "startSeconds": 20.6412,
+      "endSeconds": 20.9015,
+      "alignmentScore": 0.9964
+    },
+    {
+      "text": "particular",
+      "startSeconds": 20.9616,
+      "endSeconds": 21.5422,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "prominence",
+      "startSeconds": 21.6022,
+      "endSeconds": 22.2429,
+      "alignmentScore": 0.9747
+    },
+    {
+      "text": "to",
+      "startSeconds": 22.6033,
+      "endSeconds": 22.7034,
+      "alignmentScore": 0.9979
+    },
+    {
+      "text": "the",
+      "startSeconds": 22.8035,
+      "endSeconds": 22.8836,
+      "alignmentScore": 0.9927
+    },
+    {
+      "text": "face.",
+      "startSeconds": 22.9236,
+      "endSeconds": 23.344,
+      "alignmentScore": 0.9984
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea19.audio_description.en",
+    "wordCount": 43,
+    "cueCount": 7,
+    "meanAlignmentScore": 0.925,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

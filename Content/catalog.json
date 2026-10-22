@@ -1,0 +1,4643 @@
+{
+  "schemaVersion": 2,
+  "catalogVersion": "1.0.0-prototype.3",
+  "preparedOn": "2026-10-09",
+  "updatedOn": "2026-10-09",
+  "title": "HeritageXR — Égypte antique",
+  "collectionId": "ancient_egypt",
+  "defaultLanguage": "fr",
+  "supportedLanguages": [
+    "fr",
+    "ar",
+    "en"
+  ],
+  "status": "integrated_prototype_pending_device_validation",
+  "sourceInventory": "AssetSources/inventory.json",
+  "unityCollectionAsset": "Assets/HeritageXR/Content/Collection.asset",
+  "artworks": [
+    {
+      "id": "bm_ea24",
+      "museumObjectId": "EA24",
+      "publicationStatus": "draft",
+      "texts": [
+        {
+          "language": "fr",
+          "title": "Pierre de Rosette",
+          "summary": "Une stèle portant un décret en trois écritures, essentielle au déchiffrement des hiéroglyphes.",
+          "description": "La pierre de Rosette est un fragment de stèle en granodiorite portant un décret en l’honneur de Ptolémée V. Le texte est inscrit en hiéroglyphes, en démotique et en grec. La comparaison de ces écritures a fourni une clé majeure au déchiffrement des hiéroglyphes égyptiens.",
+          "descriptionStatus": "source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://github.com/BritishMuseumDH/rosettaStone",
+            "https://sketchfab.com/3d-models/the-rosetta-stone-1e03509704a3490e99a173e53b93e282"
+          ]
+        },
+        {
+          "language": "ar",
+          "title": "حجر رشيد",
+          "summary": "جزء من لوحة تحمل مرسومًا بثلاثة أنظمة كتابة، وكان أساسيًا في فك رموز الهيروغليفية.",
+          "description": "حجر رشيد جزء من لوحة من الجرانوديوريت تحمل مرسومًا تكريمًا لبطليموس الخامس. كُتب النص بالهيروغليفية والديموطيقية واليونانية. وقد وفرت مقارنة هذه الكتابات مفتاحًا مهمًا لفك رموز الهيروغليفية المصرية.",
+          "descriptionStatus": "translation_of_french_source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://github.com/BritishMuseumDH/rosettaStone",
+            "https://sketchfab.com/3d-models/the-rosetta-stone-1e03509704a3490e99a173e53b93e282"
+          ]
+        },
+        {
+          "language": "en",
+          "title": "Rosetta Stone",
+          "summary": "A stele bearing a decree in three scripts, central to deciphering hieroglyphs.",
+          "description": "The Rosetta Stone is a fragment of a granodiorite stele bearing a decree in honour of Ptolemy V. The text is written in hieroglyphs, Demotic and Greek. Comparing these scripts provided a major key to deciphering Egyptian hieroglyphs.",
+          "descriptionStatus": "translation_of_french_source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://github.com/BritishMuseumDH/rosettaStone",
+            "https://sketchfab.com/3d-models/the-rosetta-stone-1e03509704a3490e99a173e53b93e282"
+          ]
+        }
+      ],
+      "model": {
+        "sourcePath": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/rosetta-stone-EA24/fiveHundred.obj",
+        "materialPaths": [
+          "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/rosetta-stone-EA24/fiveHundred.obj.mtl"
+        ],
+        "texturePaths": [
+          "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/rosetta-stone-EA24/fiveHundred.jpg"
+        ],
+        "triangleCount": 10000,
+        "addressableKey": null,
+        "licence": "CC-BY-NC-SA-4.0",
+        "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+        "credits": [
+          "Daniel Pett",
+          "Jennifer Wexler",
+          "Thomas Flynn",
+          "Copyright Trustees of the British Museum"
+        ],
+        "importStatus": "imported_in_unity_prototype",
+        "unityPrefabPath": "Assets/HeritageXR/Models/bm_ea24/Artwork.prefab",
+        "displayLongestAxisMeters": 0.2
+      },
+      "targets": [
+        {
+          "id": "target_bm_ea24",
+          "path": "AssetSources/Images/Source/rosetta_stone.jpg",
+          "bytes": 1048282,
+          "sha256": "3ec757ef8d870f64b23addc6b756f1cb5d9fbc8b732f17514f82a12d155ebd1b",
+          "sha1": "8a9493c12ac8e06e2696e9950798383422ee9215",
+          "pixelWidth": 1846,
+          "pixelHeight": 3091,
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone_at_the_British_Museum.jpg",
+          "author": "BabelStone",
+          "licence": "CC-BY-SA-3.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "modified": false,
+          "imageRole": "candidate_reference_image",
+          "physicalWidthMeters": 0.12,
+          "printed": false,
+          "arTrackingValidated": false,
+          "identityVerification": null,
+          "authorNote": null,
+          "dimensionStatus": "prototype_print_specification_not_measured",
+          "unityTexturePath": "Assets/HeritageXR/Photos/bm_ea24.jpg",
+          "referenceLibraryPath": "Assets/HeritageXR/Settings/ArtworkImages.asset",
+          "addressableKey": null,
+          "preparationStatus": "image_imported_existing_prototype"
+        }
+      ],
+      "audio": [
+        {
+          "id": "bm_ea24.narration.fr",
+          "language": "fr",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea24/narration.fr.txt",
+          "scriptSha256": "3b40f0717b84e929e7f87d252ab9813b1942a6b968ac1e714e6e84e36b7ef940",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea24/narration.fr.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea24/narration.fr.mp3",
+          "addressableKey": null,
+          "durationSeconds": 28.551837,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "6DEjyaHWnTHsvXM5Byys",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea24/narration.fr.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.08,
+              "endSeconds": 2.921,
+              "text": "Voici la pierre de Rosette,\nun fragment de stèle en"
+            },
+            {
+              "startSeconds": 2.921,
+              "endSeconds": 5.883,
+              "text": "granodiorite. Elle porte un\ndécret de l’année cent"
+            },
+            {
+              "startSeconds": 5.883,
+              "endSeconds": 8.824,
+              "text": "quatre-vingt-seize avant\nnotre ère, en l’honneur de"
+            },
+            {
+              "startSeconds": 8.824,
+              "endSeconds": 12.126,
+              "text": "Ptolémée le cinquième. Le\nmême décret apparaît en trois"
+            },
+            {
+              "startSeconds": 12.126,
+              "endSeconds": 15.928,
+              "text": "écritures : les hiéroglyphes,\nle démotique et le grec."
+            },
+            {
+              "startSeconds": 16.408,
+              "endSeconds": 19.029,
+              "text": "Leur comparaison a aidé à\ndéchiffrer les hiéroglyphes"
+            },
+            {
+              "startSeconds": 19.029,
+              "endSeconds": 22.491,
+              "text": "égyptiens. Observez les\ndifférents groupes de signes sur"
+            },
+            {
+              "startSeconds": 22.491,
+              "endSeconds": 23.291,
+              "text": "sa surface."
+            },
+            {
+              "startSeconds": 23.852,
+              "endSeconds": 26.653,
+              "text": "Ce fragment rappelle comment\nun texte peut ouvrir une"
+            },
+            {
+              "startSeconds": 26.653,
+              "endSeconds": 28.234,
+              "text": "fenêtre sur une\ncivilisation."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: Hugo — Deep French Storyteller"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea24.audio_description.fr",
+          "language": "fr",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea24/audio_description.fr.txt",
+          "scriptSha256": "31b46eccf2a902f9fce339b8688be636dfa40ed18496f2dd7325fe3b855aa2bc",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea24/audio_description.fr.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea24/audio_description.fr.mp3",
+          "addressableKey": null,
+          "durationSeconds": 21.394286,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "6DEjyaHWnTHsvXM5Byys",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea24/audio_description.fr.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.08,
+              "endSeconds": 3.263,
+              "text": "La pierre se présente comme\nune plaque épaisse dressée"
+            },
+            {
+              "startSeconds": 3.404,
+              "endSeconds": 7.988,
+              "text": "verticalement. Sa face\nprincipale porte des rangées"
+            },
+            {
+              "startSeconds": 7.988,
+              "endSeconds": 10.751,
+              "text": "serrées de signes gravés. La\npartie supérieure est"
+            },
+            {
+              "startSeconds": 10.751,
+              "endSeconds": 13.214,
+              "text": "brisée et son contour est\nirrégulier."
+            },
+            {
+              "startSeconds": 13.514,
+              "endSeconds": 16.077,
+              "text": "Les inscriptions forment\nplusieurs ensembles superposés."
+            },
+            {
+              "startSeconds": 16.397,
+              "endSeconds": 18.399,
+              "text": "Cette description donne les\ngrandes formes ;"
+            },
+            {
+              "startSeconds": 18.7,
+              "endSeconds": 21.222,
+              "text": "elle ne lit ni ne traduit\nles signes."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: Hugo — Deep French Storyteller"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea24.narration.ar",
+          "language": "ar",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea24/narration.ar.txt",
+          "scriptSha256": "56997ebaedc82921dc2b053d830f602147e5a2fc826f03292b96eaaf3104269a",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea24/narration.ar.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea24/narration.ar.mp3",
+          "addressableKey": null,
+          "durationSeconds": 39.000816,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea24/narration.ar.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.06,
+              "endSeconds": 4.523,
+              "text": "هذا حجر رشيد، وهو جزء من\nلوحة من الجرانوديوريت."
+            },
+            {
+              "startSeconds": 5.163,
+              "endSeconds": 9.205,
+              "text": "يحمل مرسوماً من عام مئة وستة\nوتسعين قبل الميلاد،"
+            },
+            {
+              "startSeconds": 9.826,
+              "endSeconds": 15.049,
+              "text": "تكريماً لبطليموس الخامس. يظهر\nالمرسوم نفسه بثلاثة أنظمة"
+            },
+            {
+              "startSeconds": 15.189,
+              "endSeconds": 15.989,
+              "text": "للكتابة:"
+            },
+            {
+              "startSeconds": 16.61,
+              "endSeconds": 20.312,
+              "text": "الهيروغليفية والديموطيقية\nواليونانية."
+            },
+            {
+              "startSeconds": 21.333,
+              "endSeconds": 25.855,
+              "text": "ساعدت المقارنة بينها الباحثين\nعلى فك رموز الهيروغليفية"
+            },
+            {
+              "startSeconds": 25.935,
+              "endSeconds": 26.735,
+              "text": "المصرية."
+            },
+            {
+              "startSeconds": 27.456,
+              "endSeconds": 31.278,
+              "text": "تأمل مجموعات العلامات\nالمختلفة على سطح الحجر."
+            },
+            {
+              "startSeconds": 32.059,
+              "endSeconds": 35.481,
+              "text": "يذكرنا هذا الجزء كيف يمكن\nلنص مكتوب"
+            },
+            {
+              "startSeconds": 36.081,
+              "endSeconds": 38.743,
+              "text": "أن يفتح نافذة على حضارة\nقديمة."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: saber - صوت عربي واضح"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea24.audio_description.ar",
+          "language": "ar",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea24/audio_description.ar.txt",
+          "scriptSha256": "e95a6f891a19e7046c029cda0cc02a91d594cb2f595265934d40090b2acf83e3",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea24/audio_description.ar.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea24/audio_description.ar.mp3",
+          "addressableKey": null,
+          "durationSeconds": 24.476735,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea24/audio_description.ar.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.06,
+              "endSeconds": 3.341,
+              "text": "يبدو الحجر كلوح سميك قائم\nعمودياً."
+            },
+            {
+              "startSeconds": 4.141,
+              "endSeconds": 8.863,
+              "text": "يحمل وجهه الرئيسي صفوفاً\nمتقاربة من علامات منقوشة."
+            },
+            {
+              "startSeconds": 9.643,
+              "endSeconds": 13.084,
+              "text": "الجزء العلوي مكسور وحدوده\nغير منتظمة."
+            },
+            {
+              "startSeconds": 13.844,
+              "endSeconds": 17.485,
+              "text": "تشكل النقوش مجموعات مرتبة\nفوق بعضها."
+            },
+            {
+              "startSeconds": 18.186,
+              "endSeconds": 23.267,
+              "text": "تصف هذه الكلمات الأشكال\nالرئيسية، ولا تقرأ العلامات ولا"
+            },
+            {
+              "startSeconds": 23.267,
+              "endSeconds": 24.127,
+              "text": "تترجمها."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: saber - صوت عربي واضح"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea24.narration.en",
+          "language": "en",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea24/narration.en.txt",
+          "scriptSha256": "87501fc551b154d14a085444e5969b1b228f6c505ce6c4b8545ce5a3855e2eb9",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea24/narration.en.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea24/narration.en.mp3",
+          "addressableKey": null,
+          "durationSeconds": 39.653878,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea24/narration.en.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.06,
+              "endSeconds": 1.4,
+              "text": "This is the Rosetta Stone,"
+            },
+            {
+              "startSeconds": 1.981,
+              "endSeconds": 4.241,
+              "text": "a fragment of a granodiorite\nstele."
+            },
+            {
+              "startSeconds": 5.142,
+              "endSeconds": 9.103,
+              "text": "It bears a decree from one\nhundred and ninety-six BCE,"
+            },
+            {
+              "startSeconds": 9.683,
+              "endSeconds": 11.584,
+              "text": "honouring Ptolemy the Fifth."
+            },
+            {
+              "startSeconds": 12.484,
+              "endSeconds": 14.705,
+              "text": "The same decree appears in\nthree scripts:"
+            },
+            {
+              "startSeconds": 15.445,
+              "endSeconds": 18.086,
+              "text": "hieroglyphs, Demotic and\nGreek."
+            },
+            {
+              "startSeconds": 18.926,
+              "endSeconds": 22.387,
+              "text": "Comparing them helped\nscholars decipher Egyptian"
+            },
+            {
+              "startSeconds": 22.928,
+              "endSeconds": 24.068,
+              "text": "hieroglyphs."
+            },
+            {
+              "startSeconds": 25.428,
+              "endSeconds": 29.59,
+              "text": "Look at the different groups\nof signs on its surface."
+            },
+            {
+              "startSeconds": 30.93,
+              "endSeconds": 36.152,
+              "text": "This fragment shows how a\nwritten text can open a"
+            },
+            {
+              "startSeconds": 36.232,
+              "endSeconds": 39.173,
+              "text": "window onto a civilisation."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: David - British Professional"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea24.audio_description.en",
+          "language": "en",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea24/audio_description.en.txt",
+          "scriptSha256": "e0a758c92450da80549adda7b6f8e3f4f04b34dc1b8db35fde3429fd3e304392",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea24/audio_description.en.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea24/audio_description.en.mp3",
+          "addressableKey": null,
+          "durationSeconds": 26.409796,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea24/audio_description.en.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.06,
+              "endSeconds": 3.242,
+              "text": "The stone is a thick slab\nstanding upright."
+            },
+            {
+              "startSeconds": 4.183,
+              "endSeconds": 7.865,
+              "text": "Its main face carries\ntightly spaced rows of carved"
+            },
+            {
+              "startSeconds": 7.905,
+              "endSeconds": 8.705,
+              "text": "signs."
+            },
+            {
+              "startSeconds": 9.386,
+              "endSeconds": 12.709,
+              "text": "The upper part is broken and\nhas an uneven outline."
+            },
+            {
+              "startSeconds": 13.689,
+              "endSeconds": 16.971,
+              "text": "The inscriptions form several\ngroups arranged one above"
+            },
+            {
+              "startSeconds": 16.971,
+              "endSeconds": 17.771,
+              "text": "another."
+            },
+            {
+              "startSeconds": 18.392,
+              "endSeconds": 20.874,
+              "text": "This description outlines\nthe main shapes;"
+            },
+            {
+              "startSeconds": 22.555,
+              "endSeconds": 25.998,
+              "text": "it does not read or\ntranslate the signs."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: David - British Professional"
+          ],
+          "licence": null
+        }
+      ],
+      "games": [
+        {
+          "id": "quiz_bm_ea24",
+          "kind": "quiz",
+          "contentVersion": 1,
+          "publicationStatus": "draft",
+          "questions": [
+            {
+              "id": "bm_ea24_q1",
+              "prompt": {
+                "fr": "Quelles écritures figurent sur la pierre de Rosette ?",
+                "ar": "ما أنظمة الكتابة التي تظهر على حجر رشيد؟",
+                "en": "Which scripts appear on the Rosetta Stone?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea24_q1_a",
+                  "text": {
+                    "fr": "Hiéroglyphes, démotique et grec",
+                    "ar": "الهيروغليفية والديموطيقية واليونانية",
+                    "en": "Hieroglyphs, Demotic and Greek"
+                  }
+                },
+                {
+                  "id": "bm_ea24_q1_b",
+                  "text": {
+                    "fr": "Latin, grec et arabe",
+                    "ar": "اللاتينية واليونانية والعربية",
+                    "en": "Latin, Greek and Arabic"
+                  }
+                },
+                {
+                  "id": "bm_ea24_q1_c",
+                  "text": {
+                    "fr": "Hiéroglyphes, latin et grec",
+                    "ar": "الهيروغليفية واللاتينية واليونانية",
+                    "en": "Hieroglyphs, Latin and Greek"
+                  }
+                },
+                {
+                  "id": "bm_ea24_q1_d",
+                  "text": {
+                    "fr": "Démotique, arabe et latin",
+                    "ar": "الديموطيقية والعربية واللاتينية",
+                    "en": "Demotic, Arabic and Latin"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea24_q1_a",
+              "explanation": {
+                "fr": "Le même décret apparaît en hiéroglyphes, en démotique et en grec. Comparer ces écritures a aidé à déchiffrer les hiéroglyphes.",
+                "ar": "يظهر المرسوم نفسه بالهيروغليفية والديموطيقية واليونانية. وقد ساعدت مقارنة هذه الكتابات على فك رموز الهيروغليفية.",
+                "en": "The same decree appears in hieroglyphs, Demotic and Greek. Comparing these scripts helped scholars decipher hieroglyphs."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea24/narration.fr.txt",
+              "sources": [
+                "https://github.com/BritishMuseumDH/rosettaStone",
+                "https://sketchfab.com/3d-models/the-rosetta-stone-1e03509704a3490e99a173e53b93e282"
+              ]
+            },
+            {
+              "id": "bm_ea24_q2",
+              "prompt": {
+                "fr": "Quel souverain le décret de Rosette honore-t-il ?",
+                "ar": "أي حاكم يكرمه مرسوم حجر رشيد؟",
+                "en": "Which ruler does the Rosetta decree honour?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea24_q2_a",
+                  "text": {
+                    "fr": "Ramsès II",
+                    "ar": "رمسيس الثاني",
+                    "en": "Ramesses II"
+                  }
+                },
+                {
+                  "id": "bm_ea24_q2_b",
+                  "text": {
+                    "fr": "Taharqa",
+                    "ar": "تهارقا",
+                    "en": "Taharqa"
+                  }
+                },
+                {
+                  "id": "bm_ea24_q2_c",
+                  "text": {
+                    "fr": "Ptolémée V",
+                    "ar": "بطليموس الخامس",
+                    "en": "Ptolemy V"
+                  }
+                },
+                {
+                  "id": "bm_ea24_q2_d",
+                  "text": {
+                    "fr": "Amenhotep III",
+                    "ar": "أمنحتب الثالث",
+                    "en": "Amenhotep III"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea24_q2_c",
+              "explanation": {
+                "fr": "Le décret date de 196 avant notre ère et honore Ptolémée V. Il ne concerne pas les souverains représentés par les autres sculptures de la collection.",
+                "ar": "يعود المرسوم إلى عام ١٩٦ قبل الميلاد ويكرم بطليموس الخامس، وليس الحكام الذين تمثلهم المنحوتات الأخرى في المجموعة.",
+                "en": "The decree dates to 196 BCE and honours Ptolemy V. It does not concern the rulers represented by the other sculptures in this collection."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea24/narration.fr.txt",
+              "sources": [
+                "https://github.com/BritishMuseumDH/rosettaStone",
+                "https://sketchfab.com/3d-models/the-rosetta-stone-1e03509704a3490e99a173e53b93e282"
+              ]
+            },
+            {
+              "id": "bm_ea24_q3",
+              "prompt": {
+                "fr": "Pourquoi comparer les écritures de Rosette a-t-il été utile ?",
+                "ar": "لماذا كانت مقارنة كتابات حجر رشيد مفيدة؟",
+                "en": "Why was comparing the Rosetta scripts useful?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea24_q3_a",
+                  "text": {
+                    "fr": "Pour choisir la couleur des temples",
+                    "ar": "لاختيار ألوان المعابد",
+                    "en": "To choose temple colours"
+                  }
+                },
+                {
+                  "id": "bm_ea24_q3_b",
+                  "text": {
+                    "fr": "Pour déchiffrer les hiéroglyphes",
+                    "ar": "لفك رموز الهيروغليفية",
+                    "en": "To decipher hieroglyphs"
+                  }
+                },
+                {
+                  "id": "bm_ea24_q3_c",
+                  "text": {
+                    "fr": "Pour calculer le poids des statues",
+                    "ar": "لحساب أوزان التماثيل",
+                    "en": "To calculate statue weights"
+                  }
+                },
+                {
+                  "id": "bm_ea24_q3_d",
+                  "text": {
+                    "fr": "Pour identifier les animaux sacrés",
+                    "ar": "لتحديد الحيوانات المقدسة",
+                    "en": "To identify sacred animals"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea24_q3_b",
+              "explanation": {
+                "fr": "Les différentes écritures transmettent le même décret. Leur comparaison a fourni une clé pour comprendre les hiéroglyphes égyptiens.",
+                "ar": "تنقل أنظمة الكتابة المختلفة المرسوم نفسه. وقد وفرت مقارنتها مفتاحاً لفهم الهيروغليفية المصرية.",
+                "en": "The different scripts convey the same decree. Comparing them provided a key to understanding Egyptian hieroglyphs."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea24/narration.fr.txt",
+              "sources": [
+                "https://github.com/BritishMuseumDH/rosettaStone",
+                "https://sketchfab.com/3d-models/the-rosetta-stone-1e03509704a3490e99a173e53b93e282"
+              ]
+            }
+          ]
+        }
+      ],
+      "contentVersion": 4,
+      "sortOrder": 1,
+      "categoryId": "writing",
+      "coverTargetId": "target_bm_ea24",
+      "metadata": {
+        "institution": "British Museum",
+        "creator": null,
+        "museumRecordUrl": "https://www.britishmuseum.org/collection/object/Y_EA24",
+        "materialSourceText": "Grey and pink granodiorite",
+        "periodSourceText": "Ptolemaic Period, 196 BC",
+        "findspotSourceText": "Fort Saint Julien, el-Rashid, Egypt",
+        "reviewStatus": "draft",
+        "sourceLabelFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/labeldata/labeldata.csv",
+        "sources": [
+          "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+        ],
+        "sourceNote": "Museum label data supplied in the original downloaded pack; some historical labels may contain inaccuracies. Source-language metadata is archival, not ready for UI display."
+      },
+      "presentation": {
+        "modelLocalEulerDegrees": [
+          0,
+          0,
+          0
+        ],
+        "modelLocalOffsetMeters": [
+          0,
+          0,
+          0
+        ],
+        "audioLocalOffsetMeters": [
+          0,
+          0.1,
+          0
+        ],
+        "settingsStatus": "defaults_pending_user_review"
+      },
+      "readiness": {
+        "modelSourceAvailable": true,
+        "modelImported": true,
+        "imageAvailable": true,
+        "textsReviewed": false,
+        "narrationAudioAvailable": true,
+        "audioDescriptionAvailable": true,
+        "subtitlesAligned": true,
+        "readyForPublication": false
+      }
+    },
+    {
+      "id": "bm_ea74",
+      "museumObjectId": "EA74",
+      "publicationStatus": "draft",
+      "texts": [
+        {
+          "language": "fr",
+          "title": "Scarabée monumental",
+          "summary": "Une sculpture de scarabée en diorite, probablement liée au dieu Khépri.",
+          "description": "Cette sculpture monumentale en diorite représente un scarabée et figure dans la collection du British Museum sous le numéro EA74. La notice du musée l’identifie comme représentant probablement Khépri. Son corps arrondi et ses pattes sont sculptés au-dessus d’une base rectangulaire.",
+          "descriptionStatus": "source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://www.britishmuseum.org/collection/object/Y_EA74",
+            "https://sketchfab.com/3d-models/monumental-diorite-scarab-beetle-d9490735e1124c2e8ef18f32163fdbf5"
+          ]
+        },
+        {
+          "language": "ar",
+          "title": "الجعران الضخم",
+          "summary": "تمثال لجعران من الديوريت، يُرجّح ارتباطه بالإله خبري.",
+          "description": "يمثل هذا التمثال الضخم المصنوع من الديوريت جعرانًا، ويُحفظ في مجموعة المتحف البريطاني تحت الرقم EA74. وتُرجّح بطاقة المتحف أنه يمثل الإله خبري. نُحت جسمه المستدير وأرجله فوق قاعدة مستطيلة.",
+          "descriptionStatus": "translation_of_french_source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://www.britishmuseum.org/collection/object/Y_EA74",
+            "https://sketchfab.com/3d-models/monumental-diorite-scarab-beetle-d9490735e1124c2e8ef18f32163fdbf5"
+          ]
+        },
+        {
+          "language": "en",
+          "title": "Monumental scarab",
+          "summary": "A diorite scarab sculpture, probably associated with the god Khepri.",
+          "description": "This monumental diorite sculpture depicts a scarab and belongs to the British Museum collection under number EA74. The museum record identifies it as probably representing Khepri. Its rounded body and legs are carved above a rectangular base.",
+          "descriptionStatus": "translation_of_french_source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://www.britishmuseum.org/collection/object/Y_EA74",
+            "https://sketchfab.com/3d-models/monumental-diorite-scarab-beetle-d9490735e1124c2e8ef18f32163fdbf5"
+          ]
+        }
+      ],
+      "model": {
+        "sourcePath": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/scarabBeetle-EA74/model.obj",
+        "materialPaths": [
+          "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/scarabBeetle-EA74/model.obj.mtl"
+        ],
+        "texturePaths": [
+          "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/scarabBeetle-EA74/model.jpg"
+        ],
+        "triangleCount": 10000,
+        "addressableKey": null,
+        "licence": "CC-BY-NC-SA-4.0",
+        "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+        "credits": [
+          "Daniel Pett",
+          "Jennifer Wexler",
+          "Thomas Flynn",
+          "Copyright Trustees of the British Museum"
+        ],
+        "importStatus": "imported_in_unity_prototype",
+        "unityPrefabPath": "Assets/HeritageXR/Models/bm_ea74/Artwork.prefab",
+        "displayLongestAxisMeters": 0.2
+      },
+      "targets": [
+        {
+          "id": "target_bm_ea74",
+          "path": "AssetSources/Images/Source/scarab_beetle.jpg",
+          "bytes": 5807231,
+          "sha256": "1ea2f6eee9c46b44383726e7b7ee01488a893d6435ee105f21db372ae8907951",
+          "sha1": "b7ab8dc4acd539ed0764febf302fae2ee76d7f07",
+          "pixelWidth": 2612,
+          "pixelHeight": 2148,
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Giant_scarab_in_the_British_Museum.jpg",
+          "author": "Szilas",
+          "licence": "CC-BY-SA-4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "modified": false,
+          "imageRole": "candidate_reference_image",
+          "physicalWidthMeters": 0.12,
+          "printed": false,
+          "arTrackingValidated": false,
+          "identityVerification": "caption_monumental_scarab_british_museum_and_visual_identification",
+          "authorNote": "Szilas is identified in the source and upload history; the author field in the page summary is incomplete.",
+          "dimensionStatus": "prototype_print_specification_not_measured",
+          "unityTexturePath": "Assets/HeritageXR/Photos/bm_ea74.jpg",
+          "referenceLibraryPath": "Assets/HeritageXR/Settings/ArtworkImages.asset",
+          "addressableKey": null,
+          "preparationStatus": "image_imported_existing_prototype"
+        }
+      ],
+      "audio": [
+        {
+          "id": "bm_ea74.narration.fr",
+          "language": "fr",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea74/narration.fr.txt",
+          "scriptSha256": "503f67a0655377a3a4de95bad3af3210fd748c38af5f12e5c4f382713b1f3050",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea74/narration.fr.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea74/narration.fr.mp3",
+          "addressableKey": null,
+          "durationSeconds": 31.712653,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "6DEjyaHWnTHsvXM5Byys",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea74/narration.fr.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.08,
+              "endSeconds": 2.981,
+              "text": "Ce scarabée monumental est\nsculpté dans la diorite."
+            },
+            {
+              "startSeconds": 3.481,
+              "endSeconds": 5.142,
+              "text": "Il représente probablement\nKhépri,"
+            },
+            {
+              "startSeconds": 5.742,
+              "endSeconds": 8.563,
+              "text": "une forme du dieu solaire\nassociée au soleil levant."
+            },
+            {
+              "startSeconds": 9.023,
+              "endSeconds": 12.585,
+              "text": "Dans les croyances de\nl’Égypte ancienne, le scarabée"
+            },
+            {
+              "startSeconds": 12.645,
+              "endSeconds": 15.626,
+              "text": "évoquait la naissance et le\nrenouvellement."
+            },
+            {
+              "startSeconds": 16.186,
+              "endSeconds": 19.487,
+              "text": "Observez son corps arrondi,\nses pattes et la base sur"
+            },
+            {
+              "startSeconds": 19.487,
+              "endSeconds": 22.589,
+              "text": "laquelle il repose. Le\nsculpteur a transformé un petit"
+            },
+            {
+              "startSeconds": 22.589,
+              "endSeconds": 24.729,
+              "text": "insecte en une présence\nmonumentale."
+            },
+            {
+              "startSeconds": 25.23,
+              "endSeconds": 28.691,
+              "text": "L’œuvre nous invite à découvrir\nle lien entre le monde"
+            },
+            {
+              "startSeconds": 28.971,
+              "endSeconds": 31.392,
+              "text": "naturel et les images des\ndieux."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: Hugo — Deep French Storyteller"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea74.audio_description.fr",
+          "language": "fr",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea74/audio_description.fr.txt",
+          "scriptSha256": "fba914d50c6e21de08b3e599c5704ba810fd3eead1ff5f874f42fd9a9fa637e9",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea74/audio_description.fr.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea74/audio_description.fr.mp3",
+          "addressableKey": null,
+          "durationSeconds": 19.252245,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "6DEjyaHWnTHsvXM5Byys",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea74/audio_description.fr.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.06,
+              "endSeconds": 2.721,
+              "text": "Un scarabée de pierre repose\nsur une base rectangulaire."
+            },
+            {
+              "startSeconds": 3.161,
+              "endSeconds": 6.582,
+              "text": "Son corps est large et\narrondi, avec un dos bombé."
+            },
+            {
+              "startSeconds": 7.042,
+              "endSeconds": 9.403,
+              "text": "La tête occupe l’une des\nextrémités."
+            },
+            {
+              "startSeconds": 9.663,
+              "endSeconds": 12.464,
+              "text": "Les pattes sont sculptées\nsur les côtés, près de la"
+            },
+            {
+              "startSeconds": 12.464,
+              "endSeconds": 16.845,
+              "text": "base. L’ensemble est compact\n: la masse du corps domine"
+            },
+            {
+              "startSeconds": 17.005,
+              "endSeconds": 19.066,
+              "text": "les détails plus fins de\nl’insecte."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: Hugo — Deep French Storyteller"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea74.narration.ar",
+          "language": "ar",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea74/narration.ar.txt",
+          "scriptSha256": "6d5b6cda2ea28a006cc11b48114bd0ef63f219cc82caf7de38ecfcb9bcfbb41e",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea74/narration.ar.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea74/narration.ar.mp3",
+          "addressableKey": null,
+          "durationSeconds": 34.037551,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea74/narration.ar.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.06,
+              "endSeconds": 3.201,
+              "text": "نُحت هذا الجعران الضخم من\nحجر الديوريت."
+            },
+            {
+              "startSeconds": 4.022,
+              "endSeconds": 8.964,
+              "text": "ويرجح أنه يمثل خبري، أحد\nأشكال إله الشمس المرتبطة"
+            },
+            {
+              "startSeconds": 9.124,
+              "endSeconds": 9.924,
+              "text": "بشروقها."
+            },
+            {
+              "startSeconds": 10.764,
+              "endSeconds": 15.426,
+              "text": "في معتقدات مصر القديمة، كان\nالجعران يرمز إلى الولادة"
+            },
+            {
+              "startSeconds": 15.566,
+              "endSeconds": 16.387,
+              "text": "والتجدد."
+            },
+            {
+              "startSeconds": 17.047,
+              "endSeconds": 22.289,
+              "text": "تأمل جسمه المستدير وأرجله\nوالقاعدة التي يستند إليها."
+            },
+            {
+              "startSeconds": 23.17,
+              "endSeconds": 27.171,
+              "text": "لقد حوّل النحات حشرة صغيرة\nإلى حضور ضخم."
+            },
+            {
+              "startSeconds": 27.872,
+              "endSeconds": 33.054,
+              "text": "تدعونا هذه القطعة إلى اكتشاف\nالصلة بين عالم الطبيعة وصور"
+            },
+            {
+              "startSeconds": 33.054,
+              "endSeconds": 33.834,
+              "text": "الآلهة."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: saber - صوت عربي واضح"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea74.audio_description.ar",
+          "language": "ar",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea74/audio_description.ar.txt",
+          "scriptSha256": "4edac605e08aa7ee165bcee6d2f045324416760a06400d194e1a5982bc0ecb48",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea74/audio_description.ar.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea74/audio_description.ar.mp3",
+          "addressableKey": null,
+          "durationSeconds": 21.76,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea74/audio_description.ar.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.08,
+              "endSeconds": 3.502,
+              "text": "يستند جعران حجري إلى قاعدة\nمستطيلة."
+            },
+            {
+              "startSeconds": 4.143,
+              "endSeconds": 7.725,
+              "text": "جسمه عريض ومستدير، وظهره\nمحدب."
+            },
+            {
+              "startSeconds": 8.445,
+              "endSeconds": 13.389,
+              "text": "يقع الرأس عند أحد الطرفين.\nنُحتت الأرجل على الجانبين قرب"
+            },
+            {
+              "startSeconds": 13.389,
+              "endSeconds": 14.189,
+              "text": "القاعدة."
+            },
+            {
+              "startSeconds": 14.809,
+              "endSeconds": 19.973,
+              "text": "يبدو التكوين متماسكاً، وتبرز\nكتلة الجسم أكثر من التفاصيل"
+            },
+            {
+              "startSeconds": 19.973,
+              "endSeconds": 21.354,
+              "text": "الدقيقة للحشرة."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: saber - صوت عربي واضح"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea74.narration.en",
+          "language": "en",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea74/narration.en.txt",
+          "scriptSha256": "b258c0298a8a97e35afb076268798e7de42eb30d50a259132770f642bd5c6288",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea74/narration.en.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea74/narration.en.mp3",
+          "addressableKey": null,
+          "durationSeconds": 37.276735,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea74/narration.en.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.06,
+              "endSeconds": 3.342,
+              "text": "This monumental scarab is\ncarved from diorite."
+            },
+            {
+              "startSeconds": 4.123,
+              "endSeconds": 6.144,
+              "text": "It probably represents\nKhepri,"
+            },
+            {
+              "startSeconds": 7.025,
+              "endSeconds": 9.826,
+              "text": "a form of the sun god\nassociated with sunrise."
+            },
+            {
+              "startSeconds": 10.807,
+              "endSeconds": 14.61,
+              "text": "In ancient Egyptian beliefs,\nthe scarab evoked birth and"
+            },
+            {
+              "startSeconds": 14.61,
+              "endSeconds": 15.41,
+              "text": "renewal."
+            },
+            {
+              "startSeconds": 16.031,
+              "endSeconds": 17.211,
+              "text": "Notice its rounded body,"
+            },
+            {
+              "startSeconds": 17.832,
+              "endSeconds": 19.833,
+              "text": "its legs and the base\nbeneath it."
+            },
+            {
+              "startSeconds": 20.734,
+              "endSeconds": 24.476,
+              "text": "The sculptor transformed a\nsmall insect into a"
+            },
+            {
+              "startSeconds": 24.536,
+              "endSeconds": 26.518,
+              "text": "monumental presence."
+            },
+            {
+              "startSeconds": 28.019,
+              "endSeconds": 32.782,
+              "text": "This work invites us to\nexplore the connection between"
+            },
+            {
+              "startSeconds": 32.782,
+              "endSeconds": 36.785,
+              "text": "the natural world and images\nof the gods."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: David - British Professional"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea74.audio_description.en",
+          "language": "en",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea74/audio_description.en.txt",
+          "scriptSha256": "6a58fd3dd4641c03fe667e6b3a1dd76cb3c810771194562cb14f619f39cc66e1",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea74/audio_description.en.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea74/audio_description.en.mp3",
+          "addressableKey": null,
+          "durationSeconds": 46.654694,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea74/audio_description.en.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.08,
+              "endSeconds": 1.84,
+              "text": "A stone scarab"
+            },
+            {
+              "startSeconds": 2.76,
+              "endSeconds": 6.361,
+              "text": "rests on a rectangular base."
+            },
+            {
+              "startSeconds": 7.861,
+              "endSeconds": 8.681,
+              "text": "Its body"
+            },
+            {
+              "startSeconds": 9.461,
+              "endSeconds": 12.101,
+              "text": "is broad and rounded,"
+            },
+            {
+              "startSeconds": 13.282,
+              "endSeconds": 15.142,
+              "text": "with a domed back."
+            },
+            {
+              "startSeconds": 16.302,
+              "endSeconds": 17.102,
+              "text": "The head"
+            },
+            {
+              "startSeconds": 17.742,
+              "endSeconds": 20.262,
+              "text": "occupies one end."
+            },
+            {
+              "startSeconds": 21.403,
+              "endSeconds": 26.283,
+              "text": "Its legs are carved along\nthe"
+            },
+            {
+              "startSeconds": 26.423,
+              "endSeconds": 27.423,
+              "text": "sides,"
+            },
+            {
+              "startSeconds": 28.303,
+              "endSeconds": 30.684,
+              "text": "close to the base."
+            },
+            {
+              "startSeconds": 32.444,
+              "endSeconds": 36.264,
+              "text": "The overall form is compact:"
+            },
+            {
+              "startSeconds": 37.725,
+              "endSeconds": 39.345,
+              "text": "the body’s mass"
+            },
+            {
+              "startSeconds": 39.985,
+              "endSeconds": 44.905,
+              "text": "dominates the finer details\nof the"
+            },
+            {
+              "startSeconds": 45.066,
+              "endSeconds": 46.226,
+              "text": "insect."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: David - British Professional"
+          ],
+          "licence": null
+        }
+      ],
+      "games": [
+        {
+          "id": "quiz_bm_ea74",
+          "kind": "quiz",
+          "contentVersion": 1,
+          "publicationStatus": "draft",
+          "questions": [
+            {
+              "id": "bm_ea74_q1",
+              "prompt": {
+                "fr": "Dans quelle pierre le scarabée monumental est-il sculpté ?",
+                "ar": "من أي حجر نُحت الجعران الضخم؟",
+                "en": "Which stone was used for the monumental scarab?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea74_q1_a",
+                  "text": {
+                    "fr": "Granite rouge",
+                    "ar": "الجرانيت الأحمر",
+                    "en": "Red granite"
+                  }
+                },
+                {
+                  "id": "bm_ea74_q1_b",
+                  "text": {
+                    "fr": "Marbre",
+                    "ar": "الرخام",
+                    "en": "Marble"
+                  }
+                },
+                {
+                  "id": "bm_ea74_q1_c",
+                  "text": {
+                    "fr": "Granodiorite",
+                    "ar": "الجرانوديوريت",
+                    "en": "Granodiorite"
+                  }
+                },
+                {
+                  "id": "bm_ea74_q1_d",
+                  "text": {
+                    "fr": "Diorite",
+                    "ar": "الديوريت",
+                    "en": "Diorite"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea74_q1_d",
+              "explanation": {
+                "fr": "Le scarabée EA74 est sculpté dans la diorite. Il faut distinguer sa matière de celle du lion en granite rouge ou de la pierre de Rosette en granodiorite.",
+                "ar": "نُحت الجعران EA74 من الديوريت، وهو يختلف عن الجرانيت الأحمر المستخدم في الأسد وعن الجرانوديوريت المستخدم في حجر رشيد.",
+                "en": "Scarab EA74 is carved from diorite. This differs from the red granite of the lion and the granodiorite of the Rosetta Stone."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea74/narration.fr.txt",
+              "sources": [
+                "https://www.britishmuseum.org/collection/object/Y_EA74",
+                "https://sketchfab.com/3d-models/monumental-diorite-scarab-beetle-d9490735e1124c2e8ef18f32163fdbf5"
+              ]
+            },
+            {
+              "id": "bm_ea74_q2",
+              "prompt": {
+                "fr": "Quel dieu ce scarabée représente-t-il probablement ?",
+                "ar": "أي إله يُرجح أن هذا الجعران يمثله؟",
+                "en": "Which god does this scarab probably represent?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea74_q2_a",
+                  "text": {
+                    "fr": "Khépri",
+                    "ar": "خبري",
+                    "en": "Khepri"
+                  }
+                },
+                {
+                  "id": "bm_ea74_q2_b",
+                  "text": {
+                    "fr": "Amon",
+                    "ar": "آمون",
+                    "en": "Amun"
+                  }
+                },
+                {
+                  "id": "bm_ea74_q2_c",
+                  "text": {
+                    "fr": "Nout",
+                    "ar": "نوت",
+                    "en": "Nut"
+                  }
+                },
+                {
+                  "id": "bm_ea74_q2_d",
+                  "text": {
+                    "fr": "Ptolémée V",
+                    "ar": "بطليموس الخامس",
+                    "en": "Ptolemy V"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea74_q2_a",
+              "explanation": {
+                "fr": "La notice identifie probablement Khépri, une forme du dieu solaire. Cette attribution reste formulée comme une probabilité.",
+                "ar": "تُرجح بطاقة القطعة أنها تمثل خبري، وهو صورة من صور إله الشمس. وتظل هذه النسبة احتمالية.",
+                "en": "The description identifies Khepri, a form of the sun god, as the probable subject. This attribution remains a probability."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea74/narration.fr.txt",
+              "sources": [
+                "https://www.britishmuseum.org/collection/object/Y_EA74",
+                "https://sketchfab.com/3d-models/monumental-diorite-scarab-beetle-d9490735e1124c2e8ef18f32163fdbf5"
+              ]
+            },
+            {
+              "id": "bm_ea74_q3",
+              "prompt": {
+                "fr": "À quel moment du cycle solaire Khépri est-il associé ?",
+                "ar": "بأي مرحلة من دورة الشمس يرتبط خبري؟",
+                "en": "Which part of the solar cycle is Khepri associated with?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea74_q3_a",
+                  "text": {
+                    "fr": "Au soleil de midi",
+                    "ar": "شمس الظهيرة",
+                    "en": "The midday sun"
+                  }
+                },
+                {
+                  "id": "bm_ea74_q3_b",
+                  "text": {
+                    "fr": "Au soleil couchant",
+                    "ar": "غروب الشمس",
+                    "en": "The setting sun"
+                  }
+                },
+                {
+                  "id": "bm_ea74_q3_c",
+                  "text": {
+                    "fr": "Au soleil levant",
+                    "ar": "شروق الشمس",
+                    "en": "The rising sun"
+                  }
+                },
+                {
+                  "id": "bm_ea74_q3_d",
+                  "text": {
+                    "fr": "Aux éclipses uniquement",
+                    "ar": "الكسوف فقط",
+                    "en": "Eclipses only"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea74_q3_c",
+              "explanation": {
+                "fr": "Khépri est associé au soleil levant. Dans la narration, le scarabée évoque la naissance et le renouvellement.",
+                "ar": "يرتبط خبري بالشمس المشرقة. وفي السرد، يرمز الجعران إلى الولادة والتجدد.",
+                "en": "Khepri is associated with the rising sun. In the narration, the scarab evokes birth and renewal."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea74/narration.fr.txt",
+              "sources": [
+                "https://www.britishmuseum.org/collection/object/Y_EA74",
+                "https://sketchfab.com/3d-models/monumental-diorite-scarab-beetle-d9490735e1124c2e8ef18f32163fdbf5"
+              ]
+            }
+          ]
+        }
+      ],
+      "contentVersion": 4,
+      "sortOrder": 2,
+      "categoryId": "beliefs",
+      "coverTargetId": "target_bm_ea74",
+      "metadata": {
+        "institution": "British Museum",
+        "creator": null,
+        "museumRecordUrl": "https://www.britishmuseum.org/collection/object/Y_EA74",
+        "materialSourceText": "Quartz diorite",
+        "periodSourceText": "Ptolemaic Period, 3rd or 2nd century BC",
+        "findspotSourceText": "From Istanbul; probably originally from Heliopolis, temple of Atum",
+        "reviewStatus": "draft",
+        "sourceLabelFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/labeldata/labeldata.csv",
+        "sources": [
+          "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+        ],
+        "sourceNote": "Museum label data supplied in the original downloaded pack; some historical labels may contain inaccuracies. Source-language metadata is archival, not ready for UI display."
+      },
+      "presentation": {
+        "modelLocalEulerDegrees": [
+          0,
+          0,
+          0
+        ],
+        "modelLocalOffsetMeters": [
+          0,
+          0,
+          0
+        ],
+        "audioLocalOffsetMeters": [
+          0,
+          0.1,
+          0
+        ],
+        "settingsStatus": "defaults_pending_user_review"
+      },
+      "readiness": {
+        "modelSourceAvailable": true,
+        "modelImported": true,
+        "imageAvailable": true,
+        "textsReviewed": false,
+        "narrationAudioAvailable": true,
+        "audioDescriptionAvailable": true,
+        "subtitlesAligned": true,
+        "readyForPublication": false
+      }
+    },
+    {
+      "id": "bm_ea1779",
+      "museumObjectId": "EA1779",
+      "publicationStatus": "draft",
+      "texts": [
+        {
+          "language": "fr",
+          "title": "Bélier d’Amon protégeant Taharqa",
+          "summary": "Le dieu Amon représenté sous la forme d’un bélier abritant le roi Taharqa.",
+          "description": "Cette statue représente Amon sous la forme d’un bélier couché. Entre ses pattes avant se tient une petite figure du roi Taharqa, placé sous sa protection. L’objet, conservé au British Museum sous le numéro EA1779, provient de Kawa en Nubie. Des hiéroglyphes parcourent sa base rectangulaire.",
+          "descriptionStatus": "source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://sketchfab.com/3d-models/statue-of-the-ram-of-amun-35d49b6d599045d6ba1dd41999b0012e",
+            "https://commons.wikimedia.org/wiki/File:Granite_ram_of_Amun_with_King_Taharqa_-_British_Museum.jpg"
+          ]
+        },
+        {
+          "language": "ar",
+          "title": "كبش آمون يحمي تهارقا",
+          "summary": "الإله آمون في هيئة كبش يحمي الملك تهارقا.",
+          "description": "يمثل هذا التمثال آمون في هيئة كبش راقد. وبين ساقيه الأماميتين يقف تمثال صغير للملك تهارقا تحت حمايته. تُحفظ القطعة في المتحف البريطاني تحت الرقم EA1779، وقد جاءت من كاوا في النوبة. وتمتد نقوش هيروغليفية على قاعدتها المستطيلة.",
+          "descriptionStatus": "translation_of_french_source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://sketchfab.com/3d-models/statue-of-the-ram-of-amun-35d49b6d599045d6ba1dd41999b0012e",
+            "https://commons.wikimedia.org/wiki/File:Granite_ram_of_Amun_with_King_Taharqa_-_British_Museum.jpg"
+          ]
+        },
+        {
+          "language": "en",
+          "title": "Ram of Amun protecting Taharqa",
+          "summary": "The god Amun depicted as a ram sheltering King Taharqa.",
+          "description": "This statue depicts Amun as a reclining ram. A small figure of King Taharqa stands between its front legs, under its protection. The object, kept at the British Museum under number EA1779, comes from Kawa in Nubia. Hieroglyphs run along its rectangular base.",
+          "descriptionStatus": "translation_of_french_source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://sketchfab.com/3d-models/statue-of-the-ram-of-amun-35d49b6d599045d6ba1dd41999b0012e",
+            "https://commons.wikimedia.org/wiki/File:Granite_ram_of_Amun_with_King_Taharqa_-_British_Museum.jpg"
+          ]
+        }
+      ],
+      "model": {
+        "sourcePath": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/statue-of-the-ram-of-amun-EA1779/model.obj",
+        "materialPaths": [
+          "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/statue-of-the-ram-of-amun-EA1779/model.obj.mtl"
+        ],
+        "texturePaths": [
+          "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/statue-of-the-ram-of-amun-EA1779/model.jpg"
+        ],
+        "triangleCount": 10000,
+        "addressableKey": null,
+        "licence": "CC-BY-NC-SA-4.0",
+        "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+        "credits": [
+          "Daniel Pett",
+          "Jennifer Wexler",
+          "Thomas Flynn",
+          "Copyright Trustees of the British Museum"
+        ],
+        "importStatus": "imported_in_unity_prototype",
+        "unityPrefabPath": "Assets/HeritageXR/Models/bm_ea1779/Artwork.prefab",
+        "displayLongestAxisMeters": 0.2
+      },
+      "targets": [
+        {
+          "id": "target_bm_ea1779",
+          "path": "AssetSources/Images/Source/amun_ram.jpg",
+          "bytes": 4963824,
+          "sha256": "6f9c68b30f1815a9b755dcd2330698dce4148d00a1ea256f9c257fc599f8a77f",
+          "sha1": "83a919c80da5c0bf9ffa50410ab0703a91c00154",
+          "pixelWidth": 2848,
+          "pixelHeight": 4272,
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Granite_ram_of_Amun_with_King_Taharqa_-_British_Museum.jpg",
+          "author": "M0tty",
+          "licence": "CC-BY-SA-3.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "modified": false,
+          "imageRole": "candidate_reference_image",
+          "physicalWidthMeters": 0.12,
+          "printed": false,
+          "arTrackingValidated": false,
+          "identityVerification": "published_object_number_EA1779_and_original_sha1",
+          "authorNote": null,
+          "dimensionStatus": "prototype_print_specification_not_measured",
+          "unityTexturePath": "Assets/HeritageXR/Photos/bm_ea1779.jpg",
+          "referenceLibraryPath": "Assets/HeritageXR/Settings/ArtworkImages.asset",
+          "addressableKey": null,
+          "preparationStatus": "image_imported_existing_prototype"
+        }
+      ],
+      "audio": [
+        {
+          "id": "bm_ea1779.narration.fr",
+          "language": "fr",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea1779/narration.fr.txt",
+          "scriptSha256": "a18e3d2e6cc08046debcd642281d50d65c1ee3b5d2c783738aa2d6fb53b7399e",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea1779/narration.fr.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea1779/narration.fr.mp3",
+          "addressableKey": null,
+          "durationSeconds": 32.078367,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "6DEjyaHWnTHsvXM5Byys",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea1779/narration.fr.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.08,
+              "endSeconds": 0.961,
+              "text": "Cette statue"
+            },
+            {
+              "startSeconds": 1.581,
+              "endSeconds": 4.683,
+              "text": "représente le dieu Amon sous\nla forme d’un bélier"
+            },
+            {
+              "startSeconds": 4.683,
+              "endSeconds": 5.483,
+              "text": "couché."
+            },
+            {
+              "startSeconds": 5.864,
+              "endSeconds": 9.127,
+              "text": "Entre ses pattes avant se\ntrouve une petite figure du"
+            },
+            {
+              "startSeconds": 9.127,
+              "endSeconds": 12.049,
+              "text": "roi Taharqa, placée sous sa\nprotection."
+            },
+            {
+              "startSeconds": 12.529,
+              "endSeconds": 16.032,
+              "text": "L’œuvre provient du temple\nd’Amon à Kawa, dans l’actuel"
+            },
+            {
+              "startSeconds": 16.032,
+              "endSeconds": 20.295,
+              "text": "Soudan. Observez le contraste\nentre le grand animal et"
+            },
+            {
+              "startSeconds": 20.295,
+              "endSeconds": 23.497,
+              "text": "le souverain, puis les\ninscriptions sur la base."
+            },
+            {
+              "startSeconds": 24.558,
+              "endSeconds": 27.38,
+              "text": "Cette composition exprime\nune relation entre le pouvoir"
+            },
+            {
+              "startSeconds": 27.4,
+              "endSeconds": 30.522,
+              "text": "royal et la protection\ndivine, dans l’histoire de la"
+            },
+            {
+              "startSeconds": 30.522,
+              "endSeconds": 31.783,
+              "text": "Nubie et de l’Égypte."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: Hugo — Deep French Storyteller"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea1779.audio_description.fr",
+          "language": "fr",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea1779/audio_description.fr.txt",
+          "scriptSha256": "bbd944322f5d7e52ec846d95e927b431094acd953e9c4fd9c0740181efec2af9",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea1779/audio_description.fr.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea1779/audio_description.fr.mp3",
+          "addressableKey": null,
+          "durationSeconds": 20.009796,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "6DEjyaHWnTHsvXM5Byys",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea1779/audio_description.fr.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.08,
+              "endSeconds": 3.301,
+              "text": "Un grand bélier est couché\nsur une base rectangulaire."
+            },
+            {
+              "startSeconds": 3.742,
+              "endSeconds": 7.383,
+              "text": "Ses pattes sont repliées\nsous son corps et sa tête est"
+            },
+            {
+              "startSeconds": 7.403,
+              "endSeconds": 8.203,
+              "text": "relevée."
+            },
+            {
+              "startSeconds": 8.664,
+              "endSeconds": 11.966,
+              "text": "Une petite figure humaine se\ntient entre les pattes"
+            },
+            {
+              "startSeconds": 12.046,
+              "endSeconds": 15.287,
+              "text": "avant. Elle paraît minuscule\nface à l’animal."
+            },
+            {
+              "startSeconds": 15.907,
+              "endSeconds": 19.389,
+              "text": "Des rangées de signes gravés\nparcourent les côtés de la"
+            },
+            {
+              "startSeconds": 19.389,
+              "endSeconds": 19.889,
+              "text": "base."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: Hugo — Deep French Storyteller"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea1779.narration.ar",
+          "language": "ar",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea1779/narration.ar.txt",
+          "scriptSha256": "aacaf9ae1c114d1296585a858c681cbd259f1da1a85663adca89d9632cbb7153",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea1779/narration.ar.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea1779/narration.ar.mp3",
+          "addressableKey": null,
+          "durationSeconds": 27.062857,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea1779/narration.ar.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.1,
+              "endSeconds": 3.441,
+              "text": "يمثل هذا التمثال الإله آمون\nفي هيئة كبش مستلقٍ."
+            },
+            {
+              "startSeconds": 4.181,
+              "endSeconds": 8.623,
+              "text": "وبين ساقيه الأماميتين يقف\nتمثال صغير للملك تهارقا، في"
+            },
+            {
+              "startSeconds": 8.623,
+              "endSeconds": 9.423,
+              "text": "حمايته."
+            },
+            {
+              "startSeconds": 9.843,
+              "endSeconds": 13.324,
+              "text": "جاءت القطعة من معبد آمون في\nكاوا، في السودان الحالي."
+            },
+            {
+              "startSeconds": 13.964,
+              "endSeconds": 17.865,
+              "text": "تأمل الفرق في الحجم بين\nالحيوان الكبير والملك، ثم انظر"
+            },
+            {
+              "startSeconds": 17.865,
+              "endSeconds": 19.126,
+              "text": "إلى النقوش على القاعدة."
+            },
+            {
+              "startSeconds": 19.786,
+              "endSeconds": 23.727,
+              "text": "يعبر هذا التكوين عن العلاقة\nبين السلطة الملكية والحماية"
+            },
+            {
+              "startSeconds": 23.747,
+              "endSeconds": 26.668,
+              "text": "الإلهية، في تاريخ النوبة\nومصر."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: saber - صوت عربي واضح"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea1779.audio_description.ar",
+          "language": "ar",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea1779/audio_description.ar.txt",
+          "scriptSha256": "e747f8a388c9ed479a912fd169051c0fe5ade2a40776c94eeb0b9d096a5ddd02",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea1779/audio_description.ar.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea1779/audio_description.ar.mp3",
+          "addressableKey": null,
+          "durationSeconds": 21.315918,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea1779/audio_description.ar.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.04,
+              "endSeconds": 3.141,
+              "text": "يستلقي كبش كبير على قاعدة\nمستطيلة."
+            },
+            {
+              "startSeconds": 3.922,
+              "endSeconds": 7.423,
+              "text": "ساقاه مطويتان تحت جسمه ورأسه\nمرفوع."
+            },
+            {
+              "startSeconds": 8.224,
+              "endSeconds": 12.225,
+              "text": "يقف تمثال بشري صغير بين\nساقيه الأماميتين،"
+            },
+            {
+              "startSeconds": 12.926,
+              "endSeconds": 15.907,
+              "text": "ويبدو صغيراً جداً مقارنة\nبالحيوان."
+            },
+            {
+              "startSeconds": 16.727,
+              "endSeconds": 20.909,
+              "text": "وتمتد صفوف من العلامات\nالمنقوشة على جوانب القاعدة."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: saber - صوت عربي واضح"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea1779.narration.en",
+          "language": "en",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea1779/narration.en.txt",
+          "scriptSha256": "ce0cc262f3ae77e9cc2d4d1ad20e22802db3673773a2ca4241b4804899a1a5b5",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea1779/narration.en.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea1779/narration.en.mp3",
+          "addressableKey": null,
+          "durationSeconds": 42.893061,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea1779/narration.en.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.06,
+              "endSeconds": 4.663,
+              "text": "This statue represents the\ngod Amun as a reclining ram."
+            },
+            {
+              "startSeconds": 5.563,
+              "endSeconds": 9.185,
+              "text": "Between its front legs\nstands a small figure of King"
+            },
+            {
+              "startSeconds": 9.185,
+              "endSeconds": 9.985,
+              "text": "Taharqa,"
+            },
+            {
+              "startSeconds": 10.446,
+              "endSeconds": 11.566,
+              "text": "sheltered by the god."
+            },
+            {
+              "startSeconds": 12.427,
+              "endSeconds": 16.009,
+              "text": "The work comes from the\ntemple of Amun at Kawa,"
+            },
+            {
+              "startSeconds": 16.649,
+              "endSeconds": 17.99,
+              "text": "in present-day Sudan."
+            },
+            {
+              "startSeconds": 18.811,
+              "endSeconds": 21.212,
+              "text": "Notice the contrast between\nthe large animal"
+            },
+            {
+              "startSeconds": 21.832,
+              "endSeconds": 22.632,
+              "text": "and the king,"
+            },
+            {
+              "startSeconds": 24.214,
+              "endSeconds": 27.195,
+              "text": "then look at the\ninscriptions on the base."
+            },
+            {
+              "startSeconds": 28.816,
+              "endSeconds": 29.917,
+              "text": "This composition"
+            },
+            {
+              "startSeconds": 30.557,
+              "endSeconds": 32.478,
+              "text": "expresses a connection"
+            },
+            {
+              "startSeconds": 33.339,
+              "endSeconds": 34.899,
+              "text": "between royal power"
+            },
+            {
+              "startSeconds": 35.94,
+              "endSeconds": 37.541,
+              "text": "and divine protection"
+            },
+            {
+              "startSeconds": 38.562,
+              "endSeconds": 39.422,
+              "text": "in the history"
+            },
+            {
+              "startSeconds": 40.102,
+              "endSeconds": 40.902,
+              "text": "of Nubia"
+            },
+            {
+              "startSeconds": 41.623,
+              "endSeconds": 42.484,
+              "text": "and Egypt."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: David - British Professional"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea1779.audio_description.en",
+          "language": "en",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea1779/audio_description.en.txt",
+          "scriptSha256": "bc4023087a8001f140088bf4e5bd07fa2e638dcac7eb63aa9b96687e115630b5",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea1779/audio_description.en.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea1779/audio_description.en.mp3",
+          "addressableKey": null,
+          "durationSeconds": 23.719184,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea1779/audio_description.en.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.08,
+              "endSeconds": 3.564,
+              "text": "A large ram lies on a\nrectangular base."
+            },
+            {
+              "startSeconds": 4.565,
+              "endSeconds": 7.267,
+              "text": "Its legs are folded beneath\nits body"
+            },
+            {
+              "startSeconds": 8.128,
+              "endSeconds": 9.69,
+              "text": "and its head is raised."
+            },
+            {
+              "startSeconds": 10.771,
+              "endSeconds": 14.575,
+              "text": "A small human figure stands\nbetween the front legs."
+            },
+            {
+              "startSeconds": 15.696,
+              "endSeconds": 18.239,
+              "text": "It appears tiny beside the\nanimal."
+            },
+            {
+              "startSeconds": 19.36,
+              "endSeconds": 23.404,
+              "text": "Rows of carved signs run\nalong the sides of the base."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: David - British Professional"
+          ],
+          "licence": null
+        }
+      ],
+      "games": [
+        {
+          "id": "quiz_bm_ea1779",
+          "kind": "quiz",
+          "contentVersion": 1,
+          "publicationStatus": "draft",
+          "questions": [
+            {
+              "id": "bm_ea1779_q1",
+              "prompt": {
+                "fr": "Sous quelle forme animale Amon est-il représenté ici ?",
+                "ar": "في هيئة أي حيوان يظهر آمون هنا؟",
+                "en": "In which animal form is Amun represented here?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea1779_q1_a",
+                  "text": {
+                    "fr": "Un lion couché",
+                    "ar": "أسد مستلقٍ",
+                    "en": "A reclining lion"
+                  }
+                },
+                {
+                  "id": "bm_ea1779_q1_b",
+                  "text": {
+                    "fr": "Un bélier couché",
+                    "ar": "كبش مستلقٍ",
+                    "en": "A reclining ram"
+                  }
+                },
+                {
+                  "id": "bm_ea1779_q1_c",
+                  "text": {
+                    "fr": "Un scarabée",
+                    "ar": "جعران",
+                    "en": "A scarab"
+                  }
+                },
+                {
+                  "id": "bm_ea1779_q1_d",
+                  "text": {
+                    "fr": "Un faucon",
+                    "ar": "صقر",
+                    "en": "A falcon"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea1779_q1_b",
+              "explanation": {
+                "fr": "Amon apparaît sous la forme d’un bélier couché. La petite figure royale se tient entre ses pattes avant.",
+                "ar": "يظهر آمون في هيئة كبش مستلقٍ، وتقف الشخصية الملكية الصغيرة بين قائمتيه الأماميتين.",
+                "en": "Amun appears as a reclining ram. The small royal figure stands between its front legs."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea1779/narration.fr.txt",
+              "sources": [
+                "https://sketchfab.com/3d-models/statue-of-the-ram-of-amun-35d49b6d599045d6ba1dd41999b0012e",
+                "https://commons.wikimedia.org/wiki/File:Granite_ram_of_Amun_with_King_Taharqa_-_British_Museum.jpg"
+              ]
+            },
+            {
+              "id": "bm_ea1779_q2",
+              "prompt": {
+                "fr": "Quel roi se tient entre les pattes avant du bélier ?",
+                "ar": "أي ملك يقف بين قائمتي الكبش الأماميتين؟",
+                "en": "Which king stands between the ram’s front legs?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea1779_q2_a",
+                  "text": {
+                    "fr": "Ptolémée V",
+                    "ar": "بطليموس الخامس",
+                    "en": "Ptolemy V"
+                  }
+                },
+                {
+                  "id": "bm_ea1779_q2_b",
+                  "text": {
+                    "fr": "Ramsès II",
+                    "ar": "رمسيس الثاني",
+                    "en": "Ramesses II"
+                  }
+                },
+                {
+                  "id": "bm_ea1779_q2_c",
+                  "text": {
+                    "fr": "Amenhotep III",
+                    "ar": "أمنحتب الثالث",
+                    "en": "Amenhotep III"
+                  }
+                },
+                {
+                  "id": "bm_ea1779_q2_d",
+                  "text": {
+                    "fr": "Taharqa",
+                    "ar": "تهارقا",
+                    "en": "Taharqa"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea1779_q2_d",
+              "explanation": {
+                "fr": "La petite figure représente Taharqa, placé sous la protection d’Amon. La différence de taille souligne cette relation.",
+                "ar": "تمثل الشخصية الصغيرة تهارقا تحت حماية آمون، ويبرز اختلاف الحجم هذه العلاقة.",
+                "en": "The small figure represents Taharqa under Amun’s protection. Their difference in scale emphasizes this relationship."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea1779/narration.fr.txt",
+              "sources": [
+                "https://sketchfab.com/3d-models/statue-of-the-ram-of-amun-35d49b6d599045d6ba1dd41999b0012e",
+                "https://commons.wikimedia.org/wiki/File:Granite_ram_of_Amun_with_King_Taharqa_-_British_Museum.jpg"
+              ]
+            },
+            {
+              "id": "bm_ea1779_q3",
+              "prompt": {
+                "fr": "D’où provient cette statue du bélier d’Amon ?",
+                "ar": "من أين جاء تمثال كبش آمون؟",
+                "en": "Where does this statue of the ram of Amun come from?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea1779_q3_a",
+                  "text": {
+                    "fr": "Du temple d’Amon à Kawa, au Soudan actuel",
+                    "ar": "معبد آمون في كاوا بالسودان الحالي",
+                    "en": "The temple of Amun at Kawa, in present-day Sudan"
+                  }
+                },
+                {
+                  "id": "bm_ea1779_q3_b",
+                  "text": {
+                    "fr": "Du Ramesseum à Thèbes",
+                    "ar": "الرامسيوم في طيبة",
+                    "en": "The Ramesseum at Thebes"
+                  }
+                },
+                {
+                  "id": "bm_ea1779_q3_c",
+                  "text": {
+                    "fr": "De la mosquée Ibn Touloun au Caire",
+                    "ar": "مسجد ابن طولون في القاهرة",
+                    "en": "The Ibn Tulun Mosque in Cairo"
+                  }
+                },
+                {
+                  "id": "bm_ea1779_q3_d",
+                  "text": {
+                    "fr": "De la ville de Rome",
+                    "ar": "مدينة روما",
+                    "en": "The city of Rome"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea1779_q3_a",
+              "explanation": {
+                "fr": "L’œuvre provient du temple d’Amon à Kawa, dans l’actuel Soudan. Elle évoque les liens entre pouvoir royal et protection divine.",
+                "ar": "جاءت القطعة من معبد آمون في كاوا بالسودان الحالي، وتبرز العلاقة بين السلطة الملكية والحماية الإلهية.",
+                "en": "The work comes from the temple of Amun at Kawa, in present-day Sudan. It evokes the relationship between royal power and divine protection."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea1779/narration.fr.txt",
+              "sources": [
+                "https://sketchfab.com/3d-models/statue-of-the-ram-of-amun-35d49b6d599045d6ba1dd41999b0012e",
+                "https://commons.wikimedia.org/wiki/File:Granite_ram_of_Amun_with_King_Taharqa_-_British_Museum.jpg"
+              ]
+            }
+          ]
+        }
+      ],
+      "contentVersion": 3,
+      "sortOrder": 3,
+      "categoryId": "beliefs",
+      "coverTargetId": "target_bm_ea1779",
+      "metadata": {
+        "institution": "British Museum",
+        "creator": null,
+        "museumRecordUrl": "https://www.britishmuseum.org/collection/object/Y_EA1779",
+        "materialSourceText": "Granodiorite gneiss",
+        "periodSourceText": "25th Dynasty, reign of Taharqo (690–664 BC)",
+        "findspotSourceText": "From Sudan, Kawa, temple T",
+        "reviewStatus": "draft",
+        "sourceLabelFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/labeldata/labeldata.csv",
+        "sources": [
+          "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+        ],
+        "sourceNote": "Museum label data supplied in the original downloaded pack; some historical labels may contain inaccuracies. Source-language metadata is archival, not ready for UI display."
+      },
+      "presentation": {
+        "modelLocalEulerDegrees": [
+          0,
+          0,
+          0
+        ],
+        "modelLocalOffsetMeters": [
+          0,
+          0,
+          0
+        ],
+        "audioLocalOffsetMeters": [
+          0,
+          0.1,
+          0
+        ],
+        "settingsStatus": "defaults_pending_user_review"
+      },
+      "readiness": {
+        "modelSourceAvailable": true,
+        "modelImported": true,
+        "imageAvailable": true,
+        "textsReviewed": false,
+        "narrationAudioAvailable": true,
+        "audioDescriptionAvailable": true,
+        "subtitlesAligned": true,
+        "readyForPublication": false
+      }
+    },
+    {
+      "id": "bm_ea19",
+      "museumObjectId": "EA19",
+      "publicationStatus": "draft",
+      "texts": [
+        {
+          "language": "fr",
+          "title": "Buste colossal de Ramsès II",
+          "summary": "Un fragment de statue royale provenant du Ramesseum, à Thèbes.",
+          "description": "Ce fragment monumental représente la tête et le haut du corps de Ramsès II. Il provient du Ramesseum, son temple funéraire à Thèbes. Le souverain porte le némès. La sculpture associe le visage et le buste aux variations de couleur de la pierre.",
+          "descriptionStatus": "source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+          ]
+        },
+        {
+          "language": "ar",
+          "title": "تمثال نصفي ضخم لرمسيس الثاني",
+          "summary": "جزء من تمثال ملكي جاء من الرامسيوم في طيبة.",
+          "description": "يمثل هذا الجزء الضخم رأس رمسيس الثاني والجزء العلوي من جسمه. جاء من الرامسيوم، معبده الجنائزي في طيبة. يرتدي الملك غطاء الرأس المعروف بالنمس. وتجمع المنحوتة بين الوجه والجذع وتدرجات لون الحجر.",
+          "descriptionStatus": "source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+          ]
+        },
+        {
+          "language": "en",
+          "title": "Colossal bust of Ramesses II",
+          "summary": "A fragment of a royal statue from the Ramesseum at Thebes.",
+          "description": "This monumental fragment depicts the head and upper body of Ramesses II. It comes from the Ramesseum, his mortuary temple at Thebes. The king wears the nemes headdress. The sculpture combines the face and torso with variations in the colour of the stone.",
+          "descriptionStatus": "source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+          ]
+        }
+      ],
+      "model": {
+        "sourcePath": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/ramesesII-EA19/sculpt.obj",
+        "materialPaths": [
+          "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/ramesesII-EA19/sculpt.obj.mtl"
+        ],
+        "texturePaths": [
+          "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/ramesesII-EA19/sculpt.jpg",
+          "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/ramesesII-EA19/sculpt1.jpg"
+        ],
+        "triangleCount": 10000,
+        "addressableKey": null,
+        "licence": "CC-BY-NC-SA-4.0",
+        "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+        "credits": [
+          "Daniel Pett",
+          "Jennifer Wexler",
+          "Thomas Flynn",
+          "Copyright Trustees of the British Museum"
+        ],
+        "importStatus": "imported_in_unity_prototype",
+        "unityPrefabPath": "Assets/HeritageXR/Models/bm_ea19/Artwork.prefab",
+        "displayLongestAxisMeters": 0.2
+      },
+      "targets": [
+        {
+          "id": "target_bm_ea19",
+          "path": "AssetSources/Images/Source/ramses_ii_ea19.jpg",
+          "bytes": 1237714,
+          "sha256": "5131ffcc517892d994e2922863add0b5d5bd645c762f691733a6e174e0c0e05e",
+          "sha1": "35b9aa81e4c3a66298d96cfdc8c7d65b78201e27",
+          "pixelWidth": 2248,
+          "pixelHeight": 3238,
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Statue_of_Ramesses_II_at_the_British_Museum.jpg",
+          "author": "BabelStone",
+          "licence": "CC-BY-SA-3.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "modified": false,
+          "imageRole": "candidate_reference_image",
+          "physicalWidthMeters": 0.12,
+          "printed": false,
+          "arTrackingValidated": false,
+          "identityVerification": "source_page_object_number_and_published_original_sha1",
+          "authorNote": null,
+          "dimensionStatus": "prototype_print_specification_not_measured",
+          "unityTexturePath": "Assets/HeritageXR/Photos/bm_ea19.jpg",
+          "referenceLibraryPath": "Assets/HeritageXR/Settings/ArtworkImages.asset",
+          "addressableKey": null,
+          "preparationStatus": "image_imported_existing_prototype"
+        }
+      ],
+      "audio": [
+        {
+          "id": "bm_ea19.narration.fr",
+          "language": "fr",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea19/narration.fr.txt",
+          "scriptSha256": "fde343a4361b0e15bed76a8703df9637c12a29800284fe5d43c48b96973afd04",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea19/narration.fr.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea19/narration.fr.mp3",
+          "addressableKey": null,
+          "durationSeconds": 30.275918,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "6DEjyaHWnTHsvXM5Byys",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea19/narration.fr.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.08,
+              "endSeconds": 2.561,
+              "text": "Vous découvrez la partie\nsupérieure d’une statue"
+            },
+            {
+              "startSeconds": 2.581,
+              "endSeconds": 6.363,
+              "text": "colossale de Ramsès deux.\nElle provient du Ramesseum,"
+            },
+            {
+              "startSeconds": 6.863,
+              "endSeconds": 8.563,
+              "text": "son temple funéraire à\nThèbes."
+            },
+            {
+              "startSeconds": 9.204,
+              "endSeconds": 13.165,
+              "text": "Le roi porte le némès, la\ncoiffe rayée des pharaons."
+            },
+            {
+              "startSeconds": 13.746,
+              "endSeconds": 16.947,
+              "text": "Observez le visage, les\népaules et les variations de"
+            },
+            {
+              "startSeconds": 16.947,
+              "endSeconds": 17.927,
+              "text": "couleur de la pierre."
+            },
+            {
+              "startSeconds": 18.528,
+              "endSeconds": 21.169,
+              "text": "Même fragmentaire, cette\nsculpture conserve une forte"
+            },
+            {
+              "startSeconds": 21.169,
+              "endSeconds": 24.67,
+              "text": "présence. Elle montre comment\nles monuments pouvaient"
+            },
+            {
+              "startSeconds": 24.77,
+              "endSeconds": 28.092,
+              "text": "rendre visible le pouvoir du\nsouverain et associer son"
+            },
+            {
+              "startSeconds": 28.092,
+              "endSeconds": 30.052,
+              "text": "image aux espaces sacrés."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: Hugo — Deep French Storyteller"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea19.audio_description.fr",
+          "language": "fr",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea19/audio_description.fr.txt",
+          "scriptSha256": "b4307f1a6c966c5498816257f5ba17375d1ebd15353c0acac803953076759eae",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea19/audio_description.fr.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea19/audio_description.fr.mp3",
+          "addressableKey": null,
+          "durationSeconds": 20.715102,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "6DEjyaHWnTHsvXM5Byys",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea19/audio_description.fr.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.08,
+              "endSeconds": 0.88,
+              "text": "La sculpture"
+            },
+            {
+              "startSeconds": 1.36,
+              "endSeconds": 4.021,
+              "text": "conserve une tête et le haut\nd’un buste humain."
+            },
+            {
+              "startSeconds": 4.661,
+              "endSeconds": 7.402,
+              "text": "Le visage est encadré par\nune coiffe rayée qui descend"
+            },
+            {
+              "startSeconds": 7.402,
+              "endSeconds": 10.543,
+              "text": "sur les épaules. Les parties\nmanquantes rendent le"
+            },
+            {
+              "startSeconds": 10.543,
+              "endSeconds": 13.864,
+              "text": "contour du torse irrégulier.\nLa pierre présente des"
+            },
+            {
+              "startSeconds": 13.864,
+              "endSeconds": 15.024,
+              "text": "variations de teinte."
+            },
+            {
+              "startSeconds": 15.804,
+              "endSeconds": 19.345,
+              "text": "La figure est tournée vers\nl’avant, donnant une forte"
+            },
+            {
+              "startSeconds": 19.345,
+              "endSeconds": 20.406,
+              "text": "présence au visage."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: Hugo — Deep French Storyteller"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea19.narration.ar",
+          "language": "ar",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea19/narration.ar.txt",
+          "scriptSha256": "ad9e89e494c97051b4567b099f0c31989fdea94b60f78efe41f0751c9a95769e",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea19/narration.ar.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea19/narration.ar.mp3",
+          "addressableKey": null,
+          "durationSeconds": 24.920816,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea19/narration.ar.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.08,
+              "endSeconds": 3.382,
+              "text": "أمامك الجزء العلوي من تمثال\nضخم لرمسيس الثاني."
+            },
+            {
+              "startSeconds": 3.802,
+              "endSeconds": 6.663,
+              "text": "جاء من الرامسيوم، معبده\nالجنائزي في طيبة."
+            },
+            {
+              "startSeconds": 7.163,
+              "endSeconds": 10.665,
+              "text": "يرتدي الملك النمس، وهو غطاء\nالرأس المخطط الذي يرتديه"
+            },
+            {
+              "startSeconds": 10.665,
+              "endSeconds": 14.647,
+              "text": "الفراعنة. تأمل الوجه\nوالكتفين وتدرجات لون الحجر."
+            },
+            {
+              "startSeconds": 15.247,
+              "endSeconds": 18.869,
+              "text": "ورغم أن التمثال غير مكتمل،\nفإنه يحتفظ بحضور قوي."
+            },
+            {
+              "startSeconds": 19.369,
+              "endSeconds": 23.291,
+              "text": "يبين كيف كانت الآثار تجسد\nسلطة الحاكم وتربط صورته"
+            },
+            {
+              "startSeconds": 23.291,
+              "endSeconds": 24.532,
+              "text": "بالأماكن المقدسة."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: saber - صوت عربي واضح"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea19.audio_description.ar",
+          "language": "ar",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea19/audio_description.ar.txt",
+          "scriptSha256": "28eb908ce53e2080f636bb8e51124d2889b7918d799185d3feb170f75ff48c07",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea19/audio_description.ar.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea19/audio_description.ar.mp3",
+          "addressableKey": null,
+          "durationSeconds": 23.719184,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea19/audio_description.ar.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.08,
+              "endSeconds": 4.665,
+              "text": "تحتفظ المنحوتة برأس بشري\nوالجزء العلوي من الجذع."
+            },
+            {
+              "startSeconds": 5.386,
+              "endSeconds": 9.69,
+              "text": "يحيط بالوجه غطاء رأس مخطط\nيمتد على الكتفين."
+            },
+            {
+              "startSeconds": 10.391,
+              "endSeconds": 14.535,
+              "text": "تجعل الأجزاء المفقودة حدود\nالجذع غير منتظمة."
+            },
+            {
+              "startSeconds": 15.256,
+              "endSeconds": 17.878,
+              "text": "وتظهر في الحجر تدرجات لونية."
+            },
+            {
+              "startSeconds": 18.539,
+              "endSeconds": 23.284,
+              "text": "تتجه الهيئة إلى الأمام، مما\nيمنح الوجه حضوراً بارزاً."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: saber - صوت عربي واضح"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea19.narration.en",
+          "language": "en",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea19/narration.en.txt",
+          "scriptSha256": "3f211a6ae6424cefddb9824d393e104dfcebdd900e763e68b3a10943cdccb2c8",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea19/narration.en.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea19/narration.en.mp3",
+          "addressableKey": null,
+          "durationSeconds": 41.926531,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea19/narration.en.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.06,
+              "endSeconds": 3.481,
+              "text": "Here is the upper part of a\ncolossal statue of Ramesses"
+            },
+            {
+              "startSeconds": 3.481,
+              "endSeconds": 4.281,
+              "text": "the Second."
+            },
+            {
+              "startSeconds": 5.201,
+              "endSeconds": 6.641,
+              "text": "It comes from the Ramesseum,"
+            },
+            {
+              "startSeconds": 7.242,
+              "endSeconds": 9.242,
+              "text": "his mortuary temple at\nThebes."
+            },
+            {
+              "startSeconds": 10.262,
+              "endSeconds": 13.763,
+              "text": "The king wears the nemes,\nthe striped headdress of the"
+            },
+            {
+              "startSeconds": 13.763,
+              "endSeconds": 14.563,
+              "text": "pharaohs."
+            },
+            {
+              "startSeconds": 15.363,
+              "endSeconds": 16.403,
+              "text": "Look at the face,"
+            },
+            {
+              "startSeconds": 17.024,
+              "endSeconds": 20.524,
+              "text": "the shoulders and the variations\nin the stone’s colour."
+            },
+            {
+              "startSeconds": 21.885,
+              "endSeconds": 23.365,
+              "text": "Even as a fragment,"
+            },
+            {
+              "startSeconds": 24.565,
+              "endSeconds": 28.566,
+              "text": "this sculpture retains a\npowerful presence."
+            },
+            {
+              "startSeconds": 29.886,
+              "endSeconds": 34.207,
+              "text": "It shows how monuments could\nmake royal authority"
+            },
+            {
+              "startSeconds": 35.247,
+              "endSeconds": 36.047,
+              "text": "visible"
+            },
+            {
+              "startSeconds": 36.928,
+              "endSeconds": 41.449,
+              "text": "and connect the ruler’s\nimage with sacred spaces."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: David - British Professional"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea19.audio_description.en",
+          "language": "en",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea19/audio_description.en.txt",
+          "scriptSha256": "7e3dcfe17ad7bf7f6962a667f211c0903237d57664c93385ed07f7554658672e",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea19/audio_description.en.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea19/audio_description.en.mp3",
+          "addressableKey": null,
+          "durationSeconds": 23.719184,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+          "generationModelId": "eleven_multilingual_v2",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea19/audio_description.en.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.08,
+              "endSeconds": 3.844,
+              "text": "The sculpture preserves a\nhuman head and upper torso."
+            },
+            {
+              "startSeconds": 4.925,
+              "endSeconds": 8.889,
+              "text": "A striped headdress frames\nthe face and extends down"
+            },
+            {
+              "startSeconds": 8.949,
+              "endSeconds": 9.91,
+              "text": "onto the shoulders."
+            },
+            {
+              "startSeconds": 11.071,
+              "endSeconds": 14.535,
+              "text": "Missing parts make the\ntorso’s outline uneven."
+            },
+            {
+              "startSeconds": 15.716,
+              "endSeconds": 17.618,
+              "text": "The stone varies in colour."
+            },
+            {
+              "startSeconds": 18.539,
+              "endSeconds": 19.98,
+              "text": "The figure faces forward,"
+            },
+            {
+              "startSeconds": 20.641,
+              "endSeconds": 23.424,
+              "text": "giving particular prominence\nto the face."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: David - British Professional"
+          ],
+          "licence": null
+        }
+      ],
+      "games": [
+        {
+          "id": "quiz_bm_ea19",
+          "kind": "quiz",
+          "contentVersion": 1,
+          "publicationStatus": "draft",
+          "questions": [
+            {
+              "id": "bm_ea19_q1",
+              "prompt": {
+                "fr": "Comment s’appelle la coiffe rayée portée par Ramsès II ?",
+                "ar": "ما اسم غطاء الرأس المخطط الذي يرتديه رمسيس الثاني؟",
+                "en": "What is the striped headdress worn by Ramesses II called?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea19_q1_a",
+                  "text": {
+                    "fr": "Le démotique",
+                    "ar": "الديموطيقية",
+                    "en": "Demotic"
+                  }
+                },
+                {
+                  "id": "bm_ea19_q1_b",
+                  "text": {
+                    "fr": "Le scarabée",
+                    "ar": "الجعران",
+                    "en": "Scarab"
+                  }
+                },
+                {
+                  "id": "bm_ea19_q1_c",
+                  "text": {
+                    "fr": "Le némès",
+                    "ar": "النمس",
+                    "en": "Nemes"
+                  }
+                },
+                {
+                  "id": "bm_ea19_q1_d",
+                  "text": {
+                    "fr": "Le sarcophage",
+                    "ar": "التابوت",
+                    "en": "Sarcophagus"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea19_q1_c",
+              "explanation": {
+                "fr": "Le némès est la coiffe rayée des pharaons. Sur ce buste, il encadre le visage et descend sur les épaules.",
+                "ar": "النمس هو غطاء الرأس المخطط للفراعنة. وفي هذا التمثال النصفي، يحيط بالوجه ويمتد على الكتفين.",
+                "en": "The nemes is the striped headdress of the pharaohs. On this bust, it frames the face and extends over the shoulders."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea19/narration.fr.txt",
+              "sources": [
+                "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+              ]
+            },
+            {
+              "id": "bm_ea19_q2",
+              "prompt": {
+                "fr": "De quel monument ce fragment de Ramsès II provient-il ?",
+                "ar": "من أي معلم جاء هذا الجزء من تمثال رمسيس الثاني؟",
+                "en": "Which monument did this fragment of Ramesses II come from?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea19_q2_a",
+                  "text": {
+                    "fr": "Du temple d’Amon à Kawa",
+                    "ar": "معبد آمون في كاوا",
+                    "en": "The temple of Amun at Kawa"
+                  }
+                },
+                {
+                  "id": "bm_ea19_q2_b",
+                  "text": {
+                    "fr": "Du Ramesseum à Thèbes",
+                    "ar": "الرامسيوم في طيبة",
+                    "en": "The Ramesseum at Thebes"
+                  }
+                },
+                {
+                  "id": "bm_ea19_q2_c",
+                  "text": {
+                    "fr": "De la mosquée Ibn Touloun",
+                    "ar": "مسجد ابن طولون",
+                    "en": "The Ibn Tulun Mosque"
+                  }
+                },
+                {
+                  "id": "bm_ea19_q2_d",
+                  "text": {
+                    "fr": "Du socle des lions de Prudhoe",
+                    "ar": "قاعدة أسدي برودهو",
+                    "en": "The pedestal of the Prudhoe Lions"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea19_q2_b",
+              "explanation": {
+                "fr": "Ce fragment provient du Ramesseum, le temple funéraire de Ramsès II à Thèbes.",
+                "ar": "جاء هذا الجزء من الرامسيوم، وهو المعبد الجنائزي لرمسيس الثاني في طيبة.",
+                "en": "This fragment comes from the Ramesseum, the mortuary temple of Ramesses II at Thebes."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea19/narration.fr.txt",
+              "sources": [
+                "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+              ]
+            },
+            {
+              "id": "bm_ea19_q3",
+              "prompt": {
+                "fr": "Quelles parties de la statue sont conservées dans ce fragment ?",
+                "ar": "أي أجزاء التمثال بقيت في هذه القطعة؟",
+                "en": "Which parts of the statue survive in this fragment?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea19_q3_a",
+                  "text": {
+                    "fr": "Les pieds uniquement",
+                    "ar": "القدمان فقط",
+                    "en": "Only the feet"
+                  }
+                },
+                {
+                  "id": "bm_ea19_q3_b",
+                  "text": {
+                    "fr": "Le corps entier",
+                    "ar": "الجسم كاملاً",
+                    "en": "The entire body"
+                  }
+                },
+                {
+                  "id": "bm_ea19_q3_c",
+                  "text": {
+                    "fr": "Les mains et les jambes",
+                    "ar": "اليدان والساقان",
+                    "en": "The hands and legs"
+                  }
+                },
+                {
+                  "id": "bm_ea19_q3_d",
+                  "text": {
+                    "fr": "La tête et le haut du corps",
+                    "ar": "الرأس والجزء العلوي من الجسم",
+                    "en": "The head and upper body"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea19_q3_d",
+              "explanation": {
+                "fr": "EA19 conserve la tête et le haut du corps d’une statue colossale. Les parties manquantes expliquent les contours irréguliers du fragment.",
+                "ar": "تحتفظ القطعة EA19 بالرأس والجزء العلوي من الجسم من تمثال ضخم. وتفسر الأجزاء المفقودة حدود القطعة غير المنتظمة.",
+                "en": "EA19 preserves the head and upper body of a colossal statue. Missing parts account for the fragment’s uneven outline."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea19/narration.fr.txt",
+              "sources": [
+                "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+              ]
+            }
+          ]
+        }
+      ],
+      "contentVersion": 3,
+      "sortOrder": 4,
+      "categoryId": "royalty",
+      "coverTargetId": "target_bm_ea19",
+      "metadata": {
+        "institution": "British Museum",
+        "creator": null,
+        "museumRecordUrl": "https://www.britishmuseum.org/collection/object/Y_EA19",
+        "materialSourceText": "Granodiorite,red granite",
+        "periodSourceText": "19th Dynasty",
+        "findspotSourceText": "From the Ramesseum, Karnak",
+        "reviewStatus": "draft",
+        "sourceLabelFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/labeldata/labeldata.csv",
+        "sources": [
+          "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+        ],
+        "sourceNote": "Museum label data supplied in the original downloaded pack; some historical labels may contain inaccuracies. Source-language metadata is archival, not ready for UI display."
+      },
+      "presentation": {
+        "modelLocalEulerDegrees": [
+          0,
+          0,
+          0
+        ],
+        "modelLocalOffsetMeters": [
+          0,
+          0,
+          0
+        ],
+        "audioLocalOffsetMeters": [
+          0,
+          0.1,
+          0
+        ],
+        "settingsStatus": "defaults_pending_user_review"
+      },
+      "readiness": {
+        "modelSourceAvailable": true,
+        "modelImported": true,
+        "imageAvailable": true,
+        "textsReviewed": false,
+        "narrationAudioAvailable": true,
+        "audioDescriptionAvailable": true,
+        "subtitlesAligned": true,
+        "readyForPublication": false
+      }
+    },
+    {
+      "id": "bm_ea1",
+      "museumObjectId": "EA1",
+      "publicationStatus": "draft",
+      "texts": [
+        {
+          "language": "fr",
+          "title": "Lion de Prudhoe — EA1",
+          "summary": "Un lion de granite rouge associé à Amenhotep III.",
+          "description": "Cette sculpture en granite rouge représente un lion couché et appartient à la paire des lions de Prudhoe. Elle est associée au règne d’Amenhotep III. Des inscriptions sur le corps et le socle évoquent plusieurs souverains, témoignant des réemplois de cette image du pouvoir royal.",
+          "descriptionStatus": "source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+          ]
+        },
+        {
+          "language": "ar",
+          "title": "أسد برودهو — EA1",
+          "summary": "أسد من الجرانيت الأحمر مرتبط بأمنحتب الثالث.",
+          "description": "يمثل هذا التمثال المصنوع من الجرانيت الأحمر أسداً مستلقياً، وينتمي إلى الزوج المعروف باسم أسدي برودهو. وهو مرتبط بعهد أمنحتب الثالث. وتشير النقوش على الجسم والقاعدة إلى عدة حكام، مما يعكس إعادة استخدام هذه الصورة للسلطة الملكية.",
+          "descriptionStatus": "source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+          ]
+        },
+        {
+          "language": "en",
+          "title": "Prudhoe Lion — EA1",
+          "summary": "A red granite lion associated with Amenhotep III.",
+          "description": "This red granite sculpture depicts a reclining lion and belongs to the pair known as the Prudhoe Lions. It is associated with the reign of Amenhotep III. Inscriptions on the body and pedestal refer to several rulers, reflecting the reuse of this image of royal power.",
+          "descriptionStatus": "source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+          ]
+        }
+      ],
+      "model": {
+        "sourcePath": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/leftPrudhoeLion-EA1/model.obj",
+        "materialPaths": [
+          "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/leftPrudhoeLion-EA1/model.obj.mtl"
+        ],
+        "texturePaths": [
+          "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/leftPrudhoeLion-EA1/model.jpg"
+        ],
+        "triangleCount": 10000,
+        "addressableKey": null,
+        "licence": "CC-BY-NC-SA-4.0",
+        "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+        "credits": [
+          "Daniel Pett",
+          "Jennifer Wexler",
+          "Thomas Flynn",
+          "Copyright Trustees of the British Museum"
+        ],
+        "importStatus": "imported_in_unity_prototype",
+        "unityPrefabPath": "Assets/HeritageXR/Models/bm_ea1/Artwork.prefab",
+        "displayLongestAxisMeters": 0.2
+      },
+      "targets": [
+        {
+          "id": "target_bm_ea1",
+          "path": "AssetSources/Images/Source/prudhoe_lion_ea1.jpg",
+          "bytes": 8060096,
+          "sha256": "4d938d074d41d1acdaa72ff931277cd86f1b8c0344aff340b922a5bcb2e84aa0",
+          "sha1": "e6112f51713f522f44102ce5f2fa3bc64d381cc4",
+          "pixelWidth": 2986,
+          "pixelHeight": 1946,
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_granite_figure_of_a_lion_from_Gebel_Barkal.jpg",
+          "author": "Szilas",
+          "licence": "CC-BY-SA-4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "modified": false,
+          "imageRole": "candidate_reference_image",
+          "physicalWidthMeters": 0.12,
+          "printed": false,
+          "arTrackingValidated": false,
+          "identityVerification": "source_page_object_number_and_published_original_sha1",
+          "authorNote": null,
+          "dimensionStatus": "prototype_print_specification_not_measured",
+          "unityTexturePath": "Assets/HeritageXR/Photos/bm_ea1.jpg",
+          "referenceLibraryPath": "Assets/HeritageXR/Settings/ArtworkImages.asset",
+          "addressableKey": null,
+          "preparationStatus": "image_imported_existing_prototype"
+        }
+      ],
+      "audio": [
+        {
+          "id": "bm_ea1.narration.fr",
+          "language": "fr",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea1/narration.fr.txt",
+          "scriptSha256": "9128a5756458e7a5164c0c2e144764ba03218595527800270c71d1a26dd06c28",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea1/narration.fr.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea1/narration.fr.mp3",
+          "addressableKey": null,
+          "durationSeconds": 27.768163,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "6DEjyaHWnTHsvXM5Byys",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea1/narration.fr.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.06,
+              "endSeconds": 2.622,
+              "text": "Ce lion couché, sculpté dans\nle granite rouge,"
+            },
+            {
+              "startSeconds": 2.903,
+              "endSeconds": 5.525,
+              "text": "appartient à la paire\nappelée les lions de Prudhoe."
+            },
+            {
+              "startSeconds": 6.005,
+              "endSeconds": 8.407,
+              "text": "Il est associé au règne\nd’Amenhotep trois."
+            },
+            {
+              "startSeconds": 8.688,
+              "endSeconds": 11.53,
+              "text": "Son corps allongé repose sur\nun socle portant des"
+            },
+            {
+              "startSeconds": 11.53,
+              "endSeconds": 15.233,
+              "text": "inscriptions. Ces textes\névoquent plusieurs souverains"
+            },
+            {
+              "startSeconds": 15.534,
+              "endSeconds": 18.136,
+              "text": "et témoignent de la longue\nhistoire de la sculpture."
+            },
+            {
+              "startSeconds": 18.556,
+              "endSeconds": 21.459,
+              "text": "Observez la tête, les pattes\net les signes gravés."
+            },
+            {
+              "startSeconds": 21.839,
+              "endSeconds": 24.782,
+              "text": "L’image du lion permettait\nd’exprimer la force royale,"
+            },
+            {
+              "startSeconds": 24.782,
+              "endSeconds": 27.104,
+              "text": "tout en accordant une grande\nattention au corps de"
+            },
+            {
+              "startSeconds": 27.104,
+              "endSeconds": 27.684,
+              "text": "l’animal."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: Hugo — Deep French Storyteller"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea1.audio_description.fr",
+          "language": "fr",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea1/audio_description.fr.txt",
+          "scriptSha256": "a32d888d1a0678f97d1267e474d5b365e79e4521f039f46d2014bad6256f23be",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea1/audio_description.fr.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea1/audio_description.fr.mp3",
+          "addressableKey": null,
+          "durationSeconds": 18.520816,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "6DEjyaHWnTHsvXM5Byys",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea1/audio_description.fr.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.06,
+              "endSeconds": 2.603,
+              "text": "Un lion de pierre est couché\nsur un socle."
+            },
+            {
+              "startSeconds": 3.024,
+              "endSeconds": 5.767,
+              "text": "Son corps allongé se termine\npar une tête modelée et des"
+            },
+            {
+              "startSeconds": 5.767,
+              "endSeconds": 9.051,
+              "text": "pattes sculptées. Le granite\nrouge donne à l’ensemble"
+            },
+            {
+              "startSeconds": 9.071,
+              "endSeconds": 12.355,
+              "text": "une teinte chaude. Des\ninscriptions occupent la poitrine"
+            },
+            {
+              "startSeconds": 12.376,
+              "endSeconds": 15.339,
+              "text": "et plusieurs surfaces du\nsocle. Les formes du corps sont"
+            },
+            {
+              "startSeconds": 15.359,
+              "endSeconds": 17.842,
+              "text": "arrondies, tandis que la\nbase présente des lignes"
+            },
+            {
+              "startSeconds": 17.842,
+              "endSeconds": 18.483,
+              "text": "droites."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: Hugo — Deep French Storyteller"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea1.narration.ar",
+          "language": "ar",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea1/narration.ar.txt",
+          "scriptSha256": "fe7d28cb250c9131647f3f400c019ff0033b66a188fe396e380dd3768dd1f048",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea1/narration.ar.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea1/narration.ar.mp3",
+          "addressableKey": null,
+          "durationSeconds": 34.35102,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea1/narration.ar.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.02,
+              "endSeconds": 4.583,
+              "text": "ينتمي هذا الأسد المستلقي،\nالمنحوت من الجرانيت الأحمر،"
+            },
+            {
+              "startSeconds": 5.223,
+              "endSeconds": 7.884,
+              "text": "إلى الزوج المعروف باسم أسدي\nبرودهو."
+            },
+            {
+              "startSeconds": 8.805,
+              "endSeconds": 14.208,
+              "text": "وهو مرتبط بعهد أمنحتب\nالثالث. يستند جسمه الممتد إلى"
+            },
+            {
+              "startSeconds": 14.248,
+              "endSeconds": 15.989,
+              "text": "قاعدة تحمل نقوشاً."
+            },
+            {
+              "startSeconds": 16.609,
+              "endSeconds": 22.052,
+              "text": "تشير النصوص إلى عدة حكام وتشهد\nعلى تاريخ التمثال الطويل."
+            },
+            {
+              "startSeconds": 22.813,
+              "endSeconds": 26.435,
+              "text": "تأمل الرأس والكفوف والعلامات\nالمنقوشة."
+            },
+            {
+              "startSeconds": 27.435,
+              "endSeconds": 32.858,
+              "text": "كانت صورة الأسد تعبر عن\nالقوة الملكية، مع اهتمام دقيق"
+            },
+            {
+              "startSeconds": 32.978,
+              "endSeconds": 34.079,
+              "text": "بجسم الحيوان."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: saber - صوت عربي واضح"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea1.audio_description.ar",
+          "language": "ar",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea1/audio_description.ar.txt",
+          "scriptSha256": "db6c2427eaa890e097b5cd4f9288ac57586e2e9c1a1ae7a3a755da639da52ff5",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea1/audio_description.ar.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea1/audio_description.ar.mp3",
+          "addressableKey": null,
+          "durationSeconds": 22.987755,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea1/audio_description.ar.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.04,
+              "endSeconds": 2.642,
+              "text": "يستلقي أسد حجري على قاعدة."
+            },
+            {
+              "startSeconds": 3.483,
+              "endSeconds": 7.547,
+              "text": "لجسمه الممتد رأس مشكل وكفوف\nمنحوتة."
+            },
+            {
+              "startSeconds": 8.428,
+              "endSeconds": 11.951,
+              "text": "يمنح الجرانيت الأحمر التمثال\nلوناً دافئاً."
+            },
+            {
+              "startSeconds": 12.612,
+              "endSeconds": 16.435,
+              "text": "تغطي النقوش الصدر وعدة أسطح\nمن القاعدة."
+            },
+            {
+              "startSeconds": 17.256,
+              "endSeconds": 22.701,
+              "text": "أشكال الجسم مستديرة، بينما\nتتميز القاعدة بحواف مستقيمة."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: saber - صوت عربي واضح"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea1.narration.en",
+          "language": "en",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea1/narration.en.txt",
+          "scriptSha256": "6ececacae186703cfd6d6371dbc87926c5d6f4f1de7dbc2776543240a3cc6070",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea1/narration.en.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea1/narration.en.mp3",
+          "addressableKey": null,
+          "durationSeconds": 70.635102,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea1/narration.en.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.08,
+              "endSeconds": 2.02,
+              "text": "This reclining lion,"
+            },
+            {
+              "startSeconds": 3.42,
+              "endSeconds": 5.961,
+              "text": "carved from red granite,"
+            },
+            {
+              "startSeconds": 7.041,
+              "endSeconds": 12.441,
+              "text": "belongs to the pair known as\nthe Prudhoe Lions."
+            },
+            {
+              "startSeconds": 14.302,
+              "endSeconds": 17.922,
+              "text": "It is associated with the\nreign"
+            },
+            {
+              "startSeconds": 18.542,
+              "endSeconds": 20.662,
+              "text": "of Amenhotep"
+            },
+            {
+              "startSeconds": 21.283,
+              "endSeconds": 22.283,
+              "text": "the Third."
+            },
+            {
+              "startSeconds": 24.063,
+              "endSeconds": 25.623,
+              "text": "Its long body"
+            },
+            {
+              "startSeconds": 26.603,
+              "endSeconds": 27.443,
+              "text": "rests"
+            },
+            {
+              "startSeconds": 28.104,
+              "endSeconds": 30.664,
+              "text": "on an inscribed"
+            },
+            {
+              "startSeconds": 31.404,
+              "endSeconds": 32.424,
+              "text": "pedestal."
+            },
+            {
+              "startSeconds": 34.184,
+              "endSeconds": 35.324,
+              "text": "The texts"
+            },
+            {
+              "startSeconds": 35.924,
+              "endSeconds": 37.085,
+              "text": "refer to"
+            },
+            {
+              "startSeconds": 37.665,
+              "endSeconds": 39.705,
+              "text": "several rulers"
+            },
+            {
+              "startSeconds": 40.905,
+              "endSeconds": 42.005,
+              "text": "and reveal"
+            },
+            {
+              "startSeconds": 42.605,
+              "endSeconds": 45.646,
+              "text": "the sculpture’s long\nhistory."
+            },
+            {
+              "startSeconds": 47.386,
+              "endSeconds": 48.546,
+              "text": "Look at the head,"
+            },
+            {
+              "startSeconds": 50.046,
+              "endSeconds": 51.106,
+              "text": "the paws"
+            },
+            {
+              "startSeconds": 52.346,
+              "endSeconds": 54.967,
+              "text": "and the carved signs."
+            },
+            {
+              "startSeconds": 56.547,
+              "endSeconds": 59.087,
+              "text": "The image of a lion"
+            },
+            {
+              "startSeconds": 60.307,
+              "endSeconds": 63.428,
+              "text": "expressed royal strength"
+            },
+            {
+              "startSeconds": 64.188,
+              "endSeconds": 69.528,
+              "text": "while giving close attention\nto the animal’s"
+            },
+            {
+              "startSeconds": 69.609,
+              "endSeconds": 70.169,
+              "text": "body."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: David - British Professional"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea1.audio_description.en",
+          "language": "en",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea1/audio_description.en.txt",
+          "scriptSha256": "e0b668eb24653b0c4e7c6c16ae3abb156ccd4f62e7fa024b62757bd8b7d54d39",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea1/audio_description.en.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea1/audio_description.en.mp3",
+          "addressableKey": null,
+          "durationSeconds": 48.013061,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea1/audio_description.en.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.06,
+              "endSeconds": 1.821,
+              "text": "A stone lion"
+            },
+            {
+              "startSeconds": 2.761,
+              "endSeconds": 4.981,
+              "text": "lies on a pedestal."
+            },
+            {
+              "startSeconds": 6.562,
+              "endSeconds": 8.762,
+              "text": "Its elongated body"
+            },
+            {
+              "startSeconds": 9.783,
+              "endSeconds": 11.603,
+              "text": "has a modelled head"
+            },
+            {
+              "startSeconds": 12.703,
+              "endSeconds": 15.004,
+              "text": "and carved paws."
+            },
+            {
+              "startSeconds": 16.604,
+              "endSeconds": 17.885,
+              "text": "Red granite"
+            },
+            {
+              "startSeconds": 18.705,
+              "endSeconds": 20.565,
+              "text": "gives the sculpture"
+            },
+            {
+              "startSeconds": 21.466,
+              "endSeconds": 22.686,
+              "text": "a warm"
+            },
+            {
+              "startSeconds": 23.266,
+              "endSeconds": 24.066,
+              "text": "colour."
+            },
+            {
+              "startSeconds": 25.587,
+              "endSeconds": 27.227,
+              "text": "Inscriptions"
+            },
+            {
+              "startSeconds": 27.927,
+              "endSeconds": 30.148,
+              "text": "occupy the chest"
+            },
+            {
+              "startSeconds": 30.868,
+              "endSeconds": 33.209,
+              "text": "and several surfaces"
+            },
+            {
+              "startSeconds": 33.949,
+              "endSeconds": 35.649,
+              "text": "of the pedestal."
+            },
+            {
+              "startSeconds": 37.15,
+              "endSeconds": 37.95,
+              "text": "The body"
+            },
+            {
+              "startSeconds": 38.57,
+              "endSeconds": 41.071,
+              "text": "has rounded forms,"
+            },
+            {
+              "startSeconds": 42.511,
+              "endSeconds": 43.871,
+              "text": "while the base"
+            },
+            {
+              "startSeconds": 44.892,
+              "endSeconds": 46.072,
+              "text": "has straight"
+            },
+            {
+              "startSeconds": 46.812,
+              "endSeconds": 47.612,
+              "text": "edges."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: David - British Professional"
+          ],
+          "licence": null
+        }
+      ],
+      "games": [
+        {
+          "id": "quiz_bm_ea1",
+          "kind": "quiz",
+          "contentVersion": 1,
+          "publicationStatus": "draft",
+          "questions": [
+            {
+              "id": "bm_ea1_q1",
+              "prompt": {
+                "fr": "Dans quelle matière le lion de Prudhoe EA1 est-il sculpté ?",
+                "ar": "من أي مادة نُحت أسد برودهو EA1؟",
+                "en": "What material was used for Prudhoe Lion EA1?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea1_q1_a",
+                  "text": {
+                    "fr": "Granite rouge",
+                    "ar": "الجرانيت الأحمر",
+                    "en": "Red granite"
+                  }
+                },
+                {
+                  "id": "bm_ea1_q1_b",
+                  "text": {
+                    "fr": "Diorite",
+                    "ar": "الديوريت",
+                    "en": "Diorite"
+                  }
+                },
+                {
+                  "id": "bm_ea1_q1_c",
+                  "text": {
+                    "fr": "Bronze",
+                    "ar": "البرونز",
+                    "en": "Bronze"
+                  }
+                },
+                {
+                  "id": "bm_ea1_q1_d",
+                  "text": {
+                    "fr": "Granodiorite",
+                    "ar": "الجرانوديوريت",
+                    "en": "Granodiorite"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea1_q1_a",
+              "explanation": {
+                "fr": "Le lion est sculpté dans le granite rouge, qui donne une teinte chaude à l’ensemble.",
+                "ar": "نُحت الأسد من الجرانيت الأحمر، الذي يمنح التمثال لوناً دافئاً.",
+                "en": "The lion is carved from red granite, which gives the sculpture a warm colour."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea1/narration.fr.txt",
+              "sources": [
+                "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+              ]
+            },
+            {
+              "id": "bm_ea1_q2",
+              "prompt": {
+                "fr": "Que pouvait exprimer l’image du lion dans cette œuvre ?",
+                "ar": "عمّ كانت صورة الأسد تعبر في هذه القطعة؟",
+                "en": "What could the image of the lion express in this work?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea1_q2_a",
+                  "text": {
+                    "fr": "La naissance du soleil",
+                    "ar": "ولادة الشمس",
+                    "en": "The birth of the sun"
+                  }
+                },
+                {
+                  "id": "bm_ea1_q2_b",
+                  "text": {
+                    "fr": "Le déchiffrement d’un texte",
+                    "ar": "فك رموز نص",
+                    "en": "The deciphering of a text"
+                  }
+                },
+                {
+                  "id": "bm_ea1_q2_c",
+                  "text": {
+                    "fr": "La force royale",
+                    "ar": "القوة الملكية",
+                    "en": "Royal strength"
+                  }
+                },
+                {
+                  "id": "bm_ea1_q2_d",
+                  "text": {
+                    "fr": "La forme d’un sarcophage",
+                    "ar": "شكل تابوت",
+                    "en": "The shape of a sarcophagus"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea1_q2_c",
+              "explanation": {
+                "fr": "La narration présente le lion comme une image de la force royale. La sculpture accorde aussi une grande attention au corps de l’animal.",
+                "ar": "يقدم السرد الأسد بوصفه صورة للقوة الملكية، مع اهتمام دقيق بجسم الحيوان.",
+                "en": "The narration presents the lion as an image of royal strength. The sculpture also pays close attention to the animal’s body."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea1/narration.fr.txt",
+              "sources": [
+                "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+              ]
+            },
+            {
+              "id": "bm_ea1_q3",
+              "prompt": {
+                "fr": "Que révèlent les inscriptions du lion et de son socle ?",
+                "ar": "ماذا تكشف نقوش الأسد وقاعدته؟",
+                "en": "What do the inscriptions on the lion and its pedestal reveal?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea1_q3_a",
+                  "text": {
+                    "fr": "La recette d’un pigment",
+                    "ar": "وصفة لصنع صبغة",
+                    "en": "A pigment recipe"
+                  }
+                },
+                {
+                  "id": "bm_ea1_q3_b",
+                  "text": {
+                    "fr": "Des références à plusieurs souverains",
+                    "ar": "إشارات إلى عدة حكام",
+                    "en": "References to several rulers"
+                  }
+                },
+                {
+                  "id": "bm_ea1_q3_c",
+                  "text": {
+                    "fr": "Un calendrier de visites du musée",
+                    "ar": "جدول زيارات للمتحف",
+                    "en": "A museum visiting schedule"
+                  }
+                },
+                {
+                  "id": "bm_ea1_q3_d",
+                  "text": {
+                    "fr": "Le poids exact de la sculpture",
+                    "ar": "الوزن الدقيق للتمثال",
+                    "en": "The exact weight of the sculpture"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea1_q3_b",
+              "explanation": {
+                "fr": "Les inscriptions évoquent plusieurs souverains. Elles témoignent de la longue histoire de cette sculpture.",
+                "ar": "تشير النقوش إلى عدة حكام وتشهد على تاريخ التمثال الطويل.",
+                "en": "The inscriptions refer to several rulers. They bear witness to the sculpture’s long history."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea1/narration.fr.txt",
+              "sources": [
+                "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+              ]
+            }
+          ]
+        }
+      ],
+      "contentVersion": 3,
+      "sortOrder": 5,
+      "categoryId": "royalty",
+      "coverTargetId": "target_bm_ea1",
+      "metadata": {
+        "institution": "British Museum",
+        "creator": null,
+        "museumRecordUrl": "https://www.britishmuseum.org/collection/object/Y_EA1",
+        "materialSourceText": "Red granite",
+        "periodSourceText": "18th Dynasty, reign of Amenhotep III (about 1390–1352 BC)",
+        "findspotSourceText": "From Napata (Gebel Barkal, Sudan); originally from Soleb (Sudan)",
+        "reviewStatus": "draft",
+        "sourceLabelFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/labeldata/labeldata.csv",
+        "sources": [
+          "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+        ],
+        "sourceNote": "Museum label data supplied in the original downloaded pack; some historical labels may contain inaccuracies. Source-language metadata is archival, not ready for UI display."
+      },
+      "presentation": {
+        "modelLocalEulerDegrees": [
+          0,
+          0,
+          0
+        ],
+        "modelLocalOffsetMeters": [
+          0,
+          0,
+          0
+        ],
+        "audioLocalOffsetMeters": [
+          0,
+          0.1,
+          0
+        ],
+        "settingsStatus": "defaults_pending_user_review"
+      },
+      "readiness": {
+        "modelSourceAvailable": true,
+        "modelImported": true,
+        "imageAvailable": true,
+        "textsReviewed": false,
+        "narrationAudioAvailable": true,
+        "audioDescriptionAvailable": true,
+        "subtitlesAligned": true,
+        "readyForPublication": false
+      }
+    },
+    {
+      "id": "bm_ea23",
+      "museumObjectId": "EA23",
+      "publicationStatus": "draft",
+      "texts": [
+        {
+          "language": "fr",
+          "title": "Sarcophage de Hapmen",
+          "summary": "Une cuve de granite décorée de textes et de divinités funéraires.",
+          "description": "Ce sarcophage de granite appartenait à Hapmen, un haut fonctionnaire. Ses parois sont décorées de textes et de divinités funéraires ; Nout figure au fond de la cuve. Il fut ensuite réutilisé pour des ablutions dans la mosquée Ibn Touloun au Caire.",
+          "descriptionStatus": "source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+          ]
+        },
+        {
+          "language": "ar",
+          "title": "تابوت حابمن",
+          "summary": "حوض من الجرانيت مزين بنصوص وآلهة جنائزية.",
+          "description": "كان هذا التابوت الجرانيتي يخص حابمن، وهو من كبار الموظفين. زُينت جدرانه بنصوص وصور لآلهة جنائزية، وتظهر نوت في قاع الحوض. وأُعيد استخدامه لاحقاً للاغتسال الطقسي في مسجد ابن طولون بالقاهرة.",
+          "descriptionStatus": "source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+          ]
+        },
+        {
+          "language": "en",
+          "title": "Sarcophagus of Hapmen",
+          "summary": "A granite chest decorated with texts and funerary deities.",
+          "description": "This granite sarcophagus belonged to Hapmen, a high official. Its walls are decorated with texts and funerary deities; Nut appears on the bottom of the chest. It was later reused for ritual washing in the Ibn Tulun Mosque in Cairo.",
+          "descriptionStatus": "source_grounded_draft_not_curator_reviewed",
+          "sources": [
+            "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+          ]
+        }
+      ],
+      "model": {
+        "sourcePath": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/sarcophagus-EA23/model.obj",
+        "materialPaths": [
+          "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/sarcophagus-EA23/model.obj.mtl"
+        ],
+        "texturePaths": [
+          "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/sarcophagus-EA23/model.jpg",
+          "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/sarcophagus-EA23/model1.jpg"
+        ],
+        "triangleCount": 10000,
+        "addressableKey": null,
+        "licence": "CC-BY-NC-SA-4.0",
+        "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+        "credits": [
+          "Daniel Pett",
+          "Jennifer Wexler",
+          "Thomas Flynn",
+          "Copyright Trustees of the British Museum"
+        ],
+        "importStatus": "imported_in_unity_prototype",
+        "unityPrefabPath": "Assets/HeritageXR/Models/bm_ea23/Artwork.prefab",
+        "displayLongestAxisMeters": 0.2
+      },
+      "targets": [
+        {
+          "id": "target_bm_ea23",
+          "path": "AssetSources/Images/Source/hapmen_sarcophagus_ea23.jpg",
+          "bytes": 136604,
+          "sha256": "eb641bc8e18d36dc9854ec6b1fe6b73e22e2b61b7fbb9601f093ec4579dde0ed",
+          "sha1": "01c07778da2bc60e7b0b1e2befe77a77127277f4",
+          "pixelWidth": 640,
+          "pixelHeight": 640,
+          "sourcePage": "https://www.flickr.com/photos/86012097@N08/10678557766/",
+          "author": "akhenatenator",
+          "licence": "CC0-1.0",
+          "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "modified": false,
+          "imageRole": "candidate_reference_image",
+          "physicalWidthMeters": 0.12,
+          "printed": false,
+          "arTrackingValidated": false,
+          "identityVerification": "source_page_explicit_EA23_and_visual_review",
+          "authorNote": "Downloaded user file is 640x640 with black bands; original-resolution match not established.",
+          "dimensionStatus": "prototype_print_specification_not_measured",
+          "unityTexturePath": "Assets/HeritageXR/Photos/bm_ea23.jpg",
+          "referenceLibraryPath": "Assets/HeritageXR/Settings/ArtworkImages.asset",
+          "addressableKey": null,
+          "preparationStatus": "image_imported_existing_prototype"
+        }
+      ],
+      "audio": [
+        {
+          "id": "bm_ea23.narration.fr",
+          "language": "fr",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea23/narration.fr.txt",
+          "scriptSha256": "87bd27f99f633451eb0aba3085a0c83f18c25374ac93e7348ca8ee921f2f6c75",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea23/narration.fr.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea23/narration.fr.mp3",
+          "addressableKey": null,
+          "durationSeconds": 29.387755,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "6DEjyaHWnTHsvXM5Byys",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea23/narration.fr.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.04,
+              "endSeconds": 3.461,
+              "text": "Ce sarcophage de granite\nappartenait à Hapmen, un haut"
+            },
+            {
+              "startSeconds": 3.461,
+              "endSeconds": 4.962,
+              "text": "fonctionnaire de l’Égypte\nancienne."
+            },
+            {
+              "startSeconds": 5.442,
+              "endSeconds": 8.763,
+              "text": "Ses parois portent des\ntextes et des figures de"
+            },
+            {
+              "startSeconds": 8.763,
+              "endSeconds": 11.864,
+              "text": "divinités funéraires. À\nl’intérieur, la déesse Nout est"
+            },
+            {
+              "startSeconds": 12.004,
+              "endSeconds": 15.245,
+              "text": "représentée au fond de la\ncuve. Observez les reliefs et"
+            },
+            {
+              "startSeconds": 15.245,
+              "endSeconds": 17.906,
+              "text": "la manière dont ils\nentourent l’espace destiné au"
+            },
+            {
+              "startSeconds": 17.906,
+              "endSeconds": 21.788,
+              "text": "défunt. Le sarcophage fut\nplus tard réutilisé pour des"
+            },
+            {
+              "startSeconds": 21.788,
+              "endSeconds": 24.928,
+              "text": "ablutions dans la mosquée\nIbn Touloun, au Caire."
+            },
+            {
+              "startSeconds": 25.129,
+              "endSeconds": 27.97,
+              "text": "Cette œuvre conserve ainsi\nles traces de plusieurs"
+            },
+            {
+              "startSeconds": 27.97,
+              "endSeconds": 29.21,
+              "text": "usages au fil du temps."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: Hugo — Deep French Storyteller"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea23.audio_description.fr",
+          "language": "fr",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea23/audio_description.fr.txt",
+          "scriptSha256": "de5893b0fab230f1393a5883822d838100ebf80b78df41f93ab59b548804e4a3",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea23/audio_description.fr.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea23/audio_description.fr.mp3",
+          "addressableKey": null,
+          "durationSeconds": 20.976327,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "6DEjyaHWnTHsvXM5Byys",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea23/audio_description.fr.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.06,
+              "endSeconds": 3.204,
+              "text": "Une grande cuve de pierre\nforme un espace creux, ouvert"
+            },
+            {
+              "startSeconds": 3.204,
+              "endSeconds": 6.728,
+              "text": "vers le haut. Ses parois\népaisses sont couvertes de"
+            },
+            {
+              "startSeconds": 6.768,
+              "endSeconds": 8.57,
+              "text": "signes et de figures en\nrelief."
+            },
+            {
+              "startSeconds": 9.191,
+              "endSeconds": 11.013,
+              "text": "D’autres figures décorent\nl’intérieur."
+            },
+            {
+              "startSeconds": 11.493,
+              "endSeconds": 15.158,
+              "text": "Une silhouette féminine,\ncelle de Nout, s’étend au fond"
+            },
+            {
+              "startSeconds": 15.158,
+              "endSeconds": 18.642,
+              "text": "de la cuve. L’ensemble\nprésente la forme allongée d’un"
+            },
+            {
+              "startSeconds": 18.642,
+              "endSeconds": 20.724,
+              "text": "contenant destiné à un corps\nhumain."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: Hugo — Deep French Storyteller"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea23.narration.ar",
+          "language": "ar",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea23/narration.ar.txt",
+          "scriptSha256": "e875bd7801d2a8df7ba85164a0b730b55b79f6f7cf1f299f9ba5abd1c50748ee",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea23/narration.ar.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea23/narration.ar.mp3",
+          "addressableKey": null,
+          "durationSeconds": 35.291429,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea23/narration.ar.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.02,
+              "endSeconds": 3.221,
+              "text": "كان هذا التابوت الجرانيتي\nيخص حابمن،"
+            },
+            {
+              "startSeconds": 3.841,
+              "endSeconds": 6.742,
+              "text": "وهو من كبار الموظفين في مصر\nالقديمة."
+            },
+            {
+              "startSeconds": 7.402,
+              "endSeconds": 11.843,
+              "text": "تحمل جدرانه نصوصاً وصوراً\nلآلهة جنائزية."
+            },
+            {
+              "startSeconds": 12.783,
+              "endSeconds": 16.264,
+              "text": "وفي الداخل، تظهر الإلهة نوت\nفي قاع الحوض."
+            },
+            {
+              "startSeconds": 16.924,
+              "endSeconds": 22.105,
+              "text": "تأمل النقوش البارزة وكيف\nتحيط بالمكان المخصص للمتوفى."
+            },
+            {
+              "startSeconds": 22.125,
+              "endSeconds": 27.606,
+              "text": "أُعيد استخدام التابوت لاحقاً\nللاغتسال الطقسي في مسجد"
+            },
+            {
+              "startSeconds": 27.606,
+              "endSeconds": 29.086,
+              "text": "ابن طولون بالقاهرة."
+            },
+            {
+              "startSeconds": 29.967,
+              "endSeconds": 35.008,
+              "text": "وهكذا تحتفظ القطعة بآثار\nاستخدامات متعددة عبر الزمن."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: saber - صوت عربي واضح"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea23.audio_description.ar",
+          "language": "ar",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea23/audio_description.ar.txt",
+          "scriptSha256": "e4ef5bacb699dfca8539a6f9df06c34551743f444ebdbeb2fb3b382ae66d0f09",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea23/audio_description.ar.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea23/audio_description.ar.mp3",
+          "addressableKey": null,
+          "durationSeconds": 19.774694,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea23/audio_description.ar.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.04,
+              "endSeconds": 3.703,
+              "text": "يشكل حوض حجري كبير فراغاً\nمفتوحاً من الأعلى."
+            },
+            {
+              "startSeconds": 4.564,
+              "endSeconds": 8.067,
+              "text": "تغطي العلامات والرسوم\nالبارزة جدرانه السميكة."
+            },
+            {
+              "startSeconds": 8.748,
+              "endSeconds": 14.312,
+              "text": "وتزين صور أخرى الداخل. تمتد\nهيئة أنثوية، هي نوت، في قاع"
+            },
+            {
+              "startSeconds": 14.312,
+              "endSeconds": 15.112,
+              "text": "الحوض."
+            },
+            {
+              "startSeconds": 15.433,
+              "endSeconds": 19.537,
+              "text": "ويأخذ التكوين شكل وعاء ممدود\nمخصص لجسم إنسان."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: saber - صوت عربي واضح"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea23.narration.en",
+          "language": "en",
+          "kind": "narration",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea23/narration.en.txt",
+          "scriptSha256": "9df9a99f76b7ca94688909df4be22df98f692a871dfae0828b123adc9a9af528",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea23/narration.en.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea23/narration.en.mp3",
+          "addressableKey": null,
+          "durationSeconds": 73.926531,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea23/narration.en.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.08,
+              "endSeconds": 2.56,
+              "text": "This granite sarcophagus"
+            },
+            {
+              "startSeconds": 3.6,
+              "endSeconds": 5.28,
+              "text": "belonged to Hapmen,"
+            },
+            {
+              "startSeconds": 6.861,
+              "endSeconds": 8.421,
+              "text": "a high official"
+            },
+            {
+              "startSeconds": 9.201,
+              "endSeconds": 11.161,
+              "text": "in ancient Egypt."
+            },
+            {
+              "startSeconds": 12.561,
+              "endSeconds": 15.141,
+              "text": "Its walls carry texts"
+            },
+            {
+              "startSeconds": 15.721,
+              "endSeconds": 16.821,
+              "text": "and figures"
+            },
+            {
+              "startSeconds": 17.401,
+              "endSeconds": 18.921,
+              "text": "of funerary"
+            },
+            {
+              "startSeconds": 19.722,
+              "endSeconds": 20.862,
+              "text": "deities."
+            },
+            {
+              "startSeconds": 22.342,
+              "endSeconds": 23.482,
+              "text": "Inside,"
+            },
+            {
+              "startSeconds": 24.402,
+              "endSeconds": 25.542,
+              "text": "the goddess"
+            },
+            {
+              "startSeconds": 26.142,
+              "endSeconds": 26.942,
+              "text": "Nut"
+            },
+            {
+              "startSeconds": 27.422,
+              "endSeconds": 31.923,
+              "text": "appears on the bottom of the\nchest."
+            },
+            {
+              "startSeconds": 33.323,
+              "endSeconds": 35.763,
+              "text": "Notice the reliefs"
+            },
+            {
+              "startSeconds": 36.783,
+              "endSeconds": 39.903,
+              "text": "and how they surround the\nspace"
+            },
+            {
+              "startSeconds": 40.683,
+              "endSeconds": 44.384,
+              "text": "intended for the deceased."
+            },
+            {
+              "startSeconds": 45.804,
+              "endSeconds": 47.364,
+              "text": "The sarcophagus"
+            },
+            {
+              "startSeconds": 48.064,
+              "endSeconds": 50.324,
+              "text": "was later reused"
+            },
+            {
+              "startSeconds": 50.984,
+              "endSeconds": 53.604,
+              "text": "for ritual washing"
+            },
+            {
+              "startSeconds": 54.344,
+              "endSeconds": 55.544,
+              "text": "in the Ibn"
+            },
+            {
+              "startSeconds": 56.224,
+              "endSeconds": 57.165,
+              "text": "Tulun"
+            },
+            {
+              "startSeconds": 57.745,
+              "endSeconds": 58.625,
+              "text": "Mosque"
+            },
+            {
+              "startSeconds": 59.585,
+              "endSeconds": 60.665,
+              "text": "in Cairo."
+            },
+            {
+              "startSeconds": 62.325,
+              "endSeconds": 67.525,
+              "text": "It therefore preserves\ntraces of different"
+            },
+            {
+              "startSeconds": 67.945,
+              "endSeconds": 68.745,
+              "text": "uses"
+            },
+            {
+              "startSeconds": 69.346,
+              "endSeconds": 73.346,
+              "text": "across its long history."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: David - British Professional"
+          ],
+          "licence": null
+        },
+        {
+          "id": "bm_ea23.audio_description.en",
+          "language": "en",
+          "kind": "audio_description",
+          "scriptVersion": 1,
+          "scriptPath": "Content/NarrationScripts/bm_ea23/audio_description.en.txt",
+          "scriptSha256": "ebe717a5c8bf4247d046071e6e8e2fe95a95252a71484a7d1bf119c5152bdc0d",
+          "scriptStatus": "draft",
+          "audioStatus": "received",
+          "sourceAudioPath": "AssetSources/Audio/bm_ea23/audio_description.en.mp3",
+          "unityAudioPath": "Assets/HeritageXR/Audio/bm_ea23/audio_description.en.mp3",
+          "addressableKey": null,
+          "durationSeconds": 53.446531,
+          "channels": 1,
+          "sampleRateHz": 44100,
+          "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+          "generationModelId": "eleven_flash_v2_5",
+          "generationSettings": {
+            "generationsCount": 1
+          },
+          "subtitlesPath": "Content/Subtitles/bm_ea23/audio_description.en.json",
+          "subtitlesStatus": "draft",
+          "subtitleSegments": [
+            {
+              "startSeconds": 0.08,
+              "endSeconds": 2.24,
+              "text": "A large stone chest"
+            },
+            {
+              "startSeconds": 3.14,
+              "endSeconds": 5.441,
+              "text": "forms a hollow space"
+            },
+            {
+              "startSeconds": 6.901,
+              "endSeconds": 8.901,
+              "text": "open at the top."
+            },
+            {
+              "startSeconds": 10.601,
+              "endSeconds": 12.441,
+              "text": "Its thick walls"
+            },
+            {
+              "startSeconds": 13.101,
+              "endSeconds": 15.182,
+              "text": "are covered with signs"
+            },
+            {
+              "startSeconds": 16.062,
+              "endSeconds": 17.222,
+              "text": "and figures"
+            },
+            {
+              "startSeconds": 18.402,
+              "endSeconds": 19.462,
+              "text": "in relief."
+            },
+            {
+              "startSeconds": 21.102,
+              "endSeconds": 26.243,
+              "text": "More figures decorate the\ninterior."
+            },
+            {
+              "startSeconds": 27.923,
+              "endSeconds": 30.303,
+              "text": "A female figure,"
+            },
+            {
+              "startSeconds": 32.004,
+              "endSeconds": 32.804,
+              "text": "Nut,"
+            },
+            {
+              "startSeconds": 33.744,
+              "endSeconds": 38.704,
+              "text": "extends across the bottom of\nthe"
+            },
+            {
+              "startSeconds": 38.944,
+              "endSeconds": 39.784,
+              "text": "chest."
+            },
+            {
+              "startSeconds": 41.365,
+              "endSeconds": 43.265,
+              "text": "The overall form"
+            },
+            {
+              "startSeconds": 44.225,
+              "endSeconds": 47.065,
+              "text": "is an elongated container"
+            },
+            {
+              "startSeconds": 48.125,
+              "endSeconds": 51.686,
+              "text": "intended for a human"
+            },
+            {
+              "startSeconds": 52.286,
+              "endSeconds": 52.866,
+              "text": "body."
+            }
+          ],
+          "credits": [
+            "Synthetic speech generated with ElevenLabs; voice: David - British Professional"
+          ],
+          "licence": null
+        }
+      ],
+      "games": [
+        {
+          "id": "quiz_bm_ea23",
+          "kind": "quiz",
+          "contentVersion": 1,
+          "publicationStatus": "draft",
+          "questions": [
+            {
+              "id": "bm_ea23_q1",
+              "prompt": {
+                "fr": "À qui ce sarcophage appartenait-il à l’origine ?",
+                "ar": "لمن كان هذا التابوت في الأصل؟",
+                "en": "Who originally owned this sarcophagus?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea23_q1_a",
+                  "text": {
+                    "fr": "Au roi Taharqa",
+                    "ar": "للملك تهارقا",
+                    "en": "King Taharqa"
+                  }
+                },
+                {
+                  "id": "bm_ea23_q1_b",
+                  "text": {
+                    "fr": "À Ptolémée V",
+                    "ar": "لبطليموس الخامس",
+                    "en": "Ptolemy V"
+                  }
+                },
+                {
+                  "id": "bm_ea23_q1_c",
+                  "text": {
+                    "fr": "À Ramsès II",
+                    "ar": "لرمسيس الثاني",
+                    "en": "Ramesses II"
+                  }
+                },
+                {
+                  "id": "bm_ea23_q1_d",
+                  "text": {
+                    "fr": "À Hapmen, un haut fonctionnaire",
+                    "ar": "لِحابمن، وهو من كبار الموظفين",
+                    "en": "Hapmen, a high official"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea23_q1_d",
+              "explanation": {
+                "fr": "Le sarcophage de granite appartenait à Hapmen, un haut fonctionnaire de l’Égypte ancienne.",
+                "ar": "كان التابوت الجرانيتي يخص حابمن، وهو من كبار الموظفين في مصر القديمة.",
+                "en": "The granite sarcophagus belonged to Hapmen, a high official in ancient Egypt."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea23/narration.fr.txt",
+              "sources": [
+                "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+              ]
+            },
+            {
+              "id": "bm_ea23_q2",
+              "prompt": {
+                "fr": "Quelle déesse figure au fond de la cuve ?",
+                "ar": "أي إلهة تظهر في قاع حوض التابوت؟",
+                "en": "Which goddess appears on the bottom of the chest?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea23_q2_a",
+                  "text": {
+                    "fr": "Nout",
+                    "ar": "نوت",
+                    "en": "Nut"
+                  }
+                },
+                {
+                  "id": "bm_ea23_q2_b",
+                  "text": {
+                    "fr": "Khépri",
+                    "ar": "خبري",
+                    "en": "Khepri"
+                  }
+                },
+                {
+                  "id": "bm_ea23_q2_c",
+                  "text": {
+                    "fr": "Amon",
+                    "ar": "آمون",
+                    "en": "Amun"
+                  }
+                },
+                {
+                  "id": "bm_ea23_q2_d",
+                  "text": {
+                    "fr": "Aucune divinité",
+                    "ar": "لا توجد أي إلهة",
+                    "en": "No deity"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea23_q2_a",
+              "explanation": {
+                "fr": "Nout est représentée au fond de la cuve. D’autres figures de divinités funéraires décorent les parois.",
+                "ar": "تظهر نوت في قاع الحوض، وتزين صور أخرى لآلهة جنائزية الجدران.",
+                "en": "Nut is represented on the bottom of the chest. Other funerary deities decorate the walls."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea23/narration.fr.txt",
+              "sources": [
+                "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+              ]
+            },
+            {
+              "id": "bm_ea23_q3",
+              "prompt": {
+                "fr": "Quel usage le sarcophage a-t-il connu plus tard au Caire ?",
+                "ar": "فيمَ استُخدم التابوت لاحقاً في القاهرة؟",
+                "en": "How was the sarcophagus later used in Cairo?"
+              },
+              "options": [
+                {
+                  "id": "bm_ea23_q3_a",
+                  "text": {
+                    "fr": "Comme socle d’un lion",
+                    "ar": "قاعدة لتمثال أسد",
+                    "en": "As the pedestal of a lion"
+                  }
+                },
+                {
+                  "id": "bm_ea23_q3_b",
+                  "text": {
+                    "fr": "Comme pierre portant un décret",
+                    "ar": "حجراً يحمل مرسوماً",
+                    "en": "As a stone bearing a decree"
+                  }
+                },
+                {
+                  "id": "bm_ea23_q3_c",
+                  "text": {
+                    "fr": "Pour des ablutions dans la mosquée Ibn Touloun",
+                    "ar": "للاغتسال الطقسي في مسجد ابن طولون",
+                    "en": "For ritual washing in the Ibn Tulun Mosque"
+                  }
+                },
+                {
+                  "id": "bm_ea23_q3_d",
+                  "text": {
+                    "fr": "Comme coiffe royale",
+                    "ar": "غطاء رأس ملكياً",
+                    "en": "As a royal headdress"
+                  }
+                }
+              ],
+              "correctOptionId": "bm_ea23_q3_c",
+              "explanation": {
+                "fr": "Le sarcophage a été réutilisé pour des ablutions dans la mosquée Ibn Touloun. Il garde ainsi les traces de plusieurs usages.",
+                "ar": "أُعيد استخدام التابوت للاغتسال الطقسي في مسجد ابن طولون، ولذلك يحتفظ بآثار استخدامات مختلفة.",
+                "en": "The sarcophagus was reused for ritual washing in the Ibn Tulun Mosque. It preserves traces of several different uses."
+              },
+              "sourceScriptPath": "Content/NarrationScripts/bm_ea23/narration.fr.txt",
+              "sources": [
+                "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+              ]
+            }
+          ]
+        }
+      ],
+      "contentVersion": 4,
+      "sortOrder": 6,
+      "categoryId": "funerary",
+      "coverTargetId": "target_bm_ea23",
+      "metadata": {
+        "institution": "British Museum",
+        "creator": null,
+        "museumRecordUrl": "https://www.britishmuseum.org/collection/object/Y_EA23",
+        "materialSourceText": "Granite",
+        "periodSourceText": "26th Dynasty",
+        "findspotSourceText": "Ibn Tulun Mosque (re-used at)",
+        "reviewStatus": "draft",
+        "sourceLabelFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/labeldata/labeldata.csv",
+        "sources": [
+          "https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv"
+        ],
+        "sourceNote": "Museum label data supplied in the original downloaded pack; some historical labels may contain inaccuracies. Source-language metadata is archival, not ready for UI display."
+      },
+      "presentation": {
+        "modelLocalEulerDegrees": [
+          0,
+          0,
+          0
+        ],
+        "modelLocalOffsetMeters": [
+          0,
+          0,
+          0
+        ],
+        "audioLocalOffsetMeters": [
+          0,
+          0.1,
+          0
+        ],
+        "settingsStatus": "defaults_pending_user_review"
+      },
+      "readiness": {
+        "modelSourceAvailable": true,
+        "modelImported": true,
+        "imageAvailable": true,
+        "textsReviewed": false,
+        "narrationAudioAvailable": true,
+        "audioDescriptionAvailable": true,
+        "subtitlesAligned": true,
+        "readyForPublication": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,892 @@
+{
+  "entries": [
+    {
+      "key": "home",
+      "fr": "Découvrir",
+      "en": "Discover",
+      "ar": "اكتشف"
+    },
+    {
+      "key": "collection",
+      "fr": "Collection",
+      "en": "Collection",
+      "ar": "المجموعة"
+    },
+    {
+      "key": "scan",
+      "fr": "Scanner",
+      "en": "Scan",
+      "ar": "المسح"
+    },
+    {
+      "key": "artwork",
+      "fr": "L’œuvre",
+      "en": "Artwork",
+      "ar": "القطعة"
+    },
+    {
+      "key": "guide",
+      "fr": "La visite AR",
+      "en": "AR visit",
+      "ar": "الزيارة بالواقع المعزز"
+    },
+    {
+      "key": "viewer",
+      "fr": "Explorer en 3D",
+      "en": "Explore in 3D",
+      "ar": "استكشف بالأبعاد الثلاثة"
+    },
+    {
+      "key": "preferences",
+      "fr": "Réglages",
+      "en": "Settings",
+      "ar": "الإعدادات"
+    },
+    {
+      "key": "credits",
+      "fr": "Sources et crédits",
+      "en": "Sources and credits",
+      "ar": "المصادر ونسب الأعمال"
+    },
+    {
+      "key": "back",
+      "fr": "Retour",
+      "en": "Back",
+      "ar": "رجوع"
+    },
+    {
+      "key": "home.eyebrow",
+      "fr": "LE MUSÉE, AUTREMENT",
+      "en": "A DIFFERENT WAY TO VISIT",
+      "ar": "طريقة جديدة لزيارة المتحف"
+    },
+    {
+      "key": "home.title",
+      "fr": "L’Égypte,\nà portée de main.",
+      "en": "Egypt,\nwithin reach.",
+      "ar": "مصر القديمة،\nبين يديك."
+    },
+    {
+      "key": "home.intro",
+      "fr": "Des œuvres à regarder, des histoires à découvrir. Prenez le temps d’explorer.",
+      "en": "Objects to observe, stories to discover. Take your time exploring.",
+      "ar": "قطع تستحق التأمل وقصص تستحق الاكتشاف. استكشف على مهل."
+    },
+    {
+      "key": "home.featured",
+      "fr": "À LA UNE",
+      "en": "FEATURED",
+      "ar": "قطعة مميزة"
+    },
+    {
+      "key": "home.caption",
+      "fr": "La pierre qui a fait\nparler les hiéroglyphes.",
+      "en": "The stone that unlocked\nthe hieroglyphs.",
+      "ar": "الحجر الذي كشف\nأسرار الهيروغليفية."
+    },
+    {
+      "key": "home.explore",
+      "fr": "Explorer la collection",
+      "en": "Explore the collection",
+      "ar": "استكشف المجموعة"
+    },
+    {
+      "key": "home.footer",
+      "fr": "{0} œuvres · Sans compte · À votre rythme",
+      "en": "{0} objects · No account · At your own pace",
+      "ar": "{0} قطع · دون حساب · بالوتيرة التي تناسبك"
+    },
+    {
+      "key": "egypt",
+      "fr": "ÉGYPTE ANTIQUE",
+      "en": "ANCIENT EGYPT",
+      "ar": "مصر القديمة"
+    },
+    {
+      "key": "collection.title",
+      "fr": "{0} œuvres.\nUne nouvelle perspective.",
+      "en": "{0} objects.\nA new perspective.",
+      "ar": "{0} قطع.\nنظرة جديدة."
+    },
+    {
+      "key": "collection.intro",
+      "fr": "Choisissez une œuvre pour découvrir son histoire.",
+      "en": "Choose an object to discover its story.",
+      "ar": "اختر قطعة لتتعرف على قصتها."
+    },
+    {
+      "key": "collection.open",
+      "fr": "Découvrir l’œuvre",
+      "en": "Discover the object",
+      "ar": "اكتشف القطعة"
+    },
+    {
+      "key": "detail.ar",
+      "fr": "Voir en réalité augmentée",
+      "en": "View in augmented reality",
+      "ar": "شاهد بالواقع المعزز"
+    },
+    {
+      "key": "detail.3d",
+      "fr": "Explorer le modèle 3D",
+      "en": "Explore the 3D model",
+      "ar": "استكشف النموذج الثلاثي الأبعاد"
+    },
+    {
+      "key": "detail.story",
+      "fr": "SON HISTOIRE",
+      "en": "ITS STORY",
+      "ar": "قصتها"
+    },
+    {
+      "key": "guide.eyebrow",
+      "fr": "RÉALITÉ AUGMENTÉE",
+      "en": "AUGMENTED REALITY",
+      "ar": "الواقع المعزز"
+    },
+    {
+      "key": "guide.title",
+      "fr": "Une image.\nUne rencontre.",
+      "en": "One image.\nA new encounter.",
+      "ar": "صورة واحدة.\nلقاء جديد."
+    },
+    {
+      "key": "guide.intro",
+      "fr": "Visez la photo imprimée d’une œuvre pour faire apparaître son modèle en 3D.",
+      "en": "Point at an object’s printed photograph to reveal its 3D model.",
+      "ar": "وجّه الكاميرا نحو الصورة المطبوعة لإحدى القطع ليظهر نموذجها الثلاثي الأبعاد."
+    },
+    {
+      "key": "guide.selected",
+      "fr": "Visez la photo imprimée de cette œuvre pour faire apparaître son modèle en 3D.",
+      "en": "Point at this object’s printed photograph to reveal its 3D model.",
+      "ar": "وجّه الكاميرا نحو الصورة المطبوعة لهذه القطعة ليظهر نموذجها الثلاثي الأبعاد."
+    },
+    {
+      "key": "guide.step1",
+      "fr": "Préparez votre image",
+      "en": "Prepare your image",
+      "ar": "جهّز صورتك"
+    },
+    {
+      "key": "guide.step1.detail",
+      "fr": "Imprimez la photo à 12 cm de largeur et installez-la dans un endroit bien éclairé.",
+      "en": "Print the photograph at 12 cm wide and place it in a well-lit area.",
+      "ar": "اطبع الصورة بعرض ١٢ سم وضعها في مكان جيد الإضاءة."
+    },
+    {
+      "key": "guide.step2",
+      "fr": "Cadrez toute la photo",
+      "en": "Keep the whole image in view",
+      "ar": "ضع الصورة كاملة في الإطار"
+    },
+    {
+      "key": "guide.step2.detail",
+      "fr": "Gardez l’image dans le cadre quelques instants. Évitez les reflets.",
+      "en": "Keep the image in the frame for a few moments. Avoid reflections.",
+      "ar": "أبقِ الصورة داخل الإطار لبضع لحظات وتجنب الانعكاسات."
+    },
+    {
+      "key": "guide.step3",
+      "fr": "Approchez, puis explorez",
+      "en": "Move closer and explore",
+      "ar": "اقترب ثم استكشف"
+    },
+    {
+      "key": "guide.step3.detail",
+      "fr": "Le modèle suit l’image. Déplacez doucement votre iPhone pour l’observer.",
+      "en": "The model follows the image. Move your iPhone gently to explore it.",
+      "ar": "يتبع النموذج الصورة. حرّك جهاز iPhone برفق لتأمله."
+    },
+    {
+      "key": "guide.privacy",
+      "fr": "La caméra sert uniquement à la visite AR. Aucune photo n’est envoyée.",
+      "en": "The camera is used only for the AR visit. No photographs are uploaded.",
+      "ar": "تُستخدم الكاميرا للزيارة بالواقع المعزز فقط. لا تُرسل أي صور."
+    },
+    {
+      "key": "guide.start",
+      "fr": "Ouvrir la caméra",
+      "en": "Open the camera",
+      "ar": "افتح الكاميرا"
+    },
+    {
+      "key": "scan.badge",
+      "fr": "VISITE AR",
+      "en": "AR VISIT",
+      "ar": "زيارة بالواقع المعزز"
+    },
+    {
+      "key": "scan.found.badge",
+      "fr": "ŒUVRE RECONNUE",
+      "en": "OBJECT RECOGNIZED",
+      "ar": "تم التعرف على القطعة"
+    },
+    {
+      "key": "scan.default.title",
+      "fr": "Préparons votre visite",
+      "en": "Let’s prepare your visit",
+      "ar": "لنجهّز زيارتك"
+    },
+    {
+      "key": "scan.default.hint",
+      "fr": "La photo entière doit rester visible.",
+      "en": "Keep the entire photograph in view.",
+      "ar": "أبقِ الصورة كاملة ظاهرة."
+    },
+    {
+      "key": "scan.permission.title",
+      "fr": "Un accès pour explorer",
+      "en": "Access to explore",
+      "ar": "إذن للاستكشاف"
+    },
+    {
+      "key": "scan.permission.hint",
+      "fr": "Autorisez la caméra pour reconnaître votre image.",
+      "en": "Allow camera access to recognize your image.",
+      "ar": "اسمح بالوصول إلى الكاميرا للتعرف على صورتك."
+    },
+    {
+      "key": "scan.starting.title",
+      "fr": "La caméra se prépare",
+      "en": "Getting the camera ready",
+      "ar": "جارٍ تجهيز الكاميرا"
+    },
+    {
+      "key": "scan.starting.hint",
+      "fr": "Déplacez doucement votre iPhone.",
+      "en": "Move your iPhone gently.",
+      "ar": "حرّك جهاز iPhone برفق."
+    },
+    {
+      "key": "scan.searching.title",
+      "fr": "Cadrez la photo imprimée",
+      "en": "Frame the printed photograph",
+      "ar": "ضع الصورة المطبوعة في الإطار"
+    },
+    {
+      "key": "scan.searching.selected",
+      "fr": "Cadrez la photo de cette œuvre",
+      "en": "Frame this object’s photograph",
+      "ar": "ضع صورة هذه القطعة في الإطار"
+    },
+    {
+      "key": "scan.searching.hint",
+      "fr": "Gardez toute l’image visible et votre iPhone stable.",
+      "en": "Keep the entire image visible and your iPhone steady.",
+      "ar": "أبقِ الصورة كاملة ظاهرة وثبّت جهاز iPhone."
+    },
+    {
+      "key": "scan.found.title",
+      "fr": "Œuvre reconnue",
+      "en": "Object recognized",
+      "ar": "تم التعرف على القطعة"
+    },
+    {
+      "key": "scan.found.hint",
+      "fr": "Observez-la maintenant sous un autre angle.",
+      "en": "Now explore it from another angle.",
+      "ar": "تأملها الآن من زاوية أخرى."
+    },
+    {
+      "key": "scan.lost.title",
+      "fr": "Retrouvons votre image",
+      "en": "Let’s find your image again",
+      "ar": "لنجد صورتك مجددًا"
+    },
+    {
+      "key": "scan.lost.hint",
+      "fr": "Recadrez la photo : le modèle réapparaît lorsque le suivi est stable.",
+      "en": "Reframe the photograph: the model returns when tracking is stable.",
+      "ar": "أعد وضع الصورة في الإطار. سيظهر النموذج مجددًا عندما يستقر التتبع."
+    },
+    {
+      "key": "scan.denied.title",
+      "fr": "La caméra est désactivée",
+      "en": "Camera access is off",
+      "ar": "الوصول إلى الكاميرا معطّل"
+    },
+    {
+      "key": "scan.denied.hint",
+      "fr": "Autorisez la caméra dans les réglages de votre iPhone, puis revenez ici.",
+      "en": "Allow camera access in your iPhone settings, then return here.",
+      "ar": "اسمح بالوصول إلى الكاميرا من إعدادات iPhone ثم عد إلى هنا."
+    },
+    {
+      "key": "scan.restricted.title",
+      "fr": "L’accès à la caméra est limité",
+      "en": "Camera access is restricted",
+      "ar": "الوصول إلى الكاميرا مقيّد"
+    },
+    {
+      "key": "scan.restricted.hint",
+      "fr": "Vérifiez les restrictions de Temps d’écran ou celles de votre appareil.",
+      "en": "Check Screen Time restrictions or your device’s restrictions.",
+      "ar": "تحقق من قيود مدة استخدام الجهاز أو القيود المفروضة على جهازك."
+    },
+    {
+      "key": "scan.unavailable.title",
+      "fr": "Explorez la collection ici",
+      "en": "Explore the collection here",
+      "ar": "استكشف المجموعة هنا"
+    },
+    {
+      "key": "scan.unavailable.hint",
+      "fr": "La visite AR est disponible sur un iPhone compatible.",
+      "en": "The AR visit is available on a compatible iPhone.",
+      "ar": "تتوفر زيارة الواقع المعزز على جهاز iPhone متوافق."
+    },
+    {
+      "key": "scan.failed.title",
+      "fr": "La caméra n’est pas prête",
+      "en": "The camera is not ready",
+      "ar": "الكاميرا غير جاهزة"
+    },
+    {
+      "key": "scan.failed.hint",
+      "fr": "Réessayez dans un endroit bien éclairé.",
+      "en": "Try again in a well-lit area.",
+      "ar": "حاول مجددًا في مكان جيد الإضاءة."
+    },
+    {
+      "key": "scan.details",
+      "fr": "Découvrir cette œuvre",
+      "en": "Discover this object",
+      "ar": "اكتشف هذه القطعة"
+    },
+    {
+      "key": "scan.settings",
+      "fr": "Ouvrir les réglages",
+      "en": "Open settings",
+      "ar": "افتح الإعدادات"
+    },
+    {
+      "key": "scan.retry",
+      "fr": "Réessayer",
+      "en": "Try again",
+      "ar": "حاول مجددًا"
+    },
+    {
+      "key": "scan.collection",
+      "fr": "Revenir à la collection",
+      "en": "Return to the collection",
+      "ar": "عد إلى المجموعة"
+    },
+    {
+      "key": "viewer.hint",
+      "fr": "1 doigt : tourner · Pincer : zoomer\n2 doigts : déplacer les détails",
+      "en": "1 finger: rotate · Pinch: zoom\n2 fingers: move across details",
+      "ar": "إصبع واحد: تدوير · القرص: تكبير\nإصبعان: التنقل بين التفاصيل"
+    },
+    {
+      "key": "viewer.reset",
+      "fr": "Recentrer",
+      "en": "Reset view",
+      "ar": "إعادة ضبط العرض"
+    },
+    {
+      "key": "viewer.zoom.in",
+      "fr": "Agrandir",
+      "en": "Zoom in",
+      "ar": "تكبير"
+    },
+    {
+      "key": "viewer.zoom.out",
+      "fr": "Réduire",
+      "en": "Zoom out",
+      "ar": "تصغير"
+    },
+    {
+      "key": "preferences.eyebrow",
+      "fr": "VOTRE VISITE",
+      "en": "YOUR VISIT",
+      "ar": "زيارتك"
+    },
+    {
+      "key": "preferences.title",
+      "fr": "À votre rythme.",
+      "en": "At your own pace.",
+      "ar": "بالوتيرة التي تناسبك."
+    },
+    {
+      "key": "preferences.intro",
+      "fr": "Choisissez votre langue et votre confort de lecture.",
+      "en": "Choose your language and reading preferences.",
+      "ar": "اختر لغتك وإعدادات القراءة التي تناسبك."
+    },
+    {
+      "key": "preferences.language",
+      "fr": "Langue de la visite",
+      "en": "Visit language",
+      "ar": "لغة الزيارة"
+    },
+    {
+      "key": "preferences.language.hint",
+      "fr": "L’interface et les descriptions changent ensemble.",
+      "en": "The interface and descriptions change together.",
+      "ar": "تتغير لغة الواجهة والأوصاف معًا."
+    },
+    {
+      "key": "preferences.comfort",
+      "fr": "Confort de lecture",
+      "en": "Reading comfort",
+      "ar": "راحة القراءة"
+    },
+    {
+      "key": "preferences.large",
+      "fr": "Agrandir les textes",
+      "en": "Larger text",
+      "ar": "تكبير النصوص"
+    },
+    {
+      "key": "preferences.large.hint",
+      "fr": "Des descriptions et des consignes plus faciles à lire.",
+      "en": "Descriptions and instructions that are easier to read.",
+      "ar": "أوصاف وتعليمات أسهل في القراءة."
+    },
+    {
+      "key": "preferences.motion",
+      "fr": "Réduire les animations",
+      "en": "Reduce motion",
+      "ar": "تقليل الحركة"
+    },
+    {
+      "key": "preferences.motion.hint",
+      "fr": "Des changements de page immédiats, sans fondu.",
+      "en": "Immediate page changes without fading.",
+      "ar": "انتقالات مباشرة بين الصفحات دون تلاشي."
+    },
+    {
+      "key": "preferences.privacy",
+      "fr": "Vos préférences restent sur cet appareil. La collection se consulte sans connexion.",
+      "en": "Your preferences stay on this device. The collection is available offline.",
+      "ar": "تبقى تفضيلاتك على هذا الجهاز. يمكنك تصفح المجموعة دون اتصال بالإنترنت."
+    },
+    {
+      "key": "credits.photo",
+      "fr": "La photographie",
+      "en": "The photograph",
+      "ar": "الصورة"
+    },
+    {
+      "key": "credits.model",
+      "fr": "Le modèle 3D",
+      "en": "The 3D model",
+      "ar": "النموذج الثلاثي الأبعاد"
+    },
+    {
+      "key": "credits.description",
+      "fr": "La description",
+      "en": "The description",
+      "ar": "الوصف"
+    },
+    {
+      "key": "credits.photo.source",
+      "fr": "Voir la source de la photo",
+      "en": "View the photograph source",
+      "ar": "عرض مصدر الصورة"
+    },
+    {
+      "key": "credits.model.source",
+      "fr": "Voir le modèle source",
+      "en": "View the model source",
+      "ar": "عرض مصدر النموذج"
+    },
+    {
+      "key": "credits.description.note",
+      "fr": "Texte de médiation adapté des sources ci-dessous. Les traductions restent à relire avant publication.",
+      "en": "Interpretive text adapted from the sources below. Translations need review before publication.",
+      "ar": "نص تعريفي مقتبس من المصادر أدناه. تحتاج الترجمات إلى مراجعة قبل النشر."
+    },
+    {
+      "key": "credits.source",
+      "fr": "Consulter la source {0}",
+      "en": "View source {0}",
+      "ar": "عرض المصدر {0}"
+    },
+    {
+      "key": "selected",
+      "fr": "Sélectionné",
+      "en": "Selected",
+      "ar": "محددة"
+    },
+    {
+      "key": "audio.narration",
+      "fr": "Narration",
+      "en": "Story",
+      "ar": "القصة"
+    },
+    {
+      "key": "audio.description",
+      "fr": "Audiodescription",
+      "en": "Visual description",
+      "ar": "الوصف البصري"
+    },
+    {
+      "key": "audio.play",
+      "fr": "Écouter",
+      "en": "Play",
+      "ar": "استمع"
+    },
+    {
+      "key": "audio.pause",
+      "fr": "Pause",
+      "en": "Pause",
+      "ar": "إيقاف مؤقت"
+    },
+    {
+      "key": "audio.restart",
+      "fr": "Recommencer",
+      "en": "Restart",
+      "ar": "ابدأ من جديد"
+    },
+    {
+      "key": "audio.seek",
+      "fr": "Position de lecture",
+      "en": "Playback position",
+      "ar": "موضع التشغيل"
+    },
+    {
+      "key": "audio.transcript",
+      "fr": "LE TEXTE DE L’AUDIO",
+      "en": "AUDIO TRANSCRIPT",
+      "ar": "نص التسجيل"
+    },
+    {
+      "key": "audio.unavailable",
+      "fr": "Cet audio n’est pas encore disponible.",
+      "en": "This audio is not available yet.",
+      "ar": "هذا التسجيل غير متوفر بعد."
+    },
+    {
+      "key": "audio.tracking.paused",
+      "fr": "Écoute en pause : recadrez la photo pour reprendre.",
+      "en": "Audio paused: frame the photograph again to resume.",
+      "ar": "توقف الصوت مؤقتًا: أعد الصورة إلى الإطار لاستئناف التشغيل."
+    },
+    {
+      "key": "audio.volume",
+      "fr": "Volume",
+      "en": "Volume",
+      "ar": "مستوى الصوت"
+    },
+    {
+      "key": "preferences.audio",
+      "fr": "Confort d’écoute",
+      "en": "Listening preferences",
+      "ar": "راحة الاستماع"
+    },
+    {
+      "key": "preferences.audiodescription",
+      "fr": "Préférer l’audiodescription",
+      "en": "Prefer visual descriptions",
+      "ar": "تفضيل الوصف البصري"
+    },
+    {
+      "key": "preferences.audiodescription.hint",
+      "fr": "Un récit des formes visibles, aussi pendant la visite AR.",
+      "en": "Descriptions of visible forms, also during the AR visit.",
+      "ar": "وصف الأشكال الظاهرة، بما في ذلك أثناء زيارة الواقع المعزز."
+    },
+    {
+      "key": "preferences.transcript",
+      "fr": "Afficher le texte de l’audio",
+      "en": "Show audio transcript",
+      "ar": "عرض نص التسجيل"
+    },
+    {
+      "key": "preferences.transcript.hint",
+      "fr": "Afficher la transcription dans les options audio du modèle 3D.",
+      "en": "Show the transcript in the 3D model’s audio options.",
+      "ar": "عرض النص الكامل ضمن خيارات الصوت للنموذج ثلاثي الأبعاد."
+    },
+    {
+      "key": "credits.audio",
+      "fr": "Les enregistrements",
+      "en": "Audio recordings",
+      "ar": "التسجيلات الصوتية"
+    },
+    {
+      "key": "credits.audio.note",
+      "fr": "Textes originaux HeritageXR. Voix de synthèse générées avec ElevenLabs ; prononciation et traductions à relire avant publication.",
+      "en": "Original HeritageXR scripts. Synthetic voices generated with ElevenLabs; pronunciation and translations need review before publication.",
+      "ar": "نصوص أصلية لمشروع HeritageXR. أصوات اصطناعية مولدة عبر ElevenLabs؛ تحتاج النطق والترجمات إلى مراجعة قبل النشر."
+    },
+    {
+      "key": "subtitles.on",
+      "fr": "Sous-titres : oui",
+      "en": "Captions: on",
+      "ar": "الترجمة النصية: مفعلة"
+    },
+    {
+      "key": "subtitles.off",
+      "fr": "Sous-titres : non",
+      "en": "Captions: off",
+      "ar": "الترجمة النصية: معطلة"
+    },
+    {
+      "key": "subtitles.show",
+      "fr": "Afficher les sous-titres",
+      "en": "Show captions",
+      "ar": "إظهار الترجمة النصية"
+    },
+    {
+      "key": "subtitles.hide",
+      "fr": "Masquer les sous-titres",
+      "en": "Hide captions",
+      "ar": "إخفاء الترجمة النصية"
+    },
+    {
+      "key": "preferences.subtitles",
+      "fr": "Sous-titres synchronisés",
+      "en": "Synchronized captions",
+      "ar": "ترجمة نصية متزامنة"
+    },
+    {
+      "key": "preferences.subtitles.hint",
+      "fr": "Afficher le passage lu pendant l’écoute, y compris devant la caméra AR.",
+      "en": "Show the spoken passage during playback, including in the AR camera.",
+      "ar": "عرض المقطع المنطوق أثناء الاستماع، بما في ذلك أمام كاميرا الواقع المعزز."
+    },
+    {
+      "key": "quiz.title",
+      "fr": "Quiz",
+      "en": "Quiz",
+      "ar": "اختبار"
+    },
+    {
+      "key": "quiz.open",
+      "fr": "Tester mes connaissances",
+      "en": "Test my knowledge",
+      "ar": "اختبر معلوماتي"
+    },
+    {
+      "key": "quiz.eyebrow",
+      "fr": "À vous de jouer",
+      "en": "Your turn",
+      "ar": "حان دورك"
+    },
+    {
+      "key": "quiz.intro",
+      "fr": "{0} questions pour découvrir ce que vous avez retenu de cette œuvre.",
+      "en": "{0} questions to explore what you remember about this work.",
+      "ar": "{0} أسئلة لاكتشاف ما تذكرته عن هذه القطعة."
+    },
+    {
+      "key": "quiz.rules",
+      "fr": "Une bonne réponse par question. Chaque réponse est expliquée, sans limite de temps.",
+      "en": "One correct answer per question. Every answer is explained, with no time limit.",
+      "ar": "إجابة صحيحة واحدة لكل سؤال، مع شرح لكل إجابة ودون حد زمني."
+    },
+    {
+      "key": "quiz.start",
+      "fr": "Commencer le quiz",
+      "en": "Start quiz",
+      "ar": "ابدأ الاختبار"
+    },
+    {
+      "key": "quiz.resume",
+      "fr": "Reprendre le quiz",
+      "en": "Resume quiz",
+      "ar": "تابع الاختبار"
+    },
+    {
+      "key": "quiz.viewResult",
+      "fr": "Voir le résultat",
+      "en": "View result",
+      "ar": "اعرض النتيجة"
+    },
+    {
+      "key": "quiz.readFirst",
+      "fr": "Explorer et écouter d’abord",
+      "en": "Explore and listen first",
+      "ar": "استكشف واستمع أولاً"
+    },
+    {
+      "key": "quiz.questionNumber",
+      "fr": "Question {0} sur {1}",
+      "en": "Question {0} of {1}",
+      "ar": "السؤال {0} من {1}"
+    },
+    {
+      "key": "quiz.oneAnswer",
+      "fr": "Touchez votre réponse pour découvrir l’explication.",
+      "en": "Tap your answer to discover the explanation.",
+      "ar": "اضغط على إجابتك للاطلاع على الشرح."
+    },
+    {
+      "key": "quiz.correct",
+      "fr": "Bonne réponse",
+      "en": "Correct answer",
+      "ar": "إجابة صحيحة"
+    },
+    {
+      "key": "quiz.incorrect",
+      "fr": "Découvrons la réponse",
+      "en": "Let’s discover the answer",
+      "ar": "لنكتشف الإجابة"
+    },
+    {
+      "key": "quiz.yourAnswer",
+      "fr": "Votre réponse : {0}",
+      "en": "Your answer: {0}",
+      "ar": "إجابتك: {0}"
+    },
+    {
+      "key": "quiz.correctAnswer",
+      "fr": "Bonne réponse : {0}",
+      "en": "Correct answer: {0}",
+      "ar": "الإجابة الصحيحة: {0}"
+    },
+    {
+      "key": "quiz.next",
+      "fr": "Question suivante",
+      "en": "Next question",
+      "ar": "السؤال التالي"
+    },
+    {
+      "key": "quiz.result",
+      "fr": "Votre résultat",
+      "en": "Your result",
+      "ar": "نتيجتك"
+    },
+    {
+      "key": "quiz.resultPerfect",
+      "fr": "Vous avez retrouvé toutes les réponses. Continuez votre découverte avec une autre œuvre.",
+      "en": "You found every correct answer. Continue exploring with another work.",
+      "ar": "وجدت جميع الإجابات الصحيحة. تابع اكتشافك مع قطعة أخرى."
+    },
+    {
+      "key": "quiz.resultLearning",
+      "fr": "Chaque réponse est une occasion d’apprendre. Vous pouvez réécouter l’œuvre et refaire le quiz.",
+      "en": "Every answer is a chance to learn. You can listen to the work again and retry the quiz.",
+      "ar": "كل إجابة فرصة للتعلم. يمكنك الاستماع إلى شرح القطعة مجدداً وإعادة الاختبار."
+    },
+    {
+      "key": "quiz.retry",
+      "fr": "Refaire le quiz",
+      "en": "Try quiz again",
+      "ar": "أعد الاختبار"
+    },
+    {
+      "key": "quiz.best",
+      "fr": "Meilleur résultat : {0} / {1}",
+      "en": "Best result: {0} / {1}",
+      "ar": "أفضل نتيجة: {0} / {1}"
+    },
+    {
+      "key": "quiz.backArtwork",
+      "fr": "Revenir à l’œuvre",
+      "en": "Back to the work",
+      "ar": "عد إلى القطعة"
+    },
+    {
+      "key": "quiz.progress.open",
+      "fr": "Ma progression",
+      "en": "My progress",
+      "ar": "تقدمي"
+    },
+    {
+      "key": "quiz.progress.title",
+      "fr": "Ma progression",
+      "en": "My progress",
+      "ar": "تقدمي"
+    },
+    {
+      "key": "quiz.progress.summary",
+      "fr": "{0} quiz terminés sur {1}",
+      "en": "{0} of {1} quizzes completed",
+      "ar": "أكملت {0} من {1} اختبارات"
+    },
+    {
+      "key": "quiz.progress.bestTotal",
+      "fr": "Total des meilleurs résultats : {0} / {1}",
+      "en": "Combined best results: {0} / {1}",
+      "ar": "مجموع أفضل النتائج: {0} / {1}"
+    },
+    {
+      "key": "quiz.progress.inProgress",
+      "fr": "En cours · {0} réponses sur {1}",
+      "en": "In progress · {0} of {1} answers",
+      "ar": "قيد التقدم · {0} إجابات من {1}"
+    },
+    {
+      "key": "quiz.progress.completed",
+      "fr": "Quiz terminé",
+      "en": "Quiz completed",
+      "ar": "اكتمل الاختبار"
+    },
+    {
+      "key": "quiz.progress.notStarted",
+      "fr": "À découvrir",
+      "en": "Ready to discover",
+      "ar": "جاهز للاكتشاف"
+    },
+    {
+      "key": "quiz.progress.local",
+      "fr": "Votre progression est enregistrée sur cet appareil.",
+      "en": "Your progress is saved on this device.",
+      "ar": "يُحفظ تقدمك على هذا الجهاز."
+    },
+    {
+      "key": "viewer.audio.options",
+      "fr": "Options audio",
+      "en": "Audio options",
+      "ar": "خيارات الصوت"
+    },
+    {
+      "key": "about.title",
+      "fr": "À propos",
+      "en": "About",
+      "ar": "حول التطبيق"
+    },
+    {
+      "key": "about.academic",
+      "fr": "Projet académique",
+      "en": "Academic project",
+      "ar": "مشروع أكاديمي"
+    },
+    {
+      "key": "about.by",
+      "fr": "Réalisé par",
+      "en": "Developed by",
+      "ar": "من إعداد"
+    },
+    {
+      "key": "about.affiliation",
+      "fr": "Étudiant à esprim",
+      "en": "Student at esprim",
+      "ar": "طالب في esprim"
+    },
+    {
+      "key": "about.credit",
+      "fr": "Projet académique réalisé par Mohamed Elgheith, étudiant à esprim.",
+      "en": "An academic project developed by Mohamed Elgheith, student at esprim.",
+      "ar": "مشروع أكاديمي من إعداد Mohamed Elgheith، طالب في esprim."
+    },
+    {
+      "key": "about.description",
+      "fr": "HeritageXR propose une découverte du patrimoine égyptien avec des modèles 3D, la réalité augmentée et des quiz.",
+      "en": "HeritageXR explores Egyptian heritage through 3D models, augmented reality and quizzes.",
+      "ar": "يتيح HeritageXR اكتشاف التراث المصري عبر نماذج ثلاثية الأبعاد والواقع المعزّز والاختبارات."
+    },
+    {
+      "key": "about.version",
+      "fr": "Version {0}",
+      "en": "Version {0}",
+      "ar": "الإصدار {0}"
+    },
+    {
+      "key": "splash.subtitle",
+      "fr": "Le patrimoine prend vie",
+      "en": "Heritage comes to life",
+      "ar": "التراث ينبض بالحياة"
+    },
+    {
+      "key": "splash.enter",
+      "fr": "Entrer",
+      "en": "Enter",
+      "ar": "دخول"
+    }
+  ]
+}

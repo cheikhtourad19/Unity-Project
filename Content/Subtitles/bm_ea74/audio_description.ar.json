@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea74.audio_description.ar",
+  "language": "ar",
+  "kind": "audio_description",
+  "audioSha256": "bd60fe157559d0ee69c92fbb57c2096405e8fd69bd34e93b8c44311fd19c8910",
+  "scriptSha256": "4edac605e08aa7ee165bcee6d2f045324416760a06400d194e1a5982bc0ecb48",
+  "durationSeconds": 21.76,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020013,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.08,
+      "endSeconds": 3.502,
+      "text": "يستند جعران حجري إلى قاعدة\nمستطيلة."
+    },
+    {
+      "startSeconds": 4.143,
+      "endSeconds": 7.725,
+      "text": "جسمه عريض ومستدير، وظهره\nمحدب."
+    },
+    {
+      "startSeconds": 8.445,
+      "endSeconds": 13.389,
+      "text": "يقع الرأس عند أحد الطرفين.\nنُحتت الأرجل على الجانبين قرب"
+    },
+    {
+      "startSeconds": 13.389,
+      "endSeconds": 14.189,
+      "text": "القاعدة."
+    },
+    {
+      "startSeconds": 14.809,
+      "endSeconds": 19.973,
+      "text": "يبدو التكوين متماسكاً، وتبرز\nكتلة الجسم أكثر من التفاصيل"
+    },
+    {
+      "startSeconds": 19.973,
+      "endSeconds": 21.354,
+      "text": "الدقيقة للحشرة."
+    }
+  ],
+  "words": [
+    {
+      "text": "يستند",
+      "startSeconds": 0.0801,
+      "endSeconds": 0.5804,
+      "alignmentScore": 0.9949
+    },
+    {
+      "text": "جعران",
+      "startSeconds": 0.7004,
+      "endSeconds": 1.0807,
+      "alignmentScore": 0.996
+    },
+    {
+      "text": "حجري",
+      "startSeconds": 1.2408,
+      "endSeconds": 1.7011,
+      "alignmentScore": 0.9966
+    },
+    {
+      "text": "إلى",
+      "startSeconds": 1.9012,
+      "endSeconds": 2.0413,
+      "alignmentScore": 0.9947
+    },
+    {
+      "text": "قاعدة",
+      "startSeconds": 2.1614,
+      "endSeconds": 2.5216,
+      "alignmentScore": 0.9879
+    },
+    {
+      "text": "مستطيلة.",
+      "startSeconds": 2.7818,
+      "endSeconds": 3.4222,
+      "alignmentScore": 0.9932
+    },
+    {
+      "text": "جسمه",
+      "startSeconds": 4.1427,
+      "endSeconds": 4.5629,
+      "alignmentScore": 0.9937
+    },
+    {
+      "text": "عريض",
+      "startSeconds": 4.743,
+      "endSeconds": 5.0432,
+      "alignmentScore": 0.9831
+    },
+    {
+      "text": "ومستدير،",
+      "startSeconds": 5.2434,
+      "endSeconds": 5.9638,
+      "alignmentScore": 0.9963
+    },
+    {
+      "text": "وظهره",
+      "startSeconds": 6.4441,
+      "endSeconds": 6.9645,
+      "alignmentScore": 0.9533
+    },
+    {
+      "text": "محدب.",
+      "startSeconds": 7.0845,
+      "endSeconds": 7.6449,
+      "alignmentScore": 0.9962
+    },
+    {
+      "text": "يقع",
+      "startSeconds": 8.4454,
+      "endSeconds": 8.7656,
+      "alignmentScore": 0.9918
+    },
+    {
+      "text": "الرأس",
+      "startSeconds": 8.8657,
+      "endSeconds": 9.1459,
+      "alignmentScore": 0.9692
+    },
+    {
+      "text": "عند",
+      "startSeconds": 9.2659,
+      "endSeconds": 9.426,
+      "alignmentScore": 0.9843
+    },
+    {
+      "text": "أحد",
+      "startSeconds": 9.5461,
+      "endSeconds": 9.7663,
+      "alignmentScore": 0.9802
+    },
+    {
+      "text": "الطرفين.",
+      "startSeconds": 9.8263,
+      "endSeconds": 10.4467,
+      "alignmentScore": 0.8024
+    },
+    {
+      "text": "نُحتت",
+      "startSeconds": 11.0671,
+      "endSeconds": 11.5274,
+      "alignmentScore": 0.5444
+    },
+    {
+      "text": "الأرجل",
+      "startSeconds": 11.6074,
+      "endSeconds": 12.0277,
+      "alignmentScore": 0.9846
+    },
+    {
+      "text": "على",
+      "startSeconds": 12.1278,
+      "endSeconds": 12.2879,
+      "alignmentScore": 0.8803
+    },
+    {
+      "text": "الجانبين",
+      "startSeconds": 12.3479,
+      "endSeconds": 12.9483,
+      "alignmentScore": 0.9931
+    },
+    {
+      "text": "قرب",
+      "startSeconds": 13.1084,
+      "endSeconds": 13.3085,
+      "alignmentScore": 0.9946
+    },
+    {
+      "text": "القاعدة.",
+      "startSeconds": 13.3886,
+      "endSeconds": 13.9489,
+      "alignmentScore": 0.9684
+    },
+    {
+      "text": "يبدو",
+      "startSeconds": 14.8095,
+      "endSeconds": 15.1097,
+      "alignmentScore": 0.8078
+    },
+    {
+      "text": "التكوين",
+      "startSeconds": 15.1497,
+      "endSeconds": 15.65,
+      "alignmentScore": 0.9556
+    },
+    {
+      "text": "متماسكاً،",
+      "startSeconds": 15.7701,
+      "endSeconds": 16.6307,
+      "alignmentScore": 0.8978
+    },
+    {
+      "text": "وتبرز",
+      "startSeconds": 17.151,
+      "endSeconds": 17.7114,
+      "alignmentScore": 0.9682
+    },
+    {
+      "text": "كتلة",
+      "startSeconds": 17.8514,
+      "endSeconds": 18.1316,
+      "alignmentScore": 0.9831
+    },
+    {
+      "text": "الجسم",
+      "startSeconds": 18.2517,
+      "endSeconds": 18.5919,
+      "alignmentScore": 0.928
+    },
+    {
+      "text": "أكثر",
+      "startSeconds": 18.732,
+      "endSeconds": 19.0122,
+      "alignmentScore": 0.9909
+    },
+    {
+      "text": "من",
+      "startSeconds": 19.1123,
+      "endSeconds": 19.2123,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "التفاصيل",
+      "startSeconds": 19.2724,
+      "endSeconds": 19.9128,
+      "alignmentScore": 0.9564
+    },
+    {
+      "text": "الدقيقة",
+      "startSeconds": 19.9728,
+      "endSeconds": 20.5332,
+      "alignmentScore": 0.9849
+    },
+    {
+      "text": "للحشرة.",
+      "startSeconds": 20.7133,
+      "endSeconds": 21.2736,
+      "alignmentScore": 0.9019
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea74.audio_description.ar",
+    "wordCount": 33,
+    "cueCount": 6,
+    "meanAlignmentScore": 0.9501,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

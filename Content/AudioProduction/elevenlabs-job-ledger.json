@@ -1,0 +1,1526 @@
+{
+  "preparedOn": "2026-10-09",
+  "flowId": "XB4X0uurqtNRsLcnMgvD",
+  "flowUrl": "https://elevenlabs.io/app/flows/XB4X0uurqtNRsLcnMgvD",
+  "requestedFileCount": 36,
+  "modelId": "eleven_multilingual_v2",
+  "generationsPerScript": 1,
+  "jobs": [
+    {
+      "id": "bm_ea24.narration.fr",
+      "artworkId": "bm_ea24",
+      "language": "fr",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea24/narration.fr.txt",
+      "characters": 472,
+      "attempts": [
+        {
+          "id": "bm_ea24.narration.fr",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "r7wyj2UWhWze3cBS4cwH"
+          ],
+          "generations": [
+            {
+              "generationId": "s4TrbppbF3AtQHfgjFbJ",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 472,
+                "price_cents": 4.72,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "8gQvhsDt0IYMIS199Tn9",
+      "voiceId": "6DEjyaHWnTHsvXM5Byys",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea24/narration.fr.mp3"
+    },
+    {
+      "id": "bm_ea24.audio_description.fr",
+      "artworkId": "bm_ea24",
+      "language": "fr",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea24/audio_description.fr.txt",
+      "characters": 335,
+      "attempts": [
+        {
+          "id": "bm_ea24.audio_description.fr",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "QAB6SJFbDSH7eVrQFjNR"
+          ],
+          "generations": [
+            {
+              "generationId": "1kxqKt4rBdl6PvdfU7EH",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 335,
+                "price_cents": 3.35,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "6IQ3TTnsoXtXeHHWaMPH",
+      "voiceId": "6DEjyaHWnTHsvXM5Byys",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea24/audio_description.fr.mp3"
+    },
+    {
+      "id": "bm_ea24.narration.ar",
+      "artworkId": "bm_ea24",
+      "language": "ar",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea24/narration.ar.txt",
+      "characters": 376,
+      "attempts": [
+        {
+          "id": "bm_ea24.narration.ar",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "Ygb2oVfL1Vpj6TKQ8BFr"
+          ],
+          "generations": [
+            {
+              "generationId": "1XMQluDZymUkzDINn4P0",
+              "status": "failed",
+              "error": "Unusual activity has been detected on your account, so Free Tier access has been disabled. This can be triggered by using a proxy or VPN, or by creating multiple free accounts. Please upgrade to a paid subscription to continue.",
+              "reportedPrice": {
+                "credits": 376,
+                "price_cents": 3.76,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        },
+        {
+          "attemptId": "resume_2026_10_09_1",
+          "id": "bm_ea24.narration.ar",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "H3i4KyITXuQ43wZrk13S",
+          "sessionIds": [
+            "1UMHbELm23JS009LIB5U"
+          ],
+          "estimateCredits": 188,
+          "estimateSource": "plugin",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "ODHczDvtez9q5vDwwBvx",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 188,
+                "price_cents": 1.88,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        }
+      ],
+      "nodeId": "TeeC5pysegRjyyXr17Tb",
+      "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea24/narration.ar.mp3"
+    },
+    {
+      "id": "bm_ea24.audio_description.ar",
+      "artworkId": "bm_ea24",
+      "language": "ar",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea24/audio_description.ar.txt",
+      "characters": 225,
+      "attempts": [
+        {
+          "id": "bm_ea24.audio_description.ar",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "xTMxAm0GEB9Ktzfls700"
+          ],
+          "generations": [
+            {
+              "generationId": "nE362wDF2bf3IZ9W9cEG",
+              "status": "failed",
+              "error": "Unusual activity has been detected on your account, so Free Tier access has been disabled. This can be triggered by using a proxy or VPN, or by creating multiple free accounts. Please upgrade to a paid subscription to continue.",
+              "reportedPrice": {
+                "credits": 225,
+                "price_cents": 2.25,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        },
+        {
+          "attemptId": "resume_2026_10_09_2",
+          "id": "bm_ea24.audio_description.ar",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "civWZVEEBMXWCOvxTnx2",
+          "sessionIds": [
+            "kQkATUQ8il0xs1AG3KF2"
+          ],
+          "estimateCredits": 112.5,
+          "estimateSource": "plugin",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "2PURdQ1QtOLDccVC5YO9",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 112.5,
+                "price_cents": 1.125,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        }
+      ],
+      "nodeId": "gm40aNWPmdz1WrgpRgxm",
+      "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea24/audio_description.ar.mp3"
+    },
+    {
+      "id": "bm_ea24.narration.en",
+      "artworkId": "bm_ea24",
+      "language": "en",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea24/narration.en.txt",
+      "characters": 414,
+      "attempts": [
+        {
+          "id": "bm_ea24.narration.en",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "Ht0qQDc5a7znNzl10wYz"
+          ],
+          "generations": [
+            {
+              "generationId": "NqcHztOph97QPcUUJQ1g",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 413.99999999999994,
+                "price_cents": 4.14,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "KTU2TBcxtkvmk9NDL3hS",
+      "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea24/narration.en.mp3"
+    },
+    {
+      "id": "bm_ea24.audio_description.en",
+      "artworkId": "bm_ea24",
+      "language": "en",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea24/audio_description.en.txt",
+      "characters": 303,
+      "attempts": [
+        {
+          "id": "bm_ea24.audio_description.en",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "9LU8rg5Ddh1Q5YcjCt9L"
+          ],
+          "generations": [
+            {
+              "generationId": "1VTTnI2XT716SbR665iq",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 303,
+                "price_cents": 3.03,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "I84IE9ZySUMGY0VFIZgz",
+      "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea24/audio_description.en.mp3"
+    },
+    {
+      "id": "bm_ea74.narration.fr",
+      "artworkId": "bm_ea74",
+      "language": "fr",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea74/narration.fr.txt",
+      "characters": 470,
+      "attempts": [
+        {
+          "id": "bm_ea74.narration.fr",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "9dorhbePBceud8pflpwM"
+          ],
+          "generations": [
+            {
+              "generationId": "DIUCNOV5TOVQy6FgU6xW",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 469.99999999999994,
+                "price_cents": 4.699999999999999,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "UFfORV5PF3s3j12iPIG4",
+      "voiceId": "6DEjyaHWnTHsvXM5Byys",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea74/narration.fr.mp3"
+    },
+    {
+      "id": "bm_ea74.audio_description.fr",
+      "artworkId": "bm_ea74",
+      "language": "fr",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea74/audio_description.fr.txt",
+      "characters": 288,
+      "attempts": [
+        {
+          "id": "bm_ea74.audio_description.fr",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "kvOcvpV5vgiSgk5FB7bT"
+          ],
+          "generations": [
+            {
+              "generationId": "wjt4IApOlBapkeBYYGbr",
+              "status": "failed",
+              "error": "Unusual activity has been detected on your account, so Free Tier access has been disabled. This can be triggered by using a proxy or VPN, or by creating multiple free accounts. Please upgrade to a paid subscription to continue.",
+              "reportedPrice": {
+                "credits": 288,
+                "price_cents": 2.88,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        },
+        {
+          "attemptId": "resume_2026_10_09_3",
+          "id": "bm_ea74.audio_description.fr",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "4M00ejq98MhwhtHVhgwU",
+          "sessionIds": [],
+          "estimateCredits": 144,
+          "estimateSource": "plugin",
+          "submissionError": "429: {'type': 'rate_limit_error', 'code': 'rate_limited', 'message': 'You have made too many requests. Please try again later.', 'status': 'rate_limited', 'request_id': 'd0e5672befb339edd3075b931f915afa', 'docs_url': 'https://elevenlabs.io/docs/eleven-api/resources/errors#rate-limiting-and-concurrency'}",
+          "generations": []
+        },
+        {
+          "attemptId": "resume_2026_10_09_4",
+          "id": "bm_ea74.audio_description.fr",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "4M00ejq98MhwhtHVhgwU",
+          "sessionIds": [
+            "08M7voS6fZC0tgKWHqBm"
+          ],
+          "estimateCredits": 144,
+          "estimateSource": "plugin",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "TAm3UvgqRwOGH65htfTm",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 144,
+                "price_cents": 1.44,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        }
+      ],
+      "nodeId": "7wf5idmmZeovkZCm4kaZ",
+      "voiceId": "6DEjyaHWnTHsvXM5Byys",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea74/audio_description.fr.mp3"
+    },
+    {
+      "id": "bm_ea74.narration.ar",
+      "artworkId": "bm_ea74",
+      "language": "ar",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea74/narration.ar.txt",
+      "characters": 319,
+      "attempts": [
+        {
+          "id": "bm_ea74.narration.ar",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "kADVd52K0SySbvhM6DzV"
+          ],
+          "generations": [
+            {
+              "generationId": "DVWE0eLkwbYWAkxaJsRA",
+              "status": "failed",
+              "error": "Unusual activity has been detected on your account, so Free Tier access has been disabled. This can be triggered by using a proxy or VPN, or by creating multiple free accounts. Please upgrade to a paid subscription to continue.",
+              "reportedPrice": {
+                "credits": 319,
+                "price_cents": 3.19,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        },
+        {
+          "attemptId": "resume_2026_10_09_5",
+          "id": "bm_ea74.narration.ar",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "IVQaUNPDL3EFkjshBrAS",
+          "sessionIds": [
+            "GGE0NkPS9JN1UXXTbDOP"
+          ],
+          "estimateCredits": 159.5,
+          "estimateSource": "plugin",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "Bxn8AsVgAT4oMxrihfZV",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 159.5,
+                "price_cents": 1.595,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        }
+      ],
+      "nodeId": "h53qitmjMUucNfuVzPUO",
+      "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea74/narration.ar.mp3"
+    },
+    {
+      "id": "bm_ea74.audio_description.ar",
+      "artworkId": "bm_ea74",
+      "language": "ar",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea74/audio_description.ar.txt",
+      "characters": 205,
+      "attempts": [
+        {
+          "id": "bm_ea74.audio_description.ar",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "n61LE9roqKocu7jRgfqb"
+          ],
+          "generations": [
+            {
+              "generationId": "t9cJS9DUztFOp4X38geN",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 204.99999999999997,
+                "price_cents": 2.05,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "chHgDhCcylctNOncNanE",
+      "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea74/audio_description.ar.mp3"
+    },
+    {
+      "id": "bm_ea74.narration.en",
+      "artworkId": "bm_ea74",
+      "language": "en",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea74/narration.en.txt",
+      "characters": 414,
+      "attempts": [
+        {
+          "id": "bm_ea74.narration.en",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "IdCv3DMjoPsMOpk1mdRo"
+          ],
+          "generations": [
+            {
+              "generationId": "8TiCGjLAIddihL5U6QSD",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 413.99999999999994,
+                "price_cents": 4.14,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "eejDBOk9bvoEFEXbdnBs",
+      "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea74/narration.en.mp3"
+    },
+    {
+      "id": "bm_ea74.audio_description.en",
+      "artworkId": "bm_ea74",
+      "language": "en",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea74/audio_description.en.txt",
+      "characters": 264,
+      "attempts": [
+        {
+          "id": "bm_ea74.audio_description.en",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "zYv42mooP8uAqtEzrrw3"
+          ],
+          "generations": [
+            {
+              "generationId": "AlFOet3z4PcEDljjTGyH",
+              "status": "failed",
+              "error": "Unusual activity has been detected on your account, so Free Tier access has been disabled. This can be triggered by using a proxy or VPN, or by creating multiple free accounts. Please upgrade to a paid subscription to continue.",
+              "reportedPrice": {
+                "credits": 264,
+                "price_cents": 2.64,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        },
+        {
+          "attemptId": "resume_2026_10_09_6",
+          "id": "bm_ea74.audio_description.en",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "LINtxbzWJQMe8UDnETIM",
+          "sessionIds": [
+            "CMuHGBQjE2e4EfDvz6hL"
+          ],
+          "estimateCredits": 132,
+          "estimateSource": "plugin",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "cRY41ZnT9mDg125JSTZ2",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 132,
+                "price_cents": 1.32,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        }
+      ],
+      "nodeId": "tJ751uNHbtwIQb6xeLYB",
+      "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea74/audio_description.en.mp3"
+    },
+    {
+      "id": "bm_ea1779.narration.fr",
+      "artworkId": "bm_ea1779",
+      "language": "fr",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea1779/narration.fr.txt",
+      "characters": 455,
+      "attempts": [
+        {
+          "id": "bm_ea1779.narration.fr",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "NPInK9swSDxciDi3LlTZ"
+          ],
+          "generations": [
+            {
+              "generationId": "TSDE8KTxUMVcAwmUQFwV",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 455,
+                "price_cents": 4.55,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "myZlq5QNaER33FJBq42J",
+      "voiceId": "6DEjyaHWnTHsvXM5Byys",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea1779/narration.fr.mp3"
+    },
+    {
+      "id": "bm_ea1779.audio_description.fr",
+      "artworkId": "bm_ea1779",
+      "language": "fr",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea1779/audio_description.fr.txt",
+      "characters": 278,
+      "attempts": [
+        {
+          "id": "bm_ea1779.audio_description.fr",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "ayus1c4P4CuTCvO5Dg3J"
+          ],
+          "generations": [
+            {
+              "generationId": "iRKU8qjCERlc1kuPXGk5",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 278,
+                "price_cents": 2.7800000000000002,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "gns73jbxW3rreWMYeokQ",
+      "voiceId": "6DEjyaHWnTHsvXM5Byys",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea1779/audio_description.fr.mp3"
+    },
+    {
+      "id": "bm_ea1779.narration.ar",
+      "artworkId": "bm_ea1779",
+      "language": "ar",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea1779/narration.ar.txt",
+      "characters": 328,
+      "attempts": [
+        {
+          "id": "bm_ea1779.narration.ar",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "atTtxtkNNlOAmwsy0xe9"
+          ],
+          "generations": [
+            {
+              "generationId": "hmSm8sujuTdDIe81TE86",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 328,
+                "price_cents": 3.2800000000000002,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "u05jp05l54pB3xbuUADe",
+      "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea1779/narration.ar.mp3"
+    },
+    {
+      "id": "bm_ea1779.audio_description.ar",
+      "artworkId": "bm_ea1779",
+      "language": "ar",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea1779/audio_description.ar.txt",
+      "characters": 198,
+      "attempts": [
+        {
+          "id": "bm_ea1779.audio_description.ar",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "U3hVLUz5xRqTeMPy0qbe"
+          ],
+          "generations": [
+            {
+              "generationId": "dNegTNOKSkjYiqSUIZA9",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 198,
+                "price_cents": 1.98,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "p1is8Wl7Hwnn5TD9pWyD",
+      "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea1779/audio_description.ar.mp3"
+    },
+    {
+      "id": "bm_ea1779.narration.en",
+      "artworkId": "bm_ea1779",
+      "language": "en",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea1779/narration.en.txt",
+      "characters": 428,
+      "attempts": [
+        {
+          "id": "bm_ea1779.narration.en",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "GOvJ2SztaqqnImsDFFiO"
+          ],
+          "generations": [
+            {
+              "generationId": "eVRMy9rPAPS66FVnCXD8",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 428,
+                "price_cents": 4.28,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "iDQ2zBHw9wiHguNuE6h8",
+      "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea1779/narration.en.mp3"
+    },
+    {
+      "id": "bm_ea1779.audio_description.en",
+      "artworkId": "bm_ea1779",
+      "language": "en",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea1779/audio_description.en.txt",
+      "characters": 241,
+      "attempts": [
+        {
+          "id": "bm_ea1779.audio_description.en",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "W7dJNjHxlZzSzP2rdZyJ"
+          ],
+          "generations": [
+            {
+              "generationId": "oaXksmOhnV1JvdtSSQAq",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 241,
+                "price_cents": 2.41,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "OSC8rRajP6r9t3Ud5Miv",
+      "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea1779/audio_description.en.mp3"
+    },
+    {
+      "id": "bm_ea19.narration.fr",
+      "artworkId": "bm_ea19",
+      "language": "fr",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea19/narration.fr.txt",
+      "characters": 450,
+      "attempts": [
+        {
+          "id": "bm_ea19.narration.fr",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "CbQIlRMAWBGUWsLIlX38"
+          ],
+          "generations": [
+            {
+              "generationId": "PTNRfgTNSoanAV4eVsDn",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 450,
+                "price_cents": 4.5,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "4ahSiA7qK56JfudfAjhH",
+      "voiceId": "6DEjyaHWnTHsvXM5Byys",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea19/narration.fr.mp3"
+    },
+    {
+      "id": "bm_ea19.audio_description.fr",
+      "artworkId": "bm_ea19",
+      "language": "fr",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea19/audio_description.fr.txt",
+      "characters": 314,
+      "attempts": [
+        {
+          "id": "bm_ea19.audio_description.fr",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "K9upzGTaWtUewW2j6ved"
+          ],
+          "generations": [
+            {
+              "generationId": "2DdaDNI8rYTJeSRDyQJs",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 314,
+                "price_cents": 3.14,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "2Fd9AqPPSVw5HNg49sts",
+      "voiceId": "6DEjyaHWnTHsvXM5Byys",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea19/audio_description.fr.mp3"
+    },
+    {
+      "id": "bm_ea19.narration.ar",
+      "artworkId": "bm_ea19",
+      "language": "ar",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea19/narration.ar.txt",
+      "characters": 307,
+      "attempts": [
+        {
+          "id": "bm_ea19.narration.ar",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "fpSuJXtaWd0gia1sPjdv"
+          ],
+          "generations": [
+            {
+              "generationId": "yWXiw3q8hrFTYLfv0xH7",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 307,
+                "price_cents": 3.07,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "aOxtBOrL70CBqxMX2C5e",
+      "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea19/narration.ar.mp3"
+    },
+    {
+      "id": "bm_ea19.audio_description.ar",
+      "artworkId": "bm_ea19",
+      "language": "ar",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea19/audio_description.ar.txt",
+      "characters": 220,
+      "attempts": [
+        {
+          "id": "bm_ea19.audio_description.ar",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "oy5jFIuFUPGRl36KqEYF"
+          ],
+          "generations": [
+            {
+              "generationId": "vPFTnSgbAZTiyd3IT3a1",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 220.00000000000003,
+                "price_cents": 2.2,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "VhN6EPg7qBbVfwLlj2PH",
+      "voiceId": "JAFpvTRfGNCbJ2St9kyT",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea19/audio_description.ar.mp3"
+    },
+    {
+      "id": "bm_ea19.narration.en",
+      "artworkId": "bm_ea19",
+      "language": "en",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea19/narration.en.txt",
+      "characters": 438,
+      "attempts": [
+        {
+          "id": "bm_ea19.narration.en",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "eQvh5vJ9ELvpqPNr0u3P"
+          ],
+          "generations": [
+            {
+              "generationId": "uYoNXjTsO91Pu5bmtW42",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 438,
+                "price_cents": 4.38,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "qk0pOfe3r8GLFqiKZtBL",
+      "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea19/narration.en.mp3"
+    },
+    {
+      "id": "bm_ea19.audio_description.en",
+      "artworkId": "bm_ea19",
+      "language": "en",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea19/audio_description.en.txt",
+      "characters": 269,
+      "attempts": [
+        {
+          "id": "bm_ea19.audio_description.en",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [
+            "dwzLMk9u6oMleaEec0dG"
+          ],
+          "generations": [
+            {
+              "generationId": "ibH9VjrZCcDgJF7CuVCW",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 269.00000000000006,
+                "price_cents": 2.6900000000000004,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "nodeId": "cSoEoOcxI01q55yXPrlb",
+      "voiceId": "3ADZQUoqg3hWyEOlzpXW",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea19/audio_description.en.mp3"
+    },
+    {
+      "id": "bm_ea1.narration.fr",
+      "artworkId": "bm_ea1",
+      "language": "fr",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea1/narration.fr.txt",
+      "characters": 466,
+      "attempts": [
+        {
+          "id": "bm_ea1.narration.fr",
+          "modelId": "eleven_multilingual_v2",
+          "sessionIds": [],
+          "generations": [],
+          "submissionError": "429: {'type': 'rate_limit_error', 'code': 'rate_limited', 'message': 'You have made too many requests. Please try again later.', 'status': 'rate_limited', 'request_id': 'd5a8f15923fd8c6389cde9273dd88146', 'docs_url': 'https://elevenlabs.io/docs/eleven-api/resources/errors#rate-limiting-and-concurrency'}"
+        },
+        {
+          "id": "bm_ea1.narration.fr",
+          "modelId": "eleven_flash_v2_5",
+          "sessionIds": [
+            "E4DKlNcNWOtxCecqiVeG"
+          ],
+          "generations": [
+            {
+              "generationId": "PoSOaHvtVkjV2MIdyhHA",
+              "status": "failed",
+              "error": "Unusual activity has been detected on your account, so Free Tier access has been disabled. This can be triggered by using a proxy or VPN, or by creating multiple free accounts. Please upgrade to a paid subscription to continue.",
+              "reportedPrice": {
+                "credits": 233,
+                "price_cents": 2.33,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ],
+          "submissionError": null
+        },
+        {
+          "attemptId": "resume_2026_10_09_0",
+          "id": "bm_ea1.narration.fr",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": null,
+          "sessionIds": [
+            "a1945JmiEH4p48ZMo12W"
+          ],
+          "estimateCredits": 233,
+          "estimateSource": "plugin",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "AQqmW2x9H43LcbHFpuR4",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 233,
+                "price_cents": 2.33,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        }
+      ],
+      "nodeId": null,
+      "voiceId": "6DEjyaHWnTHsvXM5Byys",
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea1/narration.fr.mp3"
+    },
+    {
+      "id": "bm_ea1.audio_description.fr",
+      "artworkId": "bm_ea1",
+      "language": "fr",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea1/audio_description.fr.txt",
+      "characters": 326,
+      "attempts": [
+        {
+          "attemptId": "resume_2026_10_09_7",
+          "id": "bm_ea1.audio_description.fr",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "wjeQU3pP97el8Si33lnb",
+          "sessionIds": [
+            "cdP7KvPzO92H9EHOB8VP"
+          ],
+          "estimateCredits": 163,
+          "estimateSource": "plugin",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "9PgBzZnQ8aqBd0k1242n",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 163,
+                "price_cents": 1.6300000000000001,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea1/audio_description.fr.mp3",
+      "voiceId": "6DEjyaHWnTHsvXM5Byys"
+    },
+    {
+      "id": "bm_ea1.narration.ar",
+      "artworkId": "bm_ea1",
+      "language": "ar",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea1/narration.ar.txt",
+      "characters": 324,
+      "attempts": [
+        {
+          "attemptId": "resume_2026_10_09_8",
+          "id": "bm_ea1.narration.ar",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "vA6k0S8jSs3Y28UmzNex",
+          "sessionIds": [
+            "BKz98FVcCRwpQ1fjuVEa"
+          ],
+          "estimateCredits": 162,
+          "estimateSource": "plugin",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "42X5A8MDzOFQFIB9D1m7",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 162,
+                "price_cents": 1.62,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea1/narration.ar.mp3",
+      "voiceId": "JAFpvTRfGNCbJ2St9kyT"
+    },
+    {
+      "id": "bm_ea1.audio_description.ar",
+      "artworkId": "bm_ea1",
+      "language": "ar",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea1/audio_description.ar.txt",
+      "characters": 201,
+      "attempts": [
+        {
+          "attemptId": "resume_2026_10_09_9",
+          "id": "bm_ea1.audio_description.ar",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "MaceBnDCXJHSvY4to88l",
+          "sessionIds": [],
+          "estimateCredits": 100.50000000000001,
+          "estimateSource": "plugin",
+          "submissionError": "429: {'type': 'rate_limit_error', 'code': 'rate_limited', 'message': 'You have made too many requests. Please try again later.', 'status': 'rate_limited', 'request_id': '7cb793af9ab2b0128efafb864549af0e', 'docs_url': 'https://elevenlabs.io/docs/eleven-api/resources/errors#rate-limiting-and-concurrency'}",
+          "generations": []
+        },
+        {
+          "attemptId": "resume_2026_10_09_10",
+          "id": "bm_ea1.audio_description.ar",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "MaceBnDCXJHSvY4to88l",
+          "sessionIds": [
+            "O2uG2Ksw11e35NGCx0gE"
+          ],
+          "estimateCredits": 100.50000000000001,
+          "estimateSource": "plugin",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "Tfv6QZtB5rDr5ZktH7N7",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 100.50000000000001,
+                "price_cents": 1.0050000000000001,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea1/audio_description.ar.mp3",
+      "voiceId": "JAFpvTRfGNCbJ2St9kyT"
+    },
+    {
+      "id": "bm_ea1.narration.en",
+      "artworkId": "bm_ea1",
+      "language": "en",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea1/narration.en.txt",
+      "characters": 415,
+      "attempts": [
+        {
+          "attemptId": "resume_2026_10_09_11",
+          "id": "bm_ea1.narration.en",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": null,
+          "sessionIds": [],
+          "estimateCredits": 207.5,
+          "estimateSource": "calculated_from_rate_verified_by_plugin_estimates",
+          "submissionError": "429: {'type': 'rate_limit_error', 'code': 'rate_limited', 'message': 'You have made too many requests. Please try again later.', 'status': 'rate_limited', 'request_id': '7b77440f0d9c264604e65f3e57586367', 'docs_url': 'https://elevenlabs.io/docs/eleven-api/resources/errors#rate-limiting-and-concurrency'}",
+          "generations": []
+        },
+        {
+          "attemptId": "resume_2026_10_09_12",
+          "id": "bm_ea1.narration.en",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": null,
+          "sessionIds": [],
+          "estimateCredits": 207.5,
+          "estimateSource": "calculated_from_rate_verified_by_plugin_estimates",
+          "submissionError": "429: {'type': 'rate_limit_error', 'code': 'rate_limited', 'message': 'You have made too many requests. Please try again later.', 'status': 'rate_limited', 'request_id': 'd4058c0bc8d58073198a88b7eee02c9b', 'docs_url': 'https://elevenlabs.io/docs/eleven-api/resources/errors#rate-limiting-and-concurrency'}",
+          "generations": []
+        },
+        {
+          "attemptId": "resume_2026_10_09_13",
+          "id": "bm_ea1.narration.en",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "DqDvpbapxNRFDsPR2ygt",
+          "sessionIds": [
+            "QhBlJa0MXUVLBwqi2iyH"
+          ],
+          "estimateCredits": 207.5,
+          "estimateSource": "calculated_from_verified_rate",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "CkHG6NBvAnuKe7FO7BRt",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 207.49999999999997,
+                "price_cents": 2.0749999999999997,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea1/narration.en.mp3",
+      "voiceId": "3ADZQUoqg3hWyEOlzpXW"
+    },
+    {
+      "id": "bm_ea1.audio_description.en",
+      "artworkId": "bm_ea1",
+      "language": "en",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea1/audio_description.en.txt",
+      "characters": 266,
+      "attempts": [
+        {
+          "attemptId": "resume_2026_10_09_14",
+          "id": "bm_ea1.audio_description.en",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "rNEkG7DAlBhjfDSkSdzI",
+          "sessionIds": [
+            "pN5r2Kn1mykUxpEBLXIa"
+          ],
+          "estimateCredits": 133,
+          "estimateSource": "plugin",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "sqAkIzTwhfRNon1txsEO",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 133,
+                "price_cents": 1.33,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea1/audio_description.en.mp3",
+      "voiceId": "3ADZQUoqg3hWyEOlzpXW"
+    },
+    {
+      "id": "bm_ea23.narration.fr",
+      "artworkId": "bm_ea23",
+      "language": "fr",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea23/narration.fr.txt",
+      "characters": 479,
+      "attempts": [
+        {
+          "attemptId": "resume_2026_10_09_15",
+          "id": "bm_ea23.narration.fr",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "xGMWF0QUcya6be56YQXq",
+          "sessionIds": [
+            "cvRkzVPnN4zBAXN69EbP"
+          ],
+          "estimateCredits": 239.5,
+          "estimateSource": "plugin",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "PUSCwSTt7Q8QgenWe82I",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 239.5,
+                "price_cents": 2.395,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea23/narration.fr.mp3",
+      "voiceId": "6DEjyaHWnTHsvXM5Byys"
+    },
+    {
+      "id": "bm_ea23.audio_description.fr",
+      "artworkId": "bm_ea23",
+      "language": "fr",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea23/audio_description.fr.txt",
+      "characters": 326,
+      "attempts": [
+        {
+          "attemptId": "resume_2026_10_09_16",
+          "id": "bm_ea23.audio_description.fr",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "To7cTd2RBUNa2Aylc74W",
+          "sessionIds": [
+            "Y8ET480GtCDpFFBacZTq"
+          ],
+          "estimateCredits": 163,
+          "estimateSource": "plugin",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "V0eJoPDkiT1W3tslMkwv",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 163,
+                "price_cents": 1.6300000000000001,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea23/audio_description.fr.mp3",
+      "voiceId": "6DEjyaHWnTHsvXM5Byys"
+    },
+    {
+      "id": "bm_ea23.narration.ar",
+      "artworkId": "bm_ea23",
+      "language": "ar",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea23/narration.ar.txt",
+      "characters": 336,
+      "attempts": [
+        {
+          "attemptId": "resume_2026_10_09_17",
+          "id": "bm_ea23.narration.ar",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "qVZ3yxaY41psYcmBr7af",
+          "sessionIds": [
+            "zWOx38GnwgPZOW9YA8H6"
+          ],
+          "estimateCredits": 168.00000000000003,
+          "estimateSource": "plugin",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "3eHmLK8ZMNi7oC2Rhb2P",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 168.00000000000003,
+                "price_cents": 1.6800000000000002,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea23/narration.ar.mp3",
+      "voiceId": "JAFpvTRfGNCbJ2St9kyT"
+    },
+    {
+      "id": "bm_ea23.audio_description.ar",
+      "artworkId": "bm_ea23",
+      "language": "ar",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea23/audio_description.ar.txt",
+      "characters": 199,
+      "attempts": [
+        {
+          "attemptId": "resume_2026_10_09_18",
+          "id": "bm_ea23.audio_description.ar",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "hJh2q8ZRNy7tFpQFeadI",
+          "sessionIds": [
+            "fFXWKc129ra3AacPj49o"
+          ],
+          "estimateCredits": 99.50000000000001,
+          "estimateSource": "plugin",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "qEMfJJ7gBitBO2anf4Px",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 99.50000000000001,
+                "price_cents": 0.9950000000000001,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea23/audio_description.ar.mp3",
+      "voiceId": "JAFpvTRfGNCbJ2St9kyT"
+    },
+    {
+      "id": "bm_ea23.narration.en",
+      "artworkId": "bm_ea23",
+      "language": "en",
+      "kind": "narration",
+      "scriptPath": "Content/NarrationScripts/bm_ea23/narration.en.txt",
+      "characters": 430,
+      "attempts": [
+        {
+          "attemptId": "resume_2026_10_09_19",
+          "id": "bm_ea23.narration.en",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "Vo8HgDZasuGBUvfPvYXS",
+          "sessionIds": [
+            "fJVzhTICE3zQ30ngZti2"
+          ],
+          "estimateCredits": 215,
+          "estimateSource": "plugin",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "iztA9dfYckwKxGyl07Uq",
+              "status": "completed",
+              "error": null,
+              "reportedPrice": {
+                "credits": 215,
+                "price_cents": 2.15,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea23/narration.en.mp3",
+      "voiceId": "3ADZQUoqg3hWyEOlzpXW"
+    },
+    {
+      "id": "bm_ea23.audio_description.en",
+      "artworkId": "bm_ea23",
+      "language": "en",
+      "kind": "audio_description",
+      "scriptPath": "Content/NarrationScripts/bm_ea23/audio_description.en.txt",
+      "characters": 287,
+      "attempts": [
+        {
+          "attemptId": "resume_2026_10_09_20",
+          "id": "bm_ea23.audio_description.en",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "lfHCxZXEZArqJPJ32g9V",
+          "sessionIds": [
+            "rknH0NfoIGJ15t9G3NbB"
+          ],
+          "estimateCredits": 143.49999999999997,
+          "estimateSource": "plugin",
+          "submissionError": null,
+          "generations": [
+            {
+              "generationId": "dS8Lu5z4Lgak7FpJQMEC",
+              "status": "failed",
+              "error": "Unusual activity has been detected on your account, so Free Tier access has been disabled. This can be triggered by using a proxy or VPN, or by creating multiple free accounts. Please upgrade to a paid subscription to continue.",
+              "reportedPrice": {
+                "credits": 143.49999999999997,
+                "price_cents": 1.4349999999999998,
+                "cost_fiat_currency": "usd"
+              }
+            }
+          ]
+        },
+        {
+          "attemptId": "final_retry_2026_10_09",
+          "modelId": "eleven_flash_v2_5",
+          "nodeId": "lfHCxZXEZArqJPJ32g9V",
+          "sessionIds": [
+            "uR9wzxsPiJsW8VvABMtq"
+          ],
+          "estimateCredits": 143.49999999999997,
+          "generations": [
+            {
+              "generationId": "hwmI8OV5tyMip0w7EBkc",
+              "status": "completed",
+              "reportedPrice": {
+                "credits": 143.49999999999997,
+                "price_cents": 1.4349999999999998,
+                "cost_fiat_currency": "usd"
+              },
+              "error": null
+            }
+          ],
+          "submissionError": null
+        }
+      ],
+      "status": "received",
+      "sourceAudioPath": "AssetSources/Audio/bm_ea23/audio_description.en.mp3"
+    }
+  ],
+  "updatedOn": "2026-10-09",
+  "productionStatus": "all_audio_received_pending_listening_and_runtime_validation",
+  "completedFileCount": 36,
+  "missingFileCount": 0,
+  "budget": {
+    "remainingLimit": null,
+    "missingFiles": 0,
+    "missingCharacters": 0,
+    "model": "eleven_flash_v2_5",
+    "estimatedNewCredits": 0,
+    "actualChargesVerified": false,
+    "estimateIncludesMissingFilesOnly": false,
+    "lastBalanceSource": "User said credits returned, without stating a new numeric balance.",
+    "lastNumericUserBalanceBeforeResume": 3000,
+    "resumeSpendingCeiling": 3000,
+    "resumePlannedCredits": 2763.5,
+    "successfulResumeReportedCredits": 2620,
+    "failedFinalAttemptReportedCredits": 143.5
+  },
+  "automaticGenerationEnabled": false,
+  "blockReason": null,
+  "pricingNote": "Reported prices are provider job metadata, not verified debits or refunds. No account balance endpoint is exposed by this plugin.",
+  "resumedProduction": {
+    "completedCount": 16,
+    "remainingCount": 1,
+    "plannedCredits": 2763.5,
+    "successfulReportedCredits": 2620,
+    "lastAttemptReportedPrice": {
+      "credits": 143.49999999999997,
+      "price_cents": 1.4349999999999998,
+      "cost_fiat_currency": "usd"
+    },
+    "lastError": {
+      "jobId": "bm_ea23.audio_description.en",
+      "error": [
+        "Unusual activity has been detected on your account, so Free Tier access has been disabled. This can be triggered by using a proxy or VPN, or by creating multiple free accounts. Please upgrade to a paid subscription to continue."
+      ]
+    }
+  },
+  "finalRetry": {
+    "reportedSuccessfulCredits": 143.49999999999997,
+    "balanceVerified": false
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea23.audio_description.ar",
+  "language": "ar",
+  "kind": "audio_description",
+  "audioSha256": "f49882d0a6c2bcadeed7de99a3d6f83eea53309f6dee4c486a12240136028c7d",
+  "scriptSha256": "e4ef5bacb699dfca8539a6f9df06c34551743f444ebdbeb2fb3b382ae66d0f09",
+  "durationSeconds": 19.774694,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020017,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.04,
+      "endSeconds": 3.703,
+      "text": "يشكل حوض حجري كبير فراغاً\nمفتوحاً من الأعلى."
+    },
+    {
+      "startSeconds": 4.564,
+      "endSeconds": 8.067,
+      "text": "تغطي العلامات والرسوم\nالبارزة جدرانه السميكة."
+    },
+    {
+      "startSeconds": 8.748,
+      "endSeconds": 14.312,
+      "text": "وتزين صور أخرى الداخل. تمتد\nهيئة أنثوية، هي نوت، في قاع"
+    },
+    {
+      "startSeconds": 14.312,
+      "endSeconds": 15.112,
+      "text": "الحوض."
+    },
+    {
+      "startSeconds": 15.433,
+      "endSeconds": 19.537,
+      "text": "ويأخذ التكوين شكل وعاء ممدود\nمخصص لجسم إنسان."
+    }
+  ],
+  "words": [
+    {
+      "text": "يشكل",
+      "startSeconds": 0.04,
+      "endSeconds": 0.5405,
+      "alignmentScore": 0.9967
+    },
+    {
+      "text": "حوض",
+      "startSeconds": 0.6406,
+      "endSeconds": 0.8607,
+      "alignmentScore": 0.9885
+    },
+    {
+      "text": "حجري",
+      "startSeconds": 0.9608,
+      "endSeconds": 1.4012,
+      "alignmentScore": 0.9944
+    },
+    {
+      "text": "كبير",
+      "startSeconds": 1.5814,
+      "endSeconds": 1.9217,
+      "alignmentScore": 0.9972
+    },
+    {
+      "text": "فراغاً",
+      "startSeconds": 2.0618,
+      "endSeconds": 2.5422,
+      "alignmentScore": 0.8431
+    },
+    {
+      "text": "مفتوحاً",
+      "startSeconds": 2.5822,
+      "endSeconds": 3.0426,
+      "alignmentScore": 0.8112
+    },
+    {
+      "text": "من",
+      "startSeconds": 3.0827,
+      "endSeconds": 3.1827,
+      "alignmentScore": 0.9978
+    },
+    {
+      "text": "الأعلى.",
+      "startSeconds": 3.2228,
+      "endSeconds": 3.6231,
+      "alignmentScore": 0.9516
+    },
+    {
+      "text": "تغطي",
+      "startSeconds": 4.5639,
+      "endSeconds": 4.9843,
+      "alignmentScore": 0.8723
+    },
+    {
+      "text": "العلامات",
+      "startSeconds": 5.0043,
+      "endSeconds": 5.5648,
+      "alignmentScore": 0.926
+    },
+    {
+      "text": "والرسوم",
+      "startSeconds": 5.6649,
+      "endSeconds": 6.1653,
+      "alignmentScore": 0.9911
+    },
+    {
+      "text": "البارزة",
+      "startSeconds": 6.2454,
+      "endSeconds": 6.7058,
+      "alignmentScore": 0.9657
+    },
+    {
+      "text": "جدرانه",
+      "startSeconds": 6.926,
+      "endSeconds": 7.3663,
+      "alignmentScore": 0.9928
+    },
+    {
+      "text": "السميكة.",
+      "startSeconds": 7.4464,
+      "endSeconds": 7.9869,
+      "alignmentScore": 0.98
+    },
+    {
+      "text": "وتزين",
+      "startSeconds": 8.7475,
+      "endSeconds": 9.328,
+      "alignmentScore": 0.9943
+    },
+    {
+      "text": "صور",
+      "startSeconds": 9.4481,
+      "endSeconds": 9.7084,
+      "alignmentScore": 0.9961
+    },
+    {
+      "text": "أخرى",
+      "startSeconds": 9.7684,
+      "endSeconds": 9.9886,
+      "alignmentScore": 0.807
+    },
+    {
+      "text": "الداخل.",
+      "startSeconds": 10.0286,
+      "endSeconds": 10.469,
+      "alignmentScore": 0.9875
+    },
+    {
+      "text": "تمتد",
+      "startSeconds": 10.8493,
+      "endSeconds": 11.2697,
+      "alignmentScore": 0.9945
+    },
+    {
+      "text": "هيئة",
+      "startSeconds": 11.3898,
+      "endSeconds": 11.63,
+      "alignmentScore": 0.9037
+    },
+    {
+      "text": "أنثوية،",
+      "startSeconds": 11.9103,
+      "endSeconds": 12.4307,
+      "alignmentScore": 0.9561
+    },
+    {
+      "text": "هي",
+      "startSeconds": 12.751,
+      "endSeconds": 12.8911,
+      "alignmentScore": 0.9951
+    },
+    {
+      "text": "نوت،",
+      "startSeconds": 13.0512,
+      "endSeconds": 13.3115,
+      "alignmentScore": 0.9936
+    },
+    {
+      "text": "في",
+      "startSeconds": 13.7318,
+      "endSeconds": 13.8319,
+      "alignmentScore": 0.9955
+    },
+    {
+      "text": "قاع",
+      "startSeconds": 14.0321,
+      "endSeconds": 14.2323,
+      "alignmentScore": 0.9939
+    },
+    {
+      "text": "الحوض.",
+      "startSeconds": 14.3123,
+      "endSeconds": 14.6927,
+      "alignmentScore": 0.9501
+    },
+    {
+      "text": "ويأخذ",
+      "startSeconds": 15.4333,
+      "endSeconds": 15.9137,
+      "alignmentScore": 0.9783
+    },
+    {
+      "text": "التكوين",
+      "startSeconds": 15.9738,
+      "endSeconds": 16.4542,
+      "alignmentScore": 0.9549
+    },
+    {
+      "text": "شكل",
+      "startSeconds": 16.5543,
+      "endSeconds": 16.7945,
+      "alignmentScore": 0.9983
+    },
+    {
+      "text": "وعاء",
+      "startSeconds": 16.8946,
+      "endSeconds": 17.2148,
+      "alignmentScore": 0.9774
+    },
+    {
+      "text": "ممدود",
+      "startSeconds": 17.395,
+      "endSeconds": 17.8153,
+      "alignmentScore": 0.9985
+    },
+    {
+      "text": "مخصص",
+      "startSeconds": 17.9955,
+      "endSeconds": 18.4759,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "لجسم",
+      "startSeconds": 18.6561,
+      "endSeconds": 18.9763,
+      "alignmentScore": 0.9973
+    },
+    {
+      "text": "إنسان.",
+      "startSeconds": 19.0764,
+      "endSeconds": 19.4568,
+      "alignmentScore": 0.9974
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea23.audio_description.ar",
+    "wordCount": 34,
+    "cueCount": 5,
+    "meanAlignmentScore": 0.964,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

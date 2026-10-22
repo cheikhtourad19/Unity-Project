@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea1779.narration.ar",
+  "language": "ar",
+  "kind": "narration",
+  "audioSha256": "d65d4986370cf840aabe6c5011a65a68030a95a490a2f3a2fb4b58ef37752a36",
+  "scriptSha256": "aacaf9ae1c114d1296585a858c681cbd259f1da1a85663adca89d9632cbb7153",
+  "durationSeconds": 27.062857,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020006,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.1,
+      "endSeconds": 3.441,
+      "text": "يمثل هذا التمثال الإله آمون\nفي هيئة كبش مستلقٍ."
+    },
+    {
+      "startSeconds": 4.181,
+      "endSeconds": 8.623,
+      "text": "وبين ساقيه الأماميتين يقف\nتمثال صغير للملك تهارقا، في"
+    },
+    {
+      "startSeconds": 8.623,
+      "endSeconds": 9.423,
+      "text": "حمايته."
+    },
+    {
+      "startSeconds": 9.843,
+      "endSeconds": 13.324,
+      "text": "جاءت القطعة من معبد آمون في\nكاوا، في السودان الحالي."
+    },
+    {
+      "startSeconds": 13.964,
+      "endSeconds": 17.865,
+      "text": "تأمل الفرق في الحجم بين\nالحيوان الكبير والملك، ثم انظر"
+    },
+    {
+      "startSeconds": 17.865,
+      "endSeconds": 19.126,
+      "text": "إلى النقوش على القاعدة."
+    },
+    {
+      "startSeconds": 19.786,
+      "endSeconds": 23.727,
+      "text": "يعبر هذا التكوين عن العلاقة\nبين السلطة الملكية والحماية"
+    },
+    {
+      "startSeconds": 23.747,
+      "endSeconds": 26.668,
+      "text": "الإلهية، في تاريخ النوبة\nومصر."
+    }
+  ],
+  "words": [
+    {
+      "text": "يمثل",
+      "startSeconds": 0.1,
+      "endSeconds": 0.4801,
+      "alignmentScore": 0.9939
+    },
+    {
+      "text": "هذا",
+      "startSeconds": 0.5602,
+      "endSeconds": 0.7002,
+      "alignmentScore": 0.9842
+    },
+    {
+      "text": "التمثال",
+      "startSeconds": 0.7402,
+      "endSeconds": 1.1403,
+      "alignmentScore": 0.9783
+    },
+    {
+      "text": "الإله",
+      "startSeconds": 1.2204,
+      "endSeconds": 1.5605,
+      "alignmentScore": 0.9787
+    },
+    {
+      "text": "آمون",
+      "startSeconds": 1.7605,
+      "endSeconds": 2.0806,
+      "alignmentScore": 0.9958
+    },
+    {
+      "text": "في",
+      "startSeconds": 2.2007,
+      "endSeconds": 2.2807,
+      "alignmentScore": 0.9841
+    },
+    {
+      "text": "هيئة",
+      "startSeconds": 2.3607,
+      "endSeconds": 2.6008,
+      "alignmentScore": 0.7883
+    },
+    {
+      "text": "كبش",
+      "startSeconds": 2.7008,
+      "endSeconds": 2.9009,
+      "alignmentScore": 0.998
+    },
+    {
+      "text": "مستلقٍ.",
+      "startSeconds": 3.0209,
+      "endSeconds": 3.361,
+      "alignmentScore": 0.9983
+    },
+    {
+      "text": "وبين",
+      "startSeconds": 4.1812,
+      "endSeconds": 4.4613,
+      "alignmentScore": 0.9977
+    },
+    {
+      "text": "ساقيه",
+      "startSeconds": 4.5814,
+      "endSeconds": 4.9215,
+      "alignmentScore": 0.9645
+    },
+    {
+      "text": "الأماميتين",
+      "startSeconds": 4.9815,
+      "endSeconds": 5.7617,
+      "alignmentScore": 0.9385
+    },
+    {
+      "text": "يقف",
+      "startSeconds": 6.0618,
+      "endSeconds": 6.3019,
+      "alignmentScore": 0.993
+    },
+    {
+      "text": "تمثال",
+      "startSeconds": 6.4019,
+      "endSeconds": 6.742,
+      "alignmentScore": 0.9854
+    },
+    {
+      "text": "صغير",
+      "startSeconds": 6.862,
+      "endSeconds": 7.1421,
+      "alignmentScore": 0.9831
+    },
+    {
+      "text": "للملك",
+      "startSeconds": 7.2622,
+      "endSeconds": 7.6423,
+      "alignmentScore": 0.997
+    },
+    {
+      "text": "تهارقا،",
+      "startSeconds": 7.7423,
+      "endSeconds": 8.2425,
+      "alignmentScore": 0.926
+    },
+    {
+      "text": "في",
+      "startSeconds": 8.4825,
+      "endSeconds": 8.5626,
+      "alignmentScore": 0.9952
+    },
+    {
+      "text": "حمايته.",
+      "startSeconds": 8.6226,
+      "endSeconds": 9.1827,
+      "alignmentScore": 0.9237
+    },
+    {
+      "text": "جاءت",
+      "startSeconds": 9.8429,
+      "endSeconds": 10.123,
+      "alignmentScore": 0.785
+    },
+    {
+      "text": "القطعة",
+      "startSeconds": 10.183,
+      "endSeconds": 10.5231,
+      "alignmentScore": 0.9793
+    },
+    {
+      "text": "من",
+      "startSeconds": 10.6432,
+      "endSeconds": 10.7432,
+      "alignmentScore": 0.994
+    },
+    {
+      "text": "معبد",
+      "startSeconds": 10.7832,
+      "endSeconds": 11.0433,
+      "alignmentScore": 0.9974
+    },
+    {
+      "text": "آمون",
+      "startSeconds": 11.2033,
+      "endSeconds": 11.5034,
+      "alignmentScore": 0.9942
+    },
+    {
+      "text": "في",
+      "startSeconds": 11.5434,
+      "endSeconds": 11.6235,
+      "alignmentScore": 0.9896
+    },
+    {
+      "text": "كاوا،",
+      "startSeconds": 11.7035,
+      "endSeconds": 12.0036,
+      "alignmentScore": 0.9686
+    },
+    {
+      "text": "في",
+      "startSeconds": 12.3237,
+      "endSeconds": 12.4037,
+      "alignmentScore": 0.9633
+    },
+    {
+      "text": "السودان",
+      "startSeconds": 12.4237,
+      "endSeconds": 12.8238,
+      "alignmentScore": 0.9897
+    },
+    {
+      "text": "الحالي.",
+      "startSeconds": 12.9038,
+      "endSeconds": 13.244,
+      "alignmentScore": 0.9795
+    },
+    {
+      "text": "تأمل",
+      "startSeconds": 13.9642,
+      "endSeconds": 14.3443,
+      "alignmentScore": 0.9883
+    },
+    {
+      "text": "الفرق",
+      "startSeconds": 14.3843,
+      "endSeconds": 14.6844,
+      "alignmentScore": 0.9502
+    },
+    {
+      "text": "في",
+      "startSeconds": 14.7844,
+      "endSeconds": 14.8444,
+      "alignmentScore": 0.9936
+    },
+    {
+      "text": "الحجم",
+      "startSeconds": 14.8644,
+      "endSeconds": 15.1845,
+      "alignmentScore": 0.9561
+    },
+    {
+      "text": "بين",
+      "startSeconds": 15.2846,
+      "endSeconds": 15.4246,
+      "alignmentScore": 0.9845
+    },
+    {
+      "text": "الحيوان",
+      "startSeconds": 15.4846,
+      "endSeconds": 15.9047,
+      "alignmentScore": 0.9108
+    },
+    {
+      "text": "الكبير",
+      "startSeconds": 15.9648,
+      "endSeconds": 16.3649,
+      "alignmentScore": 0.9844
+    },
+    {
+      "text": "والملك،",
+      "startSeconds": 16.4649,
+      "endSeconds": 16.845,
+      "alignmentScore": 0.998
+    },
+    {
+      "text": "ثم",
+      "startSeconds": 17.3652,
+      "endSeconds": 17.5452,
+      "alignmentScore": 0.9126
+    },
+    {
+      "text": "انظر",
+      "startSeconds": 17.6053,
+      "endSeconds": 17.8053,
+      "alignmentScore": 0.8976
+    },
+    {
+      "text": "إلى",
+      "startSeconds": 17.8653,
+      "endSeconds": 17.9454,
+      "alignmentScore": 0.996
+    },
+    {
+      "text": "النقوش",
+      "startSeconds": 17.9854,
+      "endSeconds": 18.3455,
+      "alignmentScore": 0.9956
+    },
+    {
+      "text": "على",
+      "startSeconds": 18.4255,
+      "endSeconds": 18.5255,
+      "alignmentScore": 0.9965
+    },
+    {
+      "text": "القاعدة.",
+      "startSeconds": 18.5655,
+      "endSeconds": 19.0457,
+      "alignmentScore": 0.9754
+    },
+    {
+      "text": "يعبر",
+      "startSeconds": 19.7859,
+      "endSeconds": 20.106,
+      "alignmentScore": 0.997
+    },
+    {
+      "text": "هذا",
+      "startSeconds": 20.186,
+      "endSeconds": 20.3461,
+      "alignmentScore": 0.8612
+    },
+    {
+      "text": "التكوين",
+      "startSeconds": 20.3661,
+      "endSeconds": 20.7462,
+      "alignmentScore": 0.9642
+    },
+    {
+      "text": "عن",
+      "startSeconds": 20.8262,
+      "endSeconds": 20.9062,
+      "alignmentScore": 0.9957
+    },
+    {
+      "text": "العلاقة",
+      "startSeconds": 20.9663,
+      "endSeconds": 21.3664,
+      "alignmentScore": 0.9019
+    },
+    {
+      "text": "بين",
+      "startSeconds": 21.5064,
+      "endSeconds": 21.6665,
+      "alignmentScore": 0.9981
+    },
+    {
+      "text": "السلطة",
+      "startSeconds": 21.7265,
+      "endSeconds": 22.0266,
+      "alignmentScore": 0.9778
+    },
+    {
+      "text": "الملكية",
+      "startSeconds": 22.1666,
+      "endSeconds": 22.7668,
+      "alignmentScore": 0.9911
+    },
+    {
+      "text": "والحماية",
+      "startSeconds": 23.1669,
+      "endSeconds": 23.6471,
+      "alignmentScore": 0.9365
+    },
+    {
+      "text": "الإلهية،",
+      "startSeconds": 23.7471,
+      "endSeconds": 24.4273,
+      "alignmentScore": 0.9719
+    },
+    {
+      "text": "في",
+      "startSeconds": 25.0075,
+      "endSeconds": 25.0875,
+      "alignmentScore": 0.9972
+    },
+    {
+      "text": "تاريخ",
+      "startSeconds": 25.1675,
+      "endSeconds": 25.5076,
+      "alignmentScore": 0.8762
+    },
+    {
+      "text": "النوبة",
+      "startSeconds": 25.5676,
+      "endSeconds": 25.9477,
+      "alignmentScore": 0.9506
+    },
+    {
+      "text": "ومصر.",
+      "startSeconds": 26.1478,
+      "endSeconds": 26.5879,
+      "alignmentScore": 0.9985
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea1779.narration.ar",
+    "wordCount": 57,
+    "cueCount": 8,
+    "meanAlignmentScore": 0.9649,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

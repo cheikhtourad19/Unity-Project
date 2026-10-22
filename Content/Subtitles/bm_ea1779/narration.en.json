@@ -1,0 +1,556 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea1779.narration.en",
+  "language": "en",
+  "kind": "narration",
+  "audioSha256": "dd6331db0497d18ace71021fc977247c45272ea10dbf3b5d00bcd50675529aff",
+  "scriptSha256": "ce0cc262f3ae77e9cc2d4d1ad20e22802db3673773a2ca4241b4804899a1a5b5",
+  "durationSeconds": 42.893061,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020011,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.06,
+      "endSeconds": 4.663,
+      "text": "This statue represents the\ngod Amun as a reclining ram."
+    },
+    {
+      "startSeconds": 5.563,
+      "endSeconds": 9.185,
+      "text": "Between its front legs\nstands a small figure of King"
+    },
+    {
+      "startSeconds": 9.185,
+      "endSeconds": 9.985,
+      "text": "Taharqa,"
+    },
+    {
+      "startSeconds": 10.446,
+      "endSeconds": 11.566,
+      "text": "sheltered by the god."
+    },
+    {
+      "startSeconds": 12.427,
+      "endSeconds": 16.009,
+      "text": "The work comes from the\ntemple of Amun at Kawa,"
+    },
+    {
+      "startSeconds": 16.649,
+      "endSeconds": 17.99,
+      "text": "in present-day Sudan."
+    },
+    {
+      "startSeconds": 18.811,
+      "endSeconds": 21.212,
+      "text": "Notice the contrast between\nthe large animal"
+    },
+    {
+      "startSeconds": 21.832,
+      "endSeconds": 22.632,
+      "text": "and the king,"
+    },
+    {
+      "startSeconds": 24.214,
+      "endSeconds": 27.195,
+      "text": "then look at the\ninscriptions on the base."
+    },
+    {
+      "startSeconds": 28.816,
+      "endSeconds": 29.917,
+      "text": "This composition"
+    },
+    {
+      "startSeconds": 30.557,
+      "endSeconds": 32.478,
+      "text": "expresses a connection"
+    },
+    {
+      "startSeconds": 33.339,
+      "endSeconds": 34.899,
+      "text": "between royal power"
+    },
+    {
+      "startSeconds": 35.94,
+      "endSeconds": 37.541,
+      "text": "and divine protection"
+    },
+    {
+      "startSeconds": 38.562,
+      "endSeconds": 39.422,
+      "text": "in the history"
+    },
+    {
+      "startSeconds": 40.102,
+      "endSeconds": 40.902,
+      "text": "of Nubia"
+    },
+    {
+      "startSeconds": 41.623,
+      "endSeconds": 42.484,
+      "text": "and Egypt."
+    }
+  ],
+  "words": [
+    {
+      "text": "This",
+      "startSeconds": 0.06,
+      "endSeconds": 0.2201,
+      "alignmentScore": 0.9968
+    },
+    {
+      "text": "statue",
+      "startSeconds": 0.4603,
+      "endSeconds": 0.8605,
+      "alignmentScore": 0.8674
+    },
+    {
+      "text": "represents",
+      "startSeconds": 1.2807,
+      "endSeconds": 1.741,
+      "alignmentScore": 0.9973
+    },
+    {
+      "text": "the",
+      "startSeconds": 1.761,
+      "endSeconds": 1.841,
+      "alignmentScore": 0.8778
+    },
+    {
+      "text": "god",
+      "startSeconds": 1.8811,
+      "endSeconds": 2.1012,
+      "alignmentScore": 0.9966
+    },
+    {
+      "text": "Amun",
+      "startSeconds": 2.4414,
+      "endSeconds": 2.7215,
+      "alignmentScore": 0.9881
+    },
+    {
+      "text": "as",
+      "startSeconds": 3.3619,
+      "endSeconds": 3.4419,
+      "alignmentScore": 0.9984
+    },
+    {
+      "text": "a",
+      "startSeconds": 3.4619,
+      "endSeconds": 3.482,
+      "alignmentScore": 0.9959
+    },
+    {
+      "text": "reclining",
+      "startSeconds": 3.542,
+      "endSeconds": 4.0823,
+      "alignmentScore": 0.9729
+    },
+    {
+      "text": "ram.",
+      "startSeconds": 4.3224,
+      "endSeconds": 4.5826,
+      "alignmentScore": 0.9967
+    },
+    {
+      "text": "Between",
+      "startSeconds": 5.5631,
+      "endSeconds": 5.9033,
+      "alignmentScore": 0.9983
+    },
+    {
+      "text": "its",
+      "startSeconds": 6.0234,
+      "endSeconds": 6.1234,
+      "alignmentScore": 0.9973
+    },
+    {
+      "text": "front",
+      "startSeconds": 6.1635,
+      "endSeconds": 6.3636,
+      "alignmentScore": 0.9299
+    },
+    {
+      "text": "legs",
+      "startSeconds": 6.4036,
+      "endSeconds": 6.6637,
+      "alignmentScore": 0.997
+    },
+    {
+      "text": "stands",
+      "startSeconds": 7.0239,
+      "endSeconds": 7.3841,
+      "alignmentScore": 0.9801
+    },
+    {
+      "text": "a",
+      "startSeconds": 7.4642,
+      "endSeconds": 7.4842,
+      "alignmentScore": 0.997
+    },
+    {
+      "text": "small",
+      "startSeconds": 7.6043,
+      "endSeconds": 7.9044,
+      "alignmentScore": 0.9973
+    },
+    {
+      "text": "figure",
+      "startSeconds": 8.0045,
+      "endSeconds": 8.2446,
+      "alignmentScore": 0.7375
+    },
+    {
+      "text": "of",
+      "startSeconds": 8.7649,
+      "endSeconds": 8.845,
+      "alignmentScore": 0.9969
+    },
+    {
+      "text": "King",
+      "startSeconds": 8.905,
+      "endSeconds": 9.1051,
+      "alignmentScore": 0.9955
+    },
+    {
+      "text": "Taharqa,",
+      "startSeconds": 9.1852,
+      "endSeconds": 9.6454,
+      "alignmentScore": 0.7912
+    },
+    {
+      "text": "sheltered",
+      "startSeconds": 10.4459,
+      "endSeconds": 10.8061,
+      "alignmentScore": 0.9106
+    },
+    {
+      "text": "by",
+      "startSeconds": 11.0062,
+      "endSeconds": 11.1262,
+      "alignmentScore": 0.93
+    },
+    {
+      "text": "the",
+      "startSeconds": 11.1463,
+      "endSeconds": 11.2063,
+      "alignmentScore": 0.9499
+    },
+    {
+      "text": "god.",
+      "startSeconds": 11.2463,
+      "endSeconds": 11.4864,
+      "alignmentScore": 0.9607
+    },
+    {
+      "text": "The",
+      "startSeconds": 12.427,
+      "endSeconds": 12.507,
+      "alignmentScore": 0.9095
+    },
+    {
+      "text": "work",
+      "startSeconds": 12.547,
+      "endSeconds": 12.7672,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "comes",
+      "startSeconds": 12.9273,
+      "endSeconds": 13.2674,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "from",
+      "startSeconds": 13.4275,
+      "endSeconds": 13.5476,
+      "alignmentScore": 0.998
+    },
+    {
+      "text": "the",
+      "startSeconds": 13.5676,
+      "endSeconds": 13.6277,
+      "alignmentScore": 0.9947
+    },
+    {
+      "text": "temple",
+      "startSeconds": 13.6677,
+      "endSeconds": 14.0079,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "of",
+      "startSeconds": 14.3481,
+      "endSeconds": 14.4281,
+      "alignmentScore": 0.9965
+    },
+    {
+      "text": "Amun",
+      "startSeconds": 14.5682,
+      "endSeconds": 14.8083,
+      "alignmentScore": 0.9771
+    },
+    {
+      "text": "at",
+      "startSeconds": 15.4086,
+      "endSeconds": 15.5087,
+      "alignmentScore": 0.9922
+    },
+    {
+      "text": "Kawa,",
+      "startSeconds": 15.6088,
+      "endSeconds": 15.9289,
+      "alignmentScore": 0.8401
+    },
+    {
+      "text": "in",
+      "startSeconds": 16.6493,
+      "endSeconds": 16.7094,
+      "alignmentScore": 0.9955
+    },
+    {
+      "text": "present-day",
+      "startSeconds": 16.7894,
+      "endSeconds": 17.3097,
+      "alignmentScore": 0.9986
+    },
+    {
+      "text": "Sudan.",
+      "startSeconds": 17.5499,
+      "endSeconds": 17.9101,
+      "alignmentScore": 0.9878
+    },
+    {
+      "text": "Notice",
+      "startSeconds": 18.8106,
+      "endSeconds": 19.0907,
+      "alignmentScore": 0.8247
+    },
+    {
+      "text": "the",
+      "startSeconds": 19.1307,
+      "endSeconds": 19.2108,
+      "alignmentScore": 0.9944
+    },
+    {
+      "text": "contrast",
+      "startSeconds": 19.2508,
+      "endSeconds": 19.7711,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "between",
+      "startSeconds": 19.9912,
+      "endSeconds": 20.2514,
+      "alignmentScore": 0.9668
+    },
+    {
+      "text": "the",
+      "startSeconds": 20.2914,
+      "endSeconds": 20.3514,
+      "alignmentScore": 0.9882
+    },
+    {
+      "text": "large",
+      "startSeconds": 20.4115,
+      "endSeconds": 20.7316,
+      "alignmentScore": 0.988
+    },
+    {
+      "text": "animal",
+      "startSeconds": 20.8317,
+      "endSeconds": 21.1319,
+      "alignmentScore": 0.9977
+    },
+    {
+      "text": "and",
+      "startSeconds": 21.8323,
+      "endSeconds": 21.9923,
+      "alignmentScore": 0.9728
+    },
+    {
+      "text": "the",
+      "startSeconds": 22.0524,
+      "endSeconds": 22.1324,
+      "alignmentScore": 0.9274
+    },
+    {
+      "text": "king,",
+      "startSeconds": 22.2325,
+      "endSeconds": 22.5126,
+      "alignmentScore": 0.9451
+    },
+    {
+      "text": "then",
+      "startSeconds": 24.2136,
+      "endSeconds": 24.3737,
+      "alignmentScore": 0.9862
+    },
+    {
+      "text": "look",
+      "startSeconds": 24.4938,
+      "endSeconds": 24.7339,
+      "alignmentScore": 0.9982
+    },
+    {
+      "text": "at",
+      "startSeconds": 25.0341,
+      "endSeconds": 25.1341,
+      "alignmentScore": 0.9946
+    },
+    {
+      "text": "the",
+      "startSeconds": 25.1941,
+      "endSeconds": 25.2942,
+      "alignmentScore": 0.9842
+    },
+    {
+      "text": "inscriptions",
+      "startSeconds": 25.3542,
+      "endSeconds": 26.1547,
+      "alignmentScore": 0.9963
+    },
+    {
+      "text": "on",
+      "startSeconds": 26.4148,
+      "endSeconds": 26.4949,
+      "alignmentScore": 0.9962
+    },
+    {
+      "text": "the",
+      "startSeconds": 26.5149,
+      "endSeconds": 26.6149,
+      "alignmentScore": 0.9606
+    },
+    {
+      "text": "base.",
+      "startSeconds": 26.675,
+      "endSeconds": 27.1152,
+      "alignmentScore": 0.9939
+    },
+    {
+      "text": "This",
+      "startSeconds": 28.8162,
+      "endSeconds": 28.9963,
+      "alignmentScore": 0.996
+    },
+    {
+      "text": "composition",
+      "startSeconds": 29.0963,
+      "endSeconds": 29.8367,
+      "alignmentScore": 0.9959
+    },
+    {
+      "text": "expresses",
+      "startSeconds": 30.5572,
+      "endSeconds": 31.3576,
+      "alignmentScore": 0.9974
+    },
+    {
+      "text": "a",
+      "startSeconds": 31.5977,
+      "endSeconds": 31.6177,
+      "alignmentScore": 0.9962
+    },
+    {
+      "text": "connection",
+      "startSeconds": 31.7778,
+      "endSeconds": 32.3982,
+      "alignmentScore": 0.9873
+    },
+    {
+      "text": "between",
+      "startSeconds": 33.3387,
+      "endSeconds": 33.7389,
+      "alignmentScore": 0.9861
+    },
+    {
+      "text": "royal",
+      "startSeconds": 33.919,
+      "endSeconds": 34.2792,
+      "alignmentScore": 0.9884
+    },
+    {
+      "text": "power",
+      "startSeconds": 34.3793,
+      "endSeconds": 34.8195,
+      "alignmentScore": 0.9631
+    },
+    {
+      "text": "and",
+      "startSeconds": 35.9402,
+      "endSeconds": 36.1003,
+      "alignmentScore": 0.6243
+    },
+    {
+      "text": "divine",
+      "startSeconds": 36.1603,
+      "endSeconds": 36.7206,
+      "alignmentScore": 0.9689
+    },
+    {
+      "text": "protection",
+      "startSeconds": 36.7806,
+      "endSeconds": 37.461,
+      "alignmentScore": 0.9862
+    },
+    {
+      "text": "in",
+      "startSeconds": 38.5616,
+      "endSeconds": 38.6417,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "the",
+      "startSeconds": 38.6817,
+      "endSeconds": 38.7818,
+      "alignmentScore": 0.9901
+    },
+    {
+      "text": "history",
+      "startSeconds": 38.8618,
+      "endSeconds": 39.3421,
+      "alignmentScore": 0.9958
+    },
+    {
+      "text": "of",
+      "startSeconds": 40.1025,
+      "endSeconds": 40.2226,
+      "alignmentScore": 0.9983
+    },
+    {
+      "text": "Nubia",
+      "startSeconds": 40.3627,
+      "endSeconds": 40.7629,
+      "alignmentScore": 0.9131
+    },
+    {
+      "text": "and",
+      "startSeconds": 41.6234,
+      "endSeconds": 41.7634,
+      "alignmentScore": 0.9967
+    },
+    {
+      "text": "Egypt.",
+      "startSeconds": 41.9235,
+      "endSeconds": 42.4038,
+      "alignmentScore": 0.9961
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea1779.narration.en",
+    "wordCount": 74,
+    "cueCount": 16,
+    "meanAlignmentScore": 0.9654,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

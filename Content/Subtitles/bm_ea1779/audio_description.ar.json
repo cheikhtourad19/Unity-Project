@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea1779.audio_description.ar",
+  "language": "ar",
+  "kind": "audio_description",
+  "audioSha256": "35a05bb4538da914b598eb86f19d64e3d909f0713d93262f77df7849d264d7ca",
+  "scriptSha256": "e747f8a388c9ed479a912fd169051c0fe5ade2a40776c94eeb0b9d096a5ddd02",
+  "durationSeconds": 21.315918,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020009,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.04,
+      "endSeconds": 3.141,
+      "text": "يستلقي كبش كبير على قاعدة\nمستطيلة."
+    },
+    {
+      "startSeconds": 3.922,
+      "endSeconds": 7.423,
+      "text": "ساقاه مطويتان تحت جسمه ورأسه\nمرفوع."
+    },
+    {
+      "startSeconds": 8.224,
+      "endSeconds": 12.225,
+      "text": "يقف تمثال بشري صغير بين\nساقيه الأماميتين،"
+    },
+    {
+      "startSeconds": 12.926,
+      "endSeconds": 15.907,
+      "text": "ويبدو صغيراً جداً مقارنة\nبالحيوان."
+    },
+    {
+      "startSeconds": 16.727,
+      "endSeconds": 20.909,
+      "text": "وتمتد صفوف من العلامات\nالمنقوشة على جوانب القاعدة."
+    }
+  ],
+  "words": [
+    {
+      "text": "يستلقي",
+      "startSeconds": 0.04,
+      "endSeconds": 0.5202,
+      "alignmentScore": 0.9302
+    },
+    {
+      "text": "كبش",
+      "startSeconds": 0.6003,
+      "endSeconds": 0.8404,
+      "alignmentScore": 0.9894
+    },
+    {
+      "text": "كبير",
+      "startSeconds": 1.0004,
+      "endSeconds": 1.3806,
+      "alignmentScore": 0.9493
+    },
+    {
+      "text": "على",
+      "startSeconds": 1.5407,
+      "endSeconds": 1.7208,
+      "alignmentScore": 0.9938
+    },
+    {
+      "text": "قاعدة",
+      "startSeconds": 1.8408,
+      "endSeconds": 2.201,
+      "alignmentScore": 0.9718
+    },
+    {
+      "text": "مستطيلة.",
+      "startSeconds": 2.4411,
+      "endSeconds": 3.0614,
+      "alignmentScore": 0.9865
+    },
+    {
+      "text": "ساقاه",
+      "startSeconds": 3.9218,
+      "endSeconds": 4.3619,
+      "alignmentScore": 0.9549
+    },
+    {
+      "text": "مطويتان",
+      "startSeconds": 4.462,
+      "endSeconds": 5.1223,
+      "alignmentScore": 0.9339
+    },
+    {
+      "text": "تحت",
+      "startSeconds": 5.2223,
+      "endSeconds": 5.4224,
+      "alignmentScore": 0.9722
+    },
+    {
+      "text": "جسمه",
+      "startSeconds": 5.5425,
+      "endSeconds": 5.9226,
+      "alignmentScore": 0.9895
+    },
+    {
+      "text": "ورأسه",
+      "startSeconds": 6.1628,
+      "endSeconds": 6.683,
+      "alignmentScore": 0.8994
+    },
+    {
+      "text": "مرفوع.",
+      "startSeconds": 6.8431,
+      "endSeconds": 7.3433,
+      "alignmentScore": 0.996
+    },
+    {
+      "text": "يقف",
+      "startSeconds": 8.2237,
+      "endSeconds": 8.5638,
+      "alignmentScore": 0.9903
+    },
+    {
+      "text": "تمثال",
+      "startSeconds": 8.6839,
+      "endSeconds": 9.064,
+      "alignmentScore": 0.9817
+    },
+    {
+      "text": "بشري",
+      "startSeconds": 9.2241,
+      "endSeconds": 9.6443,
+      "alignmentScore": 0.9937
+    },
+    {
+      "text": "صغير",
+      "startSeconds": 9.8244,
+      "endSeconds": 10.1445,
+      "alignmentScore": 0.9266
+    },
+    {
+      "text": "بين",
+      "startSeconds": 10.3246,
+      "endSeconds": 10.5047,
+      "alignmentScore": 0.9959
+    },
+    {
+      "text": "ساقيه",
+      "startSeconds": 10.6448,
+      "endSeconds": 11.085,
+      "alignmentScore": 0.984
+    },
+    {
+      "text": "الأماميتين،",
+      "startSeconds": 11.145,
+      "endSeconds": 12.1454,
+      "alignmentScore": 0.9591
+    },
+    {
+      "text": "ويبدو",
+      "startSeconds": 12.9258,
+      "endSeconds": 13.326,
+      "alignmentScore": 0.8182
+    },
+    {
+      "text": "صغيراً",
+      "startSeconds": 13.386,
+      "endSeconds": 13.8262,
+      "alignmentScore": 0.8335
+    },
+    {
+      "text": "جداً",
+      "startSeconds": 13.8862,
+      "endSeconds": 14.2264,
+      "alignmentScore": 0.7468
+    },
+    {
+      "text": "مقارنة",
+      "startSeconds": 14.2864,
+      "endSeconds": 14.8466,
+      "alignmentScore": 0.9847
+    },
+    {
+      "text": "بالحيوان.",
+      "startSeconds": 15.1067,
+      "endSeconds": 15.8271,
+      "alignmentScore": 0.9872
+    },
+    {
+      "text": "وتمتد",
+      "startSeconds": 16.7275,
+      "endSeconds": 17.3077,
+      "alignmentScore": 0.9407
+    },
+    {
+      "text": "صفوف",
+      "startSeconds": 17.4478,
+      "endSeconds": 17.7879,
+      "alignmentScore": 0.9956
+    },
+    {
+      "text": "من",
+      "startSeconds": 17.948,
+      "endSeconds": 18.0681,
+      "alignmentScore": 0.9353
+    },
+    {
+      "text": "العلامات",
+      "startSeconds": 18.1081,
+      "endSeconds": 18.6483,
+      "alignmentScore": 0.9943
+    },
+    {
+      "text": "المنقوشة",
+      "startSeconds": 18.7484,
+      "endSeconds": 19.3486,
+      "alignmentScore": 0.9929
+    },
+    {
+      "text": "على",
+      "startSeconds": 19.5487,
+      "endSeconds": 19.7288,
+      "alignmentScore": 0.9723
+    },
+    {
+      "text": "جوانب",
+      "startSeconds": 19.7888,
+      "endSeconds": 20.209,
+      "alignmentScore": 0.9966
+    },
+    {
+      "text": "القاعدة.",
+      "startSeconds": 20.2691,
+      "endSeconds": 20.8293,
+      "alignmentScore": 0.989
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea1779.audio_description.ar",
+    "wordCount": 32,
+    "cueCount": 5,
+    "meanAlignmentScore": 0.9558,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

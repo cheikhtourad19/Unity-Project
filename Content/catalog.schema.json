@@ -1,0 +1,850 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "catalogVersion",
+    "preparedOn",
+    "updatedOn",
+    "title",
+    "collectionId",
+    "defaultLanguage",
+    "supportedLanguages",
+    "status",
+    "sourceInventory",
+    "unityCollectionAsset",
+    "artworks"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "catalogVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "preparedOn": {
+      "type": "string",
+      "minLength": 1
+    },
+    "updatedOn": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "collectionId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "defaultLanguage": {
+      "enum": [
+        "fr",
+        "ar",
+        "en"
+      ]
+    },
+    "supportedLanguages": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "fr",
+          "ar",
+          "en"
+        ]
+      },
+      "minItems": 3,
+      "maxItems": 3,
+      "uniqueItems": true
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceInventory": {
+      "type": "string",
+      "minLength": 1
+    },
+    "unityCollectionAsset": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "artworks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artwork"
+      },
+      "minItems": 1
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HeritageXR content catalog v2",
+  "$defs": {
+    "text": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "language",
+        "title",
+        "summary",
+        "description",
+        "descriptionStatus",
+        "sources"
+      ],
+      "properties": {
+        "language": {
+          "enum": [
+            "fr",
+            "ar",
+            "en"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "descriptionStatus": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        }
+      }
+    },
+    "model": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourcePath",
+        "materialPaths",
+        "texturePaths",
+        "triangleCount",
+        "addressableKey",
+        "licence",
+        "sourceRepository",
+        "credits",
+        "importStatus",
+        "unityPrefabPath",
+        "displayLongestAxisMeters"
+      ],
+      "properties": {
+        "sourcePath": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "materialPaths": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "texturePaths": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "triangleCount": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "addressableKey": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "licence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "sourceRepository": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "credits": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "importStatus": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unityPrefabPath": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "displayLongestAxisMeters": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "path",
+        "bytes",
+        "sha256",
+        "sha1",
+        "pixelWidth",
+        "pixelHeight",
+        "sourcePage",
+        "author",
+        "licence",
+        "licenceUrl",
+        "modified",
+        "imageRole",
+        "physicalWidthMeters",
+        "printed",
+        "arTrackingValidated",
+        "identityVerification",
+        "authorNote",
+        "dimensionStatus",
+        "unityTexturePath",
+        "referenceLibraryPath",
+        "addressableKey",
+        "preparationStatus"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^target_[a-z0-9_]+$"
+        },
+        "path": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "bytes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "sha1": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "pixelWidth": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "pixelHeight": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "sourcePage": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "author": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "licence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "licenceUrl": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "modified": {
+          "type": "boolean"
+        },
+        "imageRole": {
+          "type": "string",
+          "minLength": 1
+        },
+        "physicalWidthMeters": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "printed": {
+          "type": "boolean"
+        },
+        "arTrackingValidated": {
+          "type": "boolean"
+        },
+        "identityVerification": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "authorNote": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "dimensionStatus": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unityTexturePath": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "referenceLibraryPath": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "addressableKey": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "preparationStatus": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "subtitle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "startSeconds",
+        "endSeconds",
+        "text"
+      ],
+      "properties": {
+        "startSeconds": {
+          "type": "number",
+          "minimum": 0
+        },
+        "endSeconds": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "audio": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "language",
+        "kind",
+        "scriptVersion",
+        "scriptPath",
+        "scriptSha256",
+        "scriptStatus",
+        "audioStatus",
+        "sourceAudioPath",
+        "unityAudioPath",
+        "addressableKey",
+        "durationSeconds",
+        "channels",
+        "sampleRateHz",
+        "voiceId",
+        "generationModelId",
+        "generationSettings",
+        "subtitlesPath",
+        "subtitlesStatus",
+        "subtitleSegments",
+        "credits",
+        "licence"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "language": {
+          "enum": [
+            "fr",
+            "ar",
+            "en"
+          ]
+        },
+        "kind": {
+          "enum": [
+            "narration",
+            "audio_description"
+          ]
+        },
+        "scriptVersion": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "scriptPath": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "scriptSha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "scriptStatus": {
+          "enum": [
+            "missing",
+            "draft",
+            "approved"
+          ]
+        },
+        "audioStatus": {
+          "enum": [
+            "missing",
+            "received",
+            "ready"
+          ]
+        },
+        "sourceAudioPath": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "unityAudioPath": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "addressableKey": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "durationSeconds": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "channels": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "sampleRateHz": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "voiceId": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "generationModelId": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "generationSettings": {
+          "type": "object"
+        },
+        "subtitlesPath": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "subtitlesStatus": {
+          "enum": [
+            "awaiting_audio",
+            "awaiting_alignment",
+            "draft",
+            "ready"
+          ]
+        },
+        "subtitleSegments": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/subtitle"
+          },
+          "minItems": 0
+        },
+        "credits": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "licence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "institution",
+        "creator",
+        "museumRecordUrl",
+        "materialSourceText",
+        "periodSourceText",
+        "findspotSourceText",
+        "reviewStatus",
+        "sourceLabelFile",
+        "sources",
+        "sourceNote"
+      ],
+      "properties": {
+        "institution": {
+          "type": "string",
+          "minLength": 1
+        },
+        "creator": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "museumRecordUrl": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "materialSourceText": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "periodSourceText": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "findspotSourceText": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "reviewStatus": {
+          "enum": [
+            "draft",
+            "approved"
+          ]
+        },
+        "sourceLabelFile": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "sourceNote": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "presentation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "modelLocalEulerDegrees",
+        "modelLocalOffsetMeters",
+        "audioLocalOffsetMeters",
+        "settingsStatus"
+      ],
+      "properties": {
+        "modelLocalEulerDegrees": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "modelLocalOffsetMeters": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "audioLocalOffsetMeters": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "settingsStatus": {
+          "enum": [
+            "defaults_pending_user_review",
+            "approved"
+          ]
+        }
+      }
+    },
+    "readiness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "modelSourceAvailable",
+        "modelImported",
+        "imageAvailable",
+        "textsReviewed",
+        "narrationAudioAvailable",
+        "audioDescriptionAvailable",
+        "subtitlesAligned",
+        "readyForPublication"
+      ],
+      "properties": {
+        "modelSourceAvailable": {
+          "type": "boolean"
+        },
+        "modelImported": {
+          "type": "boolean"
+        },
+        "imageAvailable": {
+          "type": "boolean"
+        },
+        "textsReviewed": {
+          "type": "boolean"
+        },
+        "narrationAudioAvailable": {
+          "type": "boolean"
+        },
+        "audioDescriptionAvailable": {
+          "type": "boolean"
+        },
+        "subtitlesAligned": {
+          "type": "boolean"
+        },
+        "readyForPublication": {
+          "type": "boolean"
+        }
+      }
+    },
+    "artwork": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "museumObjectId",
+        "publicationStatus",
+        "texts",
+        "model",
+        "targets",
+        "audio",
+        "games",
+        "contentVersion",
+        "sortOrder",
+        "categoryId",
+        "coverTargetId",
+        "metadata",
+        "presentation",
+        "readiness"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]+$"
+        },
+        "museumObjectId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publicationStatus": {
+          "enum": [
+            "draft",
+            "ready",
+            "published",
+            "archived"
+          ]
+        },
+        "texts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/text"
+          },
+          "minItems": 3
+        },
+        "model": {
+          "$ref": "#/$defs/model"
+        },
+        "targets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/target"
+          },
+          "minItems": 1
+        },
+        "audio": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/audio"
+          },
+          "minItems": 6
+        },
+        "games": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "minItems": 0
+        },
+        "contentVersion": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sortOrder": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "categoryId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "coverTargetId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "metadata": {
+          "$ref": "#/$defs/metadata"
+        },
+        "presentation": {
+          "$ref": "#/$defs/presentation"
+        },
+        "readiness": {
+          "$ref": "#/$defs/readiness"
+        }
+      }
+    }
+  },
+  "$comment": "Publication completeness, unique IDs/languages, referenced paths, script hashes and subtitle interval consistency require semantic validation in addition to this structural schema. No maximum artwork count."
+}

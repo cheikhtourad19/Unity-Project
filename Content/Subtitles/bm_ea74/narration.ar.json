@@ -1,0 +1,401 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea74.narration.ar",
+  "language": "ar",
+  "kind": "narration",
+  "audioSha256": "f3257b31f4f31f122007d4ea98e4c0ddd1c6137fe5f8a3d6c12aee105047084d",
+  "scriptSha256": "6d5b6cda2ea28a006cc11b48114bd0ef63f219cc82caf7de38ecfcb9bcfbb41e",
+  "durationSeconds": 34.037551,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020008,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.06,
+      "endSeconds": 3.201,
+      "text": "نُحت هذا الجعران الضخم من\nحجر الديوريت."
+    },
+    {
+      "startSeconds": 4.022,
+      "endSeconds": 8.964,
+      "text": "ويرجح أنه يمثل خبري، أحد\nأشكال إله الشمس المرتبطة"
+    },
+    {
+      "startSeconds": 9.124,
+      "endSeconds": 9.924,
+      "text": "بشروقها."
+    },
+    {
+      "startSeconds": 10.764,
+      "endSeconds": 15.426,
+      "text": "في معتقدات مصر القديمة، كان\nالجعران يرمز إلى الولادة"
+    },
+    {
+      "startSeconds": 15.566,
+      "endSeconds": 16.387,
+      "text": "والتجدد."
+    },
+    {
+      "startSeconds": 17.047,
+      "endSeconds": 22.289,
+      "text": "تأمل جسمه المستدير وأرجله\nوالقاعدة التي يستند إليها."
+    },
+    {
+      "startSeconds": 23.17,
+      "endSeconds": 27.171,
+      "text": "لقد حوّل النحات حشرة صغيرة\nإلى حضور ضخم."
+    },
+    {
+      "startSeconds": 27.872,
+      "endSeconds": 33.054,
+      "text": "تدعونا هذه القطعة إلى اكتشاف\nالصلة بين عالم الطبيعة وصور"
+    },
+    {
+      "startSeconds": 33.054,
+      "endSeconds": 33.834,
+      "text": "الآلهة."
+    }
+  ],
+  "words": [
+    {
+      "text": "نُحت",
+      "startSeconds": 0.06,
+      "endSeconds": 0.3401,
+      "alignmentScore": 0.746
+    },
+    {
+      "text": "هذا",
+      "startSeconds": 0.4602,
+      "endSeconds": 0.6803,
+      "alignmentScore": 0.889
+    },
+    {
+      "text": "الجعران",
+      "startSeconds": 0.7203,
+      "endSeconds": 1.2005,
+      "alignmentScore": 0.9943
+    },
+    {
+      "text": "الضخم",
+      "startSeconds": 1.2805,
+      "endSeconds": 1.7007,
+      "alignmentScore": 0.975
+    },
+    {
+      "text": "من",
+      "startSeconds": 2.0408,
+      "endSeconds": 2.1609,
+      "alignmentScore": 0.9958
+    },
+    {
+      "text": "حجر",
+      "startSeconds": 2.2209,
+      "endSeconds": 2.481,
+      "alignmentScore": 0.9942
+    },
+    {
+      "text": "الديوريت.",
+      "startSeconds": 2.5611,
+      "endSeconds": 3.1213,
+      "alignmentScore": 0.8536
+    },
+    {
+      "text": "ويرجح",
+      "startSeconds": 4.0217,
+      "endSeconds": 4.6219,
+      "alignmentScore": 0.9971
+    },
+    {
+      "text": "أنه",
+      "startSeconds": 4.762,
+      "endSeconds": 4.9621,
+      "alignmentScore": 0.9922
+    },
+    {
+      "text": "يمثل",
+      "startSeconds": 5.0421,
+      "endSeconds": 5.5023,
+      "alignmentScore": 0.9958
+    },
+    {
+      "text": "خبري،",
+      "startSeconds": 5.6223,
+      "endSeconds": 6.0425,
+      "alignmentScore": 0.9017
+    },
+    {
+      "text": "أحد",
+      "startSeconds": 6.6027,
+      "endSeconds": 6.8628,
+      "alignmentScore": 0.9963
+    },
+    {
+      "text": "أشكال",
+      "startSeconds": 7.0029,
+      "endSeconds": 7.363,
+      "alignmentScore": 0.9922
+    },
+    {
+      "text": "إله",
+      "startSeconds": 7.5031,
+      "endSeconds": 7.7032,
+      "alignmentScore": 0.9963
+    },
+    {
+      "text": "الشمس",
+      "startSeconds": 7.7832,
+      "endSeconds": 8.0833,
+      "alignmentScore": 0.9981
+    },
+    {
+      "text": "المرتبطة",
+      "startSeconds": 8.1834,
+      "endSeconds": 8.8837,
+      "alignmentScore": 0.9806
+    },
+    {
+      "text": "بشروقها.",
+      "startSeconds": 9.1238,
+      "endSeconds": 9.8041,
+      "alignmentScore": 0.9953
+    },
+    {
+      "text": "في",
+      "startSeconds": 10.7645,
+      "endSeconds": 10.8645,
+      "alignmentScore": 0.9961
+    },
+    {
+      "text": "معتقدات",
+      "startSeconds": 10.9645,
+      "endSeconds": 11.6048,
+      "alignmentScore": 0.8861
+    },
+    {
+      "text": "مصر",
+      "startSeconds": 11.7449,
+      "endSeconds": 11.985,
+      "alignmentScore": 0.9939
+    },
+    {
+      "text": "القديمة،",
+      "startSeconds": 12.085,
+      "endSeconds": 12.6252,
+      "alignmentScore": 0.946
+    },
+    {
+      "text": "كان",
+      "startSeconds": 13.2455,
+      "endSeconds": 13.4456,
+      "alignmentScore": 0.9835
+    },
+    {
+      "text": "الجعران",
+      "startSeconds": 13.5456,
+      "endSeconds": 14.0258,
+      "alignmentScore": 0.9501
+    },
+    {
+      "text": "يرمز",
+      "startSeconds": 14.1459,
+      "endSeconds": 14.526,
+      "alignmentScore": 0.9969
+    },
+    {
+      "text": "إلى",
+      "startSeconds": 14.7261,
+      "endSeconds": 14.8261,
+      "alignmentScore": 0.9969
+    },
+    {
+      "text": "الولادة",
+      "startSeconds": 14.8862,
+      "endSeconds": 15.3463,
+      "alignmentScore": 0.9195
+    },
+    {
+      "text": "والتجدد.",
+      "startSeconds": 15.5664,
+      "endSeconds": 16.3067,
+      "alignmentScore": 0.9708
+    },
+    {
+      "text": "تأمل",
+      "startSeconds": 17.0471,
+      "endSeconds": 17.5673,
+      "alignmentScore": 0.9226
+    },
+    {
+      "text": "جسمه",
+      "startSeconds": 17.6673,
+      "endSeconds": 18.0475,
+      "alignmentScore": 0.9962
+    },
+    {
+      "text": "المستدير",
+      "startSeconds": 18.1275,
+      "endSeconds": 18.7878,
+      "alignmentScore": 0.9429
+    },
+    {
+      "text": "وأرجله",
+      "startSeconds": 18.9278,
+      "endSeconds": 19.6081,
+      "alignmentScore": 0.9776
+    },
+    {
+      "text": "والقاعدة",
+      "startSeconds": 20.0283,
+      "endSeconds": 20.6485,
+      "alignmentScore": 0.9384
+    },
+    {
+      "text": "التي",
+      "startSeconds": 20.8086,
+      "endSeconds": 21.0887,
+      "alignmentScore": 0.9181
+    },
+    {
+      "text": "يستند",
+      "startSeconds": 21.1688,
+      "endSeconds": 21.669,
+      "alignmentScore": 0.9963
+    },
+    {
+      "text": "إليها.",
+      "startSeconds": 21.849,
+      "endSeconds": 22.2092,
+      "alignmentScore": 0.9919
+    },
+    {
+      "text": "لقد",
+      "startSeconds": 23.1696,
+      "endSeconds": 23.4497,
+      "alignmentScore": 0.9823
+    },
+    {
+      "text": "حوّل",
+      "startSeconds": 23.5097,
+      "endSeconds": 23.8499,
+      "alignmentScore": 0.9931
+    },
+    {
+      "text": "النحات",
+      "startSeconds": 23.9299,
+      "endSeconds": 24.4501,
+      "alignmentScore": 0.912
+    },
+    {
+      "text": "حشرة",
+      "startSeconds": 24.5902,
+      "endSeconds": 25.0304,
+      "alignmentScore": 0.9396
+    },
+    {
+      "text": "صغيرة",
+      "startSeconds": 25.2905,
+      "endSeconds": 25.7106,
+      "alignmentScore": 0.9021
+    },
+    {
+      "text": "إلى",
+      "startSeconds": 26.0308,
+      "endSeconds": 26.1708,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "حضور",
+      "startSeconds": 26.2509,
+      "endSeconds": 26.591,
+      "alignmentScore": 0.9963
+    },
+    {
+      "text": "ضخم.",
+      "startSeconds": 26.7711,
+      "endSeconds": 27.0912,
+      "alignmentScore": 0.871
+    },
+    {
+      "text": "تدعونا",
+      "startSeconds": 27.8715,
+      "endSeconds": 28.4118,
+      "alignmentScore": 0.8322
+    },
+    {
+      "text": "هذه",
+      "startSeconds": 28.4918,
+      "endSeconds": 28.7719,
+      "alignmentScore": 0.9967
+    },
+    {
+      "text": "القطعة",
+      "startSeconds": 28.8119,
+      "endSeconds": 29.2721,
+      "alignmentScore": 0.9638
+    },
+    {
+      "text": "إلى",
+      "startSeconds": 29.5122,
+      "endSeconds": 29.6122,
+      "alignmentScore": 0.8704
+    },
+    {
+      "text": "اكتشاف",
+      "startSeconds": 29.6523,
+      "endSeconds": 30.1525,
+      "alignmentScore": 0.9613
+    },
+    {
+      "text": "الصلة",
+      "startSeconds": 30.2525,
+      "endSeconds": 30.5927,
+      "alignmentScore": 0.9518
+    },
+    {
+      "text": "بين",
+      "startSeconds": 30.8528,
+      "endSeconds": 31.0528,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "عالم",
+      "startSeconds": 31.1729,
+      "endSeconds": 31.473,
+      "alignmentScore": 0.9964
+    },
+    {
+      "text": "الطبيعة",
+      "startSeconds": 31.5531,
+      "endSeconds": 32.0933,
+      "alignmentScore": 0.9937
+    },
+    {
+      "text": "وصور",
+      "startSeconds": 32.5335,
+      "endSeconds": 32.9936,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "الآلهة.",
+      "startSeconds": 33.0537,
+      "endSeconds": 33.6339,
+      "alignmentScore": 0.9518
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea74.narration.ar",
+    "wordCount": 54,
+    "cueCount": 9,
+    "meanAlignmentScore": 0.958,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

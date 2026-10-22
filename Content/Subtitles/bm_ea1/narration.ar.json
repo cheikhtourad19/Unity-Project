@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea1.narration.ar",
+  "language": "ar",
+  "kind": "narration",
+  "audioSha256": "8e7603b955240d1bc01022977db52e54bd86b1cee153cf112699d2a941a2a98e",
+  "scriptSha256": "fe7d28cb250c9131647f3f400c019ff0033b66a188fe396e380dd3768dd1f048",
+  "durationSeconds": 34.35102,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020011,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.02,
+      "endSeconds": 4.583,
+      "text": "ينتمي هذا الأسد المستلقي،\nالمنحوت من الجرانيت الأحمر،"
+    },
+    {
+      "startSeconds": 5.223,
+      "endSeconds": 7.884,
+      "text": "إلى الزوج المعروف باسم أسدي\nبرودهو."
+    },
+    {
+      "startSeconds": 8.805,
+      "endSeconds": 14.208,
+      "text": "وهو مرتبط بعهد أمنحتب\nالثالث. يستند جسمه الممتد إلى"
+    },
+    {
+      "startSeconds": 14.248,
+      "endSeconds": 15.989,
+      "text": "قاعدة تحمل نقوشاً."
+    },
+    {
+      "startSeconds": 16.609,
+      "endSeconds": 22.052,
+      "text": "تشير النصوص إلى عدة حكام وتشهد\nعلى تاريخ التمثال الطويل."
+    },
+    {
+      "startSeconds": 22.813,
+      "endSeconds": 26.435,
+      "text": "تأمل الرأس والكفوف والعلامات\nالمنقوشة."
+    },
+    {
+      "startSeconds": 27.435,
+      "endSeconds": 32.858,
+      "text": "كانت صورة الأسد تعبر عن\nالقوة الملكية، مع اهتمام دقيق"
+    },
+    {
+      "startSeconds": 32.978,
+      "endSeconds": 34.079,
+      "text": "بجسم الحيوان."
+    }
+  ],
+  "words": [
+    {
+      "text": "ينتمي",
+      "startSeconds": 0.02,
+      "endSeconds": 0.4603,
+      "alignmentScore": 0.9798
+    },
+    {
+      "text": "هذا",
+      "startSeconds": 0.5203,
+      "endSeconds": 0.7204,
+      "alignmentScore": 0.9008
+    },
+    {
+      "text": "الأسد",
+      "startSeconds": 0.7604,
+      "endSeconds": 1.1206,
+      "alignmentScore": 0.9895
+    },
+    {
+      "text": "المستلقي،",
+      "startSeconds": 1.2007,
+      "endSeconds": 1.841,
+      "alignmentScore": 0.962
+    },
+    {
+      "text": "المنحوت",
+      "startSeconds": 2.3613,
+      "endSeconds": 3.0017,
+      "alignmentScore": 0.9497
+    },
+    {
+      "text": "من",
+      "startSeconds": 3.1418,
+      "endSeconds": 3.2418,
+      "alignmentScore": 0.9939
+    },
+    {
+      "text": "الجرانيت",
+      "startSeconds": 3.3018,
+      "endSeconds": 3.9022,
+      "alignmentScore": 0.9596
+    },
+    {
+      "text": "الأحمر،",
+      "startSeconds": 3.9622,
+      "endSeconds": 4.5025,
+      "alignmentScore": 0.9559
+    },
+    {
+      "text": "إلى",
+      "startSeconds": 5.2229,
+      "endSeconds": 5.363,
+      "alignmentScore": 0.947
+    },
+    {
+      "text": "الزوج",
+      "startSeconds": 5.423,
+      "endSeconds": 5.7432,
+      "alignmentScore": 0.9871
+    },
+    {
+      "text": "المعروف",
+      "startSeconds": 5.8433,
+      "endSeconds": 6.3035,
+      "alignmentScore": 0.9431
+    },
+    {
+      "text": "باسم",
+      "startSeconds": 6.4436,
+      "endSeconds": 6.6837,
+      "alignmentScore": 0.8174
+    },
+    {
+      "text": "أسدي",
+      "startSeconds": 6.8638,
+      "endSeconds": 7.224,
+      "alignmentScore": 0.7868
+    },
+    {
+      "text": "برودهو.",
+      "startSeconds": 7.3241,
+      "endSeconds": 7.8043,
+      "alignmentScore": 0.7898
+    },
+    {
+      "text": "وهو",
+      "startSeconds": 8.8049,
+      "endSeconds": 9.0851,
+      "alignmentScore": 0.9942
+    },
+    {
+      "text": "مرتبط",
+      "startSeconds": 9.2051,
+      "endSeconds": 9.7054,
+      "alignmentScore": 0.9786
+    },
+    {
+      "text": "بعهد",
+      "startSeconds": 9.9055,
+      "endSeconds": 10.3057,
+      "alignmentScore": 0.9911
+    },
+    {
+      "text": "أمنحتب",
+      "startSeconds": 10.4658,
+      "endSeconds": 11.0061,
+      "alignmentScore": 0.9773
+    },
+    {
+      "text": "الثالث.",
+      "startSeconds": 11.0862,
+      "endSeconds": 11.6465,
+      "alignmentScore": 0.8671
+    },
+    {
+      "text": "يستند",
+      "startSeconds": 12.1468,
+      "endSeconds": 12.6671,
+      "alignmentScore": 0.9888
+    },
+    {
+      "text": "جسمه",
+      "startSeconds": 12.7871,
+      "endSeconds": 13.1673,
+      "alignmentScore": 0.9944
+    },
+    {
+      "text": "الممتد",
+      "startSeconds": 13.2474,
+      "endSeconds": 13.7877,
+      "alignmentScore": 0.939
+    },
+    {
+      "text": "إلى",
+      "startSeconds": 13.9678,
+      "endSeconds": 14.1279,
+      "alignmentScore": 0.9702
+    },
+    {
+      "text": "قاعدة",
+      "startSeconds": 14.2479,
+      "endSeconds": 14.6282,
+      "alignmentScore": 0.8892
+    },
+    {
+      "text": "تحمل",
+      "startSeconds": 14.8683,
+      "endSeconds": 15.2285,
+      "alignmentScore": 0.9948
+    },
+    {
+      "text": "نقوشاً.",
+      "startSeconds": 15.3285,
+      "endSeconds": 15.9089,
+      "alignmentScore": 0.7279
+    },
+    {
+      "text": "تشير",
+      "startSeconds": 16.6093,
+      "endSeconds": 17.0295,
+      "alignmentScore": 0.9706
+    },
+    {
+      "text": "النصوص",
+      "startSeconds": 17.1295,
+      "endSeconds": 17.6098,
+      "alignmentScore": 0.9866
+    },
+    {
+      "text": "إلى",
+      "startSeconds": 17.8099,
+      "endSeconds": 17.95,
+      "alignmentScore": 0.9907
+    },
+    {
+      "text": "عدة",
+      "startSeconds": 18.03,
+      "endSeconds": 18.2902,
+      "alignmentScore": 0.9306
+    },
+    {
+      "text": "حكام",
+      "startSeconds": 18.4903,
+      "endSeconds": 19.0106,
+      "alignmentScore": 0.9728
+    },
+    {
+      "text": "وتشهد",
+      "startSeconds": 19.5109,
+      "endSeconds": 20.0312,
+      "alignmentScore": 0.993
+    },
+    {
+      "text": "على",
+      "startSeconds": 20.1512,
+      "endSeconds": 20.3113,
+      "alignmentScore": 0.9942
+    },
+    {
+      "text": "تاريخ",
+      "startSeconds": 20.3914,
+      "endSeconds": 20.7516,
+      "alignmentScore": 0.9839
+    },
+    {
+      "text": "التمثال",
+      "startSeconds": 20.8316,
+      "endSeconds": 21.3719,
+      "alignmentScore": 0.9515
+    },
+    {
+      "text": "الطويل.",
+      "startSeconds": 21.452,
+      "endSeconds": 21.9722,
+      "alignmentScore": 0.9817
+    },
+    {
+      "text": "تأمل",
+      "startSeconds": 22.8127,
+      "endSeconds": 23.293,
+      "alignmentScore": 0.9782
+    },
+    {
+      "text": "الرأس",
+      "startSeconds": 23.373,
+      "endSeconds": 23.7132,
+      "alignmentScore": 0.9683
+    },
+    {
+      "text": "والكفوف",
+      "startSeconds": 23.8333,
+      "endSeconds": 24.4936,
+      "alignmentScore": 0.9759
+    },
+    {
+      "text": "والعلامات",
+      "startSeconds": 24.9539,
+      "endSeconds": 25.5943,
+      "alignmentScore": 0.9429
+    },
+    {
+      "text": "المنقوشة.",
+      "startSeconds": 25.6743,
+      "endSeconds": 26.3547,
+      "alignmentScore": 0.9414
+    },
+    {
+      "text": "كانت",
+      "startSeconds": 27.4353,
+      "endSeconds": 27.7555,
+      "alignmentScore": 0.9673
+    },
+    {
+      "text": "صورة",
+      "startSeconds": 27.7955,
+      "endSeconds": 28.0556,
+      "alignmentScore": 0.9043
+    },
+    {
+      "text": "الأسد",
+      "startSeconds": 28.1957,
+      "endSeconds": 28.636,
+      "alignmentScore": 0.9903
+    },
+    {
+      "text": "تعبر",
+      "startSeconds": 28.756,
+      "endSeconds": 29.1963,
+      "alignmentScore": 0.9816
+    },
+    {
+      "text": "عن",
+      "startSeconds": 29.2963,
+      "endSeconds": 29.3964,
+      "alignmentScore": 0.995
+    },
+    {
+      "text": "القوة",
+      "startSeconds": 29.4564,
+      "endSeconds": 29.8566,
+      "alignmentScore": 0.9746
+    },
+    {
+      "text": "الملكية،",
+      "startSeconds": 29.9967,
+      "endSeconds": 30.6971,
+      "alignmentScore": 0.9912
+    },
+    {
+      "text": "مع",
+      "startSeconds": 31.3175,
+      "endSeconds": 31.4775,
+      "alignmentScore": 0.4982
+    },
+    {
+      "text": "اهتمام",
+      "startSeconds": 31.5376,
+      "endSeconds": 32.1379,
+      "alignmentScore": 0.99
+    },
+    {
+      "text": "دقيق",
+      "startSeconds": 32.338,
+      "endSeconds": 32.7783,
+      "alignmentScore": 0.9941
+    },
+    {
+      "text": "بجسم",
+      "startSeconds": 32.9784,
+      "endSeconds": 33.3186,
+      "alignmentScore": 0.9817
+    },
+    {
+      "text": "الحيوان.",
+      "startSeconds": 33.3786,
+      "endSeconds": 33.9989,
+      "alignmentScore": 0.9444
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea1.narration.ar",
+    "wordCount": 53,
+    "cueCount": 8,
+    "meanAlignmentScore": 0.9443,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

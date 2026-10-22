@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea1779.audio_description.fr",
+  "language": "fr",
+  "kind": "audio_description",
+  "audioSha256": "c62b784e0e22f2cdccf3b5abc78a2d91cceed5a9229d6485ab2d5abb3a1f6196",
+  "scriptSha256": "bbd944322f5d7e52ec846d95e927b431094acd953e9c4fd9c0740181efec2af9",
+  "durationSeconds": 20.009796,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020009,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.08,
+      "endSeconds": 3.301,
+      "text": "Un grand bélier est couché\nsur une base rectangulaire."
+    },
+    {
+      "startSeconds": 3.742,
+      "endSeconds": 7.383,
+      "text": "Ses pattes sont repliées\nsous son corps et sa tête est"
+    },
+    {
+      "startSeconds": 7.403,
+      "endSeconds": 8.203,
+      "text": "relevée."
+    },
+    {
+      "startSeconds": 8.664,
+      "endSeconds": 11.966,
+      "text": "Une petite figure humaine se\ntient entre les pattes"
+    },
+    {
+      "startSeconds": 12.046,
+      "endSeconds": 15.287,
+      "text": "avant. Elle paraît minuscule\nface à l’animal."
+    },
+    {
+      "startSeconds": 15.907,
+      "endSeconds": 19.389,
+      "text": "Des rangées de signes gravés\nparcourent les côtés de la"
+    },
+    {
+      "startSeconds": 19.389,
+      "endSeconds": 19.889,
+      "text": "base."
+    }
+  ],
+  "words": [
+    {
+      "text": "Un",
+      "startSeconds": 0.08,
+      "endSeconds": 0.1601,
+      "alignmentScore": 0.9922
+    },
+    {
+      "text": "grand",
+      "startSeconds": 0.2001,
+      "endSeconds": 0.4602,
+      "alignmentScore": 0.9726
+    },
+    {
+      "text": "bélier",
+      "startSeconds": 0.4802,
+      "endSeconds": 0.8404,
+      "alignmentScore": 0.9472
+    },
+    {
+      "text": "est",
+      "startSeconds": 1.1605,
+      "endSeconds": 1.2406,
+      "alignmentScore": 0.9652
+    },
+    {
+      "text": "couché",
+      "startSeconds": 1.2606,
+      "endSeconds": 1.5807,
+      "alignmentScore": 0.9719
+    },
+    {
+      "text": "sur",
+      "startSeconds": 1.8609,
+      "endSeconds": 2.0209,
+      "alignmentScore": 0.9951
+    },
+    {
+      "text": "une",
+      "startSeconds": 2.0609,
+      "endSeconds": 2.181,
+      "alignmentScore": 0.9927
+    },
+    {
+      "text": "base",
+      "startSeconds": 2.221,
+      "endSeconds": 2.4611,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "rectangulaire.",
+      "startSeconds": 2.5012,
+      "endSeconds": 3.2215,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "Ses",
+      "startSeconds": 3.7417,
+      "endSeconds": 3.8818,
+      "alignmentScore": 0.9358
+    },
+    {
+      "text": "pattes",
+      "startSeconds": 3.9418,
+      "endSeconds": 4.322,
+      "alignmentScore": 0.8479
+    },
+    {
+      "text": "sont",
+      "startSeconds": 4.6421,
+      "endSeconds": 4.8022,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "repliées",
+      "startSeconds": 4.8622,
+      "endSeconds": 5.4025,
+      "alignmentScore": 0.898
+    },
+    {
+      "text": "sous",
+      "startSeconds": 5.4425,
+      "endSeconds": 5.5626,
+      "alignmentScore": 0.9163
+    },
+    {
+      "text": "son",
+      "startSeconds": 5.6226,
+      "endSeconds": 5.7426,
+      "alignmentScore": 0.911
+    },
+    {
+      "text": "corps",
+      "startSeconds": 5.8027,
+      "endSeconds": 6.1828,
+      "alignmentScore": 0.9359
+    },
+    {
+      "text": "et",
+      "startSeconds": 6.6431,
+      "endSeconds": 6.7031,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "sa",
+      "startSeconds": 6.7631,
+      "endSeconds": 6.8231,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "tête",
+      "startSeconds": 6.9232,
+      "endSeconds": 7.1233,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "est",
+      "startSeconds": 7.1833,
+      "endSeconds": 7.3034,
+      "alignmentScore": 0.9302
+    },
+    {
+      "text": "relevée.",
+      "startSeconds": 7.4034,
+      "endSeconds": 7.8036,
+      "alignmentScore": 0.8854
+    },
+    {
+      "text": "Une",
+      "startSeconds": 8.664,
+      "endSeconds": 8.764,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "petite",
+      "startSeconds": 8.8041,
+      "endSeconds": 9.1242,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "figure",
+      "startSeconds": 9.1442,
+      "endSeconds": 9.5244,
+      "alignmentScore": 0.9785
+    },
+    {
+      "text": "humaine",
+      "startSeconds": 9.6244,
+      "endSeconds": 10.0246,
+      "alignmentScore": 0.9891
+    },
+    {
+      "text": "se",
+      "startSeconds": 10.4448,
+      "endSeconds": 10.5248,
+      "alignmentScore": 0.9962
+    },
+    {
+      "text": "tient",
+      "startSeconds": 10.6049,
+      "endSeconds": 10.865,
+      "alignmentScore": 0.9237
+    },
+    {
+      "text": "entre",
+      "startSeconds": 11.0651,
+      "endSeconds": 11.3652,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "les",
+      "startSeconds": 11.4453,
+      "endSeconds": 11.5653,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "pattes",
+      "startSeconds": 11.5853,
+      "endSeconds": 11.8855,
+      "alignmentScore": 0.8339
+    },
+    {
+      "text": "avant.",
+      "startSeconds": 12.0455,
+      "endSeconds": 12.2857,
+      "alignmentScore": 0.9956
+    },
+    {
+      "text": "Elle",
+      "startSeconds": 12.7459,
+      "endSeconds": 12.8859,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "paraît",
+      "startSeconds": 12.946,
+      "endSeconds": 13.2661,
+      "alignmentScore": 0.962
+    },
+    {
+      "text": "minuscule",
+      "startSeconds": 13.5062,
+      "endSeconds": 14.0865,
+      "alignmentScore": 0.9977
+    },
+    {
+      "text": "face",
+      "startSeconds": 14.4266,
+      "endSeconds": 14.6667,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "à",
+      "startSeconds": 14.7068,
+      "endSeconds": 14.7268,
+      "alignmentScore": 0.9988
+    },
+    {
+      "text": "l’animal.",
+      "startSeconds": 14.7668,
+      "endSeconds": 15.207,
+      "alignmentScore": 0.9582
+    },
+    {
+      "text": "Des",
+      "startSeconds": 15.9073,
+      "endSeconds": 16.0274,
+      "alignmentScore": 0.856
+    },
+    {
+      "text": "rangées",
+      "startSeconds": 16.0474,
+      "endSeconds": 16.3875,
+      "alignmentScore": 0.8596
+    },
+    {
+      "text": "de",
+      "startSeconds": 16.4075,
+      "endSeconds": 16.4676,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "signes",
+      "startSeconds": 16.6076,
+      "endSeconds": 16.9278,
+      "alignmentScore": 0.8588
+    },
+    {
+      "text": "gravés",
+      "startSeconds": 16.9678,
+      "endSeconds": 17.408,
+      "alignmentScore": 0.9088
+    },
+    {
+      "text": "parcourent",
+      "startSeconds": 17.8482,
+      "endSeconds": 18.4085,
+      "alignmentScore": 0.7274
+    },
+    {
+      "text": "les",
+      "startSeconds": 18.7086,
+      "endSeconds": 18.8287,
+      "alignmentScore": 0.9979
+    },
+    {
+      "text": "côtés",
+      "startSeconds": 18.8487,
+      "endSeconds": 19.1488,
+      "alignmentScore": 0.9773
+    },
+    {
+      "text": "de",
+      "startSeconds": 19.1688,
+      "endSeconds": 19.2088,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "la",
+      "startSeconds": 19.2489,
+      "endSeconds": 19.3089,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "base.",
+      "startSeconds": 19.3889,
+      "endSeconds": 19.6891,
+      "alignmentScore": 0.9997
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea1779.audio_description.fr",
+    "wordCount": 48,
+    "cueCount": 7,
+    "meanAlignmentScore": 0.9564,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

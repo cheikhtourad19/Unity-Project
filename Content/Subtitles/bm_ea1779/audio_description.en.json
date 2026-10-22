@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea1779.audio_description.en",
+  "language": "en",
+  "kind": "audio_description",
+  "audioSha256": "190865e24c700806a8619f101bc1dc3d4e4fabf4830e94fa15f05aa62c87080c",
+  "scriptSha256": "bc4023087a8001f140088bf4e5bd07fa2e638dcac7eb63aa9b96687e115630b5",
+  "durationSeconds": 23.719184,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020021,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.08,
+      "endSeconds": 3.564,
+      "text": "A large ram lies on a\nrectangular base."
+    },
+    {
+      "startSeconds": 4.565,
+      "endSeconds": 7.267,
+      "text": "Its legs are folded beneath\nits body"
+    },
+    {
+      "startSeconds": 8.128,
+      "endSeconds": 9.69,
+      "text": "and its head is raised."
+    },
+    {
+      "startSeconds": 10.771,
+      "endSeconds": 14.575,
+      "text": "A small human figure stands\nbetween the front legs."
+    },
+    {
+      "startSeconds": 15.696,
+      "endSeconds": 18.239,
+      "text": "It appears tiny beside the\nanimal."
+    },
+    {
+      "startSeconds": 19.36,
+      "endSeconds": 23.404,
+      "text": "Rows of carved signs run\nalong the sides of the base."
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "startSeconds": 0.0801,
+      "endSeconds": 0.1001,
+      "alignmentScore": 0.9954
+    },
+    {
+      "text": "large",
+      "startSeconds": 0.2002,
+      "endSeconds": 0.5806,
+      "alignmentScore": 0.9827
+    },
+    {
+      "text": "ram",
+      "startSeconds": 0.7808,
+      "endSeconds": 1.0611,
+      "alignmentScore": 0.9984
+    },
+    {
+      "text": "lies",
+      "startSeconds": 1.4415,
+      "endSeconds": 1.7818,
+      "alignmentScore": 0.756
+    },
+    {
+      "text": "on",
+      "startSeconds": 2.0021,
+      "endSeconds": 2.0821,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "a",
+      "startSeconds": 2.1222,
+      "endSeconds": 2.1422,
+      "alignmentScore": 0.9971
+    },
+    {
+      "text": "rectangular",
+      "startSeconds": 2.2423,
+      "endSeconds": 3.0231,
+      "alignmentScore": 0.9986
+    },
+    {
+      "text": "base.",
+      "startSeconds": 3.0832,
+      "endSeconds": 3.4836,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "Its",
+      "startSeconds": 4.5647,
+      "endSeconds": 4.6848,
+      "alignmentScore": 0.9985
+    },
+    {
+      "text": "legs",
+      "startSeconds": 4.7849,
+      "endSeconds": 5.1053,
+      "alignmentScore": 0.9968
+    },
+    {
+      "text": "are",
+      "startSeconds": 5.3455,
+      "endSeconds": 5.4656,
+      "alignmentScore": 0.9569
+    },
+    {
+      "text": "folded",
+      "startSeconds": 5.5457,
+      "endSeconds": 5.9461,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "beneath",
+      "startSeconds": 6.3465,
+      "endSeconds": 6.7069,
+      "alignmentScore": 0.8717
+    },
+    {
+      "text": "its",
+      "startSeconds": 6.787,
+      "endSeconds": 6.9071,
+      "alignmentScore": 0.9976
+    },
+    {
+      "text": "body",
+      "startSeconds": 6.9672,
+      "endSeconds": 7.1874,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "and",
+      "startSeconds": 8.1284,
+      "endSeconds": 8.2084,
+      "alignmentScore": 0.9967
+    },
+    {
+      "text": "its",
+      "startSeconds": 8.2485,
+      "endSeconds": 8.3686,
+      "alignmentScore": 0.9966
+    },
+    {
+      "text": "head",
+      "startSeconds": 8.4687,
+      "endSeconds": 8.6889,
+      "alignmentScore": 0.9312
+    },
+    {
+      "text": "is",
+      "startSeconds": 8.9893,
+      "endSeconds": 9.0894,
+      "alignmentScore": 0.9982
+    },
+    {
+      "text": "raised.",
+      "startSeconds": 9.1694,
+      "endSeconds": 9.6099,
+      "alignmentScore": 0.9918
+    },
+    {
+      "text": "A",
+      "startSeconds": 10.7711,
+      "endSeconds": 10.7911,
+      "alignmentScore": 0.992
+    },
+    {
+      "text": "small",
+      "startSeconds": 10.9112,
+      "endSeconds": 11.2316,
+      "alignmentScore": 0.9917
+    },
+    {
+      "text": "human",
+      "startSeconds": 11.5719,
+      "endSeconds": 11.8522,
+      "alignmentScore": 0.9796
+    },
+    {
+      "text": "figure",
+      "startSeconds": 11.9523,
+      "endSeconds": 12.2526,
+      "alignmentScore": 0.7964
+    },
+    {
+      "text": "stands",
+      "startSeconds": 12.653,
+      "endSeconds": 13.1135,
+      "alignmentScore": 0.9983
+    },
+    {
+      "text": "between",
+      "startSeconds": 13.1936,
+      "endSeconds": 13.594,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "the",
+      "startSeconds": 13.6541,
+      "endSeconds": 13.7341,
+      "alignmentScore": 0.9984
+    },
+    {
+      "text": "front",
+      "startSeconds": 13.8142,
+      "endSeconds": 14.0344,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "legs.",
+      "startSeconds": 14.1145,
+      "endSeconds": 14.4949,
+      "alignmentScore": 0.9981
+    },
+    {
+      "text": "It",
+      "startSeconds": 15.6962,
+      "endSeconds": 15.7963,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "appears",
+      "startSeconds": 15.8363,
+      "endSeconds": 16.2768,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "tiny",
+      "startSeconds": 16.4169,
+      "endSeconds": 16.7773,
+      "alignmentScore": 0.996
+    },
+    {
+      "text": "beside",
+      "startSeconds": 17.2978,
+      "endSeconds": 17.6982,
+      "alignmentScore": 0.946
+    },
+    {
+      "text": "the",
+      "startSeconds": 17.7182,
+      "endSeconds": 17.7983,
+      "alignmentScore": 0.9975
+    },
+    {
+      "text": "animal.",
+      "startSeconds": 17.8584,
+      "endSeconds": 18.1587,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "Rows",
+      "startSeconds": 19.3599,
+      "endSeconds": 19.6803,
+      "alignmentScore": 0.832
+    },
+    {
+      "text": "of",
+      "startSeconds": 19.8004,
+      "endSeconds": 19.8805,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "carved",
+      "startSeconds": 19.9605,
+      "endSeconds": 20.381,
+      "alignmentScore": 0.9484
+    },
+    {
+      "text": "signs",
+      "startSeconds": 20.5011,
+      "endSeconds": 21.0216,
+      "alignmentScore": 0.9104
+    },
+    {
+      "text": "run",
+      "startSeconds": 21.402,
+      "endSeconds": 21.5822,
+      "alignmentScore": 0.9007
+    },
+    {
+      "text": "along",
+      "startSeconds": 21.7224,
+      "endSeconds": 22.0026,
+      "alignmentScore": 0.9471
+    },
+    {
+      "text": "the",
+      "startSeconds": 22.0427,
+      "endSeconds": 22.1228,
+      "alignmentScore": 0.9624
+    },
+    {
+      "text": "sides",
+      "startSeconds": 22.2029,
+      "endSeconds": 22.6233,
+      "alignmentScore": 0.9981
+    },
+    {
+      "text": "of",
+      "startSeconds": 22.6833,
+      "endSeconds": 22.7434,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "the",
+      "startSeconds": 22.8035,
+      "endSeconds": 22.8836,
+      "alignmentScore": 0.9871
+    },
+    {
+      "text": "base.",
+      "startSeconds": 22.9236,
+      "endSeconds": 23.324,
+      "alignmentScore": 0.9914
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea1779.audio_description.en",
+    "wordCount": 46,
+    "cueCount": 6,
+    "meanAlignmentScore": 0.9702,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

@@ -1,0 +1,532 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea74.narration.fr",
+  "language": "fr",
+  "kind": "narration",
+  "audioSha256": "fe16240e0ec0e3e16556b99895cf6ee21f3a0c48b919cb7250373fa27e853d10",
+  "scriptSha256": "503f67a0655377a3a4de95bad3af3210fd748c38af5f12e5c4f382713b1f3050",
+  "durationSeconds": 31.712653,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020008,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.08,
+      "endSeconds": 2.981,
+      "text": "Ce scarabée monumental est\nsculpté dans la diorite."
+    },
+    {
+      "startSeconds": 3.481,
+      "endSeconds": 5.142,
+      "text": "Il représente probablement\nKhépri,"
+    },
+    {
+      "startSeconds": 5.742,
+      "endSeconds": 8.563,
+      "text": "une forme du dieu solaire\nassociée au soleil levant."
+    },
+    {
+      "startSeconds": 9.023,
+      "endSeconds": 12.585,
+      "text": "Dans les croyances de\nl’Égypte ancienne, le scarabée"
+    },
+    {
+      "startSeconds": 12.645,
+      "endSeconds": 15.626,
+      "text": "évoquait la naissance et le\nrenouvellement."
+    },
+    {
+      "startSeconds": 16.186,
+      "endSeconds": 19.487,
+      "text": "Observez son corps arrondi,\nses pattes et la base sur"
+    },
+    {
+      "startSeconds": 19.487,
+      "endSeconds": 22.589,
+      "text": "laquelle il repose. Le\nsculpteur a transformé un petit"
+    },
+    {
+      "startSeconds": 22.589,
+      "endSeconds": 24.729,
+      "text": "insecte en une présence\nmonumentale."
+    },
+    {
+      "startSeconds": 25.23,
+      "endSeconds": 28.691,
+      "text": "L’œuvre nous invite à découvrir\nle lien entre le monde"
+    },
+    {
+      "startSeconds": 28.971,
+      "endSeconds": 31.392,
+      "text": "naturel et les images des\ndieux."
+    }
+  ],
+  "words": [
+    {
+      "text": "Ce",
+      "startSeconds": 0.08,
+      "endSeconds": 0.1401,
+      "alignmentScore": 0.9946
+    },
+    {
+      "text": "scarabée",
+      "startSeconds": 0.2201,
+      "endSeconds": 0.7003,
+      "alignmentScore": 0.8524
+    },
+    {
+      "text": "monumental",
+      "startSeconds": 0.7603,
+      "endSeconds": 1.3405,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "est",
+      "startSeconds": 1.4005,
+      "endSeconds": 1.5006,
+      "alignmentScore": 0.8087
+    },
+    {
+      "text": "sculpté",
+      "startSeconds": 1.5406,
+      "endSeconds": 2.0208,
+      "alignmentScore": 0.9132
+    },
+    {
+      "text": "dans",
+      "startSeconds": 2.1208,
+      "endSeconds": 2.2409,
+      "alignmentScore": 0.9728
+    },
+    {
+      "text": "la",
+      "startSeconds": 2.2409,
+      "endSeconds": 2.3009,
+      "alignmentScore": 0.9978
+    },
+    {
+      "text": "diorite.",
+      "startSeconds": 2.3809,
+      "endSeconds": 2.9011,
+      "alignmentScore": 0.9826
+    },
+    {
+      "text": "Il",
+      "startSeconds": 3.4813,
+      "endSeconds": 3.5614,
+      "alignmentScore": 0.9979
+    },
+    {
+      "text": "représente",
+      "startSeconds": 3.6014,
+      "endSeconds": 4.0215,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "probablement",
+      "startSeconds": 4.0615,
+      "endSeconds": 4.7018,
+      "alignmentScore": 0.9763
+    },
+    {
+      "text": "Khépri,",
+      "startSeconds": 4.7418,
+      "endSeconds": 5.0619,
+      "alignmentScore": 0.667
+    },
+    {
+      "text": "une",
+      "startSeconds": 5.7422,
+      "endSeconds": 5.8622,
+      "alignmentScore": 0.8927
+    },
+    {
+      "text": "forme",
+      "startSeconds": 5.9022,
+      "endSeconds": 6.1223,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "du",
+      "startSeconds": 6.1623,
+      "endSeconds": 6.2424,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "dieu",
+      "startSeconds": 6.3024,
+      "endSeconds": 6.4625,
+      "alignmentScore": 0.9986
+    },
+    {
+      "text": "solaire",
+      "startSeconds": 6.5425,
+      "endSeconds": 6.9627,
+      "alignmentScore": 0.9949
+    },
+    {
+      "text": "associée",
+      "startSeconds": 7.0827,
+      "endSeconds": 7.5629,
+      "alignmentScore": 0.8891
+    },
+    {
+      "text": "au",
+      "startSeconds": 7.6429,
+      "endSeconds": 7.7029,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "soleil",
+      "startSeconds": 7.803,
+      "endSeconds": 8.1031,
+      "alignmentScore": 0.9966
+    },
+    {
+      "text": "levant.",
+      "startSeconds": 8.1631,
+      "endSeconds": 8.4832,
+      "alignmentScore": 0.9
+    },
+    {
+      "text": "Dans",
+      "startSeconds": 9.0234,
+      "endSeconds": 9.1435,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "les",
+      "startSeconds": 9.1635,
+      "endSeconds": 9.2635,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "croyances",
+      "startSeconds": 9.2835,
+      "endSeconds": 9.9438,
+      "alignmentScore": 0.9951
+    },
+    {
+      "text": "de",
+      "startSeconds": 10.3639,
+      "endSeconds": 10.444,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "l’Égypte",
+      "startSeconds": 10.464,
+      "endSeconds": 10.8641,
+      "alignmentScore": 0.9889
+    },
+    {
+      "text": "ancienne,",
+      "startSeconds": 10.9242,
+      "endSeconds": 11.4043,
+      "alignmentScore": 0.9235
+    },
+    {
+      "text": "le",
+      "startSeconds": 11.8445,
+      "endSeconds": 11.9045,
+      "alignmentScore": 0.9956
+    },
+    {
+      "text": "scarabée",
+      "startSeconds": 11.9646,
+      "endSeconds": 12.5048,
+      "alignmentScore": 0.7923
+    },
+    {
+      "text": "évoquait",
+      "startSeconds": 12.6448,
+      "endSeconds": 13.085,
+      "alignmentScore": 0.8179
+    },
+    {
+      "text": "la",
+      "startSeconds": 13.5252,
+      "endSeconds": 13.6052,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "naissance",
+      "startSeconds": 13.7052,
+      "endSeconds": 14.3455,
+      "alignmentScore": 0.93
+    },
+    {
+      "text": "et",
+      "startSeconds": 14.6856,
+      "endSeconds": 14.7456,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "le",
+      "startSeconds": 14.7856,
+      "endSeconds": 14.8457,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "renouvellement.",
+      "startSeconds": 14.9257,
+      "endSeconds": 15.5459,
+      "alignmentScore": 0.9776
+    },
+    {
+      "text": "Observez",
+      "startSeconds": 16.1862,
+      "endSeconds": 16.6463,
+      "alignmentScore": 0.8792
+    },
+    {
+      "text": "son",
+      "startSeconds": 16.6864,
+      "endSeconds": 16.7864,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "corps",
+      "startSeconds": 16.8464,
+      "endSeconds": 17.1465,
+      "alignmentScore": 0.9035
+    },
+    {
+      "text": "arrondi,",
+      "startSeconds": 17.2866,
+      "endSeconds": 17.7268,
+      "alignmentScore": 0.9757
+    },
+    {
+      "text": "ses",
+      "startSeconds": 17.9668,
+      "endSeconds": 18.1069,
+      "alignmentScore": 0.9788
+    },
+    {
+      "text": "pattes",
+      "startSeconds": 18.1869,
+      "endSeconds": 18.5671,
+      "alignmentScore": 0.8642
+    },
+    {
+      "text": "et",
+      "startSeconds": 18.7471,
+      "endSeconds": 18.8072,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "la",
+      "startSeconds": 18.8272,
+      "endSeconds": 18.8872,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "base",
+      "startSeconds": 18.9672,
+      "endSeconds": 19.2673,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "sur",
+      "startSeconds": 19.3274,
+      "endSeconds": 19.4474,
+      "alignmentScore": 0.9939
+    },
+    {
+      "text": "laquelle",
+      "startSeconds": 19.4874,
+      "endSeconds": 19.7875,
+      "alignmentScore": 0.9795
+    },
+    {
+      "text": "il",
+      "startSeconds": 19.8276,
+      "endSeconds": 19.8876,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "repose.",
+      "startSeconds": 19.9676,
+      "endSeconds": 20.4078,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "Le",
+      "startSeconds": 20.8479,
+      "endSeconds": 20.928,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "sculpteur",
+      "startSeconds": 20.968,
+      "endSeconds": 21.4082,
+      "alignmentScore": 0.9648
+    },
+    {
+      "text": "a",
+      "startSeconds": 21.4682,
+      "endSeconds": 21.4882,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "transformé",
+      "startSeconds": 21.5482,
+      "endSeconds": 22.0684,
+      "alignmentScore": 0.9887
+    },
+    {
+      "text": "un",
+      "startSeconds": 22.1284,
+      "endSeconds": 22.2085,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "petit",
+      "startSeconds": 22.2485,
+      "endSeconds": 22.5286,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "insecte",
+      "startSeconds": 22.5886,
+      "endSeconds": 22.9888,
+      "alignmentScore": 0.9908
+    },
+    {
+      "text": "en",
+      "startSeconds": 23.0288,
+      "endSeconds": 23.1088,
+      "alignmentScore": 0.9616
+    },
+    {
+      "text": "une",
+      "startSeconds": 23.1488,
+      "endSeconds": 23.2689,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "présence",
+      "startSeconds": 23.2889,
+      "endSeconds": 23.8091,
+      "alignmentScore": 0.9613
+    },
+    {
+      "text": "monumentale.",
+      "startSeconds": 23.9091,
+      "endSeconds": 24.6494,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "L’œuvre",
+      "startSeconds": 25.2296,
+      "endSeconds": 25.6098,
+      "alignmentScore": 0.9538
+    },
+    {
+      "text": "nous",
+      "startSeconds": 25.7498,
+      "endSeconds": 25.9099,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "invite",
+      "startSeconds": 25.9699,
+      "endSeconds": 26.29,
+      "alignmentScore": 0.9979
+    },
+    {
+      "text": "à",
+      "startSeconds": 26.33,
+      "endSeconds": 26.35,
+      "alignmentScore": 0.9988
+    },
+    {
+      "text": "découvrir",
+      "startSeconds": 26.4301,
+      "endSeconds": 26.9903,
+      "alignmentScore": 0.9597
+    },
+    {
+      "text": "le",
+      "startSeconds": 27.0703,
+      "endSeconds": 27.1303,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "lien",
+      "startSeconds": 27.1904,
+      "endSeconds": 27.4304,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "entre",
+      "startSeconds": 27.9306,
+      "endSeconds": 28.1507,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "le",
+      "startSeconds": 28.2107,
+      "endSeconds": 28.2908,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "monde",
+      "startSeconds": 28.3508,
+      "endSeconds": 28.6109,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "naturel",
+      "startSeconds": 28.971,
+      "endSeconds": 29.5713,
+      "alignmentScore": 0.9424
+    },
+    {
+      "text": "et",
+      "startSeconds": 29.9114,
+      "endSeconds": 29.9714,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "les",
+      "startSeconds": 30.0114,
+      "endSeconds": 30.1315,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "images",
+      "startSeconds": 30.1915,
+      "endSeconds": 30.6717,
+      "alignmentScore": 0.9228
+    },
+    {
+      "text": "des",
+      "startSeconds": 30.9318,
+      "endSeconds": 31.0718,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "dieux.",
+      "startSeconds": 31.0918,
+      "endSeconds": 31.3119,
+      "alignmentScore": 0.8976
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea74.narration.fr",
+    "wordCount": 75,
+    "cueCount": 10,
+    "meanAlignmentScore": 0.9647,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

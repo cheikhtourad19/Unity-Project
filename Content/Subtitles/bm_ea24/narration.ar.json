@@ -1,0 +1,436 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea24.narration.ar",
+  "language": "ar",
+  "kind": "narration",
+  "audioSha256": "23e163a8359010eac3d5f2dc3a69f51754a57992277846aad4c1d301c94abecb",
+  "scriptSha256": "56997ebaedc82921dc2b053d830f602147e5a2fc826f03292b96eaaf3104269a",
+  "durationSeconds": 39.000816,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020012,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.06,
+      "endSeconds": 4.523,
+      "text": "هذا حجر رشيد، وهو جزء من\nلوحة من الجرانوديوريت."
+    },
+    {
+      "startSeconds": 5.163,
+      "endSeconds": 9.205,
+      "text": "يحمل مرسوماً من عام مئة وستة\nوتسعين قبل الميلاد،"
+    },
+    {
+      "startSeconds": 9.826,
+      "endSeconds": 15.049,
+      "text": "تكريماً لبطليموس الخامس. يظهر\nالمرسوم نفسه بثلاثة أنظمة"
+    },
+    {
+      "startSeconds": 15.189,
+      "endSeconds": 15.989,
+      "text": "للكتابة:"
+    },
+    {
+      "startSeconds": 16.61,
+      "endSeconds": 20.312,
+      "text": "الهيروغليفية والديموطيقية\nواليونانية."
+    },
+    {
+      "startSeconds": 21.333,
+      "endSeconds": 25.855,
+      "text": "ساعدت المقارنة بينها الباحثين\nعلى فك رموز الهيروغليفية"
+    },
+    {
+      "startSeconds": 25.935,
+      "endSeconds": 26.735,
+      "text": "المصرية."
+    },
+    {
+      "startSeconds": 27.456,
+      "endSeconds": 31.278,
+      "text": "تأمل مجموعات العلامات\nالمختلفة على سطح الحجر."
+    },
+    {
+      "startSeconds": 32.059,
+      "endSeconds": 35.481,
+      "text": "يذكرنا هذا الجزء كيف يمكن\nلنص مكتوب"
+    },
+    {
+      "startSeconds": 36.081,
+      "endSeconds": 38.743,
+      "text": "أن يفتح نافذة على حضارة\nقديمة."
+    }
+  ],
+  "words": [
+    {
+      "text": "هذا",
+      "startSeconds": 0.06,
+      "endSeconds": 0.2802,
+      "alignmentScore": 0.9707
+    },
+    {
+      "text": "حجر",
+      "startSeconds": 0.3802,
+      "endSeconds": 0.7004,
+      "alignmentScore": 0.9722
+    },
+    {
+      "text": "رشيد،",
+      "startSeconds": 0.8605,
+      "endSeconds": 1.2808,
+      "alignmentScore": 0.9911
+    },
+    {
+      "text": "وهو",
+      "startSeconds": 1.9011,
+      "endSeconds": 2.1213,
+      "alignmentScore": 0.9903
+    },
+    {
+      "text": "جزء",
+      "startSeconds": 2.2213,
+      "endSeconds": 2.4615,
+      "alignmentScore": 0.6745
+    },
+    {
+      "text": "من",
+      "startSeconds": 2.6216,
+      "endSeconds": 2.7416,
+      "alignmentScore": 0.9908
+    },
+    {
+      "text": "لوحة",
+      "startSeconds": 2.7817,
+      "endSeconds": 3.0418,
+      "alignmentScore": 0.9765
+    },
+    {
+      "text": "من",
+      "startSeconds": 3.302,
+      "endSeconds": 3.422,
+      "alignmentScore": 0.9921
+    },
+    {
+      "text": "الجرانوديوريت.",
+      "startSeconds": 3.4621,
+      "endSeconds": 4.4426,
+      "alignmentScore": 0.872
+    },
+    {
+      "text": "يحمل",
+      "startSeconds": 5.1631,
+      "endSeconds": 5.5033,
+      "alignmentScore": 0.9953
+    },
+    {
+      "text": "مرسوماً",
+      "startSeconds": 5.5833,
+      "endSeconds": 6.0636,
+      "alignmentScore": 0.8189
+    },
+    {
+      "text": "من",
+      "startSeconds": 6.1036,
+      "endSeconds": 6.2237,
+      "alignmentScore": 0.9634
+    },
+    {
+      "text": "عام",
+      "startSeconds": 6.2637,
+      "endSeconds": 6.4438,
+      "alignmentScore": 0.9424
+    },
+    {
+      "text": "مئة",
+      "startSeconds": 6.5839,
+      "endSeconds": 6.804,
+      "alignmentScore": 0.8279
+    },
+    {
+      "text": "وستة",
+      "startSeconds": 7.1042,
+      "endSeconds": 7.5245,
+      "alignmentScore": 0.8571
+    },
+    {
+      "text": "وتسعين",
+      "startSeconds": 7.7446,
+      "endSeconds": 8.2049,
+      "alignmentScore": 0.9777
+    },
+    {
+      "text": "قبل",
+      "startSeconds": 8.3249,
+      "endSeconds": 8.5251,
+      "alignmentScore": 0.9919
+    },
+    {
+      "text": "الميلاد،",
+      "startSeconds": 8.5851,
+      "endSeconds": 9.1254,
+      "alignmentScore": 0.8179
+    },
+    {
+      "text": "تكريماً",
+      "startSeconds": 9.8258,
+      "endSeconds": 10.3662,
+      "alignmentScore": 0.8098
+    },
+    {
+      "text": "لبطليموس",
+      "startSeconds": 10.4262,
+      "endSeconds": 11.1066,
+      "alignmentScore": 0.8611
+    },
+    {
+      "text": "الخامس.",
+      "startSeconds": 11.1866,
+      "endSeconds": 11.727,
+      "alignmentScore": 0.9007
+    },
+    {
+      "text": "يظهر",
+      "startSeconds": 12.3473,
+      "endSeconds": 12.7476,
+      "alignmentScore": 0.9846
+    },
+    {
+      "text": "المرسوم",
+      "startSeconds": 12.8276,
+      "endSeconds": 13.3079,
+      "alignmentScore": 0.9424
+    },
+    {
+      "text": "نفسه",
+      "startSeconds": 13.428,
+      "endSeconds": 13.7482,
+      "alignmentScore": 0.9968
+    },
+    {
+      "text": "بثلاثة",
+      "startSeconds": 13.8482,
+      "endSeconds": 14.3685,
+      "alignmentScore": 0.947
+    },
+    {
+      "text": "أنظمة",
+      "startSeconds": 14.6087,
+      "endSeconds": 14.9689,
+      "alignmentScore": 0.9681
+    },
+    {
+      "text": "للكتابة:",
+      "startSeconds": 15.189,
+      "endSeconds": 15.8494,
+      "alignmentScore": 0.9609
+    },
+    {
+      "text": "الهيروغليفية",
+      "startSeconds": 16.6099,
+      "endSeconds": 17.6905,
+      "alignmentScore": 0.7391
+    },
+    {
+      "text": "والديموطيقية",
+      "startSeconds": 18.0507,
+      "endSeconds": 19.0913,
+      "alignmentScore": 0.9577
+    },
+    {
+      "text": "واليونانية.",
+      "startSeconds": 19.3915,
+      "endSeconds": 20.232,
+      "alignmentScore": 0.9861
+    },
+    {
+      "text": "ساعدت",
+      "startSeconds": 21.3327,
+      "endSeconds": 21.833,
+      "alignmentScore": 0.8528
+    },
+    {
+      "text": "المقارنة",
+      "startSeconds": 21.913,
+      "endSeconds": 22.5334,
+      "alignmentScore": 0.9801
+    },
+    {
+      "text": "بينها",
+      "startSeconds": 22.7335,
+      "endSeconds": 23.0737,
+      "alignmentScore": 0.9883
+    },
+    {
+      "text": "الباحثين",
+      "startSeconds": 23.1337,
+      "endSeconds": 23.7541,
+      "alignmentScore": 0.9638
+    },
+    {
+      "text": "على",
+      "startSeconds": 23.8542,
+      "endSeconds": 24.0143,
+      "alignmentScore": 0.9895
+    },
+    {
+      "text": "فك",
+      "startSeconds": 24.0943,
+      "endSeconds": 24.2944,
+      "alignmentScore": 0.9887
+    },
+    {
+      "text": "رموز",
+      "startSeconds": 24.4345,
+      "endSeconds": 24.7747,
+      "alignmentScore": 0.9476
+    },
+    {
+      "text": "الهيروغليفية",
+      "startSeconds": 24.8548,
+      "endSeconds": 25.7753,
+      "alignmentScore": 0.7439
+    },
+    {
+      "text": "المصرية.",
+      "startSeconds": 25.9354,
+      "endSeconds": 26.5758,
+      "alignmentScore": 0.9833
+    },
+    {
+      "text": "تأمل",
+      "startSeconds": 27.4563,
+      "endSeconds": 27.9766,
+      "alignmentScore": 0.9724
+    },
+    {
+      "text": "مجموعات",
+      "startSeconds": 28.0767,
+      "endSeconds": 28.597,
+      "alignmentScore": 0.9814
+    },
+    {
+      "text": "العلامات",
+      "startSeconds": 28.697,
+      "endSeconds": 29.2374,
+      "alignmentScore": 0.9787
+    },
+    {
+      "text": "المختلفة",
+      "startSeconds": 29.3174,
+      "endSeconds": 29.9778,
+      "alignmentScore": 0.9556
+    },
+    {
+      "text": "على",
+      "startSeconds": 30.1779,
+      "endSeconds": 30.338,
+      "alignmentScore": 0.9954
+    },
+    {
+      "text": "سطح",
+      "startSeconds": 30.4181,
+      "endSeconds": 30.6382,
+      "alignmentScore": 0.6726
+    },
+    {
+      "text": "الحجر.",
+      "startSeconds": 30.7382,
+      "endSeconds": 31.1985,
+      "alignmentScore": 0.9643
+    },
+    {
+      "text": "يذكرنا",
+      "startSeconds": 32.059,
+      "endSeconds": 32.7795,
+      "alignmentScore": 0.8838
+    },
+    {
+      "text": "هذا",
+      "startSeconds": 32.8195,
+      "endSeconds": 33.0196,
+      "alignmentScore": 0.9021
+    },
+    {
+      "text": "الجزء",
+      "startSeconds": 33.0596,
+      "endSeconds": 33.4198,
+      "alignmentScore": 0.8228
+    },
+    {
+      "text": "كيف",
+      "startSeconds": 33.74,
+      "endSeconds": 33.9401,
+      "alignmentScore": 0.9923
+    },
+    {
+      "text": "يمكن",
+      "startSeconds": 34.0602,
+      "endSeconds": 34.3804,
+      "alignmentScore": 0.9968
+    },
+    {
+      "text": "لنص",
+      "startSeconds": 34.4805,
+      "endSeconds": 34.7806,
+      "alignmentScore": 0.9955
+    },
+    {
+      "text": "مكتوب",
+      "startSeconds": 34.9607,
+      "endSeconds": 35.401,
+      "alignmentScore": 0.9974
+    },
+    {
+      "text": "أن",
+      "startSeconds": 36.0814,
+      "endSeconds": 36.1615,
+      "alignmentScore": 0.9962
+    },
+    {
+      "text": "يفتح",
+      "startSeconds": 36.2015,
+      "endSeconds": 36.5417,
+      "alignmentScore": 0.9852
+    },
+    {
+      "text": "نافذة",
+      "startSeconds": 36.6618,
+      "endSeconds": 37.082,
+      "alignmentScore": 0.8672
+    },
+    {
+      "text": "على",
+      "startSeconds": 37.3822,
+      "endSeconds": 37.5223,
+      "alignmentScore": 0.997
+    },
+    {
+      "text": "حضارة",
+      "startSeconds": 37.6023,
+      "endSeconds": 38.0226,
+      "alignmentScore": 0.7694
+    },
+    {
+      "text": "قديمة.",
+      "startSeconds": 38.2827,
+      "endSeconds": 38.6629,
+      "alignmentScore": 0.9406
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea24.narration.ar",
+    "wordCount": 59,
+    "cueCount": 10,
+    "meanAlignmentScore": 0.9285,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

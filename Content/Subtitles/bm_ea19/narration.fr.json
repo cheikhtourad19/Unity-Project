@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea19.narration.fr",
+  "language": "fr",
+  "kind": "narration",
+  "audioSha256": "0509af7ef38c2ac14d90c71e542accc206718f6bc70aeb2e230ea5411ec31782",
+  "scriptSha256": "fde343a4361b0e15bed76a8703df9637c12a29800284fe5d43c48b96973afd04",
+  "durationSeconds": 30.275918,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020008,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.08,
+      "endSeconds": 2.561,
+      "text": "Vous découvrez la partie\nsupérieure d’une statue"
+    },
+    {
+      "startSeconds": 2.581,
+      "endSeconds": 6.363,
+      "text": "colossale de Ramsès deux.\nElle provient du Ramesseum,"
+    },
+    {
+      "startSeconds": 6.863,
+      "endSeconds": 8.563,
+      "text": "son temple funéraire à\nThèbes."
+    },
+    {
+      "startSeconds": 9.204,
+      "endSeconds": 13.165,
+      "text": "Le roi porte le némès, la\ncoiffe rayée des pharaons."
+    },
+    {
+      "startSeconds": 13.746,
+      "endSeconds": 16.947,
+      "text": "Observez le visage, les\népaules et les variations de"
+    },
+    {
+      "startSeconds": 16.947,
+      "endSeconds": 17.927,
+      "text": "couleur de la pierre."
+    },
+    {
+      "startSeconds": 18.528,
+      "endSeconds": 21.169,
+      "text": "Même fragmentaire, cette\nsculpture conserve une forte"
+    },
+    {
+      "startSeconds": 21.169,
+      "endSeconds": 24.67,
+      "text": "présence. Elle montre comment\nles monuments pouvaient"
+    },
+    {
+      "startSeconds": 24.77,
+      "endSeconds": 28.092,
+      "text": "rendre visible le pouvoir du\nsouverain et associer son"
+    },
+    {
+      "startSeconds": 28.092,
+      "endSeconds": 30.052,
+      "text": "image aux espaces sacrés."
+    }
+  ],
+  "words": [
+    {
+      "text": "Vous",
+      "startSeconds": 0.08,
+      "endSeconds": 0.1801,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "découvrez",
+      "startSeconds": 0.1801,
+      "endSeconds": 0.5402,
+      "alignmentScore": 0.948
+    },
+    {
+      "text": "la",
+      "startSeconds": 0.5602,
+      "endSeconds": 0.6002,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "partie",
+      "startSeconds": 0.6603,
+      "endSeconds": 0.9804,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "supérieure",
+      "startSeconds": 1.0404,
+      "endSeconds": 1.7007,
+      "alignmentScore": 0.9858
+    },
+    {
+      "text": "d’une",
+      "startSeconds": 1.8207,
+      "endSeconds": 2.0008,
+      "alignmentScore": 0.9698
+    },
+    {
+      "text": "statue",
+      "startSeconds": 2.0809,
+      "endSeconds": 2.481,
+      "alignmentScore": 0.8579
+    },
+    {
+      "text": "colossale",
+      "startSeconds": 2.5811,
+      "endSeconds": 3.1613,
+      "alignmentScore": 0.9922
+    },
+    {
+      "text": "de",
+      "startSeconds": 3.8016,
+      "endSeconds": 3.8816,
+      "alignmentScore": 0.9961
+    },
+    {
+      "text": "Ramsès",
+      "startSeconds": 3.9416,
+      "endSeconds": 4.3818,
+      "alignmentScore": 0.9268
+    },
+    {
+      "text": "deux.",
+      "startSeconds": 4.5019,
+      "endSeconds": 4.6619,
+      "alignmentScore": 0.8738
+    },
+    {
+      "text": "Elle",
+      "startSeconds": 5.1221,
+      "endSeconds": 5.2422,
+      "alignmentScore": 0.9571
+    },
+    {
+      "text": "provient",
+      "startSeconds": 5.2822,
+      "endSeconds": 5.5823,
+      "alignmentScore": 0.942
+    },
+    {
+      "text": "du",
+      "startSeconds": 5.6023,
+      "endSeconds": 5.6623,
+      "alignmentScore": 0.9852
+    },
+    {
+      "text": "Ramesseum,",
+      "startSeconds": 5.7624,
+      "endSeconds": 6.2826,
+      "alignmentScore": 0.8161
+    },
+    {
+      "text": "son",
+      "startSeconds": 6.8628,
+      "endSeconds": 6.9829,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "temple",
+      "startSeconds": 7.0629,
+      "endSeconds": 7.4231,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "funéraire",
+      "startSeconds": 7.5831,
+      "endSeconds": 8.0633,
+      "alignmentScore": 0.9922
+    },
+    {
+      "text": "à",
+      "startSeconds": 8.1033,
+      "endSeconds": 8.1233,
+      "alignmentScore": 0.9972
+    },
+    {
+      "text": "Thèbes.",
+      "startSeconds": 8.2234,
+      "endSeconds": 8.4835,
+      "alignmentScore": 0.5865
+    },
+    {
+      "text": "Le",
+      "startSeconds": 9.2038,
+      "endSeconds": 9.2838,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "roi",
+      "startSeconds": 9.3639,
+      "endSeconds": 9.5839,
+      "alignmentScore": 0.9393
+    },
+    {
+      "text": "porte",
+      "startSeconds": 9.8841,
+      "endSeconds": 10.2442,
+      "alignmentScore": 0.9986
+    },
+    {
+      "text": "le",
+      "startSeconds": 10.2842,
+      "endSeconds": 10.3443,
+      "alignmentScore": 0.9986
+    },
+    {
+      "text": "némès,",
+      "startSeconds": 10.4243,
+      "endSeconds": 10.8445,
+      "alignmentScore": 0.9729
+    },
+    {
+      "text": "la",
+      "startSeconds": 11.3647,
+      "endSeconds": 11.4447,
+      "alignmentScore": 0.9986
+    },
+    {
+      "text": "coiffe",
+      "startSeconds": 11.5247,
+      "endSeconds": 11.9249,
+      "alignmentScore": 0.6167
+    },
+    {
+      "text": "rayée",
+      "startSeconds": 12.265,
+      "endSeconds": 12.5252,
+      "alignmentScore": 0.6247
+    },
+    {
+      "text": "des",
+      "startSeconds": 12.5652,
+      "endSeconds": 12.6452,
+      "alignmentScore": 0.9984
+    },
+    {
+      "text": "pharaons.",
+      "startSeconds": 12.6852,
+      "endSeconds": 13.0854,
+      "alignmentScore": 0.968
+    },
+    {
+      "text": "Observez",
+      "startSeconds": 13.7457,
+      "endSeconds": 14.1458,
+      "alignmentScore": 0.8465
+    },
+    {
+      "text": "le",
+      "startSeconds": 14.1458,
+      "endSeconds": 14.2058,
+      "alignmentScore": 0.9983
+    },
+    {
+      "text": "visage,",
+      "startSeconds": 14.2259,
+      "endSeconds": 14.7061,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "les",
+      "startSeconds": 15.0462,
+      "endSeconds": 15.1862,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "épaules",
+      "startSeconds": 15.2463,
+      "endSeconds": 15.6264,
+      "alignmentScore": 0.9004
+    },
+    {
+      "text": "et",
+      "startSeconds": 16.1266,
+      "endSeconds": 16.1867,
+      "alignmentScore": 0.982
+    },
+    {
+      "text": "les",
+      "startSeconds": 16.2067,
+      "endSeconds": 16.2867,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "variations",
+      "startSeconds": 16.3067,
+      "endSeconds": 16.8269,
+      "alignmentScore": 0.9957
+    },
+    {
+      "text": "de",
+      "startSeconds": 16.8469,
+      "endSeconds": 16.8869,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "couleur",
+      "startSeconds": 16.947,
+      "endSeconds": 17.2671,
+      "alignmentScore": 0.9605
+    },
+    {
+      "text": "de",
+      "startSeconds": 17.3271,
+      "endSeconds": 17.3671,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "la",
+      "startSeconds": 17.4072,
+      "endSeconds": 17.4672,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "pierre.",
+      "startSeconds": 17.5272,
+      "endSeconds": 17.8473,
+      "alignmentScore": 0.9974
+    },
+    {
+      "text": "Même",
+      "startSeconds": 18.5276,
+      "endSeconds": 18.7077,
+      "alignmentScore": 0.9599
+    },
+    {
+      "text": "fragmentaire,",
+      "startSeconds": 18.7477,
+      "endSeconds": 19.3079,
+      "alignmentScore": 0.9072
+    },
+    {
+      "text": "cette",
+      "startSeconds": 19.368,
+      "endSeconds": 19.548,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "sculpture",
+      "startSeconds": 19.5881,
+      "endSeconds": 20.0683,
+      "alignmentScore": 0.9399
+    },
+    {
+      "text": "conserve",
+      "startSeconds": 20.1483,
+      "endSeconds": 20.5685,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "une",
+      "startSeconds": 20.6085,
+      "endSeconds": 20.7285,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "forte",
+      "startSeconds": 20.7886,
+      "endSeconds": 21.1087,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "présence.",
+      "startSeconds": 21.1687,
+      "endSeconds": 21.6889,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "Elle",
+      "startSeconds": 22.2692,
+      "endSeconds": 22.4092,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "montre",
+      "startSeconds": 22.4492,
+      "endSeconds": 22.7093,
+      "alignmentScore": 0.9647
+    },
+    {
+      "text": "comment",
+      "startSeconds": 22.8294,
+      "endSeconds": 23.1495,
+      "alignmentScore": 0.9836
+    },
+    {
+      "text": "les",
+      "startSeconds": 23.6097,
+      "endSeconds": 23.7298,
+      "alignmentScore": 0.9976
+    },
+    {
+      "text": "monuments",
+      "startSeconds": 23.7898,
+      "endSeconds": 24.27,
+      "alignmentScore": 0.9982
+    },
+    {
+      "text": "pouvaient",
+      "startSeconds": 24.31,
+      "endSeconds": 24.5901,
+      "alignmentScore": 0.967
+    },
+    {
+      "text": "rendre",
+      "startSeconds": 24.7702,
+      "endSeconds": 25.0303,
+      "alignmentScore": 0.9503
+    },
+    {
+      "text": "visible",
+      "startSeconds": 25.1103,
+      "endSeconds": 25.5305,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "le",
+      "startSeconds": 25.7106,
+      "endSeconds": 25.7906,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "pouvoir",
+      "startSeconds": 25.8706,
+      "endSeconds": 26.3708,
+      "alignmentScore": 0.987
+    },
+    {
+      "text": "du",
+      "startSeconds": 26.4309,
+      "endSeconds": 26.4909,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "souverain",
+      "startSeconds": 26.5709,
+      "endSeconds": 26.9511,
+      "alignmentScore": 0.9799
+    },
+    {
+      "text": "et",
+      "startSeconds": 27.3312,
+      "endSeconds": 27.4113,
+      "alignmentScore": 0.969
+    },
+    {
+      "text": "associer",
+      "startSeconds": 27.4313,
+      "endSeconds": 27.8515,
+      "alignmentScore": 0.9934
+    },
+    {
+      "text": "son",
+      "startSeconds": 27.8915,
+      "endSeconds": 28.0315,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "image",
+      "startSeconds": 28.0916,
+      "endSeconds": 28.4717,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "aux",
+      "startSeconds": 28.9719,
+      "endSeconds": 29.072,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "espaces",
+      "startSeconds": 29.132,
+      "endSeconds": 29.5321,
+      "alignmentScore": 0.9473
+    },
+    {
+      "text": "sacrés.",
+      "startSeconds": 29.5722,
+      "endSeconds": 29.9723,
+      "alignmentScore": 0.8915
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea19.narration.fr",
+    "wordCount": 70,
+    "cueCount": 10,
+    "meanAlignmentScore": 0.9579,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

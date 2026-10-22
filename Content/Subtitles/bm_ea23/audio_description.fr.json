@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea23.audio_description.fr",
+  "language": "fr",
+  "kind": "audio_description",
+  "audioSha256": "e4afdf360d6080f998000956874a664e51412da534fd369b924ef0cdd46cf7ef",
+  "scriptSha256": "de5893b0fab230f1393a5883822d838100ebf80b78df41f93ab59b548804e4a3",
+  "durationSeconds": 20.976327,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020023,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.06,
+      "endSeconds": 3.204,
+      "text": "Une grande cuve de pierre\nforme un espace creux, ouvert"
+    },
+    {
+      "startSeconds": 3.204,
+      "endSeconds": 6.728,
+      "text": "vers le haut. Ses parois\népaisses sont couvertes de"
+    },
+    {
+      "startSeconds": 6.768,
+      "endSeconds": 8.57,
+      "text": "signes et de figures en\nrelief."
+    },
+    {
+      "startSeconds": 9.191,
+      "endSeconds": 11.013,
+      "text": "D’autres figures décorent\nl’intérieur."
+    },
+    {
+      "startSeconds": 11.493,
+      "endSeconds": 15.158,
+      "text": "Une silhouette féminine,\ncelle de Nout, s’étend au fond"
+    },
+    {
+      "startSeconds": 15.158,
+      "endSeconds": 18.642,
+      "text": "de la cuve. L’ensemble\nprésente la forme allongée d’un"
+    },
+    {
+      "startSeconds": 18.642,
+      "endSeconds": 20.724,
+      "text": "contenant destiné à un corps\nhumain."
+    }
+  ],
+  "words": [
+    {
+      "text": "Une",
+      "startSeconds": 0.0601,
+      "endSeconds": 0.1602,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "grande",
+      "startSeconds": 0.2002,
+      "endSeconds": 0.4806,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "cuve",
+      "startSeconds": 0.5206,
+      "endSeconds": 0.7008,
+      "alignmentScore": 0.9658
+    },
+    {
+      "text": "de",
+      "startSeconds": 0.7208,
+      "endSeconds": 0.7809,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "pierre",
+      "startSeconds": 0.841,
+      "endSeconds": 1.2214,
+      "alignmentScore": 0.9974
+    },
+    {
+      "text": "forme",
+      "startSeconds": 1.2815,
+      "endSeconds": 1.5018,
+      "alignmentScore": 0.9337
+    },
+    {
+      "text": "un",
+      "startSeconds": 1.5418,
+      "endSeconds": 1.6219,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "espace",
+      "startSeconds": 1.682,
+      "endSeconds": 2.1225,
+      "alignmentScore": 0.9979
+    },
+    {
+      "text": "creux,",
+      "startSeconds": 2.2026,
+      "endSeconds": 2.5029,
+      "alignmentScore": 0.8706
+    },
+    {
+      "text": "ouvert",
+      "startSeconds": 2.8433,
+      "endSeconds": 3.1637,
+      "alignmentScore": 0.9513
+    },
+    {
+      "text": "vers",
+      "startSeconds": 3.2037,
+      "endSeconds": 3.3439,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "le",
+      "startSeconds": 3.3639,
+      "endSeconds": 3.424,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "haut.",
+      "startSeconds": 3.464,
+      "endSeconds": 3.5842,
+      "alignmentScore": 0.9046
+    },
+    {
+      "text": "Ses",
+      "startSeconds": 4.1048,
+      "endSeconds": 4.2249,
+      "alignmentScore": 0.8323
+    },
+    {
+      "text": "parois",
+      "startSeconds": 4.265,
+      "endSeconds": 4.7255,
+      "alignmentScore": 0.9529
+    },
+    {
+      "text": "épaisses",
+      "startSeconds": 4.9057,
+      "endSeconds": 5.4464,
+      "alignmentScore": 0.7147
+    },
+    {
+      "text": "sont",
+      "startSeconds": 5.6666,
+      "endSeconds": 5.8268,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "couvertes",
+      "startSeconds": 5.8468,
+      "endSeconds": 6.3875,
+      "alignmentScore": 0.9322
+    },
+    {
+      "text": "de",
+      "startSeconds": 6.5677,
+      "endSeconds": 6.6478,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "signes",
+      "startSeconds": 6.7679,
+      "endSeconds": 7.0883,
+      "alignmentScore": 0.9864
+    },
+    {
+      "text": "et",
+      "startSeconds": 7.2284,
+      "endSeconds": 7.2885,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "de",
+      "startSeconds": 7.3085,
+      "endSeconds": 7.3686,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "figures",
+      "startSeconds": 7.4287,
+      "endSeconds": 7.8291,
+      "alignmentScore": 0.9911
+    },
+    {
+      "text": "en",
+      "startSeconds": 7.9293,
+      "endSeconds": 8.0093,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "relief.",
+      "startSeconds": 8.0894,
+      "endSeconds": 8.4899,
+      "alignmentScore": 0.9478
+    },
+    {
+      "text": "D’autres",
+      "startSeconds": 9.1907,
+      "endSeconds": 9.4911,
+      "alignmentScore": 0.9724
+    },
+    {
+      "text": "figures",
+      "startSeconds": 9.5311,
+      "endSeconds": 9.9316,
+      "alignmentScore": 0.9712
+    },
+    {
+      "text": "décorent",
+      "startSeconds": 9.9716,
+      "endSeconds": 10.3721,
+      "alignmentScore": 0.7495
+    },
+    {
+      "text": "l’intérieur.",
+      "startSeconds": 10.3721,
+      "endSeconds": 10.9328,
+      "alignmentScore": 0.9782
+    },
+    {
+      "text": "Une",
+      "startSeconds": 11.4934,
+      "endSeconds": 11.6136,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "silhouette",
+      "startSeconds": 11.6736,
+      "endSeconds": 12.1141,
+      "alignmentScore": 0.8134
+    },
+    {
+      "text": "féminine,",
+      "startSeconds": 12.1942,
+      "endSeconds": 12.7749,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "celle",
+      "startSeconds": 13.1754,
+      "endSeconds": 13.3756,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "de",
+      "startSeconds": 13.3956,
+      "endSeconds": 13.4757,
+      "alignmentScore": 0.9592
+    },
+    {
+      "text": "Nout,",
+      "startSeconds": 13.5758,
+      "endSeconds": 13.7961,
+      "alignmentScore": 0.968
+    },
+    {
+      "text": "s’étend",
+      "startSeconds": 14.3167,
+      "endSeconds": 14.6571,
+      "alignmentScore": 0.89
+    },
+    {
+      "text": "au",
+      "startSeconds": 14.7572,
+      "endSeconds": 14.8373,
+      "alignmentScore": 0.9725
+    },
+    {
+      "text": "fond",
+      "startSeconds": 14.9174,
+      "endSeconds": 15.1176,
+      "alignmentScore": 0.9742
+    },
+    {
+      "text": "de",
+      "startSeconds": 15.1577,
+      "endSeconds": 15.2178,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "la",
+      "startSeconds": 15.2578,
+      "endSeconds": 15.3379,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "cuve.",
+      "startSeconds": 15.418,
+      "endSeconds": 15.7584,
+      "alignmentScore": 0.9985
+    },
+    {
+      "text": "L’ensemble",
+      "startSeconds": 16.279,
+      "endSeconds": 16.8396,
+      "alignmentScore": 0.9775
+    },
+    {
+      "text": "présente",
+      "startSeconds": 16.9197,
+      "endSeconds": 17.3202,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "la",
+      "startSeconds": 17.3603,
+      "endSeconds": 17.4203,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "forme",
+      "startSeconds": 17.5204,
+      "endSeconds": 17.8408,
+      "alignmentScore": 0.9404
+    },
+    {
+      "text": "allongée",
+      "startSeconds": 18.021,
+      "endSeconds": 18.4615,
+      "alignmentScore": 0.9481
+    },
+    {
+      "text": "d’un",
+      "startSeconds": 18.4615,
+      "endSeconds": 18.6017,
+      "alignmentScore": 0.9772
+    },
+    {
+      "text": "contenant",
+      "startSeconds": 18.6418,
+      "endSeconds": 19.0622,
+      "alignmentScore": 0.8889
+    },
+    {
+      "text": "destiné",
+      "startSeconds": 19.0823,
+      "endSeconds": 19.5028,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "à",
+      "startSeconds": 19.683,
+      "endSeconds": 19.703,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "un",
+      "startSeconds": 19.7831,
+      "endSeconds": 19.8632,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "corps",
+      "startSeconds": 19.9232,
+      "endSeconds": 20.2236,
+      "alignmentScore": 0.8718
+    },
+    {
+      "text": "humain.",
+      "startSeconds": 20.3237,
+      "endSeconds": 20.6441,
+      "alignmentScore": 0.8869
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea23.audio_description.fr",
+    "wordCount": 53,
+    "cueCount": 7,
+    "meanAlignmentScore": 0.9567,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea23.narration.ar",
+  "language": "ar",
+  "kind": "narration",
+  "audioSha256": "06f8b0fd1d5c6ffb94ba8c949b9d6e5bd51cb20c4c79f086ad00b64a8ae4e5c2",
+  "scriptSha256": "e875bd7801d2a8df7ba85164a0b730b55b79f6f7cf1f299f9ba5abd1c50748ee",
+  "durationSeconds": 35.291429,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020005,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.02,
+      "endSeconds": 3.221,
+      "text": "كان هذا التابوت الجرانيتي\nيخص حابمن،"
+    },
+    {
+      "startSeconds": 3.841,
+      "endSeconds": 6.742,
+      "text": "وهو من كبار الموظفين في مصر\nالقديمة."
+    },
+    {
+      "startSeconds": 7.402,
+      "endSeconds": 11.843,
+      "text": "تحمل جدرانه نصوصاً وصوراً\nلآلهة جنائزية."
+    },
+    {
+      "startSeconds": 12.783,
+      "endSeconds": 16.264,
+      "text": "وفي الداخل، تظهر الإلهة نوت\nفي قاع الحوض."
+    },
+    {
+      "startSeconds": 16.924,
+      "endSeconds": 22.105,
+      "text": "تأمل النقوش البارزة وكيف\nتحيط بالمكان المخصص للمتوفى."
+    },
+    {
+      "startSeconds": 22.125,
+      "endSeconds": 27.606,
+      "text": "أُعيد استخدام التابوت لاحقاً\nللاغتسال الطقسي في مسجد"
+    },
+    {
+      "startSeconds": 27.606,
+      "endSeconds": 29.086,
+      "text": "ابن طولون بالقاهرة."
+    },
+    {
+      "startSeconds": 29.967,
+      "endSeconds": 35.008,
+      "text": "وهكذا تحتفظ القطعة بآثار\nاستخدامات متعددة عبر الزمن."
+    }
+  ],
+  "words": [
+    {
+      "text": "كان",
+      "startSeconds": 0.02,
+      "endSeconds": 0.22,
+      "alignmentScore": 0.9274
+    },
+    {
+      "text": "هذا",
+      "startSeconds": 0.3201,
+      "endSeconds": 0.5001,
+      "alignmentScore": 0.9812
+    },
+    {
+      "text": "التابوت",
+      "startSeconds": 0.5601,
+      "endSeconds": 1.0402,
+      "alignmentScore": 0.9739
+    },
+    {
+      "text": "الجرانيتي",
+      "startSeconds": 1.1403,
+      "endSeconds": 1.9604,
+      "alignmentScore": 0.8202
+    },
+    {
+      "text": "يخص",
+      "startSeconds": 2.0605,
+      "endSeconds": 2.4405,
+      "alignmentScore": 0.9779
+    },
+    {
+      "text": "حابمن،",
+      "startSeconds": 2.6006,
+      "endSeconds": 3.1407,
+      "alignmentScore": 0.8386
+    },
+    {
+      "text": "وهو",
+      "startSeconds": 3.8409,
+      "endSeconds": 4.0809,
+      "alignmentScore": 0.9942
+    },
+    {
+      "text": "من",
+      "startSeconds": 4.1609,
+      "endSeconds": 4.281,
+      "alignmentScore": 0.9869
+    },
+    {
+      "text": "كبار",
+      "startSeconds": 4.321,
+      "endSeconds": 4.641,
+      "alignmentScore": 0.9954
+    },
+    {
+      "text": "الموظفين",
+      "startSeconds": 4.7211,
+      "endSeconds": 5.5012,
+      "alignmentScore": 0.9097
+    },
+    {
+      "text": "في",
+      "startSeconds": 5.6013,
+      "endSeconds": 5.6813,
+      "alignmentScore": 0.9971
+    },
+    {
+      "text": "مصر",
+      "startSeconds": 5.7813,
+      "endSeconds": 6.0214,
+      "alignmentScore": 0.9969
+    },
+    {
+      "text": "القديمة.",
+      "startSeconds": 6.1014,
+      "endSeconds": 6.6615,
+      "alignmentScore": 0.9927
+    },
+    {
+      "text": "تحمل",
+      "startSeconds": 7.4017,
+      "endSeconds": 7.8818,
+      "alignmentScore": 0.9963
+    },
+    {
+      "text": "جدرانه",
+      "startSeconds": 8.0218,
+      "endSeconds": 8.5819,
+      "alignmentScore": 0.9945
+    },
+    {
+      "text": "نصوصاً",
+      "startSeconds": 8.742,
+      "endSeconds": 9.2821,
+      "alignmentScore": 0.8277
+    },
+    {
+      "text": "وصوراً",
+      "startSeconds": 9.3221,
+      "endSeconds": 9.9022,
+      "alignmentScore": 0.8052
+    },
+    {
+      "text": "لآلهة",
+      "startSeconds": 10.1423,
+      "endSeconds": 10.7024,
+      "alignmentScore": 0.9157
+    },
+    {
+      "text": "جنائزية.",
+      "startSeconds": 10.9425,
+      "endSeconds": 11.7626,
+      "alignmentScore": 0.9465
+    },
+    {
+      "text": "وفي",
+      "startSeconds": 12.7829,
+      "endSeconds": 12.9829,
+      "alignmentScore": 0.8839
+    },
+    {
+      "text": "الداخل،",
+      "startSeconds": 13.0029,
+      "endSeconds": 13.483,
+      "alignmentScore": 0.9808
+    },
+    {
+      "text": "تظهر",
+      "startSeconds": 13.7431,
+      "endSeconds": 14.1232,
+      "alignmentScore": 0.988
+    },
+    {
+      "text": "الإلهة",
+      "startSeconds": 14.1832,
+      "endSeconds": 14.6233,
+      "alignmentScore": 0.8223
+    },
+    {
+      "text": "نوت",
+      "startSeconds": 14.8433,
+      "endSeconds": 15.0834,
+      "alignmentScore": 0.917
+    },
+    {
+      "text": "في",
+      "startSeconds": 15.2634,
+      "endSeconds": 15.3435,
+      "alignmentScore": 0.9871
+    },
+    {
+      "text": "قاع",
+      "startSeconds": 15.5035,
+      "endSeconds": 15.7035,
+      "alignmentScore": 0.978
+    },
+    {
+      "text": "الحوض.",
+      "startSeconds": 15.8036,
+      "endSeconds": 16.1836,
+      "alignmentScore": 0.8439
+    },
+    {
+      "text": "تأمل",
+      "startSeconds": 16.9238,
+      "endSeconds": 17.3839,
+      "alignmentScore": 0.9229
+    },
+    {
+      "text": "النقوش",
+      "startSeconds": 17.4439,
+      "endSeconds": 17.944,
+      "alignmentScore": 0.8716
+    },
+    {
+      "text": "البارزة",
+      "startSeconds": 18.0241,
+      "endSeconds": 18.5642,
+      "alignmentScore": 0.9811
+    },
+    {
+      "text": "وكيف",
+      "startSeconds": 19.0043,
+      "endSeconds": 19.3644,
+      "alignmentScore": 0.9882
+    },
+    {
+      "text": "تحيط",
+      "startSeconds": 19.4844,
+      "endSeconds": 19.8045,
+      "alignmentScore": 0.6779
+    },
+    {
+      "text": "بالمكان",
+      "startSeconds": 19.9245,
+      "endSeconds": 20.4046,
+      "alignmentScore": 0.9926
+    },
+    {
+      "text": "المخصص",
+      "startSeconds": 20.4846,
+      "endSeconds": 21.0847,
+      "alignmentScore": 0.9884
+    },
+    {
+      "text": "للمتوفى.",
+      "startSeconds": 21.2248,
+      "endSeconds": 22.025,
+      "alignmentScore": 0.9912
+    },
+    {
+      "text": "أُعيد",
+      "startSeconds": 22.125,
+      "endSeconds": 23.3253,
+      "alignmentScore": 0.6182
+    },
+    {
+      "text": "استخدام",
+      "startSeconds": 23.3853,
+      "endSeconds": 23.8854,
+      "alignmentScore": 0.9847
+    },
+    {
+      "text": "التابوت",
+      "startSeconds": 23.9854,
+      "endSeconds": 24.4655,
+      "alignmentScore": 0.8264
+    },
+    {
+      "text": "لاحقاً",
+      "startSeconds": 24.6055,
+      "endSeconds": 25.1257,
+      "alignmentScore": 0.8138
+    },
+    {
+      "text": "للاغتسال",
+      "startSeconds": 25.5458,
+      "endSeconds": 26.2259,
+      "alignmentScore": 0.9242
+    },
+    {
+      "text": "الطقسي",
+      "startSeconds": 26.3059,
+      "endSeconds": 26.826,
+      "alignmentScore": 0.8986
+    },
+    {
+      "text": "في",
+      "startSeconds": 26.9861,
+      "endSeconds": 27.1061,
+      "alignmentScore": 0.9956
+    },
+    {
+      "text": "مسجد",
+      "startSeconds": 27.2061,
+      "endSeconds": 27.5462,
+      "alignmentScore": 0.987
+    },
+    {
+      "text": "ابن",
+      "startSeconds": 27.6062,
+      "endSeconds": 27.7262,
+      "alignmentScore": 0.9759
+    },
+    {
+      "text": "طولون",
+      "startSeconds": 27.8663,
+      "endSeconds": 28.3064,
+      "alignmentScore": 0.9424
+    },
+    {
+      "text": "بالقاهرة.",
+      "startSeconds": 28.3864,
+      "endSeconds": 29.0065,
+      "alignmentScore": 0.9907
+    },
+    {
+      "text": "وهكذا",
+      "startSeconds": 29.9667,
+      "endSeconds": 30.5069,
+      "alignmentScore": 0.9927
+    },
+    {
+      "text": "تحتفظ",
+      "startSeconds": 30.5869,
+      "endSeconds": 31.047,
+      "alignmentScore": 0.8927
+    },
+    {
+      "text": "القطعة",
+      "startSeconds": 31.127,
+      "endSeconds": 31.5071,
+      "alignmentScore": 0.8301
+    },
+    {
+      "text": "بآثار",
+      "startSeconds": 31.6871,
+      "endSeconds": 32.2073,
+      "alignmentScore": 0.9932
+    },
+    {
+      "text": "استخدامات",
+      "startSeconds": 32.2673,
+      "endSeconds": 32.9074,
+      "alignmentScore": 0.935
+    },
+    {
+      "text": "متعددة",
+      "startSeconds": 33.0474,
+      "endSeconds": 33.7476,
+      "alignmentScore": 0.9915
+    },
+    {
+      "text": "عبر",
+      "startSeconds": 34.2477,
+      "endSeconds": 34.4678,
+      "alignmentScore": 0.9974
+    },
+    {
+      "text": "الزمن.",
+      "startSeconds": 34.5478,
+      "endSeconds": 34.9279,
+      "alignmentScore": 0.932
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea23.narration.ar",
+    "wordCount": 54,
+    "cueCount": 8,
+    "meanAlignmentScore": 0.9299,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

@@ -1,0 +1,2200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1656da9966eec493d8efd3a95fd9b888, type: 3}
+  m_Name: Collection
+  m_EditorClassIdentifier: Assembly-CSharp::HeritageXR.MuseumCollection
+  artworks:
+  - id: bm_ea24
+    title: Pierre de Rosette
+    summary: "Une st\xE8le portant un d\xE9cret en trois \xE9critures, essentielle au d\xE9chiffrement des hi\xE9roglyphes."
+    description: "La pierre de Rosette est un fragment de st\xE8le en granodiorite portant un d\xE9cret en l\u2019honneur de Ptol\xE9m\xE9e V. Le texte est inscrit en hi\xE9roglyphes, en d\xE9motique et en grec. La comparaison de ces \xE9critures a fourni une cl\xE9 majeure au d\xE9chiffrement des hi\xE9roglyphes \xE9gyptiens."
+    museumObjectId: EA24
+    photoCredit: BabelStone
+    photoLicence: CC-BY-SA-3.0
+    photoSource: https://commons.wikimedia.org/wiki/File:Rosetta_Stone_at_the_British_Museum.jpg
+    modelLicence: CC-BY-NC-SA-4.0
+    modelSource: https://github.com/BritishMuseumDH/DH-OculusVR-models
+    modelCredits:
+    - Daniel Pett
+    - Jennifer Wexler
+    - Thomas Flynn
+    - Copyright Trustees of the British Museum
+    descriptionSources:
+    - https://github.com/BritishMuseumDH/rosettaStone
+    - https://sketchfab.com/3d-models/the-rosetta-stone-1e03509704a3490e99a173e53b93e282
+    photograph: {fileID: 2800000, guid: 648291fa5ee7344f89a846eab11edee9, type: 3}
+    modelPrefab: {fileID: 7470699373219697411, guid: b795c64e88e1647488aaf9637b6b71f9, type: 3}
+    targetWidthMeters: 0.12
+    audio:
+    - id: bm_ea24.narration.fr
+      language: fr
+      kind: narration
+      transcript: "Voici la pierre de Rosette, un fragment de st\xE8le en granodiorite. Elle porte un d\xE9cret de l\u2019ann\xE9e cent quatre-vingt-seize avant notre \xE8re, en l\u2019honneur de Ptol\xE9m\xE9e le cinqui\xE8me. Le m\xEAme d\xE9cret appara\xEEt en trois \xE9critures : les hi\xE9roglyphes, le d\xE9motique et le grec. Leur comparaison a aid\xE9 \xE0 d\xE9chiffrer les hi\xE9roglyphes \xE9gyptiens. Observez les diff\xE9rents groupes de signes sur sa surface. Ce fragment rappelle comment un texte peut ouvrir une fen\xEAtre sur une civilisation."
+      voiceId: 6DEjyaHWnTHsvXM5Byys
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: 3504159bb6cbb4a4aaa27cb3f280ae71, type: 3}
+      subtitles:
+      - startSeconds: 0.08
+        endSeconds: 2.921
+        text: "Voici la pierre de Rosette,\nun fragment de st\xE8le en"
+      - startSeconds: 2.921
+        endSeconds: 5.883
+        text: "granodiorite. Elle porte un\nd\xE9cret de l\u2019ann\xE9e cent"
+      - startSeconds: 5.883
+        endSeconds: 8.824
+        text: "quatre-vingt-seize avant\nnotre \xE8re, en l\u2019honneur de"
+      - startSeconds: 8.824
+        endSeconds: 12.126
+        text: "Ptol\xE9m\xE9e le cinqui\xE8me. Le\nm\xEAme d\xE9cret appara\xEEt en trois"
+      - startSeconds: 12.126
+        endSeconds: 15.928
+        text: "\xE9critures : les hi\xE9roglyphes,\nle d\xE9motique et le grec."
+      - startSeconds: 16.408
+        endSeconds: 19.029
+        text: "Leur comparaison a aid\xE9 \xE0\nd\xE9chiffrer les hi\xE9roglyphes"
+      - startSeconds: 19.029
+        endSeconds: 22.491
+        text: "\xE9gyptiens. Observez les\ndiff\xE9rents groupes de signes sur"
+      - startSeconds: 22.491
+        endSeconds: 23.291
+        text: sa surface.
+      - startSeconds: 23.852
+        endSeconds: 26.653
+        text: 'Ce fragment rappelle comment
+
+          un texte peut ouvrir une'
+      - startSeconds: 26.653
+        endSeconds: 28.234
+        text: "fen\xEAtre sur une\ncivilisation."
+    - id: bm_ea24.audio_description.fr
+      language: fr
+      kind: audio_description
+      transcript: "La pierre se pr\xE9sente comme une plaque \xE9paisse dress\xE9e verticalement. Sa face principale porte des rang\xE9es serr\xE9es de signes grav\xE9s. La partie sup\xE9rieure est bris\xE9e et son contour est irr\xE9gulier. Les inscriptions forment plusieurs ensembles superpos\xE9s. Cette description donne les grandes formes ; elle ne lit ni ne traduit les signes."
+      voiceId: 6DEjyaHWnTHsvXM5Byys
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: 389051f69bbff49dc855a58ab7974f10, type: 3}
+      subtitles:
+      - startSeconds: 0.08
+        endSeconds: 3.263
+        text: "La pierre se pr\xE9sente comme\nune plaque \xE9paisse dress\xE9e"
+      - startSeconds: 3.404
+        endSeconds: 7.988
+        text: "verticalement. Sa face\nprincipale porte des rang\xE9es"
+      - startSeconds: 7.988
+        endSeconds: 10.751
+        text: "serr\xE9es de signes grav\xE9s. La\npartie sup\xE9rieure est"
+      - startSeconds: 10.751
+        endSeconds: 13.214
+        text: "bris\xE9e et son contour est\nirr\xE9gulier."
+      - startSeconds: 13.514
+        endSeconds: 16.077
+        text: "Les inscriptions forment\nplusieurs ensembles superpos\xE9s."
+      - startSeconds: 16.397
+        endSeconds: 18.399
+        text: 'Cette description donne les
+
+          grandes formes ;'
+      - startSeconds: 18.7
+        endSeconds: 21.222
+        text: 'elle ne lit ni ne traduit
+
+          les signes.'
+    - id: bm_ea24.narration.ar
+      language: ar
+      kind: narration
+      transcript: "\u0647\u0630\u0627 \u062D\u062C\u0631 \u0631\u0634\u064A\u062F\u060C \u0648\u0647\u0648 \u062C\u0632\u0621 \u0645\u0646 \u0644\u0648\u062D\u0629 \u0645\u0646 \u0627\u0644\u062C\u0631\u0627\u0646\u0648\u062F\u064A\u0648\u0631\u064A\u062A. \u064A\u062D\u0645\u0644 \u0645\u0631\u0633\u0648\u0645\u0627\u064B \u0645\u0646 \u0639\u0627\u0645 \u0645\u0626\u0629 \u0648\u0633\u062A\u0629 \u0648\u062A\u0633\u0639\u064A\u0646 \u0642\u0628\u0644 \u0627\u0644\u0645\u064A\u0644\u0627\u062F\u060C \u062A\u0643\u0631\u064A\u0645\u0627\u064B \u0644\u0628\u0637\u0644\u064A\u0645\u0648\u0633 \u0627\u0644\u062E\u0627\u0645\u0633. \u064A\u0638\u0647\u0631 \u0627\u0644\u0645\u0631\u0633\u0648\u0645 \u0646\u0641\u0633\u0647 \u0628\u062B\u0644\u0627\u062B\u0629 \u0623\u0646\u0638\u0645\u0629 \u0644\u0644\u0643\u062A\u0627\u0628\u0629: \u0627\u0644\u0647\u064A\u0631\u0648\u063A\u0644\u064A\u0641\u064A\u0629 \u0648\u0627\u0644\u062F\u064A\u0645\u0648\u0637\u064A\u0642\u064A\u0629 \u0648\u0627\u0644\u064A\u0648\u0646\u0627\u0646\u064A\u0629. \u0633\u0627\u0639\u062F\u062A \u0627\u0644\u0645\u0642\u0627\u0631\u0646\u0629 \u0628\u064A\u0646\u0647\u0627 \u0627\u0644\u0628\u0627\u062D\u062B\u064A\u0646 \u0639\u0644\u0649 \u0641\u0643 \u0631\u0645\u0648\u0632 \u0627\u0644\u0647\u064A\u0631\u0648\u063A\u0644\u064A\u0641\u064A\u0629 \u0627\u0644\u0645\u0635\u0631\u064A\u0629. \u062A\u0623\u0645\u0644 \u0645\u062C\u0645\u0648\u0639\u0627\u062A \u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A \u0627\u0644\u0645\u062E\u062A\u0644\u0641\u0629 \u0639\u0644\u0649 \u0633\u0637\u062D \u0627\u0644\u062D\u062C\u0631. \u064A\u0630\u0643\u0631\u0646\u0627 \u0647\u0630\u0627 \u0627\u0644\u062C\u0632\u0621 \u0643\u064A\u0641 \u064A\u0645\u0643\u0646 \u0644\u0646\u0635 \u0645\u0643\u062A\u0648\u0628 \u0623\u0646 \u064A\u0641\u062A\u062D \u0646\u0627\u0641\u0630\u0629 \u0639\u0644\u0649 \u062D\u0636\u0627\u0631\u0629 \u0642\u062F\u064A\u0645\u0629."
+      voiceId: JAFpvTRfGNCbJ2St9kyT
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: 25a08863292b34af1853c0b3dc7c703e, type: 3}
+      subtitles:
+      - startSeconds: 0.06
+        endSeconds: 4.523
+        text: "\u0647\u0630\u0627 \u062D\u062C\u0631 \u0631\u0634\u064A\u062F\u060C \u0648\u0647\u0648 \u062C\u0632\u0621 \u0645\u0646\n\u0644\u0648\u062D\u0629 \u0645\u0646 \u0627\u0644\u062C\u0631\u0627\u0646\u0648\u062F\u064A\u0648\u0631\u064A\u062A."
+      - startSeconds: 5.163
+        endSeconds: 9.205
+        text: "\u064A\u062D\u0645\u0644 \u0645\u0631\u0633\u0648\u0645\u0627\u064B \u0645\u0646 \u0639\u0627\u0645 \u0645\u0626\u0629 \u0648\u0633\u062A\u0629\n\u0648\u062A\u0633\u0639\u064A\u0646 \u0642\u0628\u0644 \u0627\u0644\u0645\u064A\u0644\u0627\u062F\u060C"
+      - startSeconds: 9.826
+        endSeconds: 15.049
+        text: "\u062A\u0643\u0631\u064A\u0645\u0627\u064B \u0644\u0628\u0637\u0644\u064A\u0645\u0648\u0633 \u0627\u0644\u062E\u0627\u0645\u0633. \u064A\u0638\u0647\u0631\n\u0627\u0644\u0645\u0631\u0633\u0648\u0645 \u0646\u0641\u0633\u0647 \u0628\u062B\u0644\u0627\u062B\u0629 \u0623\u0646\u0638\u0645\u0629"
+      - startSeconds: 15.189
+        endSeconds: 15.989
+        text: "\u0644\u0644\u0643\u062A\u0627\u0628\u0629:"
+      - startSeconds: 16.61
+        endSeconds: 20.312
+        text: "\u0627\u0644\u0647\u064A\u0631\u0648\u063A\u0644\u064A\u0641\u064A\u0629 \u0648\u0627\u0644\u062F\u064A\u0645\u0648\u0637\u064A\u0642\u064A\u0629\n\u0648\u0627\u0644\u064A\u0648\u0646\u0627\u0646\u064A\u0629."
+      - startSeconds: 21.333
+        endSeconds: 25.855
+        text: "\u0633\u0627\u0639\u062F\u062A \u0627\u0644\u0645\u0642\u0627\u0631\u0646\u0629 \u0628\u064A\u0646\u0647\u0627 \u0627\u0644\u0628\u0627\u062D\u062B\u064A\u0646\n\u0639\u0644\u0649 \u0641\u0643 \u0631\u0645\u0648\u0632 \u0627\u0644\u0647\u064A\u0631\u0648\u063A\u0644\u064A\u0641\u064A\u0629"
+      - startSeconds: 25.935
+        endSeconds: 26.735
+        text: "\u0627\u0644\u0645\u0635\u0631\u064A\u0629."
+      - startSeconds: 27.456
+        endSeconds: 31.278
+        text: "\u062A\u0623\u0645\u0644 \u0645\u062C\u0645\u0648\u0639\u0627\u062A \u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A\n\u0627\u0644\u0645\u062E\u062A\u0644\u0641\u0629 \u0639\u0644\u0649 \u0633\u0637\u062D \u0627\u0644\u062D\u062C\u0631."
+      - startSeconds: 32.059
+        endSeconds: 35.481
+        text: "\u064A\u0630\u0643\u0631\u0646\u0627 \u0647\u0630\u0627 \u0627\u0644\u062C\u0632\u0621 \u0643\u064A\u0641 \u064A\u0645\u0643\u0646\n\u0644\u0646\u0635 \u0645\u0643\u062A\u0648\u0628"
+      - startSeconds: 36.081
+        endSeconds: 38.743
+        text: "\u0623\u0646 \u064A\u0641\u062A\u062D \u0646\u0627\u0641\u0630\u0629 \u0639\u0644\u0649 \u062D\u0636\u0627\u0631\u0629\n\u0642\u062F\u064A\u0645\u0629."
+    - id: bm_ea24.audio_description.ar
+      language: ar
+      kind: audio_description
+      transcript: "\u064A\u0628\u062F\u0648 \u0627\u0644\u062D\u062C\u0631 \u0643\u0644\u0648\u062D \u0633\u0645\u064A\u0643 \u0642\u0627\u0626\u0645 \u0639\u0645\u0648\u062F\u064A\u0627\u064B. \u064A\u062D\u0645\u0644 \u0648\u062C\u0647\u0647 \u0627\u0644\u0631\u0626\u064A\u0633\u064A \u0635\u0641\u0648\u0641\u0627\u064B \u0645\u062A\u0642\u0627\u0631\u0628\u0629 \u0645\u0646 \u0639\u0644\u0627\u0645\u0627\u062A \u0645\u0646\u0642\u0648\u0634\u0629. \u0627\u0644\u062C\u0632\u0621 \u0627\u0644\u0639\u0644\u0648\u064A \u0645\u0643\u0633\u0648\u0631 \u0648\u062D\u062F\u0648\u062F\u0647 \u063A\u064A\u0631 \u0645\u0646\u062A\u0638\u0645\u0629. \u062A\u0634\u0643\u0644 \u0627\u0644\u0646\u0642\u0648\u0634 \u0645\u062C\u0645\u0648\u0639\u0627\u062A \u0645\u0631\u062A\u0628\u0629 \u0641\u0648\u0642 \u0628\u0639\u0636\u0647\u0627. \u062A\u0635\u0641 \u0647\u0630\u0647 \u0627\u0644\u0643\u0644\u0645\u0627\u062A \u0627\u0644\u0623\u0634\u0643\u0627\u0644 \u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629\u060C \u0648\u0644\u0627 \u062A\u0642\u0631\u0623 \u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A \u0648\u0644\u0627 \u062A\u062A\u0631\u062C\u0645\u0647\u0627."
+      voiceId: JAFpvTRfGNCbJ2St9kyT
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: d1a44b67924cb4e599dac58495119a81, type: 3}
+      subtitles:
+      - startSeconds: 0.06
+        endSeconds: 3.341
+        text: "\u064A\u0628\u062F\u0648 \u0627\u0644\u062D\u062C\u0631 \u0643\u0644\u0648\u062D \u0633\u0645\u064A\u0643 \u0642\u0627\u0626\u0645\n\u0639\u0645\u0648\u062F\u064A\u0627\u064B."
+      - startSeconds: 4.141
+        endSeconds: 8.863
+        text: "\u064A\u062D\u0645\u0644 \u0648\u062C\u0647\u0647 \u0627\u0644\u0631\u0626\u064A\u0633\u064A \u0635\u0641\u0648\u0641\u0627\u064B\n\u0645\u062A\u0642\u0627\u0631\u0628\u0629 \u0645\u0646 \u0639\u0644\u0627\u0645\u0627\u062A \u0645\u0646\u0642\u0648\u0634\u0629."
+      - startSeconds: 9.643
+        endSeconds: 13.084
+        text: "\u0627\u0644\u062C\u0632\u0621 \u0627\u0644\u0639\u0644\u0648\u064A \u0645\u0643\u0633\u0648\u0631 \u0648\u062D\u062F\u0648\u062F\u0647\n\u063A\u064A\u0631 \u0645\u0646\u062A\u0638\u0645\u0629."
+      - startSeconds: 13.844
+        endSeconds: 17.485
+        text: "\u062A\u0634\u0643\u0644 \u0627\u0644\u0646\u0642\u0648\u0634 \u0645\u062C\u0645\u0648\u0639\u0627\u062A \u0645\u0631\u062A\u0628\u0629\n\u0641\u0648\u0642 \u0628\u0639\u0636\u0647\u0627."
+      - startSeconds: 18.186
+        endSeconds: 23.267
+        text: "\u062A\u0635\u0641 \u0647\u0630\u0647 \u0627\u0644\u0643\u0644\u0645\u0627\u062A \u0627\u0644\u0623\u0634\u0643\u0627\u0644\n\u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629\u060C \u0648\u0644\u0627 \u062A\u0642\u0631\u0623 \u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A \u0648\u0644\u0627"
+      - startSeconds: 23.267
+        endSeconds: 24.127
+        text: "\u062A\u062A\u0631\u062C\u0645\u0647\u0627."
+    - id: bm_ea24.narration.en
+      language: en
+      kind: narration
+      transcript: 'This is the Rosetta Stone, a fragment of a granodiorite stele. It bears a decree from one hundred and ninety-six BCE, honouring Ptolemy the Fifth. The same decree appears in three scripts: hieroglyphs, Demotic and Greek. Comparing them helped scholars decipher Egyptian hieroglyphs. Look at the different groups of signs on its surface. This fragment shows how a written text can open a window onto a civilisation.'
+      voiceId: 3ADZQUoqg3hWyEOlzpXW
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: bc4959fc768ab47f1b00e26307363c35, type: 3}
+      subtitles:
+      - startSeconds: 0.06
+        endSeconds: 1.4
+        text: This is the Rosetta Stone,
+      - startSeconds: 1.981
+        endSeconds: 4.241
+        text: 'a fragment of a granodiorite
+
+          stele.'
+      - startSeconds: 5.142
+        endSeconds: 9.103
+        text: 'It bears a decree from one
+
+          hundred and ninety-six BCE,'
+      - startSeconds: 9.683
+        endSeconds: 11.584
+        text: honouring Ptolemy the Fifth.
+      - startSeconds: 12.484
+        endSeconds: 14.705
+        text: 'The same decree appears in
+
+          three scripts:'
+      - startSeconds: 15.445
+        endSeconds: 18.086
+        text: 'hieroglyphs, Demotic and
+
+          Greek.'
+      - startSeconds: 18.926
+        endSeconds: 22.387
+        text: 'Comparing them helped
+
+          scholars decipher Egyptian'
+      - startSeconds: 22.928
+        endSeconds: 24.068
+        text: hieroglyphs.
+      - startSeconds: 25.428
+        endSeconds: 29.59
+        text: 'Look at the different groups
+
+          of signs on its surface.'
+      - startSeconds: 30.93
+        endSeconds: 36.152
+        text: 'This fragment shows how a
+
+          written text can open a'
+      - startSeconds: 36.232
+        endSeconds: 39.173
+        text: window onto a civilisation.
+    - id: bm_ea24.audio_description.en
+      language: en
+      kind: audio_description
+      transcript: The stone is a thick slab standing upright. Its main face carries tightly spaced rows of carved signs. The upper part is broken and has an uneven outline. The inscriptions form several groups arranged one above another. This description outlines the main shapes; it does not read or translate the signs.
+      voiceId: 3ADZQUoqg3hWyEOlzpXW
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: 8bb45f703c6854489804b7288c32235c, type: 3}
+      subtitles:
+      - startSeconds: 0.06
+        endSeconds: 3.242
+        text: 'The stone is a thick slab
+
+          standing upright.'
+      - startSeconds: 4.183
+        endSeconds: 7.865
+        text: 'Its main face carries
+
+          tightly spaced rows of carved'
+      - startSeconds: 7.905
+        endSeconds: 8.705
+        text: signs.
+      - startSeconds: 9.386
+        endSeconds: 12.709
+        text: 'The upper part is broken and
+
+          has an uneven outline.'
+      - startSeconds: 13.689
+        endSeconds: 16.971
+        text: 'The inscriptions form several
+
+          groups arranged one above'
+      - startSeconds: 16.971
+        endSeconds: 17.771
+        text: another.
+      - startSeconds: 18.392
+        endSeconds: 20.874
+        text: 'This description outlines
+
+          the main shapes;'
+      - startSeconds: 22.555
+        endSeconds: 25.998
+        text: 'it does not read or
+
+          translate the signs.'
+    quiz:
+      id: quiz_bm_ea24
+      contentVersion: 1
+      questions:
+      - id: bm_ea24_q1
+        correctOptionId: bm_ea24_q1_a
+        prompt:
+          fr: "Quelles \xE9critures figurent sur la pierre de Rosette ?"
+          ar: "\u0645\u0627 \u0623\u0646\u0638\u0645\u0629 \u0627\u0644\u0643\u062A\u0627\u0628\u0629 \u0627\u0644\u062A\u064A \u062A\u0638\u0647\u0631 \u0639\u0644\u0649 \u062D\u062C\u0631 \u0631\u0634\u064A\u062F\u061F"
+          en: Which scripts appear on the Rosetta Stone?
+        explanation:
+          fr: "Le m\xEAme d\xE9cret appara\xEEt en hi\xE9roglyphes, en d\xE9motique et en grec. Comparer ces \xE9critures a aid\xE9 \xE0 d\xE9chiffrer les hi\xE9roglyphes."
+          ar: "\u064A\u0638\u0647\u0631 \u0627\u0644\u0645\u0631\u0633\u0648\u0645 \u0646\u0641\u0633\u0647 \u0628\u0627\u0644\u0647\u064A\u0631\u0648\u063A\u0644\u064A\u0641\u064A\u0629 \u0648\u0627\u0644\u062F\u064A\u0645\u0648\u0637\u064A\u0642\u064A\u0629 \u0648\u0627\u0644\u064A\u0648\u0646\u0627\u0646\u064A\u0629. \u0648\u0642\u062F \u0633\u0627\u0639\u062F\u062A \u0645\u0642\u0627\u0631\u0646\u0629 \u0647\u0630\u0647 \u0627\u0644\u0643\u062A\u0627\u0628\u0627\u062A \u0639\u0644\u0649 \u0641\u0643 \u0631\u0645\u0648\u0632 \u0627\u0644\u0647\u064A\u0631\u0648\u063A\u0644\u064A\u0641\u064A\u0629."
+          en: The same decree appears in hieroglyphs, Demotic and Greek. Comparing these scripts helped scholars decipher hieroglyphs.
+        options:
+        - id: bm_ea24_q1_a
+          text:
+            fr: "Hi\xE9roglyphes, d\xE9motique et grec"
+            ar: "\u0627\u0644\u0647\u064A\u0631\u0648\u063A\u0644\u064A\u0641\u064A\u0629 \u0648\u0627\u0644\u062F\u064A\u0645\u0648\u0637\u064A\u0642\u064A\u0629 \u0648\u0627\u0644\u064A\u0648\u0646\u0627\u0646\u064A\u0629"
+            en: Hieroglyphs, Demotic and Greek
+        - id: bm_ea24_q1_b
+          text:
+            fr: Latin, grec et arabe
+            ar: "\u0627\u0644\u0644\u0627\u062A\u064A\u0646\u064A\u0629 \u0648\u0627\u0644\u064A\u0648\u0646\u0627\u0646\u064A\u0629 \u0648\u0627\u0644\u0639\u0631\u0628\u064A\u0629"
+            en: Latin, Greek and Arabic
+        - id: bm_ea24_q1_c
+          text:
+            fr: "Hi\xE9roglyphes, latin et grec"
+            ar: "\u0627\u0644\u0647\u064A\u0631\u0648\u063A\u0644\u064A\u0641\u064A\u0629 \u0648\u0627\u0644\u0644\u0627\u062A\u064A\u0646\u064A\u0629 \u0648\u0627\u0644\u064A\u0648\u0646\u0627\u0646\u064A\u0629"
+            en: Hieroglyphs, Latin and Greek
+        - id: bm_ea24_q1_d
+          text:
+            fr: "D\xE9motique, arabe et latin"
+            ar: "\u0627\u0644\u062F\u064A\u0645\u0648\u0637\u064A\u0642\u064A\u0629 \u0648\u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0648\u0627\u0644\u0644\u0627\u062A\u064A\u0646\u064A\u0629"
+            en: Demotic, Arabic and Latin
+      - id: bm_ea24_q2
+        correctOptionId: bm_ea24_q2_c
+        prompt:
+          fr: "Quel souverain le d\xE9cret de Rosette honore-t-il ?"
+          ar: "\u0623\u064A \u062D\u0627\u0643\u0645 \u064A\u0643\u0631\u0645\u0647 \u0645\u0631\u0633\u0648\u0645 \u062D\u062C\u0631 \u0631\u0634\u064A\u062F\u061F"
+          en: Which ruler does the Rosetta decree honour?
+        explanation:
+          fr: "Le d\xE9cret date de 196 avant notre \xE8re et honore Ptol\xE9m\xE9e V. Il ne concerne pas les souverains repr\xE9sent\xE9s par les autres sculptures de la collection."
+          ar: "\u064A\u0639\u0648\u062F \u0627\u0644\u0645\u0631\u0633\u0648\u0645 \u0625\u0644\u0649 \u0639\u0627\u0645 \u0661\u0669\u0666 \u0642\u0628\u0644 \u0627\u0644\u0645\u064A\u0644\u0627\u062F \u0648\u064A\u0643\u0631\u0645 \u0628\u0637\u0644\u064A\u0645\u0648\u0633 \u0627\u0644\u062E\u0627\u0645\u0633\u060C \u0648\u0644\u064A\u0633 \u0627\u0644\u062D\u0643\u0627\u0645 \u0627\u0644\u0630\u064A\u0646 \u062A\u0645\u062B\u0644\u0647\u0645 \u0627\u0644\u0645\u0646\u062D\u0648\u062A\u0627\u062A \u0627\u0644\u0623\u062E\u0631\u0649 \u0641\u064A \u0627\u0644\u0645\u062C\u0645\u0648\u0639\u0629."
+          en: The decree dates to 196 BCE and honours Ptolemy V. It does not concern the rulers represented by the other sculptures in this collection.
+        options:
+        - id: bm_ea24_q2_a
+          text:
+            fr: "Rams\xE8s II"
+            ar: "\u0631\u0645\u0633\u064A\u0633 \u0627\u0644\u062B\u0627\u0646\u064A"
+            en: Ramesses II
+        - id: bm_ea24_q2_b
+          text:
+            fr: Taharqa
+            ar: "\u062A\u0647\u0627\u0631\u0642\u0627"
+            en: Taharqa
+        - id: bm_ea24_q2_c
+          text:
+            fr: "Ptol\xE9m\xE9e V"
+            ar: "\u0628\u0637\u0644\u064A\u0645\u0648\u0633 \u0627\u0644\u062E\u0627\u0645\u0633"
+            en: Ptolemy V
+        - id: bm_ea24_q2_d
+          text:
+            fr: Amenhotep III
+            ar: "\u0623\u0645\u0646\u062D\u062A\u0628 \u0627\u0644\u062B\u0627\u0644\u062B"
+            en: Amenhotep III
+      - id: bm_ea24_q3
+        correctOptionId: bm_ea24_q3_b
+        prompt:
+          fr: "Pourquoi comparer les \xE9critures de Rosette a-t-il \xE9t\xE9 utile ?"
+          ar: "\u0644\u0645\u0627\u0630\u0627 \u0643\u0627\u0646\u062A \u0645\u0642\u0627\u0631\u0646\u0629 \u0643\u062A\u0627\u0628\u0627\u062A \u062D\u062C\u0631 \u0631\u0634\u064A\u062F \u0645\u0641\u064A\u062F\u0629\u061F"
+          en: Why was comparing the Rosetta scripts useful?
+        explanation:
+          fr: "Les diff\xE9rentes \xE9critures transmettent le m\xEAme d\xE9cret. Leur comparaison a fourni une cl\xE9 pour comprendre les hi\xE9roglyphes \xE9gyptiens."
+          ar: "\u062A\u0646\u0642\u0644 \u0623\u0646\u0638\u0645\u0629 \u0627\u0644\u0643\u062A\u0627\u0628\u0629 \u0627\u0644\u0645\u062E\u062A\u0644\u0641\u0629 \u0627\u0644\u0645\u0631\u0633\u0648\u0645 \u0646\u0641\u0633\u0647. \u0648\u0642\u062F \u0648\u0641\u0631\u062A \u0645\u0642\u0627\u0631\u0646\u062A\u0647\u0627 \u0645\u0641\u062A\u0627\u062D\u0627\u064B \u0644\u0641\u0647\u0645 \u0627\u0644\u0647\u064A\u0631\u0648\u063A\u0644\u064A\u0641\u064A\u0629 \u0627\u0644\u0645\u0635\u0631\u064A\u0629."
+          en: The different scripts convey the same decree. Comparing them provided a key to understanding Egyptian hieroglyphs.
+        options:
+        - id: bm_ea24_q3_a
+          text:
+            fr: Pour choisir la couleur des temples
+            ar: "\u0644\u0627\u062E\u062A\u064A\u0627\u0631 \u0623\u0644\u0648\u0627\u0646 \u0627\u0644\u0645\u0639\u0627\u0628\u062F"
+            en: To choose temple colours
+        - id: bm_ea24_q3_b
+          text:
+            fr: "Pour d\xE9chiffrer les hi\xE9roglyphes"
+            ar: "\u0644\u0641\u0643 \u0631\u0645\u0648\u0632 \u0627\u0644\u0647\u064A\u0631\u0648\u063A\u0644\u064A\u0641\u064A\u0629"
+            en: To decipher hieroglyphs
+        - id: bm_ea24_q3_c
+          text:
+            fr: Pour calculer le poids des statues
+            ar: "\u0644\u062D\u0633\u0627\u0628 \u0623\u0648\u0632\u0627\u0646 \u0627\u0644\u062A\u0645\u0627\u062B\u064A\u0644"
+            en: To calculate statue weights
+        - id: bm_ea24_q3_d
+          text:
+            fr: "Pour identifier les animaux sacr\xE9s"
+            ar: "\u0644\u062A\u062D\u062F\u064A\u062F \u0627\u0644\u062D\u064A\u0648\u0627\u0646\u0627\u062A \u0627\u0644\u0645\u0642\u062F\u0633\u0629"
+            en: To identify sacred animals
+  - id: bm_ea74
+    title: "Scarab\xE9e monumental"
+    summary: "Une sculpture de scarab\xE9e en diorite, probablement li\xE9e au dieu Kh\xE9pri."
+    description: "Cette sculpture monumentale en diorite repr\xE9sente un scarab\xE9e et figure dans la collection du British Museum sous le num\xE9ro EA74. La notice du mus\xE9e l\u2019identifie comme repr\xE9sentant probablement Kh\xE9pri. Son corps arrondi et ses pattes sont sculpt\xE9s au-dessus d\u2019une base rectangulaire."
+    museumObjectId: EA74
+    photoCredit: Szilas
+    photoLicence: CC-BY-SA-4.0
+    photoSource: https://commons.wikimedia.org/wiki/File:Giant_scarab_in_the_British_Museum.jpg
+    modelLicence: CC-BY-NC-SA-4.0
+    modelSource: https://github.com/BritishMuseumDH/DH-OculusVR-models
+    modelCredits:
+    - Daniel Pett
+    - Jennifer Wexler
+    - Thomas Flynn
+    - Copyright Trustees of the British Museum
+    descriptionSources:
+    - https://www.britishmuseum.org/collection/object/Y_EA74
+    - https://sketchfab.com/3d-models/monumental-diorite-scarab-beetle-d9490735e1124c2e8ef18f32163fdbf5
+    photograph: {fileID: 2800000, guid: caca36a52bce24e6889737d9c1cda572, type: 3}
+    modelPrefab: {fileID: 7442444674999293214, guid: f1c4aea68746044c9a16736aae8d37f6, type: 3}
+    targetWidthMeters: 0.12
+    audio:
+    - id: bm_ea74.narration.fr
+      language: fr
+      kind: narration
+      transcript: "Ce scarab\xE9e monumental est sculpt\xE9 dans la diorite. Il repr\xE9sente probablement Kh\xE9pri, une forme du dieu solaire associ\xE9e au soleil levant. Dans les croyances de l\u2019\xC9gypte ancienne, le scarab\xE9e \xE9voquait la naissance et le renouvellement. Observez son corps arrondi, ses pattes et la base sur laquelle il repose. Le sculpteur a transform\xE9 un petit insecte en une pr\xE9sence monumentale. L\u2019\u0153uvre nous invite \xE0 d\xE9couvrir le lien entre le monde naturel et les images des dieux."
+      voiceId: 6DEjyaHWnTHsvXM5Byys
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: e730aad884ff94baca1583519e8e93d1, type: 3}
+      subtitles:
+      - startSeconds: 0.08
+        endSeconds: 2.981
+        text: "Ce scarab\xE9e monumental est\nsculpt\xE9 dans la diorite."
+      - startSeconds: 3.481
+        endSeconds: 5.142
+        text: "Il repr\xE9sente probablement\nKh\xE9pri,"
+      - startSeconds: 5.742
+        endSeconds: 8.563
+        text: "une forme du dieu solaire\nassoci\xE9e au soleil levant."
+      - startSeconds: 9.023
+        endSeconds: 12.585
+        text: "Dans les croyances de\nl\u2019\xC9gypte ancienne, le scarab\xE9e"
+      - startSeconds: 12.645
+        endSeconds: 15.626
+        text: "\xE9voquait la naissance et le\nrenouvellement."
+      - startSeconds: 16.186
+        endSeconds: 19.487
+        text: 'Observez son corps arrondi,
+
+          ses pattes et la base sur'
+      - startSeconds: 19.487
+        endSeconds: 22.589
+        text: "laquelle il repose. Le\nsculpteur a transform\xE9 un petit"
+      - startSeconds: 22.589
+        endSeconds: 24.729
+        text: "insecte en une pr\xE9sence\nmonumentale."
+      - startSeconds: 25.23
+        endSeconds: 28.691
+        text: "L\u2019\u0153uvre nous invite \xE0 d\xE9couvrir\nle lien entre le monde"
+      - startSeconds: 28.971
+        endSeconds: 31.392
+        text: 'naturel et les images des
+
+          dieux.'
+    - id: bm_ea74.audio_description.fr
+      language: fr
+      kind: audio_description
+      transcript: "Un scarab\xE9e de pierre repose sur une base rectangulaire. Son corps est large et arrondi, avec un dos bomb\xE9. La t\xEAte occupe l\u2019une des extr\xE9mit\xE9s. Les pattes sont sculpt\xE9es sur les c\xF4t\xE9s, pr\xE8s de la base. L\u2019ensemble est compact : la masse du corps domine les d\xE9tails plus fins de l\u2019insecte."
+      voiceId: 6DEjyaHWnTHsvXM5Byys
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: 425465052c7f84fb5bf6d8665a9dafd1, type: 3}
+      subtitles:
+      - startSeconds: 0.06
+        endSeconds: 2.721
+        text: "Un scarab\xE9e de pierre repose\nsur une base rectangulaire."
+      - startSeconds: 3.161
+        endSeconds: 6.582
+        text: "Son corps est large et\narrondi, avec un dos bomb\xE9."
+      - startSeconds: 7.042
+        endSeconds: 9.403
+        text: "La t\xEAte occupe l\u2019une des\nextr\xE9mit\xE9s."
+      - startSeconds: 9.663
+        endSeconds: 12.464
+        text: "Les pattes sont sculpt\xE9es\nsur les c\xF4t\xE9s, pr\xE8s de la"
+      - startSeconds: 12.464
+        endSeconds: 16.845
+        text: "base. L\u2019ensemble est compact\n: la masse du corps domine"
+      - startSeconds: 17.005
+        endSeconds: 19.066
+        text: "les d\xE9tails plus fins de\nl\u2019insecte."
+    - id: bm_ea74.narration.ar
+      language: ar
+      kind: narration
+      transcript: "\u0646\u064F\u062D\u062A \u0647\u0630\u0627 \u0627\u0644\u062C\u0639\u0631\u0627\u0646 \u0627\u0644\u0636\u062E\u0645 \u0645\u0646 \u062D\u062C\u0631 \u0627\u0644\u062F\u064A\u0648\u0631\u064A\u062A. \u0648\u064A\u0631\u062C\u062D \u0623\u0646\u0647 \u064A\u0645\u062B\u0644 \u062E\u0628\u0631\u064A\u060C \u0623\u062D\u062F \u0623\u0634\u0643\u0627\u0644 \u0625\u0644\u0647 \u0627\u0644\u0634\u0645\u0633 \u0627\u0644\u0645\u0631\u062A\u0628\u0637\u0629 \u0628\u0634\u0631\u0648\u0642\u0647\u0627. \u0641\u064A \u0645\u0639\u062A\u0642\u062F\u0627\u062A \u0645\u0635\u0631 \u0627\u0644\u0642\u062F\u064A\u0645\u0629\u060C \u0643\u0627\u0646 \u0627\u0644\u062C\u0639\u0631\u0627\u0646 \u064A\u0631\u0645\u0632 \u0625\u0644\u0649 \u0627\u0644\u0648\u0644\u0627\u062F\u0629 \u0648\u0627\u0644\u062A\u062C\u062F\u062F. \u062A\u0623\u0645\u0644 \u062C\u0633\u0645\u0647 \u0627\u0644\u0645\u0633\u062A\u062F\u064A\u0631 \u0648\u0623\u0631\u062C\u0644\u0647 \u0648\u0627\u0644\u0642\u0627\u0639\u062F\u0629 \u0627\u0644\u062A\u064A \u064A\u0633\u062A\u0646\u062F \u0625\u0644\u064A\u0647\u0627. \u0644\u0642\u062F \u062D\u0648\u0651\u0644 \u0627\u0644\u0646\u062D\u0627\u062A \u062D\u0634\u0631\u0629 \u0635\u063A\u064A\u0631\u0629 \u0625\u0644\u0649 \u062D\u0636\u0648\u0631 \u0636\u062E\u0645. \u062A\u062F\u0639\u0648\u0646\u0627 \u0647\u0630\u0647 \u0627\u0644\u0642\u0637\u0639\u0629 \u0625\u0644\u0649 \u0627\u0643\u062A\u0634\u0627\u0641 \u0627\u0644\u0635\u0644\u0629 \u0628\u064A\u0646 \u0639\u0627\u0644\u0645 \u0627\u0644\u0637\u0628\u064A\u0639\u0629 \u0648\u0635\u0648\u0631 \u0627\u0644\u0622\u0644\u0647\u0629."
+      voiceId: JAFpvTRfGNCbJ2St9kyT
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: fc8b0f87f40854f76a91d3f398fc659f, type: 3}
+      subtitles:
+      - startSeconds: 0.06
+        endSeconds: 3.201
+        text: "\u0646\u064F\u062D\u062A \u0647\u0630\u0627 \u0627\u0644\u062C\u0639\u0631\u0627\u0646 \u0627\u0644\u0636\u062E\u0645 \u0645\u0646\n\u062D\u062C\u0631 \u0627\u0644\u062F\u064A\u0648\u0631\u064A\u062A."
+      - startSeconds: 4.022
+        endSeconds: 8.964
+        text: "\u0648\u064A\u0631\u062C\u062D \u0623\u0646\u0647 \u064A\u0645\u062B\u0644 \u062E\u0628\u0631\u064A\u060C \u0623\u062D\u062F\n\u0623\u0634\u0643\u0627\u0644 \u0625\u0644\u0647 \u0627\u0644\u0634\u0645\u0633 \u0627\u0644\u0645\u0631\u062A\u0628\u0637\u0629"
+      - startSeconds: 9.124
+        endSeconds: 9.924
+        text: "\u0628\u0634\u0631\u0648\u0642\u0647\u0627."
+      - startSeconds: 10.764
+        endSeconds: 15.426
+        text: "\u0641\u064A \u0645\u0639\u062A\u0642\u062F\u0627\u062A \u0645\u0635\u0631 \u0627\u0644\u0642\u062F\u064A\u0645\u0629\u060C \u0643\u0627\u0646\n\u0627\u0644\u062C\u0639\u0631\u0627\u0646 \u064A\u0631\u0645\u0632 \u0625\u0644\u0649 \u0627\u0644\u0648\u0644\u0627\u062F\u0629"
+      - startSeconds: 15.566
+        endSeconds: 16.387
+        text: "\u0648\u0627\u0644\u062A\u062C\u062F\u062F."
+      - startSeconds: 17.047
+        endSeconds: 22.289
+        text: "\u062A\u0623\u0645\u0644 \u062C\u0633\u0645\u0647 \u0627\u0644\u0645\u0633\u062A\u062F\u064A\u0631 \u0648\u0623\u0631\u062C\u0644\u0647\n\u0648\u0627\u0644\u0642\u0627\u0639\u062F\u0629 \u0627\u0644\u062A\u064A \u064A\u0633\u062A\u0646\u062F \u0625\u0644\u064A\u0647\u0627."
+      - startSeconds: 23.17
+        endSeconds: 27.171
+        text: "\u0644\u0642\u062F \u062D\u0648\u0651\u0644 \u0627\u0644\u0646\u062D\u0627\u062A \u062D\u0634\u0631\u0629 \u0635\u063A\u064A\u0631\u0629\n\u0625\u0644\u0649 \u062D\u0636\u0648\u0631 \u0636\u062E\u0645."
+      - startSeconds: 27.872
+        endSeconds: 33.054
+        text: "\u062A\u062F\u0639\u0648\u0646\u0627 \u0647\u0630\u0647 \u0627\u0644\u0642\u0637\u0639\u0629 \u0625\u0644\u0649 \u0627\u0643\u062A\u0634\u0627\u0641\n\u0627\u0644\u0635\u0644\u0629 \u0628\u064A\u0646 \u0639\u0627\u0644\u0645 \u0627\u0644\u0637\u0628\u064A\u0639\u0629 \u0648\u0635\u0648\u0631"
+      - startSeconds: 33.054
+        endSeconds: 33.834
+        text: "\u0627\u0644\u0622\u0644\u0647\u0629."
+    - id: bm_ea74.audio_description.ar
+      language: ar
+      kind: audio_description
+      transcript: "\u064A\u0633\u062A\u0646\u062F \u062C\u0639\u0631\u0627\u0646 \u062D\u062C\u0631\u064A \u0625\u0644\u0649 \u0642\u0627\u0639\u062F\u0629 \u0645\u0633\u062A\u0637\u064A\u0644\u0629. \u062C\u0633\u0645\u0647 \u0639\u0631\u064A\u0636 \u0648\u0645\u0633\u062A\u062F\u064A\u0631\u060C \u0648\u0638\u0647\u0631\u0647 \u0645\u062D\u062F\u0628. \u064A\u0642\u0639 \u0627\u0644\u0631\u0623\u0633 \u0639\u0646\u062F \u0623\u062D\u062F \u0627\u0644\u0637\u0631\u0641\u064A\u0646. \u0646\u064F\u062D\u062A\u062A \u0627\u0644\u0623\u0631\u062C\u0644 \u0639\u0644\u0649 \u0627\u0644\u062C\u0627\u0646\u0628\u064A\u0646 \u0642\u0631\u0628 \u0627\u0644\u0642\u0627\u0639\u062F\u0629. \u064A\u0628\u062F\u0648 \u0627\u0644\u062A\u0643\u0648\u064A\u0646 \u0645\u062A\u0645\u0627\u0633\u0643\u0627\u064B\u060C \u0648\u062A\u0628\u0631\u0632 \u0643\u062A\u0644\u0629 \u0627\u0644\u062C\u0633\u0645 \u0623\u0643\u062B\u0631 \u0645\u0646 \u0627\u0644\u062A\u0641\u0627\u0635\u064A\u0644 \u0627\u0644\u062F\u0642\u064A\u0642\u0629 \u0644\u0644\u062D\u0634\u0631\u0629."
+      voiceId: JAFpvTRfGNCbJ2St9kyT
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: 52cd412c657464c11ae9fa1f23f210d4, type: 3}
+      subtitles:
+      - startSeconds: 0.08
+        endSeconds: 3.502
+        text: "\u064A\u0633\u062A\u0646\u062F \u062C\u0639\u0631\u0627\u0646 \u062D\u062C\u0631\u064A \u0625\u0644\u0649 \u0642\u0627\u0639\u062F\u0629\n\u0645\u0633\u062A\u0637\u064A\u0644\u0629."
+      - startSeconds: 4.143
+        endSeconds: 7.725
+        text: "\u062C\u0633\u0645\u0647 \u0639\u0631\u064A\u0636 \u0648\u0645\u0633\u062A\u062F\u064A\u0631\u060C \u0648\u0638\u0647\u0631\u0647\n\u0645\u062D\u062F\u0628."
+      - startSeconds: 8.445
+        endSeconds: 13.389
+        text: "\u064A\u0642\u0639 \u0627\u0644\u0631\u0623\u0633 \u0639\u0646\u062F \u0623\u062D\u062F \u0627\u0644\u0637\u0631\u0641\u064A\u0646.\n\u0646\u064F\u062D\u062A\u062A \u0627\u0644\u0623\u0631\u062C\u0644 \u0639\u0644\u0649 \u0627\u0644\u062C\u0627\u0646\u0628\u064A\u0646 \u0642\u0631\u0628"
+      - startSeconds: 13.389
+        endSeconds: 14.189
+        text: "\u0627\u0644\u0642\u0627\u0639\u062F\u0629."
+      - startSeconds: 14.809
+        endSeconds: 19.973
+        text: "\u064A\u0628\u062F\u0648 \u0627\u0644\u062A\u0643\u0648\u064A\u0646 \u0645\u062A\u0645\u0627\u0633\u0643\u0627\u064B\u060C \u0648\u062A\u0628\u0631\u0632\n\u0643\u062A\u0644\u0629 \u0627\u0644\u062C\u0633\u0645 \u0623\u0643\u062B\u0631 \u0645\u0646 \u0627\u0644\u062A\u0641\u0627\u0635\u064A\u0644"
+      - startSeconds: 19.973
+        endSeconds: 21.354
+        text: "\u0627\u0644\u062F\u0642\u064A\u0642\u0629 \u0644\u0644\u062D\u0634\u0631\u0629."
+    - id: bm_ea74.narration.en
+      language: en
+      kind: narration
+      transcript: This monumental scarab is carved from diorite. It probably represents Khepri, a form of the sun god associated with sunrise. In ancient Egyptian beliefs, the scarab evoked birth and renewal. Notice its rounded body, its legs and the base beneath it. The sculptor transformed a small insect into a monumental presence. This work invites us to explore the connection between the natural world and images of the gods.
+      voiceId: 3ADZQUoqg3hWyEOlzpXW
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: e8dd58363f6b1417dae18dfa767434d3, type: 3}
+      subtitles:
+      - startSeconds: 0.06
+        endSeconds: 3.342
+        text: 'This monumental scarab is
+
+          carved from diorite.'
+      - startSeconds: 4.123
+        endSeconds: 6.144
+        text: 'It probably represents
+
+          Khepri,'
+      - startSeconds: 7.025
+        endSeconds: 9.826
+        text: 'a form of the sun god
+
+          associated with sunrise.'
+      - startSeconds: 10.807
+        endSeconds: 14.61
+        text: 'In ancient Egyptian beliefs,
+
+          the scarab evoked birth and'
+      - startSeconds: 14.61
+        endSeconds: 15.41
+        text: renewal.
+      - startSeconds: 16.031
+        endSeconds: 17.211
+        text: Notice its rounded body,
+      - startSeconds: 17.832
+        endSeconds: 19.833
+        text: 'its legs and the base
+
+          beneath it.'
+      - startSeconds: 20.734
+        endSeconds: 24.476
+        text: 'The sculptor transformed a
+
+          small insect into a'
+      - startSeconds: 24.536
+        endSeconds: 26.518
+        text: monumental presence.
+      - startSeconds: 28.019
+        endSeconds: 32.782
+        text: 'This work invites us to
+
+          explore the connection between'
+      - startSeconds: 32.782
+        endSeconds: 36.785
+        text: 'the natural world and images
+
+          of the gods.'
+    - id: bm_ea74.audio_description.en
+      language: en
+      kind: audio_description
+      transcript: "A stone scarab rests on a rectangular base. Its body is broad and rounded, with a domed back. The head occupies one end. Its legs are carved along the sides, close to the base. The overall form is compact: the body\u2019s mass dominates the finer details of the insect."
+      voiceId: 3ADZQUoqg3hWyEOlzpXW
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: 6b64ce8ab8489460ca21bd459fe18417, type: 3}
+      subtitles:
+      - startSeconds: 0.08
+        endSeconds: 1.84
+        text: A stone scarab
+      - startSeconds: 2.76
+        endSeconds: 6.361
+        text: rests on a rectangular base.
+      - startSeconds: 7.861
+        endSeconds: 8.681
+        text: Its body
+      - startSeconds: 9.461
+        endSeconds: 12.101
+        text: is broad and rounded,
+      - startSeconds: 13.282
+        endSeconds: 15.142
+        text: with a domed back.
+      - startSeconds: 16.302
+        endSeconds: 17.102
+        text: The head
+      - startSeconds: 17.742
+        endSeconds: 20.262
+        text: occupies one end.
+      - startSeconds: 21.403
+        endSeconds: 26.283
+        text: 'Its legs are carved along
+
+          the'
+      - startSeconds: 26.423
+        endSeconds: 27.423
+        text: sides,
+      - startSeconds: 28.303
+        endSeconds: 30.684
+        text: close to the base.
+      - startSeconds: 32.444
+        endSeconds: 36.264
+        text: 'The overall form is compact:'
+      - startSeconds: 37.725
+        endSeconds: 39.345
+        text: "the body\u2019s mass"
+      - startSeconds: 39.985
+        endSeconds: 44.905
+        text: 'dominates the finer details
+
+          of the'
+      - startSeconds: 45.066
+        endSeconds: 46.226
+        text: insect.
+    quiz:
+      id: quiz_bm_ea74
+      contentVersion: 1
+      questions:
+      - id: bm_ea74_q1
+        correctOptionId: bm_ea74_q1_d
+        prompt:
+          fr: "Dans quelle pierre le scarab\xE9e monumental est-il sculpt\xE9 ?"
+          ar: "\u0645\u0646 \u0623\u064A \u062D\u062C\u0631 \u0646\u064F\u062D\u062A \u0627\u0644\u062C\u0639\u0631\u0627\u0646 \u0627\u0644\u0636\u062E\u0645\u061F"
+          en: Which stone was used for the monumental scarab?
+        explanation:
+          fr: "Le scarab\xE9e EA74 est sculpt\xE9 dans la diorite. Il faut distinguer sa mati\xE8re de celle du lion en granite rouge ou de la pierre de Rosette en granodiorite."
+          ar: "\u0646\u064F\u062D\u062A \u0627\u0644\u062C\u0639\u0631\u0627\u0646 EA74 \u0645\u0646 \u0627\u0644\u062F\u064A\u0648\u0631\u064A\u062A\u060C \u0648\u0647\u0648 \u064A\u062E\u062A\u0644\u0641 \u0639\u0646 \u0627\u0644\u062C\u0631\u0627\u0646\u064A\u062A \u0627\u0644\u0623\u062D\u0645\u0631 \u0627\u0644\u0645\u0633\u062A\u062E\u062F\u0645 \u0641\u064A \u0627\u0644\u0623\u0633\u062F \u0648\u0639\u0646 \u0627\u0644\u062C\u0631\u0627\u0646\u0648\u062F\u064A\u0648\u0631\u064A\u062A \u0627\u0644\u0645\u0633\u062A\u062E\u062F\u0645 \u0641\u064A \u062D\u062C\u0631 \u0631\u0634\u064A\u062F."
+          en: Scarab EA74 is carved from diorite. This differs from the red granite of the lion and the granodiorite of the Rosetta Stone.
+        options:
+        - id: bm_ea74_q1_a
+          text:
+            fr: Granite rouge
+            ar: "\u0627\u0644\u062C\u0631\u0627\u0646\u064A\u062A \u0627\u0644\u0623\u062D\u0645\u0631"
+            en: Red granite
+        - id: bm_ea74_q1_b
+          text:
+            fr: Marbre
+            ar: "\u0627\u0644\u0631\u062E\u0627\u0645"
+            en: Marble
+        - id: bm_ea74_q1_c
+          text:
+            fr: Granodiorite
+            ar: "\u0627\u0644\u062C\u0631\u0627\u0646\u0648\u062F\u064A\u0648\u0631\u064A\u062A"
+            en: Granodiorite
+        - id: bm_ea74_q1_d
+          text:
+            fr: Diorite
+            ar: "\u0627\u0644\u062F\u064A\u0648\u0631\u064A\u062A"
+            en: Diorite
+      - id: bm_ea74_q2
+        correctOptionId: bm_ea74_q2_a
+        prompt:
+          fr: "Quel dieu ce scarab\xE9e repr\xE9sente-t-il probablement ?"
+          ar: "\u0623\u064A \u0625\u0644\u0647 \u064A\u064F\u0631\u062C\u062D \u0623\u0646 \u0647\u0630\u0627 \u0627\u0644\u062C\u0639\u0631\u0627\u0646 \u064A\u0645\u062B\u0644\u0647\u061F"
+          en: Which god does this scarab probably represent?
+        explanation:
+          fr: "La notice identifie probablement Kh\xE9pri, une forme du dieu solaire. Cette attribution reste formul\xE9e comme une probabilit\xE9."
+          ar: "\u062A\u064F\u0631\u062C\u062D \u0628\u0637\u0627\u0642\u0629 \u0627\u0644\u0642\u0637\u0639\u0629 \u0623\u0646\u0647\u0627 \u062A\u0645\u062B\u0644 \u062E\u0628\u0631\u064A\u060C \u0648\u0647\u0648 \u0635\u0648\u0631\u0629 \u0645\u0646 \u0635\u0648\u0631 \u0625\u0644\u0647 \u0627\u0644\u0634\u0645\u0633. \u0648\u062A\u0638\u0644 \u0647\u0630\u0647 \u0627\u0644\u0646\u0633\u0628\u0629 \u0627\u062D\u062A\u0645\u0627\u0644\u064A\u0629."
+          en: The description identifies Khepri, a form of the sun god, as the probable subject. This attribution remains a probability.
+        options:
+        - id: bm_ea74_q2_a
+          text:
+            fr: "Kh\xE9pri"
+            ar: "\u062E\u0628\u0631\u064A"
+            en: Khepri
+        - id: bm_ea74_q2_b
+          text:
+            fr: Amon
+            ar: "\u0622\u0645\u0648\u0646"
+            en: Amun
+        - id: bm_ea74_q2_c
+          text:
+            fr: Nout
+            ar: "\u0646\u0648\u062A"
+            en: Nut
+        - id: bm_ea74_q2_d
+          text:
+            fr: "Ptol\xE9m\xE9e V"
+            ar: "\u0628\u0637\u0644\u064A\u0645\u0648\u0633 \u0627\u0644\u062E\u0627\u0645\u0633"
+            en: Ptolemy V
+      - id: bm_ea74_q3
+        correctOptionId: bm_ea74_q3_c
+        prompt:
+          fr: "\xC0 quel moment du cycle solaire Kh\xE9pri est-il associ\xE9 ?"
+          ar: "\u0628\u0623\u064A \u0645\u0631\u062D\u0644\u0629 \u0645\u0646 \u062F\u0648\u0631\u0629 \u0627\u0644\u0634\u0645\u0633 \u064A\u0631\u062A\u0628\u0637 \u062E\u0628\u0631\u064A\u061F"
+          en: Which part of the solar cycle is Khepri associated with?
+        explanation:
+          fr: "Kh\xE9pri est associ\xE9 au soleil levant. Dans la narration, le scarab\xE9e \xE9voque la naissance et le renouvellement."
+          ar: "\u064A\u0631\u062A\u0628\u0637 \u062E\u0628\u0631\u064A \u0628\u0627\u0644\u0634\u0645\u0633 \u0627\u0644\u0645\u0634\u0631\u0642\u0629. \u0648\u0641\u064A \u0627\u0644\u0633\u0631\u062F\u060C \u064A\u0631\u0645\u0632 \u0627\u0644\u062C\u0639\u0631\u0627\u0646 \u0625\u0644\u0649 \u0627\u0644\u0648\u0644\u0627\u062F\u0629 \u0648\u0627\u0644\u062A\u062C\u062F\u062F."
+          en: Khepri is associated with the rising sun. In the narration, the scarab evokes birth and renewal.
+        options:
+        - id: bm_ea74_q3_a
+          text:
+            fr: Au soleil de midi
+            ar: "\u0634\u0645\u0633 \u0627\u0644\u0638\u0647\u064A\u0631\u0629"
+            en: The midday sun
+        - id: bm_ea74_q3_b
+          text:
+            fr: Au soleil couchant
+            ar: "\u063A\u0631\u0648\u0628 \u0627\u0644\u0634\u0645\u0633"
+            en: The setting sun
+        - id: bm_ea74_q3_c
+          text:
+            fr: Au soleil levant
+            ar: "\u0634\u0631\u0648\u0642 \u0627\u0644\u0634\u0645\u0633"
+            en: The rising sun
+        - id: bm_ea74_q3_d
+          text:
+            fr: "Aux \xE9clipses uniquement"
+            ar: "\u0627\u0644\u0643\u0633\u0648\u0641 \u0641\u0642\u0637"
+            en: Eclipses only
+  - id: bm_ea1779
+    title: "B\xE9lier d\u2019Amon prot\xE9geant Taharqa"
+    summary: "Le dieu Amon repr\xE9sent\xE9 sous la forme d\u2019un b\xE9lier abritant le roi Taharqa."
+    description: "Cette statue repr\xE9sente Amon sous la forme d\u2019un b\xE9lier couch\xE9. Entre ses pattes avant se tient une petite figure du roi Taharqa, plac\xE9 sous sa protection. L\u2019objet, conserv\xE9 au British Museum sous le num\xE9ro EA1779, provient de Kawa en Nubie. Des hi\xE9roglyphes parcourent sa base rectangulaire."
+    museumObjectId: EA1779
+    photoCredit: M0tty
+    photoLicence: CC-BY-SA-3.0
+    photoSource: https://commons.wikimedia.org/wiki/File:Granite_ram_of_Amun_with_King_Taharqa_-_British_Museum.jpg
+    modelLicence: CC-BY-NC-SA-4.0
+    modelSource: https://github.com/BritishMuseumDH/DH-OculusVR-models
+    modelCredits:
+    - Daniel Pett
+    - Jennifer Wexler
+    - Thomas Flynn
+    - Copyright Trustees of the British Museum
+    descriptionSources:
+    - https://sketchfab.com/3d-models/statue-of-the-ram-of-amun-35d49b6d599045d6ba1dd41999b0012e
+    - https://commons.wikimedia.org/wiki/File:Granite_ram_of_Amun_with_King_Taharqa_-_British_Museum.jpg
+    photograph: {fileID: 2800000, guid: fb513995543ac448a958ac22cc713b49, type: 3}
+    modelPrefab: {fileID: 1453640129851508044, guid: 7d30b43447bd443e19dc251be609b84c, type: 3}
+    targetWidthMeters: 0.12
+    audio:
+    - id: bm_ea1779.narration.fr
+      language: fr
+      kind: narration
+      transcript: "Cette statue repr\xE9sente le dieu Amon sous la forme d\u2019un b\xE9lier couch\xE9. Entre ses pattes avant se trouve une petite figure du roi Taharqa, plac\xE9e sous sa protection. L\u2019\u0153uvre provient du temple d\u2019Amon \xE0 Kawa, dans l\u2019actuel Soudan. Observez le contraste entre le grand animal et le souverain, puis les inscriptions sur la base. Cette composition exprime une relation entre le pouvoir royal et la protection divine, dans l\u2019histoire de la Nubie et de l\u2019\xC9gypte."
+      voiceId: 6DEjyaHWnTHsvXM5Byys
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: fb4cf50a08c4549d28f85acfd3e172ca, type: 3}
+      subtitles:
+      - startSeconds: 0.08
+        endSeconds: 0.961
+        text: Cette statue
+      - startSeconds: 1.581
+        endSeconds: 4.683
+        text: "repr\xE9sente le dieu Amon sous\nla forme d\u2019un b\xE9lier"
+      - startSeconds: 4.683
+        endSeconds: 5.483
+        text: "couch\xE9."
+      - startSeconds: 5.864
+        endSeconds: 9.127
+        text: 'Entre ses pattes avant se
+
+          trouve une petite figure du'
+      - startSeconds: 9.127
+        endSeconds: 12.049
+        text: "roi Taharqa, plac\xE9e sous sa\nprotection."
+      - startSeconds: 12.529
+        endSeconds: 16.032
+        text: "L\u2019\u0153uvre provient du temple\nd\u2019Amon \xE0 Kawa, dans l\u2019actuel"
+      - startSeconds: 16.032
+        endSeconds: 20.295
+        text: 'Soudan. Observez le contraste
+
+          entre le grand animal et'
+      - startSeconds: 20.295
+        endSeconds: 23.497
+        text: 'le souverain, puis les
+
+          inscriptions sur la base.'
+      - startSeconds: 24.558
+        endSeconds: 27.38
+        text: 'Cette composition exprime
+
+          une relation entre le pouvoir'
+      - startSeconds: 27.4
+        endSeconds: 30.522
+        text: "royal et la protection\ndivine, dans l\u2019histoire de la"
+      - startSeconds: 30.522
+        endSeconds: 31.783
+        text: "Nubie et de l\u2019\xC9gypte."
+    - id: bm_ea1779.audio_description.fr
+      language: fr
+      kind: audio_description
+      transcript: "Un grand b\xE9lier est couch\xE9 sur une base rectangulaire. Ses pattes sont repli\xE9es sous son corps et sa t\xEAte est relev\xE9e. Une petite figure humaine se tient entre les pattes avant. Elle para\xEEt minuscule face \xE0 l\u2019animal. Des rang\xE9es de signes grav\xE9s parcourent les c\xF4t\xE9s de la base."
+      voiceId: 6DEjyaHWnTHsvXM5Byys
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: 89a65485a6aeb455c92f0e0eedfabf22, type: 3}
+      subtitles:
+      - startSeconds: 0.08
+        endSeconds: 3.301
+        text: "Un grand b\xE9lier est couch\xE9\nsur une base rectangulaire."
+      - startSeconds: 3.742
+        endSeconds: 7.383
+        text: "Ses pattes sont repli\xE9es\nsous son corps et sa t\xEAte est"
+      - startSeconds: 7.403
+        endSeconds: 8.203
+        text: "relev\xE9e."
+      - startSeconds: 8.664
+        endSeconds: 11.966
+        text: 'Une petite figure humaine se
+
+          tient entre les pattes'
+      - startSeconds: 12.046
+        endSeconds: 15.287
+        text: "avant. Elle para\xEEt minuscule\nface \xE0 l\u2019animal."
+      - startSeconds: 15.907
+        endSeconds: 19.389
+        text: "Des rang\xE9es de signes grav\xE9s\nparcourent les c\xF4t\xE9s de la"
+      - startSeconds: 19.389
+        endSeconds: 19.889
+        text: base.
+    - id: bm_ea1779.narration.ar
+      language: ar
+      kind: narration
+      transcript: "\u064A\u0645\u062B\u0644 \u0647\u0630\u0627 \u0627\u0644\u062A\u0645\u062B\u0627\u0644 \u0627\u0644\u0625\u0644\u0647 \u0622\u0645\u0648\u0646 \u0641\u064A \u0647\u064A\u0626\u0629 \u0643\u0628\u0634 \u0645\u0633\u062A\u0644\u0642\u064D. \u0648\u0628\u064A\u0646 \u0633\u0627\u0642\u064A\u0647 \u0627\u0644\u0623\u0645\u0627\u0645\u064A\u062A\u064A\u0646 \u064A\u0642\u0641 \u062A\u0645\u062B\u0627\u0644 \u0635\u063A\u064A\u0631 \u0644\u0644\u0645\u0644\u0643 \u062A\u0647\u0627\u0631\u0642\u0627\u060C \u0641\u064A \u062D\u0645\u0627\u064A\u062A\u0647. \u062C\u0627\u0621\u062A \u0627\u0644\u0642\u0637\u0639\u0629 \u0645\u0646 \u0645\u0639\u0628\u062F \u0622\u0645\u0648\u0646 \u0641\u064A \u0643\u0627\u0648\u0627\u060C \u0641\u064A \u0627\u0644\u0633\u0648\u062F\u0627\u0646 \u0627\u0644\u062D\u0627\u0644\u064A. \u062A\u0623\u0645\u0644 \u0627\u0644\u0641\u0631\u0642 \u0641\u064A \u0627\u0644\u062D\u062C\u0645 \u0628\u064A\u0646 \u0627\u0644\u062D\u064A\u0648\u0627\u0646 \u0627\u0644\u0643\u0628\u064A\u0631 \u0648\u0627\u0644\u0645\u0644\u0643\u060C \u062B\u0645 \u0627\u0646\u0638\u0631 \u0625\u0644\u0649 \u0627\u0644\u0646\u0642\u0648\u0634 \u0639\u0644\u0649 \u0627\u0644\u0642\u0627\u0639\u062F\u0629. \u064A\u0639\u0628\u0631 \u0647\u0630\u0627 \u0627\u0644\u062A\u0643\u0648\u064A\u0646 \u0639\u0646 \u0627\u0644\u0639\u0644\u0627\u0642\u0629 \u0628\u064A\u0646 \u0627\u0644\u0633\u0644\u0637\u0629 \u0627\u0644\u0645\u0644\u0643\u064A\u0629 \u0648\u0627\u0644\u062D\u0645\u0627\u064A\u0629 \u0627\u0644\u0625\u0644\u0647\u064A\u0629\u060C \u0641\u064A \u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0646\u0648\u0628\u0629 \u0648\u0645\u0635\u0631."
+      voiceId: JAFpvTRfGNCbJ2St9kyT
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: 23fe6104bf5634c22bc65830921140df, type: 3}
+      subtitles:
+      - startSeconds: 0.1
+        endSeconds: 3.441
+        text: "\u064A\u0645\u062B\u0644 \u0647\u0630\u0627 \u0627\u0644\u062A\u0645\u062B\u0627\u0644 \u0627\u0644\u0625\u0644\u0647 \u0622\u0645\u0648\u0646\n\u0641\u064A \u0647\u064A\u0626\u0629 \u0643\u0628\u0634 \u0645\u0633\u062A\u0644\u0642\u064D."
+      - startSeconds: 4.181
+        endSeconds: 8.623
+        text: "\u0648\u0628\u064A\u0646 \u0633\u0627\u0642\u064A\u0647 \u0627\u0644\u0623\u0645\u0627\u0645\u064A\u062A\u064A\u0646 \u064A\u0642\u0641\n\u062A\u0645\u062B\u0627\u0644 \u0635\u063A\u064A\u0631 \u0644\u0644\u0645\u0644\u0643 \u062A\u0647\u0627\u0631\u0642\u0627\u060C \u0641\u064A"
+      - startSeconds: 8.623
+        endSeconds: 9.423
+        text: "\u062D\u0645\u0627\u064A\u062A\u0647."
+      - startSeconds: 9.843
+        endSeconds: 13.324
+        text: "\u062C\u0627\u0621\u062A \u0627\u0644\u0642\u0637\u0639\u0629 \u0645\u0646 \u0645\u0639\u0628\u062F \u0622\u0645\u0648\u0646 \u0641\u064A\n\u0643\u0627\u0648\u0627\u060C \u0641\u064A \u0627\u0644\u0633\u0648\u062F\u0627\u0646 \u0627\u0644\u062D\u0627\u0644\u064A."
+      - startSeconds: 13.964
+        endSeconds: 17.865
+        text: "\u062A\u0623\u0645\u0644 \u0627\u0644\u0641\u0631\u0642 \u0641\u064A \u0627\u0644\u062D\u062C\u0645 \u0628\u064A\u0646\n\u0627\u0644\u062D\u064A\u0648\u0627\u0646 \u0627\u0644\u0643\u0628\u064A\u0631 \u0648\u0627\u0644\u0645\u0644\u0643\u060C \u062B\u0645 \u0627\u0646\u0638\u0631"
+      - startSeconds: 17.865
+        endSeconds: 19.126
+        text: "\u0625\u0644\u0649 \u0627\u0644\u0646\u0642\u0648\u0634 \u0639\u0644\u0649 \u0627\u0644\u0642\u0627\u0639\u062F\u0629."
+      - startSeconds: 19.786
+        endSeconds: 23.727
+        text: "\u064A\u0639\u0628\u0631 \u0647\u0630\u0627 \u0627\u0644\u062A\u0643\u0648\u064A\u0646 \u0639\u0646 \u0627\u0644\u0639\u0644\u0627\u0642\u0629\n\u0628\u064A\u0646 \u0627\u0644\u0633\u0644\u0637\u0629 \u0627\u0644\u0645\u0644\u0643\u064A\u0629 \u0648\u0627\u0644\u062D\u0645\u0627\u064A\u0629"
+      - startSeconds: 23.747
+        endSeconds: 26.668
+        text: "\u0627\u0644\u0625\u0644\u0647\u064A\u0629\u060C \u0641\u064A \u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0646\u0648\u0628\u0629\n\u0648\u0645\u0635\u0631."
+    - id: bm_ea1779.audio_description.ar
+      language: ar
+      kind: audio_description
+      transcript: "\u064A\u0633\u062A\u0644\u0642\u064A \u0643\u0628\u0634 \u0643\u0628\u064A\u0631 \u0639\u0644\u0649 \u0642\u0627\u0639\u062F\u0629 \u0645\u0633\u062A\u0637\u064A\u0644\u0629. \u0633\u0627\u0642\u0627\u0647 \u0645\u0637\u0648\u064A\u062A\u0627\u0646 \u062A\u062D\u062A \u062C\u0633\u0645\u0647 \u0648\u0631\u0623\u0633\u0647 \u0645\u0631\u0641\u0648\u0639. \u064A\u0642\u0641 \u062A\u0645\u062B\u0627\u0644 \u0628\u0634\u0631\u064A \u0635\u063A\u064A\u0631 \u0628\u064A\u0646 \u0633\u0627\u0642\u064A\u0647 \u0627\u0644\u0623\u0645\u0627\u0645\u064A\u062A\u064A\u0646\u060C \u0648\u064A\u0628\u062F\u0648 \u0635\u063A\u064A\u0631\u0627\u064B \u062C\u062F\u0627\u064B \u0645\u0642\u0627\u0631\u0646\u0629 \u0628\u0627\u0644\u062D\u064A\u0648\u0627\u0646. \u0648\u062A\u0645\u062A\u062F \u0635\u0641\u0648\u0641 \u0645\u0646 \u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A \u0627\u0644\u0645\u0646\u0642\u0648\u0634\u0629 \u0639\u0644\u0649 \u062C\u0648\u0627\u0646\u0628 \u0627\u0644\u0642\u0627\u0639\u062F\u0629."
+      voiceId: JAFpvTRfGNCbJ2St9kyT
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: f1059c1b90bda46d3965bdf63ece82b0, type: 3}
+      subtitles:
+      - startSeconds: 0.04
+        endSeconds: 3.141
+        text: "\u064A\u0633\u062A\u0644\u0642\u064A \u0643\u0628\u0634 \u0643\u0628\u064A\u0631 \u0639\u0644\u0649 \u0642\u0627\u0639\u062F\u0629\n\u0645\u0633\u062A\u0637\u064A\u0644\u0629."
+      - startSeconds: 3.922
+        endSeconds: 7.423
+        text: "\u0633\u0627\u0642\u0627\u0647 \u0645\u0637\u0648\u064A\u062A\u0627\u0646 \u062A\u062D\u062A \u062C\u0633\u0645\u0647 \u0648\u0631\u0623\u0633\u0647\n\u0645\u0631\u0641\u0648\u0639."
+      - startSeconds: 8.224
+        endSeconds: 12.225
+        text: "\u064A\u0642\u0641 \u062A\u0645\u062B\u0627\u0644 \u0628\u0634\u0631\u064A \u0635\u063A\u064A\u0631 \u0628\u064A\u0646\n\u0633\u0627\u0642\u064A\u0647 \u0627\u0644\u0623\u0645\u0627\u0645\u064A\u062A\u064A\u0646\u060C"
+      - startSeconds: 12.926
+        endSeconds: 15.907
+        text: "\u0648\u064A\u0628\u062F\u0648 \u0635\u063A\u064A\u0631\u0627\u064B \u062C\u062F\u0627\u064B \u0645\u0642\u0627\u0631\u0646\u0629\n\u0628\u0627\u0644\u062D\u064A\u0648\u0627\u0646."
+      - startSeconds: 16.727
+        endSeconds: 20.909
+        text: "\u0648\u062A\u0645\u062A\u062F \u0635\u0641\u0648\u0641 \u0645\u0646 \u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A\n\u0627\u0644\u0645\u0646\u0642\u0648\u0634\u0629 \u0639\u0644\u0649 \u062C\u0648\u0627\u0646\u0628 \u0627\u0644\u0642\u0627\u0639\u062F\u0629."
+    - id: bm_ea1779.narration.en
+      language: en
+      kind: narration
+      transcript: This statue represents the god Amun as a reclining ram. Between its front legs stands a small figure of King Taharqa, sheltered by the god. The work comes from the temple of Amun at Kawa, in present-day Sudan. Notice the contrast between the large animal and the king, then look at the inscriptions on the base. This composition expresses a connection between royal power and divine protection in the history of Nubia and Egypt.
+      voiceId: 3ADZQUoqg3hWyEOlzpXW
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: 1c2494eee7f8043ec98c1f9c1b1ced42, type: 3}
+      subtitles:
+      - startSeconds: 0.06
+        endSeconds: 4.663
+        text: 'This statue represents the
+
+          god Amun as a reclining ram.'
+      - startSeconds: 5.563
+        endSeconds: 9.185
+        text: 'Between its front legs
+
+          stands a small figure of King'
+      - startSeconds: 9.185
+        endSeconds: 9.985
+        text: Taharqa,
+      - startSeconds: 10.446
+        endSeconds: 11.566
+        text: sheltered by the god.
+      - startSeconds: 12.427
+        endSeconds: 16.009
+        text: 'The work comes from the
+
+          temple of Amun at Kawa,'
+      - startSeconds: 16.649
+        endSeconds: 17.99
+        text: in present-day Sudan.
+      - startSeconds: 18.811
+        endSeconds: 21.212
+        text: 'Notice the contrast between
+
+          the large animal'
+      - startSeconds: 21.832
+        endSeconds: 22.632
+        text: and the king,
+      - startSeconds: 24.214
+        endSeconds: 27.195
+        text: 'then look at the
+
+          inscriptions on the base.'
+      - startSeconds: 28.816
+        endSeconds: 29.917
+        text: This composition
+      - startSeconds: 30.557
+        endSeconds: 32.478
+        text: expresses a connection
+      - startSeconds: 33.339
+        endSeconds: 34.899
+        text: between royal power
+      - startSeconds: 35.94
+        endSeconds: 37.541
+        text: and divine protection
+      - startSeconds: 38.562
+        endSeconds: 39.422
+        text: in the history
+      - startSeconds: 40.102
+        endSeconds: 40.902
+        text: of Nubia
+      - startSeconds: 41.623
+        endSeconds: 42.484
+        text: and Egypt.
+    - id: bm_ea1779.audio_description.en
+      language: en
+      kind: audio_description
+      transcript: A large ram lies on a rectangular base. Its legs are folded beneath its body and its head is raised. A small human figure stands between the front legs. It appears tiny beside the animal. Rows of carved signs run along the sides of the base.
+      voiceId: 3ADZQUoqg3hWyEOlzpXW
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: 3845915dcba514d969569bc4e75230c1, type: 3}
+      subtitles:
+      - startSeconds: 0.08
+        endSeconds: 3.564
+        text: 'A large ram lies on a
+
+          rectangular base.'
+      - startSeconds: 4.565
+        endSeconds: 7.267
+        text: 'Its legs are folded beneath
+
+          its body'
+      - startSeconds: 8.128
+        endSeconds: 9.69
+        text: and its head is raised.
+      - startSeconds: 10.771
+        endSeconds: 14.575
+        text: 'A small human figure stands
+
+          between the front legs.'
+      - startSeconds: 15.696
+        endSeconds: 18.239
+        text: 'It appears tiny beside the
+
+          animal.'
+      - startSeconds: 19.36
+        endSeconds: 23.404
+        text: 'Rows of carved signs run
+
+          along the sides of the base.'
+    quiz:
+      id: quiz_bm_ea1779
+      contentVersion: 1
+      questions:
+      - id: bm_ea1779_q1
+        correctOptionId: bm_ea1779_q1_b
+        prompt:
+          fr: "Sous quelle forme animale Amon est-il repr\xE9sent\xE9 ici ?"
+          ar: "\u0641\u064A \u0647\u064A\u0626\u0629 \u0623\u064A \u062D\u064A\u0648\u0627\u0646 \u064A\u0638\u0647\u0631 \u0622\u0645\u0648\u0646 \u0647\u0646\u0627\u061F"
+          en: In which animal form is Amun represented here?
+        explanation:
+          fr: "Amon appara\xEEt sous la forme d\u2019un b\xE9lier couch\xE9. La petite figure royale se tient entre ses pattes avant."
+          ar: "\u064A\u0638\u0647\u0631 \u0622\u0645\u0648\u0646 \u0641\u064A \u0647\u064A\u0626\u0629 \u0643\u0628\u0634 \u0645\u0633\u062A\u0644\u0642\u064D\u060C \u0648\u062A\u0642\u0641 \u0627\u0644\u0634\u062E\u0635\u064A\u0629 \u0627\u0644\u0645\u0644\u0643\u064A\u0629 \u0627\u0644\u0635\u063A\u064A\u0631\u0629 \u0628\u064A\u0646 \u0642\u0627\u0626\u0645\u062A\u064A\u0647 \u0627\u0644\u0623\u0645\u0627\u0645\u064A\u062A\u064A\u0646."
+          en: Amun appears as a reclining ram. The small royal figure stands between its front legs.
+        options:
+        - id: bm_ea1779_q1_a
+          text:
+            fr: "Un lion couch\xE9"
+            ar: "\u0623\u0633\u062F \u0645\u0633\u062A\u0644\u0642\u064D"
+            en: A reclining lion
+        - id: bm_ea1779_q1_b
+          text:
+            fr: "Un b\xE9lier couch\xE9"
+            ar: "\u0643\u0628\u0634 \u0645\u0633\u062A\u0644\u0642\u064D"
+            en: A reclining ram
+        - id: bm_ea1779_q1_c
+          text:
+            fr: "Un scarab\xE9e"
+            ar: "\u062C\u0639\u0631\u0627\u0646"
+            en: A scarab
+        - id: bm_ea1779_q1_d
+          text:
+            fr: Un faucon
+            ar: "\u0635\u0642\u0631"
+            en: A falcon
+      - id: bm_ea1779_q2
+        correctOptionId: bm_ea1779_q2_d
+        prompt:
+          fr: "Quel roi se tient entre les pattes avant du b\xE9lier ?"
+          ar: "\u0623\u064A \u0645\u0644\u0643 \u064A\u0642\u0641 \u0628\u064A\u0646 \u0642\u0627\u0626\u0645\u062A\u064A \u0627\u0644\u0643\u0628\u0634 \u0627\u0644\u0623\u0645\u0627\u0645\u064A\u062A\u064A\u0646\u061F"
+          en: "Which king stands between the ram\u2019s front legs?"
+        explanation:
+          fr: "La petite figure repr\xE9sente Taharqa, plac\xE9 sous la protection d\u2019Amon. La diff\xE9rence de taille souligne cette relation."
+          ar: "\u062A\u0645\u062B\u0644 \u0627\u0644\u0634\u062E\u0635\u064A\u0629 \u0627\u0644\u0635\u063A\u064A\u0631\u0629 \u062A\u0647\u0627\u0631\u0642\u0627 \u062A\u062D\u062A \u062D\u0645\u0627\u064A\u0629 \u0622\u0645\u0648\u0646\u060C \u0648\u064A\u0628\u0631\u0632 \u0627\u062E\u062A\u0644\u0627\u0641 \u0627\u0644\u062D\u062C\u0645 \u0647\u0630\u0647 \u0627\u0644\u0639\u0644\u0627\u0642\u0629."
+          en: "The small figure represents Taharqa under Amun\u2019s protection. Their difference in scale emphasizes this relationship."
+        options:
+        - id: bm_ea1779_q2_a
+          text:
+            fr: "Ptol\xE9m\xE9e V"
+            ar: "\u0628\u0637\u0644\u064A\u0645\u0648\u0633 \u0627\u0644\u062E\u0627\u0645\u0633"
+            en: Ptolemy V
+        - id: bm_ea1779_q2_b
+          text:
+            fr: "Rams\xE8s II"
+            ar: "\u0631\u0645\u0633\u064A\u0633 \u0627\u0644\u062B\u0627\u0646\u064A"
+            en: Ramesses II
+        - id: bm_ea1779_q2_c
+          text:
+            fr: Amenhotep III
+            ar: "\u0623\u0645\u0646\u062D\u062A\u0628 \u0627\u0644\u062B\u0627\u0644\u062B"
+            en: Amenhotep III
+        - id: bm_ea1779_q2_d
+          text:
+            fr: Taharqa
+            ar: "\u062A\u0647\u0627\u0631\u0642\u0627"
+            en: Taharqa
+      - id: bm_ea1779_q3
+        correctOptionId: bm_ea1779_q3_a
+        prompt:
+          fr: "D\u2019o\xF9 provient cette statue du b\xE9lier d\u2019Amon ?"
+          ar: "\u0645\u0646 \u0623\u064A\u0646 \u062C\u0627\u0621 \u062A\u0645\u062B\u0627\u0644 \u0643\u0628\u0634 \u0622\u0645\u0648\u0646\u061F"
+          en: Where does this statue of the ram of Amun come from?
+        explanation:
+          fr: "L\u2019\u0153uvre provient du temple d\u2019Amon \xE0 Kawa, dans l\u2019actuel Soudan. Elle \xE9voque les liens entre pouvoir royal et protection divine."
+          ar: "\u062C\u0627\u0621\u062A \u0627\u0644\u0642\u0637\u0639\u0629 \u0645\u0646 \u0645\u0639\u0628\u062F \u0622\u0645\u0648\u0646 \u0641\u064A \u0643\u0627\u0648\u0627 \u0628\u0627\u0644\u0633\u0648\u062F\u0627\u0646 \u0627\u0644\u062D\u0627\u0644\u064A\u060C \u0648\u062A\u0628\u0631\u0632 \u0627\u0644\u0639\u0644\u0627\u0642\u0629 \u0628\u064A\u0646 \u0627\u0644\u0633\u0644\u0637\u0629 \u0627\u0644\u0645\u0644\u0643\u064A\u0629 \u0648\u0627\u0644\u062D\u0645\u0627\u064A\u0629 \u0627\u0644\u0625\u0644\u0647\u064A\u0629."
+          en: The work comes from the temple of Amun at Kawa, in present-day Sudan. It evokes the relationship between royal power and divine protection.
+        options:
+        - id: bm_ea1779_q3_a
+          text:
+            fr: "Du temple d\u2019Amon \xE0 Kawa, au Soudan actuel"
+            ar: "\u0645\u0639\u0628\u062F \u0622\u0645\u0648\u0646 \u0641\u064A \u0643\u0627\u0648\u0627 \u0628\u0627\u0644\u0633\u0648\u062F\u0627\u0646 \u0627\u0644\u062D\u0627\u0644\u064A"
+            en: The temple of Amun at Kawa, in present-day Sudan
+        - id: bm_ea1779_q3_b
+          text:
+            fr: "Du Ramesseum \xE0 Th\xE8bes"
+            ar: "\u0627\u0644\u0631\u0627\u0645\u0633\u064A\u0648\u0645 \u0641\u064A \u0637\u064A\u0628\u0629"
+            en: The Ramesseum at Thebes
+        - id: bm_ea1779_q3_c
+          text:
+            fr: "De la mosqu\xE9e Ibn Touloun au Caire"
+            ar: "\u0645\u0633\u062C\u062F \u0627\u0628\u0646 \u0637\u0648\u0644\u0648\u0646 \u0641\u064A \u0627\u0644\u0642\u0627\u0647\u0631\u0629"
+            en: The Ibn Tulun Mosque in Cairo
+        - id: bm_ea1779_q3_d
+          text:
+            fr: De la ville de Rome
+            ar: "\u0645\u062F\u064A\u0646\u0629 \u0631\u0648\u0645\u0627"
+            en: The city of Rome
+  - id: bm_ea19
+    title: "Buste colossal de Rams\xE8s II"
+    summary: "Un fragment de statue royale provenant du Ramesseum, \xE0 Th\xE8bes."
+    description: "Ce fragment monumental repr\xE9sente la t\xEAte et le haut du corps de Rams\xE8s II. Il provient du Ramesseum, son temple fun\xE9raire \xE0 Th\xE8bes. Le souverain porte le n\xE9m\xE8s. La sculpture associe le visage et le buste aux variations de couleur de la pierre."
+    museumObjectId: EA19
+    photoCredit: BabelStone
+    photoLicence: CC-BY-SA-3.0
+    photoSource: https://commons.wikimedia.org/wiki/File:Statue_of_Ramesses_II_at_the_British_Museum.jpg
+    modelLicence: CC-BY-NC-SA-4.0
+    modelSource: https://github.com/BritishMuseumDH/DH-OculusVR-models
+    modelCredits:
+    - Daniel Pett
+    - Jennifer Wexler
+    - Thomas Flynn
+    - Copyright Trustees of the British Museum
+    descriptionSources:
+    - https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv
+    photograph: {fileID: 2800000, guid: 88cafa8076f7a472a91b90394e917c44, type: 3}
+    modelPrefab: {fileID: 9202454392947065931, guid: 6d42f1a42821746989d0f5fb02507223, type: 3}
+    targetWidthMeters: 0.12
+    audio:
+    - id: bm_ea19.narration.fr
+      language: fr
+      kind: narration
+      transcript: "Vous d\xE9couvrez la partie sup\xE9rieure d\u2019une statue colossale de Rams\xE8s deux. Elle provient du Ramesseum, son temple fun\xE9raire \xE0 Th\xE8bes. Le roi porte le n\xE9m\xE8s, la coiffe ray\xE9e des pharaons. Observez le visage, les \xE9paules et les variations de couleur de la pierre. M\xEAme fragmentaire, cette sculpture conserve une forte pr\xE9sence. Elle montre comment les monuments pouvaient rendre visible le pouvoir du souverain et associer son image aux espaces sacr\xE9s."
+      voiceId: 6DEjyaHWnTHsvXM5Byys
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: 0dc159f7c023e443c93bf99a4ad12710, type: 3}
+      subtitles:
+      - startSeconds: 0.08
+        endSeconds: 2.561
+        text: "Vous d\xE9couvrez la partie\nsup\xE9rieure d\u2019une statue"
+      - startSeconds: 2.581
+        endSeconds: 6.363
+        text: "colossale de Rams\xE8s deux.\nElle provient du Ramesseum,"
+      - startSeconds: 6.863
+        endSeconds: 8.563
+        text: "son temple fun\xE9raire \xE0\nTh\xE8bes."
+      - startSeconds: 9.204
+        endSeconds: 13.165
+        text: "Le roi porte le n\xE9m\xE8s, la\ncoiffe ray\xE9e des pharaons."
+      - startSeconds: 13.746
+        endSeconds: 16.947
+        text: "Observez le visage, les\n\xE9paules et les variations de"
+      - startSeconds: 16.947
+        endSeconds: 17.927
+        text: couleur de la pierre.
+      - startSeconds: 18.528
+        endSeconds: 21.169
+        text: "M\xEAme fragmentaire, cette\nsculpture conserve une forte"
+      - startSeconds: 21.169
+        endSeconds: 24.67
+        text: "pr\xE9sence. Elle montre comment\nles monuments pouvaient"
+      - startSeconds: 24.77
+        endSeconds: 28.092
+        text: 'rendre visible le pouvoir du
+
+          souverain et associer son'
+      - startSeconds: 28.092
+        endSeconds: 30.052
+        text: "image aux espaces sacr\xE9s."
+    - id: bm_ea19.audio_description.fr
+      language: fr
+      kind: audio_description
+      transcript: "La sculpture conserve une t\xEAte et le haut d\u2019un buste humain. Le visage est encadr\xE9 par une coiffe ray\xE9e qui descend sur les \xE9paules. Les parties manquantes rendent le contour du torse irr\xE9gulier. La pierre pr\xE9sente des variations de teinte. La figure est tourn\xE9e vers l\u2019avant, donnant une forte pr\xE9sence au visage."
+      voiceId: 6DEjyaHWnTHsvXM5Byys
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: 219b320a8c9c4432daf93b85ac1310ce, type: 3}
+      subtitles:
+      - startSeconds: 0.08
+        endSeconds: 0.88
+        text: La sculpture
+      - startSeconds: 1.36
+        endSeconds: 4.021
+        text: "conserve une t\xEAte et le haut\nd\u2019un buste humain."
+      - startSeconds: 4.661
+        endSeconds: 7.402
+        text: "Le visage est encadr\xE9 par\nune coiffe ray\xE9e qui descend"
+      - startSeconds: 7.402
+        endSeconds: 10.543
+        text: "sur les \xE9paules. Les parties\nmanquantes rendent le"
+      - startSeconds: 10.543
+        endSeconds: 13.864
+        text: "contour du torse irr\xE9gulier.\nLa pierre pr\xE9sente des"
+      - startSeconds: 13.864
+        endSeconds: 15.024
+        text: variations de teinte.
+      - startSeconds: 15.804
+        endSeconds: 19.345
+        text: "La figure est tourn\xE9e vers\nl\u2019avant, donnant une forte"
+      - startSeconds: 19.345
+        endSeconds: 20.406
+        text: "pr\xE9sence au visage."
+    - id: bm_ea19.narration.ar
+      language: ar
+      kind: narration
+      transcript: "\u0623\u0645\u0627\u0645\u0643 \u0627\u0644\u062C\u0632\u0621 \u0627\u0644\u0639\u0644\u0648\u064A \u0645\u0646 \u062A\u0645\u062B\u0627\u0644 \u0636\u062E\u0645 \u0644\u0631\u0645\u0633\u064A\u0633 \u0627\u0644\u062B\u0627\u0646\u064A. \u062C\u0627\u0621 \u0645\u0646 \u0627\u0644\u0631\u0627\u0645\u0633\u064A\u0648\u0645\u060C \u0645\u0639\u0628\u062F\u0647 \u0627\u0644\u062C\u0646\u0627\u0626\u0632\u064A \u0641\u064A \u0637\u064A\u0628\u0629. \u064A\u0631\u062A\u062F\u064A \u0627\u0644\u0645\u0644\u0643 \u0627\u0644\u0646\u0645\u0633\u060C \u0648\u0647\u0648 \u063A\u0637\u0627\u0621 \u0627\u0644\u0631\u0623\u0633 \u0627\u0644\u0645\u062E\u0637\u0637 \u0627\u0644\u0630\u064A \u064A\u0631\u062A\u062F\u064A\u0647 \u0627\u0644\u0641\u0631\u0627\u0639\u0646\u0629. \u062A\u0623\u0645\u0644 \u0627\u0644\u0648\u062C\u0647 \u0648\u0627\u0644\u0643\u062A\u0641\u064A\u0646 \u0648\u062A\u062F\u0631\u062C\u0627\u062A \u0644\u0648\u0646 \u0627\u0644\u062D\u062C\u0631. \u0648\u0631\u063A\u0645 \u0623\u0646 \u0627\u0644\u062A\u0645\u062B\u0627\u0644 \u063A\u064A\u0631 \u0645\u0643\u062A\u0645\u0644\u060C \u0641\u0625\u0646\u0647 \u064A\u062D\u062A\u0641\u0638 \u0628\u062D\u0636\u0648\u0631 \u0642\u0648\u064A. \u064A\u0628\u064A\u0646 \u0643\u064A\u0641 \u0643\u0627\u0646\u062A \u0627\u0644\u0622\u062B\u0627\u0631 \u062A\u062C\u0633\u062F \u0633\u0644\u0637\u0629 \u0627\u0644\u062D\u0627\u0643\u0645 \u0648\u062A\u0631\u0628\u0637 \u0635\u0648\u0631\u062A\u0647 \u0628\u0627\u0644\u0623\u0645\u0627\u0643\u0646 \u0627\u0644\u0645\u0642\u062F\u0633\u0629."
+      voiceId: JAFpvTRfGNCbJ2St9kyT
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: 035d27651f3c645c79dd3dc8d5eae62f, type: 3}
+      subtitles:
+      - startSeconds: 0.08
+        endSeconds: 3.382
+        text: "\u0623\u0645\u0627\u0645\u0643 \u0627\u0644\u062C\u0632\u0621 \u0627\u0644\u0639\u0644\u0648\u064A \u0645\u0646 \u062A\u0645\u062B\u0627\u0644\n\u0636\u062E\u0645 \u0644\u0631\u0645\u0633\u064A\u0633 \u0627\u0644\u062B\u0627\u0646\u064A."
+      - startSeconds: 3.802
+        endSeconds: 6.663
+        text: "\u062C\u0627\u0621 \u0645\u0646 \u0627\u0644\u0631\u0627\u0645\u0633\u064A\u0648\u0645\u060C \u0645\u0639\u0628\u062F\u0647\n\u0627\u0644\u062C\u0646\u0627\u0626\u0632\u064A \u0641\u064A \u0637\u064A\u0628\u0629."
+      - startSeconds: 7.163
+        endSeconds: 10.665
+        text: "\u064A\u0631\u062A\u062F\u064A \u0627\u0644\u0645\u0644\u0643 \u0627\u0644\u0646\u0645\u0633\u060C \u0648\u0647\u0648 \u063A\u0637\u0627\u0621\n\u0627\u0644\u0631\u0623\u0633 \u0627\u0644\u0645\u062E\u0637\u0637 \u0627\u0644\u0630\u064A \u064A\u0631\u062A\u062F\u064A\u0647"
+      - startSeconds: 10.665
+        endSeconds: 14.647
+        text: "\u0627\u0644\u0641\u0631\u0627\u0639\u0646\u0629. \u062A\u0623\u0645\u0644 \u0627\u0644\u0648\u062C\u0647\n\u0648\u0627\u0644\u0643\u062A\u0641\u064A\u0646 \u0648\u062A\u062F\u0631\u062C\u0627\u062A \u0644\u0648\u0646 \u0627\u0644\u062D\u062C\u0631."
+      - startSeconds: 15.247
+        endSeconds: 18.869
+        text: "\u0648\u0631\u063A\u0645 \u0623\u0646 \u0627\u0644\u062A\u0645\u062B\u0627\u0644 \u063A\u064A\u0631 \u0645\u0643\u062A\u0645\u0644\u060C\n\u0641\u0625\u0646\u0647 \u064A\u062D\u062A\u0641\u0638 \u0628\u062D\u0636\u0648\u0631 \u0642\u0648\u064A."
+      - startSeconds: 19.369
+        endSeconds: 23.291
+        text: "\u064A\u0628\u064A\u0646 \u0643\u064A\u0641 \u0643\u0627\u0646\u062A \u0627\u0644\u0622\u062B\u0627\u0631 \u062A\u062C\u0633\u062F\n\u0633\u0644\u0637\u0629 \u0627\u0644\u062D\u0627\u0643\u0645 \u0648\u062A\u0631\u0628\u0637 \u0635\u0648\u0631\u062A\u0647"
+      - startSeconds: 23.291
+        endSeconds: 24.532
+        text: "\u0628\u0627\u0644\u0623\u0645\u0627\u0643\u0646 \u0627\u0644\u0645\u0642\u062F\u0633\u0629."
+    - id: bm_ea19.audio_description.ar
+      language: ar
+      kind: audio_description
+      transcript: "\u062A\u062D\u062A\u0641\u0638 \u0627\u0644\u0645\u0646\u062D\u0648\u062A\u0629 \u0628\u0631\u0623\u0633 \u0628\u0634\u0631\u064A \u0648\u0627\u0644\u062C\u0632\u0621 \u0627\u0644\u0639\u0644\u0648\u064A \u0645\u0646 \u0627\u0644\u062C\u0630\u0639. \u064A\u062D\u064A\u0637 \u0628\u0627\u0644\u0648\u062C\u0647 \u063A\u0637\u0627\u0621 \u0631\u0623\u0633 \u0645\u062E\u0637\u0637 \u064A\u0645\u062A\u062F \u0639\u0644\u0649 \u0627\u0644\u0643\u062A\u0641\u064A\u0646. \u062A\u062C\u0639\u0644 \u0627\u0644\u0623\u062C\u0632\u0627\u0621 \u0627\u0644\u0645\u0641\u0642\u0648\u062F\u0629 \u062D\u062F\u0648\u062F \u0627\u0644\u062C\u0630\u0639 \u063A\u064A\u0631 \u0645\u0646\u062A\u0638\u0645\u0629. \u0648\u062A\u0638\u0647\u0631 \u0641\u064A \u0627\u0644\u062D\u062C\u0631 \u062A\u062F\u0631\u062C\u0627\u062A \u0644\u0648\u0646\u064A\u0629. \u062A\u062A\u062C\u0647 \u0627\u0644\u0647\u064A\u0626\u0629 \u0625\u0644\u0649 \u0627\u0644\u0623\u0645\u0627\u0645\u060C \u0645\u0645\u0627 \u064A\u0645\u0646\u062D \u0627\u0644\u0648\u062C\u0647 \u062D\u0636\u0648\u0631\u0627\u064B \u0628\u0627\u0631\u0632\u0627\u064B."
+      voiceId: JAFpvTRfGNCbJ2St9kyT
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: 32e02041669c34b2f827336b0596a27a, type: 3}
+      subtitles:
+      - startSeconds: 0.08
+        endSeconds: 4.665
+        text: "\u062A\u062D\u062A\u0641\u0638 \u0627\u0644\u0645\u0646\u062D\u0648\u062A\u0629 \u0628\u0631\u0623\u0633 \u0628\u0634\u0631\u064A\n\u0648\u0627\u0644\u062C\u0632\u0621 \u0627\u0644\u0639\u0644\u0648\u064A \u0645\u0646 \u0627\u0644\u062C\u0630\u0639."
+      - startSeconds: 5.386
+        endSeconds: 9.69
+        text: "\u064A\u062D\u064A\u0637 \u0628\u0627\u0644\u0648\u062C\u0647 \u063A\u0637\u0627\u0621 \u0631\u0623\u0633 \u0645\u062E\u0637\u0637\n\u064A\u0645\u062A\u062F \u0639\u0644\u0649 \u0627\u0644\u0643\u062A\u0641\u064A\u0646."
+      - startSeconds: 10.391
+        endSeconds: 14.535
+        text: "\u062A\u062C\u0639\u0644 \u0627\u0644\u0623\u062C\u0632\u0627\u0621 \u0627\u0644\u0645\u0641\u0642\u0648\u062F\u0629 \u062D\u062F\u0648\u062F\n\u0627\u0644\u062C\u0630\u0639 \u063A\u064A\u0631 \u0645\u0646\u062A\u0638\u0645\u0629."
+      - startSeconds: 15.256
+        endSeconds: 17.878
+        text: "\u0648\u062A\u0638\u0647\u0631 \u0641\u064A \u0627\u0644\u062D\u062C\u0631 \u062A\u062F\u0631\u062C\u0627\u062A \u0644\u0648\u0646\u064A\u0629."
+      - startSeconds: 18.539
+        endSeconds: 23.284
+        text: "\u062A\u062A\u062C\u0647 \u0627\u0644\u0647\u064A\u0626\u0629 \u0625\u0644\u0649 \u0627\u0644\u0623\u0645\u0627\u0645\u060C \u0645\u0645\u0627\n\u064A\u0645\u0646\u062D \u0627\u0644\u0648\u062C\u0647 \u062D\u0636\u0648\u0631\u0627\u064B \u0628\u0627\u0631\u0632\u0627\u064B."
+    - id: bm_ea19.narration.en
+      language: en
+      kind: narration
+      transcript: "Here is the upper part of a colossal statue of Ramesses the Second. It comes from the Ramesseum, his mortuary temple at Thebes. The king wears the nemes, the striped headdress of the pharaohs. Look at the face, the shoulders and the variations in the stone\u2019s colour. Even as a fragment, this sculpture retains a powerful presence. It shows how monuments could make royal authority visible and connect the ruler\u2019s image with sacred spaces."
+      voiceId: 3ADZQUoqg3hWyEOlzpXW
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: 37f5ffe0cb063468a879d2c89000e120, type: 3}
+      subtitles:
+      - startSeconds: 0.06
+        endSeconds: 3.481
+        text: 'Here is the upper part of a
+
+          colossal statue of Ramesses'
+      - startSeconds: 3.481
+        endSeconds: 4.281
+        text: the Second.
+      - startSeconds: 5.201
+        endSeconds: 6.641
+        text: It comes from the Ramesseum,
+      - startSeconds: 7.242
+        endSeconds: 9.242
+        text: 'his mortuary temple at
+
+          Thebes.'
+      - startSeconds: 10.262
+        endSeconds: 13.763
+        text: 'The king wears the nemes,
+
+          the striped headdress of the'
+      - startSeconds: 13.763
+        endSeconds: 14.563
+        text: pharaohs.
+      - startSeconds: 15.363
+        endSeconds: 16.403
+        text: Look at the face,
+      - startSeconds: 17.024
+        endSeconds: 20.524
+        text: "the shoulders and the variations\nin the stone\u2019s colour."
+      - startSeconds: 21.885
+        endSeconds: 23.365
+        text: Even as a fragment,
+      - startSeconds: 24.565
+        endSeconds: 28.566
+        text: 'this sculpture retains a
+
+          powerful presence.'
+      - startSeconds: 29.886
+        endSeconds: 34.207
+        text: 'It shows how monuments could
+
+          make royal authority'
+      - startSeconds: 35.247
+        endSeconds: 36.047
+        text: visible
+      - startSeconds: 36.928
+        endSeconds: 41.449
+        text: "and connect the ruler\u2019s\nimage with sacred spaces."
+    - id: bm_ea19.audio_description.en
+      language: en
+      kind: audio_description
+      transcript: "The sculpture preserves a human head and upper torso. A striped headdress frames the face and extends down onto the shoulders. Missing parts make the torso\u2019s outline uneven. The stone varies in colour. The figure faces forward, giving particular prominence to the face."
+      voiceId: 3ADZQUoqg3hWyEOlzpXW
+      modelId: eleven_multilingual_v2
+      clip: {fileID: 8300000, guid: bfe21c05edd7d46938654eb95228258b, type: 3}
+      subtitles:
+      - startSeconds: 0.08
+        endSeconds: 3.844
+        text: 'The sculpture preserves a
+
+          human head and upper torso.'
+      - startSeconds: 4.925
+        endSeconds: 8.889
+        text: 'A striped headdress frames
+
+          the face and extends down'
+      - startSeconds: 8.949
+        endSeconds: 9.91
+        text: onto the shoulders.
+      - startSeconds: 11.071
+        endSeconds: 14.535
+        text: "Missing parts make the\ntorso\u2019s outline uneven."
+      - startSeconds: 15.716
+        endSeconds: 17.618
+        text: The stone varies in colour.
+      - startSeconds: 18.539
+        endSeconds: 19.98
+        text: The figure faces forward,
+      - startSeconds: 20.641
+        endSeconds: 23.424
+        text: 'giving particular prominence
+
+          to the face.'
+    quiz:
+      id: quiz_bm_ea19
+      contentVersion: 1
+      questions:
+      - id: bm_ea19_q1
+        correctOptionId: bm_ea19_q1_c
+        prompt:
+          fr: "Comment s\u2019appelle la coiffe ray\xE9e port\xE9e par Rams\xE8s II ?"
+          ar: "\u0645\u0627 \u0627\u0633\u0645 \u063A\u0637\u0627\u0621 \u0627\u0644\u0631\u0623\u0633 \u0627\u0644\u0645\u062E\u0637\u0637 \u0627\u0644\u0630\u064A \u064A\u0631\u062A\u062F\u064A\u0647 \u0631\u0645\u0633\u064A\u0633 \u0627\u0644\u062B\u0627\u0646\u064A\u061F"
+          en: What is the striped headdress worn by Ramesses II called?
+        explanation:
+          fr: "Le n\xE9m\xE8s est la coiffe ray\xE9e des pharaons. Sur ce buste, il encadre le visage et descend sur les \xE9paules."
+          ar: "\u0627\u0644\u0646\u0645\u0633 \u0647\u0648 \u063A\u0637\u0627\u0621 \u0627\u0644\u0631\u0623\u0633 \u0627\u0644\u0645\u062E\u0637\u0637 \u0644\u0644\u0641\u0631\u0627\u0639\u0646\u0629. \u0648\u0641\u064A \u0647\u0630\u0627 \u0627\u0644\u062A\u0645\u062B\u0627\u0644 \u0627\u0644\u0646\u0635\u0641\u064A\u060C \u064A\u062D\u064A\u0637 \u0628\u0627\u0644\u0648\u062C\u0647 \u0648\u064A\u0645\u062A\u062F \u0639\u0644\u0649 \u0627\u0644\u0643\u062A\u0641\u064A\u0646."
+          en: The nemes is the striped headdress of the pharaohs. On this bust, it frames the face and extends over the shoulders.
+        options:
+        - id: bm_ea19_q1_a
+          text:
+            fr: "Le d\xE9motique"
+            ar: "\u0627\u0644\u062F\u064A\u0645\u0648\u0637\u064A\u0642\u064A\u0629"
+            en: Demotic
+        - id: bm_ea19_q1_b
+          text:
+            fr: "Le scarab\xE9e"
+            ar: "\u0627\u0644\u062C\u0639\u0631\u0627\u0646"
+            en: Scarab
+        - id: bm_ea19_q1_c
+          text:
+            fr: "Le n\xE9m\xE8s"
+            ar: "\u0627\u0644\u0646\u0645\u0633"
+            en: Nemes
+        - id: bm_ea19_q1_d
+          text:
+            fr: Le sarcophage
+            ar: "\u0627\u0644\u062A\u0627\u0628\u0648\u062A"
+            en: Sarcophagus
+      - id: bm_ea19_q2
+        correctOptionId: bm_ea19_q2_b
+        prompt:
+          fr: "De quel monument ce fragment de Rams\xE8s II provient-il ?"
+          ar: "\u0645\u0646 \u0623\u064A \u0645\u0639\u0644\u0645 \u062C\u0627\u0621 \u0647\u0630\u0627 \u0627\u0644\u062C\u0632\u0621 \u0645\u0646 \u062A\u0645\u062B\u0627\u0644 \u0631\u0645\u0633\u064A\u0633 \u0627\u0644\u062B\u0627\u0646\u064A\u061F"
+          en: Which monument did this fragment of Ramesses II come from?
+        explanation:
+          fr: "Ce fragment provient du Ramesseum, le temple fun\xE9raire de Rams\xE8s II \xE0 Th\xE8bes."
+          ar: "\u062C\u0627\u0621 \u0647\u0630\u0627 \u0627\u0644\u062C\u0632\u0621 \u0645\u0646 \u0627\u0644\u0631\u0627\u0645\u0633\u064A\u0648\u0645\u060C \u0648\u0647\u0648 \u0627\u0644\u0645\u0639\u0628\u062F \u0627\u0644\u062C\u0646\u0627\u0626\u0632\u064A \u0644\u0631\u0645\u0633\u064A\u0633 \u0627\u0644\u062B\u0627\u0646\u064A \u0641\u064A \u0637\u064A\u0628\u0629."
+          en: This fragment comes from the Ramesseum, the mortuary temple of Ramesses II at Thebes.
+        options:
+        - id: bm_ea19_q2_a
+          text:
+            fr: "Du temple d\u2019Amon \xE0 Kawa"
+            ar: "\u0645\u0639\u0628\u062F \u0622\u0645\u0648\u0646 \u0641\u064A \u0643\u0627\u0648\u0627"
+            en: The temple of Amun at Kawa
+        - id: bm_ea19_q2_b
+          text:
+            fr: "Du Ramesseum \xE0 Th\xE8bes"
+            ar: "\u0627\u0644\u0631\u0627\u0645\u0633\u064A\u0648\u0645 \u0641\u064A \u0637\u064A\u0628\u0629"
+            en: The Ramesseum at Thebes
+        - id: bm_ea19_q2_c
+          text:
+            fr: "De la mosqu\xE9e Ibn Touloun"
+            ar: "\u0645\u0633\u062C\u062F \u0627\u0628\u0646 \u0637\u0648\u0644\u0648\u0646"
+            en: The Ibn Tulun Mosque
+        - id: bm_ea19_q2_d
+          text:
+            fr: Du socle des lions de Prudhoe
+            ar: "\u0642\u0627\u0639\u062F\u0629 \u0623\u0633\u062F\u064A \u0628\u0631\u0648\u062F\u0647\u0648"
+            en: The pedestal of the Prudhoe Lions
+      - id: bm_ea19_q3
+        correctOptionId: bm_ea19_q3_d
+        prompt:
+          fr: "Quelles parties de la statue sont conserv\xE9es dans ce fragment ?"
+          ar: "\u0623\u064A \u0623\u062C\u0632\u0627\u0621 \u0627\u0644\u062A\u0645\u062B\u0627\u0644 \u0628\u0642\u064A\u062A \u0641\u064A \u0647\u0630\u0647 \u0627\u0644\u0642\u0637\u0639\u0629\u061F"
+          en: Which parts of the statue survive in this fragment?
+        explanation:
+          fr: "EA19 conserve la t\xEAte et le haut du corps d\u2019une statue colossale. Les parties manquantes expliquent les contours irr\xE9guliers du fragment."
+          ar: "\u062A\u062D\u062A\u0641\u0638 \u0627\u0644\u0642\u0637\u0639\u0629 EA19 \u0628\u0627\u0644\u0631\u0623\u0633 \u0648\u0627\u0644\u062C\u0632\u0621 \u0627\u0644\u0639\u0644\u0648\u064A \u0645\u0646 \u0627\u0644\u062C\u0633\u0645 \u0645\u0646 \u062A\u0645\u062B\u0627\u0644 \u0636\u062E\u0645. \u0648\u062A\u0641\u0633\u0631 \u0627\u0644\u0623\u062C\u0632\u0627\u0621 \u0627\u0644\u0645\u0641\u0642\u0648\u062F\u0629 \u062D\u062F\u0648\u062F \u0627\u0644\u0642\u0637\u0639\u0629 \u063A\u064A\u0631 \u0627\u0644\u0645\u0646\u062A\u0638\u0645\u0629."
+          en: "EA19 preserves the head and upper body of a colossal statue. Missing parts account for the fragment\u2019s uneven outline."
+        options:
+        - id: bm_ea19_q3_a
+          text:
+            fr: Les pieds uniquement
+            ar: "\u0627\u0644\u0642\u062F\u0645\u0627\u0646 \u0641\u0642\u0637"
+            en: Only the feet
+        - id: bm_ea19_q3_b
+          text:
+            fr: Le corps entier
+            ar: "\u0627\u0644\u062C\u0633\u0645 \u0643\u0627\u0645\u0644\u0627\u064B"
+            en: The entire body
+        - id: bm_ea19_q3_c
+          text:
+            fr: Les mains et les jambes
+            ar: "\u0627\u0644\u064A\u062F\u0627\u0646 \u0648\u0627\u0644\u0633\u0627\u0642\u0627\u0646"
+            en: The hands and legs
+        - id: bm_ea19_q3_d
+          text:
+            fr: "La t\xEAte et le haut du corps"
+            ar: "\u0627\u0644\u0631\u0623\u0633 \u0648\u0627\u0644\u062C\u0632\u0621 \u0627\u0644\u0639\u0644\u0648\u064A \u0645\u0646 \u0627\u0644\u062C\u0633\u0645"
+            en: The head and upper body
+  - id: bm_ea1
+    title: "Lion de Prudhoe \u2014 EA1"
+    summary: "Un lion de granite rouge associ\xE9 \xE0 Amenhotep III."
+    description: "Cette sculpture en granite rouge repr\xE9sente un lion couch\xE9 et appartient \xE0 la paire des lions de Prudhoe. Elle est associ\xE9e au r\xE8gne d\u2019Amenhotep III. Des inscriptions sur le corps et le socle \xE9voquent plusieurs souverains, t\xE9moignant des r\xE9emplois de cette image du pouvoir royal."
+    museumObjectId: EA1
+    photoCredit: Szilas
+    photoLicence: CC-BY-SA-4.0
+    photoSource: https://commons.wikimedia.org/wiki/File:Red_granite_figure_of_a_lion_from_Gebel_Barkal.jpg
+    modelLicence: CC-BY-NC-SA-4.0
+    modelSource: https://github.com/BritishMuseumDH/DH-OculusVR-models
+    modelCredits:
+    - Daniel Pett
+    - Jennifer Wexler
+    - Thomas Flynn
+    - Copyright Trustees of the British Museum
+    descriptionSources:
+    - https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv
+    photograph: {fileID: 2800000, guid: f90f16b3a83044e74b81614864414412, type: 3}
+    modelPrefab: {fileID: 5903746491060840697, guid: 63403feb700bc45589b6462f8210e692, type: 3}
+    targetWidthMeters: 0.12
+    audio:
+    - id: bm_ea1.narration.fr
+      language: fr
+      kind: narration
+      transcript: "Ce lion couch\xE9, sculpt\xE9 dans le granite rouge, appartient \xE0 la paire appel\xE9e les lions de Prudhoe. Il est associ\xE9 au r\xE8gne d\u2019Amenhotep trois. Son corps allong\xE9 repose sur un socle portant des inscriptions. Ces textes \xE9voquent plusieurs souverains et t\xE9moignent de la longue histoire de la sculpture. Observez la t\xEAte, les pattes et les signes grav\xE9s. L\u2019image du lion permettait d\u2019exprimer la force royale, tout en accordant une grande attention au corps de l\u2019animal."
+      voiceId: 6DEjyaHWnTHsvXM5Byys
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: a5fdb17440a6040bfa15357567e3e8aa, type: 3}
+      subtitles:
+      - startSeconds: 0.06
+        endSeconds: 2.622
+        text: "Ce lion couch\xE9, sculpt\xE9 dans\nle granite rouge,"
+      - startSeconds: 2.903
+        endSeconds: 5.525
+        text: "appartient \xE0 la paire\nappel\xE9e les lions de Prudhoe."
+      - startSeconds: 6.005
+        endSeconds: 8.407
+        text: "Il est associ\xE9 au r\xE8gne\nd\u2019Amenhotep trois."
+      - startSeconds: 8.688
+        endSeconds: 11.53
+        text: "Son corps allong\xE9 repose sur\nun socle portant des"
+      - startSeconds: 11.53
+        endSeconds: 15.233
+        text: "inscriptions. Ces textes\n\xE9voquent plusieurs souverains"
+      - startSeconds: 15.534
+        endSeconds: 18.136
+        text: "et t\xE9moignent de la longue\nhistoire de la sculpture."
+      - startSeconds: 18.556
+        endSeconds: 21.459
+        text: "Observez la t\xEAte, les pattes\net les signes grav\xE9s."
+      - startSeconds: 21.839
+        endSeconds: 24.782
+        text: "L\u2019image du lion permettait\nd\u2019exprimer la force royale,"
+      - startSeconds: 24.782
+        endSeconds: 27.104
+        text: 'tout en accordant une grande
+
+          attention au corps de'
+      - startSeconds: 27.104
+        endSeconds: 27.684
+        text: "l\u2019animal."
+    - id: bm_ea1.audio_description.fr
+      language: fr
+      kind: audio_description
+      transcript: "Un lion de pierre est couch\xE9 sur un socle. Son corps allong\xE9 se termine par une t\xEAte model\xE9e et des pattes sculpt\xE9es. Le granite rouge donne \xE0 l\u2019ensemble une teinte chaude. Des inscriptions occupent la poitrine et plusieurs surfaces du socle. Les formes du corps sont arrondies, tandis que la base pr\xE9sente des lignes droites."
+      voiceId: 6DEjyaHWnTHsvXM5Byys
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: 453431f29cd8d443a944a79db47a7025, type: 3}
+      subtitles:
+      - startSeconds: 0.06
+        endSeconds: 2.603
+        text: "Un lion de pierre est couch\xE9\nsur un socle."
+      - startSeconds: 3.024
+        endSeconds: 5.767
+        text: "Son corps allong\xE9 se termine\npar une t\xEAte model\xE9e et des"
+      - startSeconds: 5.767
+        endSeconds: 9.051
+        text: "pattes sculpt\xE9es. Le granite\nrouge donne \xE0 l\u2019ensemble"
+      - startSeconds: 9.071
+        endSeconds: 12.355
+        text: 'une teinte chaude. Des
+
+          inscriptions occupent la poitrine'
+      - startSeconds: 12.376
+        endSeconds: 15.339
+        text: 'et plusieurs surfaces du
+
+          socle. Les formes du corps sont'
+      - startSeconds: 15.359
+        endSeconds: 17.842
+        text: "arrondies, tandis que la\nbase pr\xE9sente des lignes"
+      - startSeconds: 17.842
+        endSeconds: 18.483
+        text: droites.
+    - id: bm_ea1.narration.ar
+      language: ar
+      kind: narration
+      transcript: "\u064A\u0646\u062A\u0645\u064A \u0647\u0630\u0627 \u0627\u0644\u0623\u0633\u062F \u0627\u0644\u0645\u0633\u062A\u0644\u0642\u064A\u060C \u0627\u0644\u0645\u0646\u062D\u0648\u062A \u0645\u0646 \u0627\u0644\u062C\u0631\u0627\u0646\u064A\u062A \u0627\u0644\u0623\u062D\u0645\u0631\u060C \u0625\u0644\u0649 \u0627\u0644\u0632\u0648\u062C \u0627\u0644\u0645\u0639\u0631\u0648\u0641 \u0628\u0627\u0633\u0645 \u0623\u0633\u062F\u064A \u0628\u0631\u0648\u062F\u0647\u0648. \u0648\u0647\u0648 \u0645\u0631\u062A\u0628\u0637 \u0628\u0639\u0647\u062F \u0623\u0645\u0646\u062D\u062A\u0628 \u0627\u0644\u062B\u0627\u0644\u062B. \u064A\u0633\u062A\u0646\u062F \u062C\u0633\u0645\u0647 \u0627\u0644\u0645\u0645\u062A\u062F \u0625\u0644\u0649 \u0642\u0627\u0639\u062F\u0629 \u062A\u062D\u0645\u0644 \u0646\u0642\u0648\u0634\u0627\u064B. \u062A\u0634\u064A\u0631 \u0627\u0644\u0646\u0635\u0648\u0635 \u0625\u0644\u0649 \u0639\u062F\u0629 \u062D\u0643\u0627\u0645 \u0648\u062A\u0634\u0647\u062F \u0639\u0644\u0649 \u062A\u0627\u0631\u064A\u062E \u0627\u0644\u062A\u0645\u062B\u0627\u0644 \u0627\u0644\u0637\u0648\u064A\u0644. \u062A\u0623\u0645\u0644 \u0627\u0644\u0631\u0623\u0633 \u0648\u0627\u0644\u0643\u0641\u0648\u0641 \u0648\u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A \u0627\u0644\u0645\u0646\u0642\u0648\u0634\u0629. \u0643\u0627\u0646\u062A \u0635\u0648\u0631\u0629 \u0627\u0644\u0623\u0633\u062F \u062A\u0639\u0628\u0631 \u0639\u0646 \u0627\u0644\u0642\u0648\u0629 \u0627\u0644\u0645\u0644\u0643\u064A\u0629\u060C \u0645\u0639 \u0627\u0647\u062A\u0645\u0627\u0645 \u062F\u0642\u064A\u0642 \u0628\u062C\u0633\u0645 \u0627\u0644\u062D\u064A\u0648\u0627\u0646."
+      voiceId: JAFpvTRfGNCbJ2St9kyT
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: 50a68e0b94c0e45cf918e7de023bd70e, type: 3}
+      subtitles:
+      - startSeconds: 0.02
+        endSeconds: 4.583
+        text: "\u064A\u0646\u062A\u0645\u064A \u0647\u0630\u0627 \u0627\u0644\u0623\u0633\u062F \u0627\u0644\u0645\u0633\u062A\u0644\u0642\u064A\u060C\n\u0627\u0644\u0645\u0646\u062D\u0648\u062A \u0645\u0646 \u0627\u0644\u062C\u0631\u0627\u0646\u064A\u062A \u0627\u0644\u0623\u062D\u0645\u0631\u060C"
+      - startSeconds: 5.223
+        endSeconds: 7.884
+        text: "\u0625\u0644\u0649 \u0627\u0644\u0632\u0648\u062C \u0627\u0644\u0645\u0639\u0631\u0648\u0641 \u0628\u0627\u0633\u0645 \u0623\u0633\u062F\u064A\n\u0628\u0631\u0648\u062F\u0647\u0648."
+      - startSeconds: 8.805
+        endSeconds: 14.208
+        text: "\u0648\u0647\u0648 \u0645\u0631\u062A\u0628\u0637 \u0628\u0639\u0647\u062F \u0623\u0645\u0646\u062D\u062A\u0628\n\u0627\u0644\u062B\u0627\u0644\u062B. \u064A\u0633\u062A\u0646\u062F \u062C\u0633\u0645\u0647 \u0627\u0644\u0645\u0645\u062A\u062F \u0625\u0644\u0649"
+      - startSeconds: 14.248
+        endSeconds: 15.989
+        text: "\u0642\u0627\u0639\u062F\u0629 \u062A\u062D\u0645\u0644 \u0646\u0642\u0648\u0634\u0627\u064B."
+      - startSeconds: 16.609
+        endSeconds: 22.052
+        text: "\u062A\u0634\u064A\u0631 \u0627\u0644\u0646\u0635\u0648\u0635 \u0625\u0644\u0649 \u0639\u062F\u0629 \u062D\u0643\u0627\u0645 \u0648\u062A\u0634\u0647\u062F\n\u0639\u0644\u0649 \u062A\u0627\u0631\u064A\u062E \u0627\u0644\u062A\u0645\u062B\u0627\u0644 \u0627\u0644\u0637\u0648\u064A\u0644."
+      - startSeconds: 22.813
+        endSeconds: 26.435
+        text: "\u062A\u0623\u0645\u0644 \u0627\u0644\u0631\u0623\u0633 \u0648\u0627\u0644\u0643\u0641\u0648\u0641 \u0648\u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A\n\u0627\u0644\u0645\u0646\u0642\u0648\u0634\u0629."
+      - startSeconds: 27.435
+        endSeconds: 32.858
+        text: "\u0643\u0627\u0646\u062A \u0635\u0648\u0631\u0629 \u0627\u0644\u0623\u0633\u062F \u062A\u0639\u0628\u0631 \u0639\u0646\n\u0627\u0644\u0642\u0648\u0629 \u0627\u0644\u0645\u0644\u0643\u064A\u0629\u060C \u0645\u0639 \u0627\u0647\u062A\u0645\u0627\u0645 \u062F\u0642\u064A\u0642"
+      - startSeconds: 32.978
+        endSeconds: 34.079
+        text: "\u0628\u062C\u0633\u0645 \u0627\u0644\u062D\u064A\u0648\u0627\u0646."
+    - id: bm_ea1.audio_description.ar
+      language: ar
+      kind: audio_description
+      transcript: "\u064A\u0633\u062A\u0644\u0642\u064A \u0623\u0633\u062F \u062D\u062C\u0631\u064A \u0639\u0644\u0649 \u0642\u0627\u0639\u062F\u0629. \u0644\u062C\u0633\u0645\u0647 \u0627\u0644\u0645\u0645\u062A\u062F \u0631\u0623\u0633 \u0645\u0634\u0643\u0644 \u0648\u0643\u0641\u0648\u0641 \u0645\u0646\u062D\u0648\u062A\u0629. \u064A\u0645\u0646\u062D \u0627\u0644\u062C\u0631\u0627\u0646\u064A\u062A \u0627\u0644\u0623\u062D\u0645\u0631 \u0627\u0644\u062A\u0645\u062B\u0627\u0644 \u0644\u0648\u0646\u0627\u064B \u062F\u0627\u0641\u0626\u0627\u064B. \u062A\u063A\u0637\u064A \u0627\u0644\u0646\u0642\u0648\u0634 \u0627\u0644\u0635\u062F\u0631 \u0648\u0639\u062F\u0629 \u0623\u0633\u0637\u062D \u0645\u0646 \u0627\u0644\u0642\u0627\u0639\u062F\u0629. \u0623\u0634\u0643\u0627\u0644 \u0627\u0644\u062C\u0633\u0645 \u0645\u0633\u062A\u062F\u064A\u0631\u0629\u060C \u0628\u064A\u0646\u0645\u0627 \u062A\u062A\u0645\u064A\u0632 \u0627\u0644\u0642\u0627\u0639\u062F\u0629 \u0628\u062D\u0648\u0627\u0641 \u0645\u0633\u062A\u0642\u064A\u0645\u0629."
+      voiceId: JAFpvTRfGNCbJ2St9kyT
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: 398e746a36efa4435bf8aeaaa1a06df4, type: 3}
+      subtitles:
+      - startSeconds: 0.04
+        endSeconds: 2.642
+        text: "\u064A\u0633\u062A\u0644\u0642\u064A \u0623\u0633\u062F \u062D\u062C\u0631\u064A \u0639\u0644\u0649 \u0642\u0627\u0639\u062F\u0629."
+      - startSeconds: 3.483
+        endSeconds: 7.547
+        text: "\u0644\u062C\u0633\u0645\u0647 \u0627\u0644\u0645\u0645\u062A\u062F \u0631\u0623\u0633 \u0645\u0634\u0643\u0644 \u0648\u0643\u0641\u0648\u0641\n\u0645\u0646\u062D\u0648\u062A\u0629."
+      - startSeconds: 8.428
+        endSeconds: 11.951
+        text: "\u064A\u0645\u0646\u062D \u0627\u0644\u062C\u0631\u0627\u0646\u064A\u062A \u0627\u0644\u0623\u062D\u0645\u0631 \u0627\u0644\u062A\u0645\u062B\u0627\u0644\n\u0644\u0648\u0646\u0627\u064B \u062F\u0627\u0641\u0626\u0627\u064B."
+      - startSeconds: 12.612
+        endSeconds: 16.435
+        text: "\u062A\u063A\u0637\u064A \u0627\u0644\u0646\u0642\u0648\u0634 \u0627\u0644\u0635\u062F\u0631 \u0648\u0639\u062F\u0629 \u0623\u0633\u0637\u062D\n\u0645\u0646 \u0627\u0644\u0642\u0627\u0639\u062F\u0629."
+      - startSeconds: 17.256
+        endSeconds: 22.701
+        text: "\u0623\u0634\u0643\u0627\u0644 \u0627\u0644\u062C\u0633\u0645 \u0645\u0633\u062A\u062F\u064A\u0631\u0629\u060C \u0628\u064A\u0646\u0645\u0627\n\u062A\u062A\u0645\u064A\u0632 \u0627\u0644\u0642\u0627\u0639\u062F\u0629 \u0628\u062D\u0648\u0627\u0641 \u0645\u0633\u062A\u0642\u064A\u0645\u0629."
+    - id: bm_ea1.narration.en
+      language: en
+      kind: narration
+      transcript: "This reclining lion, carved from red granite, belongs to the pair known as the Prudhoe Lions. It is associated with the reign of Amenhotep the Third. Its long body rests on an inscribed pedestal. The texts refer to several rulers and reveal the sculpture\u2019s long history. Look at the head, the paws and the carved signs. The image of a lion expressed royal strength while giving close attention to the animal\u2019s body."
+      voiceId: 3ADZQUoqg3hWyEOlzpXW
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: 6fa7b0c5aae7243a0bc4075168a7af2a, type: 3}
+      subtitles:
+      - startSeconds: 0.08
+        endSeconds: 2.02
+        text: This reclining lion,
+      - startSeconds: 3.42
+        endSeconds: 5.961
+        text: carved from red granite,
+      - startSeconds: 7.041
+        endSeconds: 12.441
+        text: 'belongs to the pair known as
+
+          the Prudhoe Lions.'
+      - startSeconds: 14.302
+        endSeconds: 17.922
+        text: 'It is associated with the
+
+          reign'
+      - startSeconds: 18.542
+        endSeconds: 20.662
+        text: of Amenhotep
+      - startSeconds: 21.283
+        endSeconds: 22.283
+        text: the Third.
+      - startSeconds: 24.063
+        endSeconds: 25.623
+        text: Its long body
+      - startSeconds: 26.603
+        endSeconds: 27.443
+        text: rests
+      - startSeconds: 28.104
+        endSeconds: 30.664
+        text: on an inscribed
+      - startSeconds: 31.404
+        endSeconds: 32.424
+        text: pedestal.
+      - startSeconds: 34.184
+        endSeconds: 35.324
+        text: The texts
+      - startSeconds: 35.924
+        endSeconds: 37.085
+        text: refer to
+      - startSeconds: 37.665
+        endSeconds: 39.705
+        text: several rulers
+      - startSeconds: 40.905
+        endSeconds: 42.005
+        text: and reveal
+      - startSeconds: 42.605
+        endSeconds: 45.646
+        text: "the sculpture\u2019s long\nhistory."
+      - startSeconds: 47.386
+        endSeconds: 48.546
+        text: Look at the head,
+      - startSeconds: 50.046
+        endSeconds: 51.106
+        text: the paws
+      - startSeconds: 52.346
+        endSeconds: 54.967
+        text: and the carved signs.
+      - startSeconds: 56.547
+        endSeconds: 59.087
+        text: The image of a lion
+      - startSeconds: 60.307
+        endSeconds: 63.428
+        text: expressed royal strength
+      - startSeconds: 64.188
+        endSeconds: 69.528
+        text: "while giving close attention\nto the animal\u2019s"
+      - startSeconds: 69.609
+        endSeconds: 70.169
+        text: body.
+    - id: bm_ea1.audio_description.en
+      language: en
+      kind: audio_description
+      transcript: A stone lion lies on a pedestal. Its elongated body has a modelled head and carved paws. Red granite gives the sculpture a warm colour. Inscriptions occupy the chest and several surfaces of the pedestal. The body has rounded forms, while the base has straight edges.
+      voiceId: 3ADZQUoqg3hWyEOlzpXW
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: d6a255aaebd0442bda1d6738f909ad19, type: 3}
+      subtitles:
+      - startSeconds: 0.06
+        endSeconds: 1.821
+        text: A stone lion
+      - startSeconds: 2.761
+        endSeconds: 4.981
+        text: lies on a pedestal.
+      - startSeconds: 6.562
+        endSeconds: 8.762
+        text: Its elongated body
+      - startSeconds: 9.783
+        endSeconds: 11.603
+        text: has a modelled head
+      - startSeconds: 12.703
+        endSeconds: 15.004
+        text: and carved paws.
+      - startSeconds: 16.604
+        endSeconds: 17.885
+        text: Red granite
+      - startSeconds: 18.705
+        endSeconds: 20.565
+        text: gives the sculpture
+      - startSeconds: 21.466
+        endSeconds: 22.686
+        text: a warm
+      - startSeconds: 23.266
+        endSeconds: 24.066
+        text: colour.
+      - startSeconds: 25.587
+        endSeconds: 27.227
+        text: Inscriptions
+      - startSeconds: 27.927
+        endSeconds: 30.148
+        text: occupy the chest
+      - startSeconds: 30.868
+        endSeconds: 33.209
+        text: and several surfaces
+      - startSeconds: 33.949
+        endSeconds: 35.649
+        text: of the pedestal.
+      - startSeconds: 37.15
+        endSeconds: 37.95
+        text: The body
+      - startSeconds: 38.57
+        endSeconds: 41.071
+        text: has rounded forms,
+      - startSeconds: 42.511
+        endSeconds: 43.871
+        text: while the base
+      - startSeconds: 44.892
+        endSeconds: 46.072
+        text: has straight
+      - startSeconds: 46.812
+        endSeconds: 47.612
+        text: edges.
+    quiz:
+      id: quiz_bm_ea1
+      contentVersion: 1
+      questions:
+      - id: bm_ea1_q1
+        correctOptionId: bm_ea1_q1_a
+        prompt:
+          fr: "Dans quelle mati\xE8re le lion de Prudhoe EA1 est-il sculpt\xE9 ?"
+          ar: "\u0645\u0646 \u0623\u064A \u0645\u0627\u062F\u0629 \u0646\u064F\u062D\u062A \u0623\u0633\u062F \u0628\u0631\u0648\u062F\u0647\u0648 EA1\u061F"
+          en: What material was used for Prudhoe Lion EA1?
+        explanation:
+          fr: "Le lion est sculpt\xE9 dans le granite rouge, qui donne une teinte chaude \xE0 l\u2019ensemble."
+          ar: "\u0646\u064F\u062D\u062A \u0627\u0644\u0623\u0633\u062F \u0645\u0646 \u0627\u0644\u062C\u0631\u0627\u0646\u064A\u062A \u0627\u0644\u0623\u062D\u0645\u0631\u060C \u0627\u0644\u0630\u064A \u064A\u0645\u0646\u062D \u0627\u0644\u062A\u0645\u062B\u0627\u0644 \u0644\u0648\u0646\u0627\u064B \u062F\u0627\u0641\u0626\u0627\u064B."
+          en: The lion is carved from red granite, which gives the sculpture a warm colour.
+        options:
+        - id: bm_ea1_q1_a
+          text:
+            fr: Granite rouge
+            ar: "\u0627\u0644\u062C\u0631\u0627\u0646\u064A\u062A \u0627\u0644\u0623\u062D\u0645\u0631"
+            en: Red granite
+        - id: bm_ea1_q1_b
+          text:
+            fr: Diorite
+            ar: "\u0627\u0644\u062F\u064A\u0648\u0631\u064A\u062A"
+            en: Diorite
+        - id: bm_ea1_q1_c
+          text:
+            fr: Bronze
+            ar: "\u0627\u0644\u0628\u0631\u0648\u0646\u0632"
+            en: Bronze
+        - id: bm_ea1_q1_d
+          text:
+            fr: Granodiorite
+            ar: "\u0627\u0644\u062C\u0631\u0627\u0646\u0648\u062F\u064A\u0648\u0631\u064A\u062A"
+            en: Granodiorite
+      - id: bm_ea1_q2
+        correctOptionId: bm_ea1_q2_c
+        prompt:
+          fr: "Que pouvait exprimer l\u2019image du lion dans cette \u0153uvre ?"
+          ar: "\u0639\u0645\u0651 \u0643\u0627\u0646\u062A \u0635\u0648\u0631\u0629 \u0627\u0644\u0623\u0633\u062F \u062A\u0639\u0628\u0631 \u0641\u064A \u0647\u0630\u0647 \u0627\u0644\u0642\u0637\u0639\u0629\u061F"
+          en: What could the image of the lion express in this work?
+        explanation:
+          fr: "La narration pr\xE9sente le lion comme une image de la force royale. La sculpture accorde aussi une grande attention au corps de l\u2019animal."
+          ar: "\u064A\u0642\u062F\u0645 \u0627\u0644\u0633\u0631\u062F \u0627\u0644\u0623\u0633\u062F \u0628\u0648\u0635\u0641\u0647 \u0635\u0648\u0631\u0629 \u0644\u0644\u0642\u0648\u0629 \u0627\u0644\u0645\u0644\u0643\u064A\u0629\u060C \u0645\u0639 \u0627\u0647\u062A\u0645\u0627\u0645 \u062F\u0642\u064A\u0642 \u0628\u062C\u0633\u0645 \u0627\u0644\u062D\u064A\u0648\u0627\u0646."
+          en: "The narration presents the lion as an image of royal strength. The sculpture also pays close attention to the animal\u2019s body."
+        options:
+        - id: bm_ea1_q2_a
+          text:
+            fr: La naissance du soleil
+            ar: "\u0648\u0644\u0627\u062F\u0629 \u0627\u0644\u0634\u0645\u0633"
+            en: The birth of the sun
+        - id: bm_ea1_q2_b
+          text:
+            fr: "Le d\xE9chiffrement d\u2019un texte"
+            ar: "\u0641\u0643 \u0631\u0645\u0648\u0632 \u0646\u0635"
+            en: The deciphering of a text
+        - id: bm_ea1_q2_c
+          text:
+            fr: La force royale
+            ar: "\u0627\u0644\u0642\u0648\u0629 \u0627\u0644\u0645\u0644\u0643\u064A\u0629"
+            en: Royal strength
+        - id: bm_ea1_q2_d
+          text:
+            fr: "La forme d\u2019un sarcophage"
+            ar: "\u0634\u0643\u0644 \u062A\u0627\u0628\u0648\u062A"
+            en: The shape of a sarcophagus
+      - id: bm_ea1_q3
+        correctOptionId: bm_ea1_q3_b
+        prompt:
+          fr: "Que r\xE9v\xE8lent les inscriptions du lion et de son socle ?"
+          ar: "\u0645\u0627\u0630\u0627 \u062A\u0643\u0634\u0641 \u0646\u0642\u0648\u0634 \u0627\u0644\u0623\u0633\u062F \u0648\u0642\u0627\u0639\u062F\u062A\u0647\u061F"
+          en: What do the inscriptions on the lion and its pedestal reveal?
+        explanation:
+          fr: "Les inscriptions \xE9voquent plusieurs souverains. Elles t\xE9moignent de la longue histoire de cette sculpture."
+          ar: "\u062A\u0634\u064A\u0631 \u0627\u0644\u0646\u0642\u0648\u0634 \u0625\u0644\u0649 \u0639\u062F\u0629 \u062D\u0643\u0627\u0645 \u0648\u062A\u0634\u0647\u062F \u0639\u0644\u0649 \u062A\u0627\u0631\u064A\u062E \u0627\u0644\u062A\u0645\u062B\u0627\u0644 \u0627\u0644\u0637\u0648\u064A\u0644."
+          en: "The inscriptions refer to several rulers. They bear witness to the sculpture\u2019s long history."
+        options:
+        - id: bm_ea1_q3_a
+          text:
+            fr: "La recette d\u2019un pigment"
+            ar: "\u0648\u0635\u0641\u0629 \u0644\u0635\u0646\u0639 \u0635\u0628\u063A\u0629"
+            en: A pigment recipe
+        - id: bm_ea1_q3_b
+          text:
+            fr: "Des r\xE9f\xE9rences \xE0 plusieurs souverains"
+            ar: "\u0625\u0634\u0627\u0631\u0627\u062A \u0625\u0644\u0649 \u0639\u062F\u0629 \u062D\u0643\u0627\u0645"
+            en: References to several rulers
+        - id: bm_ea1_q3_c
+          text:
+            fr: "Un calendrier de visites du mus\xE9e"
+            ar: "\u062C\u062F\u0648\u0644 \u0632\u064A\u0627\u0631\u0627\u062A \u0644\u0644\u0645\u062A\u062D\u0641"
+            en: A museum visiting schedule
+        - id: bm_ea1_q3_d
+          text:
+            fr: Le poids exact de la sculpture
+            ar: "\u0627\u0644\u0648\u0632\u0646 \u0627\u0644\u062F\u0642\u064A\u0642 \u0644\u0644\u062A\u0645\u062B\u0627\u0644"
+            en: The exact weight of the sculpture
+  - id: bm_ea23
+    title: Sarcophage de Hapmen
+    summary: "Une cuve de granite d\xE9cor\xE9e de textes et de divinit\xE9s fun\xE9raires."
+    description: "Ce sarcophage de granite appartenait \xE0 Hapmen, un haut fonctionnaire. Ses parois sont d\xE9cor\xE9es de textes et de divinit\xE9s fun\xE9raires ; Nout figure au fond de la cuve. Il fut ensuite r\xE9utilis\xE9 pour des ablutions dans la mosqu\xE9e Ibn Touloun au Caire."
+    museumObjectId: EA23
+    photoCredit: akhenatenator
+    photoLicence: CC0-1.0
+    photoSource: https://www.flickr.com/photos/86012097@N08/10678557766/
+    modelLicence: CC-BY-NC-SA-4.0
+    modelSource: https://github.com/BritishMuseumDH/DH-OculusVR-models
+    modelCredits:
+    - Daniel Pett
+    - Jennifer Wexler
+    - Thomas Flynn
+    - Copyright Trustees of the British Museum
+    descriptionSources:
+    - https://github.com/BritishMuseumDH/DH-OculusVR-models/blob/master/labeldata/labeldata.csv
+    photograph: {fileID: 2800000, guid: 0a09c0e9db3bf48488c33e3a13aea6e3, type: 3}
+    modelPrefab: {fileID: 3637741371299711055, guid: fe4de4473365349b199c714bd91acd1f, type: 3}
+    targetWidthMeters: 0.12
+    audio:
+    - id: bm_ea23.narration.fr
+      language: fr
+      kind: narration
+      transcript: "Ce sarcophage de granite appartenait \xE0 Hapmen, un haut fonctionnaire de l\u2019\xC9gypte ancienne. Ses parois portent des textes et des figures de divinit\xE9s fun\xE9raires. \xC0 l\u2019int\xE9rieur, la d\xE9esse Nout est repr\xE9sent\xE9e au fond de la cuve. Observez les reliefs et la mani\xE8re dont ils entourent l\u2019espace destin\xE9 au d\xE9funt. Le sarcophage fut plus tard r\xE9utilis\xE9 pour des ablutions dans la mosqu\xE9e Ibn Touloun, au Caire. Cette \u0153uvre conserve ainsi les traces de plusieurs usages au fil du temps."
+      voiceId: 6DEjyaHWnTHsvXM5Byys
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: ba85ea619385443b99c09330f772957b, type: 3}
+      subtitles:
+      - startSeconds: 0.04
+        endSeconds: 3.461
+        text: "Ce sarcophage de granite\nappartenait \xE0 Hapmen, un haut"
+      - startSeconds: 3.461
+        endSeconds: 4.962
+        text: "fonctionnaire de l\u2019\xC9gypte\nancienne."
+      - startSeconds: 5.442
+        endSeconds: 8.763
+        text: 'Ses parois portent des
+
+          textes et des figures de'
+      - startSeconds: 8.763
+        endSeconds: 11.864
+        text: "divinit\xE9s fun\xE9raires. \xC0\nl\u2019int\xE9rieur, la d\xE9esse Nout est"
+      - startSeconds: 12.004
+        endSeconds: 15.245
+        text: "repr\xE9sent\xE9e au fond de la\ncuve. Observez les reliefs et"
+      - startSeconds: 15.245
+        endSeconds: 17.906
+        text: "la mani\xE8re dont ils\nentourent l\u2019espace destin\xE9 au"
+      - startSeconds: 17.906
+        endSeconds: 21.788
+        text: "d\xE9funt. Le sarcophage fut\nplus tard r\xE9utilis\xE9 pour des"
+      - startSeconds: 21.788
+        endSeconds: 24.928
+        text: "ablutions dans la mosqu\xE9e\nIbn Touloun, au Caire."
+      - startSeconds: 25.129
+        endSeconds: 27.97
+        text: "Cette \u0153uvre conserve ainsi\nles traces de plusieurs"
+      - startSeconds: 27.97
+        endSeconds: 29.21
+        text: usages au fil du temps.
+    - id: bm_ea23.audio_description.fr
+      language: fr
+      kind: audio_description
+      transcript: "Une grande cuve de pierre forme un espace creux, ouvert vers le haut. Ses parois \xE9paisses sont couvertes de signes et de figures en relief. D\u2019autres figures d\xE9corent l\u2019int\xE9rieur. Une silhouette f\xE9minine, celle de Nout, s\u2019\xE9tend au fond de la cuve. L\u2019ensemble pr\xE9sente la forme allong\xE9e d\u2019un contenant destin\xE9 \xE0 un corps humain."
+      voiceId: 6DEjyaHWnTHsvXM5Byys
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: e3a6c525e71b74e55a556a103f0f857b, type: 3}
+      subtitles:
+      - startSeconds: 0.06
+        endSeconds: 3.204
+        text: 'Une grande cuve de pierre
+
+          forme un espace creux, ouvert'
+      - startSeconds: 3.204
+        endSeconds: 6.728
+        text: "vers le haut. Ses parois\n\xE9paisses sont couvertes de"
+      - startSeconds: 6.768
+        endSeconds: 8.57
+        text: 'signes et de figures en
+
+          relief.'
+      - startSeconds: 9.191
+        endSeconds: 11.013
+        text: "D\u2019autres figures d\xE9corent\nl\u2019int\xE9rieur."
+      - startSeconds: 11.493
+        endSeconds: 15.158
+        text: "Une silhouette f\xE9minine,\ncelle de Nout, s\u2019\xE9tend au fond"
+      - startSeconds: 15.158
+        endSeconds: 18.642
+        text: "de la cuve. L\u2019ensemble\npr\xE9sente la forme allong\xE9e d\u2019un"
+      - startSeconds: 18.642
+        endSeconds: 20.724
+        text: "contenant destin\xE9 \xE0 un corps\nhumain."
+    - id: bm_ea23.narration.ar
+      language: ar
+      kind: narration
+      transcript: "\u0643\u0627\u0646 \u0647\u0630\u0627 \u0627\u0644\u062A\u0627\u0628\u0648\u062A \u0627\u0644\u062C\u0631\u0627\u0646\u064A\u062A\u064A \u064A\u062E\u0635 \u062D\u0627\u0628\u0645\u0646\u060C \u0648\u0647\u0648 \u0645\u0646 \u0643\u0628\u0627\u0631 \u0627\u0644\u0645\u0648\u0638\u0641\u064A\u0646 \u0641\u064A \u0645\u0635\u0631 \u0627\u0644\u0642\u062F\u064A\u0645\u0629. \u062A\u062D\u0645\u0644 \u062C\u062F\u0631\u0627\u0646\u0647 \u0646\u0635\u0648\u0635\u0627\u064B \u0648\u0635\u0648\u0631\u0627\u064B \u0644\u0622\u0644\u0647\u0629 \u062C\u0646\u0627\u0626\u0632\u064A\u0629. \u0648\u0641\u064A \u0627\u0644\u062F\u0627\u062E\u0644\u060C \u062A\u0638\u0647\u0631 \u0627\u0644\u0625\u0644\u0647\u0629 \u0646\u0648\u062A \u0641\u064A \u0642\u0627\u0639 \u0627\u0644\u062D\u0648\u0636. \u062A\u0623\u0645\u0644 \u0627\u0644\u0646\u0642\u0648\u0634 \u0627\u0644\u0628\u0627\u0631\u0632\u0629 \u0648\u0643\u064A\u0641 \u062A\u062D\u064A\u0637 \u0628\u0627\u0644\u0645\u0643\u0627\u0646 \u0627\u0644\u0645\u062E\u0635\u0635 \u0644\u0644\u0645\u062A\u0648\u0641\u0649. \u0623\u064F\u0639\u064A\u062F \u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0627\u0644\u062A\u0627\u0628\u0648\u062A \u0644\u0627\u062D\u0642\u0627\u064B \u0644\u0644\u0627\u063A\u062A\u0633\u0627\u0644 \u0627\u0644\u0637\u0642\u0633\u064A \u0641\u064A \u0645\u0633\u062C\u062F \u0627\u0628\u0646 \u0637\u0648\u0644\u0648\u0646 \u0628\u0627\u0644\u0642\u0627\u0647\u0631\u0629. \u0648\u0647\u0643\u0630\u0627 \u062A\u062D\u062A\u0641\u0638 \u0627\u0644\u0642\u0637\u0639\u0629 \u0628\u0622\u062B\u0627\u0631 \u0627\u0633\u062A\u062E\u062F\u0627\u0645\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629 \u0639\u0628\u0631 \u0627\u0644\u0632\u0645\u0646."
+      voiceId: JAFpvTRfGNCbJ2St9kyT
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: 088b5ad7c7ebf4e91af3907c62f04745, type: 3}
+      subtitles:
+      - startSeconds: 0.02
+        endSeconds: 3.221
+        text: "\u0643\u0627\u0646 \u0647\u0630\u0627 \u0627\u0644\u062A\u0627\u0628\u0648\u062A \u0627\u0644\u062C\u0631\u0627\u0646\u064A\u062A\u064A\n\u064A\u062E\u0635 \u062D\u0627\u0628\u0645\u0646\u060C"
+      - startSeconds: 3.841
+        endSeconds: 6.742
+        text: "\u0648\u0647\u0648 \u0645\u0646 \u0643\u0628\u0627\u0631 \u0627\u0644\u0645\u0648\u0638\u0641\u064A\u0646 \u0641\u064A \u0645\u0635\u0631\n\u0627\u0644\u0642\u062F\u064A\u0645\u0629."
+      - startSeconds: 7.402
+        endSeconds: 11.843
+        text: "\u062A\u062D\u0645\u0644 \u062C\u062F\u0631\u0627\u0646\u0647 \u0646\u0635\u0648\u0635\u0627\u064B \u0648\u0635\u0648\u0631\u0627\u064B\n\u0644\u0622\u0644\u0647\u0629 \u062C\u0646\u0627\u0626\u0632\u064A\u0629."
+      - startSeconds: 12.783
+        endSeconds: 16.264
+        text: "\u0648\u0641\u064A \u0627\u0644\u062F\u0627\u062E\u0644\u060C \u062A\u0638\u0647\u0631 \u0627\u0644\u0625\u0644\u0647\u0629 \u0646\u0648\u062A\n\u0641\u064A \u0642\u0627\u0639 \u0627\u0644\u062D\u0648\u0636."
+      - startSeconds: 16.924
+        endSeconds: 22.105
+        text: "\u062A\u0623\u0645\u0644 \u0627\u0644\u0646\u0642\u0648\u0634 \u0627\u0644\u0628\u0627\u0631\u0632\u0629 \u0648\u0643\u064A\u0641\n\u062A\u062D\u064A\u0637 \u0628\u0627\u0644\u0645\u0643\u0627\u0646 \u0627\u0644\u0645\u062E\u0635\u0635 \u0644\u0644\u0645\u062A\u0648\u0641\u0649."
+      - startSeconds: 22.125
+        endSeconds: 27.606
+        text: "\u0623\u064F\u0639\u064A\u062F \u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0627\u0644\u062A\u0627\u0628\u0648\u062A \u0644\u0627\u062D\u0642\u0627\u064B\n\u0644\u0644\u0627\u063A\u062A\u0633\u0627\u0644 \u0627\u0644\u0637\u0642\u0633\u064A \u0641\u064A \u0645\u0633\u062C\u062F"
+      - startSeconds: 27.606
+        endSeconds: 29.086
+        text: "\u0627\u0628\u0646 \u0637\u0648\u0644\u0648\u0646 \u0628\u0627\u0644\u0642\u0627\u0647\u0631\u0629."
+      - startSeconds: 29.967
+        endSeconds: 35.008
+        text: "\u0648\u0647\u0643\u0630\u0627 \u062A\u062D\u062A\u0641\u0638 \u0627\u0644\u0642\u0637\u0639\u0629 \u0628\u0622\u062B\u0627\u0631\n\u0627\u0633\u062A\u062E\u062F\u0627\u0645\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629 \u0639\u0628\u0631 \u0627\u0644\u0632\u0645\u0646."
+    - id: bm_ea23.audio_description.ar
+      language: ar
+      kind: audio_description
+      transcript: "\u064A\u0634\u0643\u0644 \u062D\u0648\u0636 \u062D\u062C\u0631\u064A \u0643\u0628\u064A\u0631 \u0641\u0631\u0627\u063A\u0627\u064B \u0645\u0641\u062A\u0648\u062D\u0627\u064B \u0645\u0646 \u0627\u0644\u0623\u0639\u0644\u0649. \u062A\u063A\u0637\u064A \u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A \u0648\u0627\u0644\u0631\u0633\u0648\u0645 \u0627\u0644\u0628\u0627\u0631\u0632\u0629 \u062C\u062F\u0631\u0627\u0646\u0647 \u0627\u0644\u0633\u0645\u064A\u0643\u0629. \u0648\u062A\u0632\u064A\u0646 \u0635\u0648\u0631 \u0623\u062E\u0631\u0649 \u0627\u0644\u062F\u0627\u062E\u0644. \u062A\u0645\u062A\u062F \u0647\u064A\u0626\u0629 \u0623\u0646\u062B\u0648\u064A\u0629\u060C \u0647\u064A \u0646\u0648\u062A\u060C \u0641\u064A \u0642\u0627\u0639 \u0627\u0644\u062D\u0648\u0636. \u0648\u064A\u0623\u062E\u0630 \u0627\u0644\u062A\u0643\u0648\u064A\u0646 \u0634\u0643\u0644 \u0648\u0639\u0627\u0621 \u0645\u0645\u062F\u0648\u062F \u0645\u062E\u0635\u0635 \u0644\u062C\u0633\u0645 \u0625\u0646\u0633\u0627\u0646."
+      voiceId: JAFpvTRfGNCbJ2St9kyT
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: 47d3a8f3ec2154d42a2a4d79b1d31972, type: 3}
+      subtitles:
+      - startSeconds: 0.04
+        endSeconds: 3.703
+        text: "\u064A\u0634\u0643\u0644 \u062D\u0648\u0636 \u062D\u062C\u0631\u064A \u0643\u0628\u064A\u0631 \u0641\u0631\u0627\u063A\u0627\u064B\n\u0645\u0641\u062A\u0648\u062D\u0627\u064B \u0645\u0646 \u0627\u0644\u0623\u0639\u0644\u0649."
+      - startSeconds: 4.564
+        endSeconds: 8.067
+        text: "\u062A\u063A\u0637\u064A \u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A \u0648\u0627\u0644\u0631\u0633\u0648\u0645\n\u0627\u0644\u0628\u0627\u0631\u0632\u0629 \u062C\u062F\u0631\u0627\u0646\u0647 \u0627\u0644\u0633\u0645\u064A\u0643\u0629."
+      - startSeconds: 8.748
+        endSeconds: 14.312
+        text: "\u0648\u062A\u0632\u064A\u0646 \u0635\u0648\u0631 \u0623\u062E\u0631\u0649 \u0627\u0644\u062F\u0627\u062E\u0644. \u062A\u0645\u062A\u062F\n\u0647\u064A\u0626\u0629 \u0623\u0646\u062B\u0648\u064A\u0629\u060C \u0647\u064A \u0646\u0648\u062A\u060C \u0641\u064A \u0642\u0627\u0639"
+      - startSeconds: 14.312
+        endSeconds: 15.112
+        text: "\u0627\u0644\u062D\u0648\u0636."
+      - startSeconds: 15.433
+        endSeconds: 19.537
+        text: "\u0648\u064A\u0623\u062E\u0630 \u0627\u0644\u062A\u0643\u0648\u064A\u0646 \u0634\u0643\u0644 \u0648\u0639\u0627\u0621 \u0645\u0645\u062F\u0648\u062F\n\u0645\u062E\u0635\u0635 \u0644\u062C\u0633\u0645 \u0625\u0646\u0633\u0627\u0646."
+    - id: bm_ea23.narration.en
+      language: en
+      kind: narration
+      transcript: This granite sarcophagus belonged to Hapmen, a high official in ancient Egypt. Its walls carry texts and figures of funerary deities. Inside, the goddess Nut appears on the bottom of the chest. Notice the reliefs and how they surround the space intended for the deceased. The sarcophagus was later reused for ritual washing in the Ibn Tulun Mosque in Cairo. It therefore preserves traces of different uses across its long history.
+      voiceId: 3ADZQUoqg3hWyEOlzpXW
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: 33ba967857a194ddc95cd1a3e7aa51b9, type: 3}
+      subtitles:
+      - startSeconds: 0.08
+        endSeconds: 2.56
+        text: This granite sarcophagus
+      - startSeconds: 3.6
+        endSeconds: 5.28
+        text: belonged to Hapmen,
+      - startSeconds: 6.861
+        endSeconds: 8.421
+        text: a high official
+      - startSeconds: 9.201
+        endSeconds: 11.161
+        text: in ancient Egypt.
+      - startSeconds: 12.561
+        endSeconds: 15.141
+        text: Its walls carry texts
+      - startSeconds: 15.721
+        endSeconds: 16.821
+        text: and figures
+      - startSeconds: 17.401
+        endSeconds: 18.921
+        text: of funerary
+      - startSeconds: 19.722
+        endSeconds: 20.862
+        text: deities.
+      - startSeconds: 22.342
+        endSeconds: 23.482
+        text: Inside,
+      - startSeconds: 24.402
+        endSeconds: 25.542
+        text: the goddess
+      - startSeconds: 26.142
+        endSeconds: 26.942
+        text: Nut
+      - startSeconds: 27.422
+        endSeconds: 31.923
+        text: 'appears on the bottom of the
+
+          chest.'
+      - startSeconds: 33.323
+        endSeconds: 35.763
+        text: Notice the reliefs
+      - startSeconds: 36.783
+        endSeconds: 39.903
+        text: 'and how they surround the
+
+          space'
+      - startSeconds: 40.683
+        endSeconds: 44.384
+        text: intended for the deceased.
+      - startSeconds: 45.804
+        endSeconds: 47.364
+        text: The sarcophagus
+      - startSeconds: 48.064
+        endSeconds: 50.324
+        text: was later reused
+      - startSeconds: 50.984
+        endSeconds: 53.604
+        text: for ritual washing
+      - startSeconds: 54.344
+        endSeconds: 55.544
+        text: in the Ibn
+      - startSeconds: 56.224
+        endSeconds: 57.165
+        text: Tulun
+      - startSeconds: 57.745
+        endSeconds: 58.625
+        text: Mosque
+      - startSeconds: 59.585
+        endSeconds: 60.665
+        text: in Cairo.
+      - startSeconds: 62.325
+        endSeconds: 67.525
+        text: 'It therefore preserves
+
+          traces of different'
+      - startSeconds: 67.945
+        endSeconds: 68.745
+        text: uses
+      - startSeconds: 69.346
+        endSeconds: 73.346
+        text: across its long history.
+    - id: bm_ea23.audio_description.en
+      language: en
+      kind: audio_description
+      transcript: A large stone chest forms a hollow space open at the top. Its thick walls are covered with signs and figures in relief. More figures decorate the interior. A female figure, Nut, extends across the bottom of the chest. The overall form is an elongated container intended for a human body.
+      voiceId: 3ADZQUoqg3hWyEOlzpXW
+      modelId: eleven_flash_v2_5
+      clip: {fileID: 8300000, guid: 3ecd681ddbfae438ab38840d309c3172, type: 3}
+      subtitles:
+      - startSeconds: 0.08
+        endSeconds: 2.24
+        text: A large stone chest
+      - startSeconds: 3.14
+        endSeconds: 5.441
+        text: forms a hollow space
+      - startSeconds: 6.901
+        endSeconds: 8.901
+        text: open at the top.
+      - startSeconds: 10.601
+        endSeconds: 12.441
+        text: Its thick walls
+      - startSeconds: 13.101
+        endSeconds: 15.182
+        text: are covered with signs
+      - startSeconds: 16.062
+        endSeconds: 17.222
+        text: and figures
+      - startSeconds: 18.402
+        endSeconds: 19.462
+        text: in relief.
+      - startSeconds: 21.102
+        endSeconds: 26.243
+        text: 'More figures decorate the
+
+          interior.'
+      - startSeconds: 27.923
+        endSeconds: 30.303
+        text: A female figure,
+      - startSeconds: 32.004
+        endSeconds: 32.804
+        text: Nut,
+      - startSeconds: 33.744
+        endSeconds: 38.704
+        text: 'extends across the bottom of
+
+          the'
+      - startSeconds: 38.944
+        endSeconds: 39.784
+        text: chest.
+      - startSeconds: 41.365
+        endSeconds: 43.265
+        text: The overall form
+      - startSeconds: 44.225
+        endSeconds: 47.065
+        text: is an elongated container
+      - startSeconds: 48.125
+        endSeconds: 51.686
+        text: intended for a human
+      - startSeconds: 52.286
+        endSeconds: 52.866
+        text: body.
+    quiz:
+      id: quiz_bm_ea23
+      contentVersion: 1
+      questions:
+      - id: bm_ea23_q1
+        correctOptionId: bm_ea23_q1_d
+        prompt:
+          fr: "\xC0 qui ce sarcophage appartenait-il \xE0 l\u2019origine ?"
+          ar: "\u0644\u0645\u0646 \u0643\u0627\u0646 \u0647\u0630\u0627 \u0627\u0644\u062A\u0627\u0628\u0648\u062A \u0641\u064A \u0627\u0644\u0623\u0635\u0644\u061F"
+          en: Who originally owned this sarcophagus?
+        explanation:
+          fr: "Le sarcophage de granite appartenait \xE0 Hapmen, un haut fonctionnaire de l\u2019\xC9gypte ancienne."
+          ar: "\u0643\u0627\u0646 \u0627\u0644\u062A\u0627\u0628\u0648\u062A \u0627\u0644\u062C\u0631\u0627\u0646\u064A\u062A\u064A \u064A\u062E\u0635 \u062D\u0627\u0628\u0645\u0646\u060C \u0648\u0647\u0648 \u0645\u0646 \u0643\u0628\u0627\u0631 \u0627\u0644\u0645\u0648\u0638\u0641\u064A\u0646 \u0641\u064A \u0645\u0635\u0631 \u0627\u0644\u0642\u062F\u064A\u0645\u0629."
+          en: The granite sarcophagus belonged to Hapmen, a high official in ancient Egypt.
+        options:
+        - id: bm_ea23_q1_a
+          text:
+            fr: Au roi Taharqa
+            ar: "\u0644\u0644\u0645\u0644\u0643 \u062A\u0647\u0627\u0631\u0642\u0627"
+            en: King Taharqa
+        - id: bm_ea23_q1_b
+          text:
+            fr: "\xC0 Ptol\xE9m\xE9e V"
+            ar: "\u0644\u0628\u0637\u0644\u064A\u0645\u0648\u0633 \u0627\u0644\u062E\u0627\u0645\u0633"
+            en: Ptolemy V
+        - id: bm_ea23_q1_c
+          text:
+            fr: "\xC0 Rams\xE8s II"
+            ar: "\u0644\u0631\u0645\u0633\u064A\u0633 \u0627\u0644\u062B\u0627\u0646\u064A"
+            en: Ramesses II
+        - id: bm_ea23_q1_d
+          text:
+            fr: "\xC0 Hapmen, un haut fonctionnaire"
+            ar: "\u0644\u0650\u062D\u0627\u0628\u0645\u0646\u060C \u0648\u0647\u0648 \u0645\u0646 \u0643\u0628\u0627\u0631 \u0627\u0644\u0645\u0648\u0638\u0641\u064A\u0646"
+            en: Hapmen, a high official
+      - id: bm_ea23_q2
+        correctOptionId: bm_ea23_q2_a
+        prompt:
+          fr: "Quelle d\xE9esse figure au fond de la cuve ?"
+          ar: "\u0623\u064A \u0625\u0644\u0647\u0629 \u062A\u0638\u0647\u0631 \u0641\u064A \u0642\u0627\u0639 \u062D\u0648\u0636 \u0627\u0644\u062A\u0627\u0628\u0648\u062A\u061F"
+          en: Which goddess appears on the bottom of the chest?
+        explanation:
+          fr: "Nout est repr\xE9sent\xE9e au fond de la cuve. D\u2019autres figures de divinit\xE9s fun\xE9raires d\xE9corent les parois."
+          ar: "\u062A\u0638\u0647\u0631 \u0646\u0648\u062A \u0641\u064A \u0642\u0627\u0639 \u0627\u0644\u062D\u0648\u0636\u060C \u0648\u062A\u0632\u064A\u0646 \u0635\u0648\u0631 \u0623\u062E\u0631\u0649 \u0644\u0622\u0644\u0647\u0629 \u062C\u0646\u0627\u0626\u0632\u064A\u0629 \u0627\u0644\u062C\u062F\u0631\u0627\u0646."
+          en: Nut is represented on the bottom of the chest. Other funerary deities decorate the walls.
+        options:
+        - id: bm_ea23_q2_a
+          text:
+            fr: Nout
+            ar: "\u0646\u0648\u062A"
+            en: Nut
+        - id: bm_ea23_q2_b
+          text:
+            fr: "Kh\xE9pri"
+            ar: "\u062E\u0628\u0631\u064A"
+            en: Khepri
+        - id: bm_ea23_q2_c
+          text:
+            fr: Amon
+            ar: "\u0622\u0645\u0648\u0646"
+            en: Amun
+        - id: bm_ea23_q2_d
+          text:
+            fr: "Aucune divinit\xE9"
+            ar: "\u0644\u0627 \u062A\u0648\u062C\u062F \u0623\u064A \u0625\u0644\u0647\u0629"
+            en: No deity
+      - id: bm_ea23_q3
+        correctOptionId: bm_ea23_q3_c
+        prompt:
+          fr: Quel usage le sarcophage a-t-il connu plus tard au Caire ?
+          ar: "\u0641\u064A\u0645\u064E \u0627\u0633\u062A\u064F\u062E\u062F\u0645 \u0627\u0644\u062A\u0627\u0628\u0648\u062A \u0644\u0627\u062D\u0642\u0627\u064B \u0641\u064A \u0627\u0644\u0642\u0627\u0647\u0631\u0629\u061F"
+          en: How was the sarcophagus later used in Cairo?
+        explanation:
+          fr: "Le sarcophage a \xE9t\xE9 r\xE9utilis\xE9 pour des ablutions dans la mosqu\xE9e Ibn Touloun. Il garde ainsi les traces de plusieurs usages."
+          ar: "\u0623\u064F\u0639\u064A\u062F \u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0627\u0644\u062A\u0627\u0628\u0648\u062A \u0644\u0644\u0627\u063A\u062A\u0633\u0627\u0644 \u0627\u0644\u0637\u0642\u0633\u064A \u0641\u064A \u0645\u0633\u062C\u062F \u0627\u0628\u0646 \u0637\u0648\u0644\u0648\u0646\u060C \u0648\u0644\u0630\u0644\u0643 \u064A\u062D\u062A\u0641\u0638 \u0628\u0622\u062B\u0627\u0631 \u0627\u0633\u062A\u062E\u062F\u0627\u0645\u0627\u062A \u0645\u062E\u062A\u0644\u0641\u0629."
+          en: The sarcophagus was reused for ritual washing in the Ibn Tulun Mosque. It preserves traces of several different uses.
+        options:
+        - id: bm_ea23_q3_a
+          text:
+            fr: "Comme socle d\u2019un lion"
+            ar: "\u0642\u0627\u0639\u062F\u0629 \u0644\u062A\u0645\u062B\u0627\u0644 \u0623\u0633\u062F"
+            en: As the pedestal of a lion
+        - id: bm_ea23_q3_b
+          text:
+            fr: "Comme pierre portant un d\xE9cret"
+            ar: "\u062D\u062C\u0631\u0627\u064B \u064A\u062D\u0645\u0644 \u0645\u0631\u0633\u0648\u0645\u0627\u064B"
+            en: As a stone bearing a decree
+        - id: bm_ea23_q3_c
+          text:
+            fr: "Pour des ablutions dans la mosqu\xE9e Ibn Touloun"
+            ar: "\u0644\u0644\u0627\u063A\u062A\u0633\u0627\u0644 \u0627\u0644\u0637\u0642\u0633\u064A \u0641\u064A \u0645\u0633\u062C\u062F \u0627\u0628\u0646 \u0637\u0648\u0644\u0648\u0646"
+            en: For ritual washing in the Ibn Tulun Mosque
+        - id: bm_ea23_q3_d
+          text:
+            fr: Comme coiffe royale
+            ar: "\u063A\u0637\u0627\u0621 \u0631\u0623\u0633 \u0645\u0644\u0643\u064A\u0627\u064B"
+            en: As a royal headdress

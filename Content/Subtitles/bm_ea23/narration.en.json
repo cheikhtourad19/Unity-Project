@@ -1,0 +1,583 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea23.narration.en",
+  "language": "en",
+  "kind": "narration",
+  "audioSha256": "1c791e8dca3cdf637d7db854a8f86c301b9953562a44846c2493052910423cc6",
+  "scriptSha256": "9df9a99f76b7ca94688909df4be22df98f692a871dfae0828b123adc9a9af528",
+  "durationSeconds": 73.926531,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020002,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.08,
+      "endSeconds": 2.56,
+      "text": "This granite sarcophagus"
+    },
+    {
+      "startSeconds": 3.6,
+      "endSeconds": 5.28,
+      "text": "belonged to Hapmen,"
+    },
+    {
+      "startSeconds": 6.861,
+      "endSeconds": 8.421,
+      "text": "a high official"
+    },
+    {
+      "startSeconds": 9.201,
+      "endSeconds": 11.161,
+      "text": "in ancient Egypt."
+    },
+    {
+      "startSeconds": 12.561,
+      "endSeconds": 15.141,
+      "text": "Its walls carry texts"
+    },
+    {
+      "startSeconds": 15.721,
+      "endSeconds": 16.821,
+      "text": "and figures"
+    },
+    {
+      "startSeconds": 17.401,
+      "endSeconds": 18.921,
+      "text": "of funerary"
+    },
+    {
+      "startSeconds": 19.722,
+      "endSeconds": 20.862,
+      "text": "deities."
+    },
+    {
+      "startSeconds": 22.342,
+      "endSeconds": 23.482,
+      "text": "Inside,"
+    },
+    {
+      "startSeconds": 24.402,
+      "endSeconds": 25.542,
+      "text": "the goddess"
+    },
+    {
+      "startSeconds": 26.142,
+      "endSeconds": 26.942,
+      "text": "Nut"
+    },
+    {
+      "startSeconds": 27.422,
+      "endSeconds": 31.923,
+      "text": "appears on the bottom of the\nchest."
+    },
+    {
+      "startSeconds": 33.323,
+      "endSeconds": 35.763,
+      "text": "Notice the reliefs"
+    },
+    {
+      "startSeconds": 36.783,
+      "endSeconds": 39.903,
+      "text": "and how they surround the\nspace"
+    },
+    {
+      "startSeconds": 40.683,
+      "endSeconds": 44.384,
+      "text": "intended for the deceased."
+    },
+    {
+      "startSeconds": 45.804,
+      "endSeconds": 47.364,
+      "text": "The sarcophagus"
+    },
+    {
+      "startSeconds": 48.064,
+      "endSeconds": 50.324,
+      "text": "was later reused"
+    },
+    {
+      "startSeconds": 50.984,
+      "endSeconds": 53.604,
+      "text": "for ritual washing"
+    },
+    {
+      "startSeconds": 54.344,
+      "endSeconds": 55.544,
+      "text": "in the Ibn"
+    },
+    {
+      "startSeconds": 56.224,
+      "endSeconds": 57.165,
+      "text": "Tulun"
+    },
+    {
+      "startSeconds": 57.745,
+      "endSeconds": 58.625,
+      "text": "Mosque"
+    },
+    {
+      "startSeconds": 59.585,
+      "endSeconds": 60.665,
+      "text": "in Cairo."
+    },
+    {
+      "startSeconds": 62.325,
+      "endSeconds": 67.525,
+      "text": "It therefore preserves\ntraces of different"
+    },
+    {
+      "startSeconds": 67.945,
+      "endSeconds": 68.745,
+      "text": "uses"
+    },
+    {
+      "startSeconds": 69.346,
+      "endSeconds": 73.346,
+      "text": "across its long history."
+    }
+  ],
+  "words": [
+    {
+      "text": "This",
+      "startSeconds": 0.08,
+      "endSeconds": 0.32,
+      "alignmentScore": 0.9736
+    },
+    {
+      "text": "granite",
+      "startSeconds": 0.5,
+      "endSeconds": 1.1401,
+      "alignmentScore": 0.8476
+    },
+    {
+      "text": "sarcophagus",
+      "startSeconds": 1.2801,
+      "endSeconds": 2.4802,
+      "alignmentScore": 0.9079
+    },
+    {
+      "text": "belonged",
+      "startSeconds": 3.6003,
+      "endSeconds": 4.2003,
+      "alignmentScore": 0.8034
+    },
+    {
+      "text": "to",
+      "startSeconds": 4.2803,
+      "endSeconds": 4.3604,
+      "alignmentScore": 0.9946
+    },
+    {
+      "text": "Hapmen,",
+      "startSeconds": 4.5004,
+      "endSeconds": 5.2004,
+      "alignmentScore": 0.9854
+    },
+    {
+      "text": "a",
+      "startSeconds": 6.8606,
+      "endSeconds": 6.8806,
+      "alignmentScore": 0.9965
+    },
+    {
+      "text": "high",
+      "startSeconds": 7.0806,
+      "endSeconds": 7.5206,
+      "alignmentScore": 0.8794
+    },
+    {
+      "text": "official",
+      "startSeconds": 7.6406,
+      "endSeconds": 8.3407,
+      "alignmentScore": 0.9507
+    },
+    {
+      "text": "in",
+      "startSeconds": 9.2007,
+      "endSeconds": 9.3207,
+      "alignmentScore": 0.9965
+    },
+    {
+      "text": "ancient",
+      "startSeconds": 9.5408,
+      "endSeconds": 10.1208,
+      "alignmentScore": 0.9069
+    },
+    {
+      "text": "Egypt.",
+      "startSeconds": 10.3808,
+      "endSeconds": 11.0809,
+      "alignmentScore": 0.9849
+    },
+    {
+      "text": "Its",
+      "startSeconds": 12.561,
+      "endSeconds": 12.761,
+      "alignmentScore": 0.9911
+    },
+    {
+      "text": "walls",
+      "startSeconds": 12.941,
+      "endSeconds": 13.4811,
+      "alignmentScore": 0.8329
+    },
+    {
+      "text": "carry",
+      "startSeconds": 13.6211,
+      "endSeconds": 14.0011,
+      "alignmentScore": 0.9846
+    },
+    {
+      "text": "texts",
+      "startSeconds": 14.2011,
+      "endSeconds": 15.0612,
+      "alignmentScore": 0.99
+    },
+    {
+      "text": "and",
+      "startSeconds": 15.7213,
+      "endSeconds": 15.8813,
+      "alignmentScore": 0.9943
+    },
+    {
+      "text": "figures",
+      "startSeconds": 16.0813,
+      "endSeconds": 16.7413,
+      "alignmentScore": 0.864
+    },
+    {
+      "text": "of",
+      "startSeconds": 17.4014,
+      "endSeconds": 17.5414,
+      "alignmentScore": 0.9799
+    },
+    {
+      "text": "funerary",
+      "startSeconds": 17.7214,
+      "endSeconds": 18.8415,
+      "alignmentScore": 0.9603
+    },
+    {
+      "text": "deities.",
+      "startSeconds": 19.7216,
+      "endSeconds": 20.7817,
+      "alignmentScore": 0.797
+    },
+    {
+      "text": "Inside,",
+      "startSeconds": 22.3418,
+      "endSeconds": 23.4019,
+      "alignmentScore": 0.7168
+    },
+    {
+      "text": "the",
+      "startSeconds": 24.402,
+      "endSeconds": 24.522,
+      "alignmentScore": 0.977
+    },
+    {
+      "text": "goddess",
+      "startSeconds": 24.782,
+      "endSeconds": 25.462,
+      "alignmentScore": 0.7143
+    },
+    {
+      "text": "Nut",
+      "startSeconds": 26.1421,
+      "endSeconds": 26.6821,
+      "alignmentScore": 0.7968
+    },
+    {
+      "text": "appears",
+      "startSeconds": 27.4222,
+      "endSeconds": 28.3223,
+      "alignmentScore": 0.9467
+    },
+    {
+      "text": "on",
+      "startSeconds": 28.9623,
+      "endSeconds": 29.0823,
+      "alignmentScore": 0.9906
+    },
+    {
+      "text": "the",
+      "startSeconds": 29.1823,
+      "endSeconds": 29.2824,
+      "alignmentScore": 0.9634
+    },
+    {
+      "text": "bottom",
+      "startSeconds": 29.5224,
+      "endSeconds": 30.0424,
+      "alignmentScore": 0.8869
+    },
+    {
+      "text": "of",
+      "startSeconds": 30.6425,
+      "endSeconds": 30.7625,
+      "alignmentScore": 0.9917
+    },
+    {
+      "text": "the",
+      "startSeconds": 30.8825,
+      "endSeconds": 30.9825,
+      "alignmentScore": 0.9517
+    },
+    {
+      "text": "chest.",
+      "startSeconds": 31.1025,
+      "endSeconds": 31.8426,
+      "alignmentScore": 0.9753
+    },
+    {
+      "text": "Notice",
+      "startSeconds": 33.3227,
+      "endSeconds": 34.0427,
+      "alignmentScore": 0.4975
+    },
+    {
+      "text": "the",
+      "startSeconds": 34.4628,
+      "endSeconds": 34.5828,
+      "alignmentScore": 0.7592
+    },
+    {
+      "text": "reliefs",
+      "startSeconds": 34.7228,
+      "endSeconds": 35.6829,
+      "alignmentScore": 0.6052
+    },
+    {
+      "text": "and",
+      "startSeconds": 36.783,
+      "endSeconds": 36.963,
+      "alignmentScore": 0.9935
+    },
+    {
+      "text": "how",
+      "startSeconds": 37.183,
+      "endSeconds": 37.543,
+      "alignmentScore": 0.9315
+    },
+    {
+      "text": "they",
+      "startSeconds": 37.723,
+      "endSeconds": 37.903,
+      "alignmentScore": 0.9938
+    },
+    {
+      "text": "surround",
+      "startSeconds": 38.0831,
+      "endSeconds": 38.8031,
+      "alignmentScore": 0.95
+    },
+    {
+      "text": "the",
+      "startSeconds": 38.9031,
+      "endSeconds": 39.0031,
+      "alignmentScore": 0.9183
+    },
+    {
+      "text": "space",
+      "startSeconds": 39.1231,
+      "endSeconds": 39.8232,
+      "alignmentScore": 0.9985
+    },
+    {
+      "text": "intended",
+      "startSeconds": 40.6833,
+      "endSeconds": 41.7434,
+      "alignmentScore": 0.9568
+    },
+    {
+      "text": "for",
+      "startSeconds": 42.2634,
+      "endSeconds": 42.6034,
+      "alignmentScore": 0.9143
+    },
+    {
+      "text": "the",
+      "startSeconds": 43.1035,
+      "endSeconds": 43.2235,
+      "alignmentScore": 0.9432
+    },
+    {
+      "text": "deceased.",
+      "startSeconds": 43.3635,
+      "endSeconds": 44.3036,
+      "alignmentScore": 0.6936
+    },
+    {
+      "text": "The",
+      "startSeconds": 45.8037,
+      "endSeconds": 45.9037,
+      "alignmentScore": 0.703
+    },
+    {
+      "text": "sarcophagus",
+      "startSeconds": 46.0637,
+      "endSeconds": 47.2838,
+      "alignmentScore": 0.59
+    },
+    {
+      "text": "was",
+      "startSeconds": 48.0639,
+      "endSeconds": 48.2639,
+      "alignmentScore": 0.9838
+    },
+    {
+      "text": "later",
+      "startSeconds": 48.4839,
+      "endSeconds": 48.9839,
+      "alignmentScore": 0.9934
+    },
+    {
+      "text": "reused",
+      "startSeconds": 49.1439,
+      "endSeconds": 50.244,
+      "alignmentScore": 0.9945
+    },
+    {
+      "text": "for",
+      "startSeconds": 50.9841,
+      "endSeconds": 51.2041,
+      "alignmentScore": 0.8244
+    },
+    {
+      "text": "ritual",
+      "startSeconds": 51.4441,
+      "endSeconds": 52.2242,
+      "alignmentScore": 0.8381
+    },
+    {
+      "text": "washing",
+      "startSeconds": 52.8042,
+      "endSeconds": 53.5243,
+      "alignmentScore": 0.9692
+    },
+    {
+      "text": "in",
+      "startSeconds": 54.3444,
+      "endSeconds": 54.4844,
+      "alignmentScore": 0.9916
+    },
+    {
+      "text": "the",
+      "startSeconds": 54.6044,
+      "endSeconds": 54.7044,
+      "alignmentScore": 0.9355
+    },
+    {
+      "text": "Ibn",
+      "startSeconds": 55.0644,
+      "endSeconds": 55.4645,
+      "alignmentScore": 0.7562
+    },
+    {
+      "text": "Tulun",
+      "startSeconds": 56.2245,
+      "endSeconds": 57.0846,
+      "alignmentScore": 0.9226
+    },
+    {
+      "text": "Mosque",
+      "startSeconds": 57.7446,
+      "endSeconds": 58.5447,
+      "alignmentScore": 0.4068
+    },
+    {
+      "text": "in",
+      "startSeconds": 59.5848,
+      "endSeconds": 59.7248,
+      "alignmentScore": 0.9331
+    },
+    {
+      "text": "Cairo.",
+      "startSeconds": 59.9248,
+      "endSeconds": 60.5849,
+      "alignmentScore": 0.7934
+    },
+    {
+      "text": "It",
+      "startSeconds": 62.325,
+      "endSeconds": 62.465,
+      "alignmentScore": 0.9927
+    },
+    {
+      "text": "therefore",
+      "startSeconds": 62.605,
+      "endSeconds": 63.5051,
+      "alignmentScore": 0.9396
+    },
+    {
+      "text": "preserves",
+      "startSeconds": 63.6451,
+      "endSeconds": 64.6252,
+      "alignmentScore": 0.9501
+    },
+    {
+      "text": "traces",
+      "startSeconds": 64.7852,
+      "endSeconds": 65.8653,
+      "alignmentScore": 0.928
+    },
+    {
+      "text": "of",
+      "startSeconds": 66.2653,
+      "endSeconds": 66.4653,
+      "alignmentScore": 0.9966
+    },
+    {
+      "text": "different",
+      "startSeconds": 66.7054,
+      "endSeconds": 67.4454,
+      "alignmentScore": 0.989
+    },
+    {
+      "text": "uses",
+      "startSeconds": 67.9455,
+      "endSeconds": 68.6655,
+      "alignmentScore": 0.9928
+    },
+    {
+      "text": "across",
+      "startSeconds": 69.3456,
+      "endSeconds": 70.1856,
+      "alignmentScore": 0.9589
+    },
+    {
+      "text": "its",
+      "startSeconds": 70.6857,
+      "endSeconds": 70.9857,
+      "alignmentScore": 0.9051
+    },
+    {
+      "text": "long",
+      "startSeconds": 71.4657,
+      "endSeconds": 72.0858,
+      "alignmentScore": 0.9307
+    },
+    {
+      "text": "history.",
+      "startSeconds": 72.5858,
+      "endSeconds": 73.2659,
+      "alignmentScore": 0.9798
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea23.narration.en",
+    "wordCount": 71,
+    "cueCount": 25,
+    "meanAlignmentScore": 0.8998,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

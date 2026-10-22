@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea23.audio_description.en",
+  "language": "en",
+  "kind": "audio_description",
+  "audioSha256": "8493ee9f0d380623790b255d095a2dcc66b1d777a165836f2e47516ad73568fa",
+  "scriptSha256": "ebe717a5c8bf4247d046071e6e8e2fe95a95252a71484a7d1bf119c5152bdc0d",
+  "durationSeconds": 53.446531,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020002,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.08,
+      "endSeconds": 2.24,
+      "text": "A large stone chest"
+    },
+    {
+      "startSeconds": 3.14,
+      "endSeconds": 5.441,
+      "text": "forms a hollow space"
+    },
+    {
+      "startSeconds": 6.901,
+      "endSeconds": 8.901,
+      "text": "open at the top."
+    },
+    {
+      "startSeconds": 10.601,
+      "endSeconds": 12.441,
+      "text": "Its thick walls"
+    },
+    {
+      "startSeconds": 13.101,
+      "endSeconds": 15.182,
+      "text": "are covered with signs"
+    },
+    {
+      "startSeconds": 16.062,
+      "endSeconds": 17.222,
+      "text": "and figures"
+    },
+    {
+      "startSeconds": 18.402,
+      "endSeconds": 19.462,
+      "text": "in relief."
+    },
+    {
+      "startSeconds": 21.102,
+      "endSeconds": 26.243,
+      "text": "More figures decorate the\ninterior."
+    },
+    {
+      "startSeconds": 27.923,
+      "endSeconds": 30.303,
+      "text": "A female figure,"
+    },
+    {
+      "startSeconds": 32.004,
+      "endSeconds": 32.804,
+      "text": "Nut,"
+    },
+    {
+      "startSeconds": 33.744,
+      "endSeconds": 38.704,
+      "text": "extends across the bottom of\nthe"
+    },
+    {
+      "startSeconds": 38.944,
+      "endSeconds": 39.784,
+      "text": "chest."
+    },
+    {
+      "startSeconds": 41.365,
+      "endSeconds": 43.265,
+      "text": "The overall form"
+    },
+    {
+      "startSeconds": 44.225,
+      "endSeconds": 47.065,
+      "text": "is an elongated container"
+    },
+    {
+      "startSeconds": 48.125,
+      "endSeconds": 51.686,
+      "text": "intended for a human"
+    },
+    {
+      "startSeconds": 52.286,
+      "endSeconds": 52.866,
+      "text": "body."
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "startSeconds": 0.08,
+      "endSeconds": 0.1,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "large",
+      "startSeconds": 0.26,
+      "endSeconds": 0.7401,
+      "alignmentScore": 0.9678
+    },
+    {
+      "text": "stone",
+      "startSeconds": 0.8401,
+      "endSeconds": 1.3802,
+      "alignmentScore": 0.9946
+    },
+    {
+      "text": "chest",
+      "startSeconds": 1.4802,
+      "endSeconds": 2.1602,
+      "alignmentScore": 0.9966
+    },
+    {
+      "text": "forms",
+      "startSeconds": 3.1403,
+      "endSeconds": 3.7004,
+      "alignmentScore": 0.9879
+    },
+    {
+      "text": "a",
+      "startSeconds": 3.7804,
+      "endSeconds": 3.8004,
+      "alignmentScore": 0.9973
+    },
+    {
+      "text": "hollow",
+      "startSeconds": 3.9804,
+      "endSeconds": 4.4805,
+      "alignmentScore": 0.9696
+    },
+    {
+      "text": "space",
+      "startSeconds": 4.7005,
+      "endSeconds": 5.3606,
+      "alignmentScore": 0.9705
+    },
+    {
+      "text": "open",
+      "startSeconds": 6.9008,
+      "endSeconds": 7.4208,
+      "alignmentScore": 0.9975
+    },
+    {
+      "text": "at",
+      "startSeconds": 7.9009,
+      "endSeconds": 8.0809,
+      "alignmentScore": 0.9979
+    },
+    {
+      "text": "the",
+      "startSeconds": 8.2409,
+      "endSeconds": 8.3409,
+      "alignmentScore": 0.9967
+    },
+    {
+      "text": "top.",
+      "startSeconds": 8.4409,
+      "endSeconds": 8.821,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "Its",
+      "startSeconds": 10.6012,
+      "endSeconds": 10.8612,
+      "alignmentScore": 0.9961
+    },
+    {
+      "text": "thick",
+      "startSeconds": 11.0412,
+      "endSeconds": 11.3813,
+      "alignmentScore": 0.9507
+    },
+    {
+      "text": "walls",
+      "startSeconds": 11.6013,
+      "endSeconds": 12.3614,
+      "alignmentScore": 0.9183
+    },
+    {
+      "text": "are",
+      "startSeconds": 13.1015,
+      "endSeconds": 13.2415,
+      "alignmentScore": 0.9908
+    },
+    {
+      "text": "covered",
+      "startSeconds": 13.3415,
+      "endSeconds": 13.8215,
+      "alignmentScore": 0.9408
+    },
+    {
+      "text": "with",
+      "startSeconds": 13.9015,
+      "endSeconds": 14.0816,
+      "alignmentScore": 0.9689
+    },
+    {
+      "text": "signs",
+      "startSeconds": 14.2616,
+      "endSeconds": 15.1017,
+      "alignmentScore": 0.8119
+    },
+    {
+      "text": "and",
+      "startSeconds": 16.0618,
+      "endSeconds": 16.2618,
+      "alignmentScore": 0.8824
+    },
+    {
+      "text": "figures",
+      "startSeconds": 16.4818,
+      "endSeconds": 17.1419,
+      "alignmentScore": 0.8215
+    },
+    {
+      "text": "in",
+      "startSeconds": 18.402,
+      "endSeconds": 18.5421,
+      "alignmentScore": 0.9861
+    },
+    {
+      "text": "relief.",
+      "startSeconds": 18.7421,
+      "endSeconds": 19.3822,
+      "alignmentScore": 0.91
+    },
+    {
+      "text": "More",
+      "startSeconds": 21.1023,
+      "endSeconds": 21.4824,
+      "alignmentScore": 0.89
+    },
+    {
+      "text": "figures",
+      "startSeconds": 21.7424,
+      "endSeconds": 22.5625,
+      "alignmentScore": 0.8088
+    },
+    {
+      "text": "decorate",
+      "startSeconds": 23.0226,
+      "endSeconds": 24.0227,
+      "alignmentScore": 0.5782
+    },
+    {
+      "text": "the",
+      "startSeconds": 24.5427,
+      "endSeconds": 24.6627,
+      "alignmentScore": 0.88
+    },
+    {
+      "text": "interior.",
+      "startSeconds": 25.0428,
+      "endSeconds": 26.1629,
+      "alignmentScore": 0.977
+    },
+    {
+      "text": "A",
+      "startSeconds": 27.9231,
+      "endSeconds": 27.9431,
+      "alignmentScore": 0.9919
+    },
+    {
+      "text": "female",
+      "startSeconds": 28.2631,
+      "endSeconds": 29.1032,
+      "alignmentScore": 0.973
+    },
+    {
+      "text": "figure,",
+      "startSeconds": 29.6633,
+      "endSeconds": 30.2234,
+      "alignmentScore": 0.8269
+    },
+    {
+      "text": "Nut,",
+      "startSeconds": 32.0036,
+      "endSeconds": 32.4636,
+      "alignmentScore": 0.4432
+    },
+    {
+      "text": "extends",
+      "startSeconds": 33.7438,
+      "endSeconds": 34.8239,
+      "alignmentScore": 0.5388
+    },
+    {
+      "text": "across",
+      "startSeconds": 35.2839,
+      "endSeconds": 36.004,
+      "alignmentScore": 0.4766
+    },
+    {
+      "text": "the",
+      "startSeconds": 36.5441,
+      "endSeconds": 36.6641,
+      "alignmentScore": 0.9079
+    },
+    {
+      "text": "bottom",
+      "startSeconds": 36.8041,
+      "endSeconds": 37.3041,
+      "alignmentScore": 0.9107
+    },
+    {
+      "text": "of",
+      "startSeconds": 37.6442,
+      "endSeconds": 37.9442,
+      "alignmentScore": 0.994
+    },
+    {
+      "text": "the",
+      "startSeconds": 38.4843,
+      "endSeconds": 38.6243,
+      "alignmentScore": 0.9795
+    },
+    {
+      "text": "chest.",
+      "startSeconds": 38.9443,
+      "endSeconds": 39.7044,
+      "alignmentScore": 0.9731
+    },
+    {
+      "text": "The",
+      "startSeconds": 41.3646,
+      "endSeconds": 41.5046,
+      "alignmentScore": 0.8466
+    },
+    {
+      "text": "overall",
+      "startSeconds": 41.7046,
+      "endSeconds": 42.4647,
+      "alignmentScore": 0.9895
+    },
+    {
+      "text": "form",
+      "startSeconds": 42.6847,
+      "endSeconds": 43.1848,
+      "alignmentScore": 0.9809
+    },
+    {
+      "text": "is",
+      "startSeconds": 44.2249,
+      "endSeconds": 44.4049,
+      "alignmentScore": 0.9966
+    },
+    {
+      "text": "an",
+      "startSeconds": 44.5049,
+      "endSeconds": 44.625,
+      "alignmentScore": 0.9971
+    },
+    {
+      "text": "elongated",
+      "startSeconds": 44.885,
+      "endSeconds": 45.9851,
+      "alignmentScore": 0.9675
+    },
+    {
+      "text": "container",
+      "startSeconds": 46.1251,
+      "endSeconds": 46.9852,
+      "alignmentScore": 0.9797
+    },
+    {
+      "text": "intended",
+      "startSeconds": 48.1254,
+      "endSeconds": 49.1455,
+      "alignmentScore": 0.9984
+    },
+    {
+      "text": "for",
+      "startSeconds": 49.6455,
+      "endSeconds": 49.9055,
+      "alignmentScore": 0.9981
+    },
+    {
+      "text": "a",
+      "startSeconds": 50.2456,
+      "endSeconds": 50.2656,
+      "alignmentScore": 0.9951
+    },
+    {
+      "text": "human",
+      "startSeconds": 50.8857,
+      "endSeconds": 51.6057,
+      "alignmentScore": 0.9948
+    },
+    {
+      "text": "body.",
+      "startSeconds": 52.2858,
+      "endSeconds": 52.6659,
+      "alignmentScore": 0.9978
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea23.audio_description.en",
+    "wordCount": 51,
+    "cueCount": 16,
+    "meanAlignmentScore": 0.9205,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

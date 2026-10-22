@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-21",
+  "title": "HeritageXR — Une visite à raconter — Refonte visuelle",
+  "author": "Mohamed Elgheith",
+  "affiliation": "étudiant à esprim",
+  "language": "fr",
+  "slideCount": 18,
+  "canva": {
+    "designId": "DAHYoWpqgiA",
+    "editUrl": "https://www.canva.com/d/9SNzMXvhRlgKAPw",
+    "viewUrl": "https://www.canva.com/d/LYasPedDhDoDwRK",
+    "pagesVerified": 18,
+    "notesVerified": 18,
+    "animationsVerified": false
+  },
+  "files": {
+    "animatedPowerPoint": "Presentation/Refonte/HeritageXR_Visite_Animee.pptx",
+    "speakerGuide": "Presentation/Refonte/Guide_oral_Refonte.md"
+  },
+  "design": {
+    "direction": "Une visite racontée autour de Rosette, photos en grand format, interaction avec le public, véritable extrait narré et captures historiques identifiées.",
+    "existingAssetsOnly": true,
+    "newImagesGenerated": 0,
+    "newAudioGenerated": 0
+  },
+  "previousDesignId": "DAHYoI3pVq4",
+  "appChanged": false,
+  "appTestsRun": false
+}

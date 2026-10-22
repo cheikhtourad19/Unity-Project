@@ -1,0 +1,60 @@
+{
+  "id": "quiz_museum_objectid",
+  "kind": "quiz",
+  "contentVersion": 1,
+  "publicationStatus": "draft",
+  "questions": [
+    {
+      "id": "museum_objectid_q1",
+      "prompt": {
+        "fr": "À compléter",
+        "ar": "À compléter",
+        "en": "À compléter"
+      },
+      "options": [
+        {
+          "id": "museum_objectid_q1_a",
+          "text": {
+            "fr": "Option 1 à compléter",
+            "ar": "Option 1 à compléter",
+            "en": "Option 1 à compléter"
+          }
+        },
+        {
+          "id": "museum_objectid_q1_b",
+          "text": {
+            "fr": "Option 2 à compléter",
+            "ar": "Option 2 à compléter",
+            "en": "Option 2 à compléter"
+          }
+        },
+        {
+          "id": "museum_objectid_q1_c",
+          "text": {
+            "fr": "Option 3 à compléter",
+            "ar": "Option 3 à compléter",
+            "en": "Option 3 à compléter"
+          }
+        },
+        {
+          "id": "museum_objectid_q1_d",
+          "text": {
+            "fr": "Option 4 à compléter",
+            "ar": "Option 4 à compléter",
+            "en": "Option 4 à compléter"
+          }
+        }
+      ],
+      "correctOptionId": "museum_objectid_q1_a",
+      "explanation": {
+        "fr": "À compléter",
+        "ar": "À compléter",
+        "en": "À compléter"
+      },
+      "sourceScriptPath": "Content/NarrationScripts/museum_objectid/narration.fr.txt",
+      "sources": [
+        "https://example.org/object"
+      ]
+    }
+  ]
+}

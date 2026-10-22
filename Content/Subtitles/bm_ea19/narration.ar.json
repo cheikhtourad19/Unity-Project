@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea19.narration.ar",
+  "language": "ar",
+  "kind": "narration",
+  "audioSha256": "f38e286e5d208cd7670cc21431afeea00ffdd2d11940820527fb851ca7515209",
+  "scriptSha256": "ad9e89e494c97051b4567b099f0c31989fdea94b60f78efe41f0751c9a95769e",
+  "durationSeconds": 24.920816,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020009,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.08,
+      "endSeconds": 3.382,
+      "text": "أمامك الجزء العلوي من تمثال\nضخم لرمسيس الثاني."
+    },
+    {
+      "startSeconds": 3.802,
+      "endSeconds": 6.663,
+      "text": "جاء من الرامسيوم، معبده\nالجنائزي في طيبة."
+    },
+    {
+      "startSeconds": 7.163,
+      "endSeconds": 10.665,
+      "text": "يرتدي الملك النمس، وهو غطاء\nالرأس المخطط الذي يرتديه"
+    },
+    {
+      "startSeconds": 10.665,
+      "endSeconds": 14.647,
+      "text": "الفراعنة. تأمل الوجه\nوالكتفين وتدرجات لون الحجر."
+    },
+    {
+      "startSeconds": 15.247,
+      "endSeconds": 18.869,
+      "text": "ورغم أن التمثال غير مكتمل،\nفإنه يحتفظ بحضور قوي."
+    },
+    {
+      "startSeconds": 19.369,
+      "endSeconds": 23.291,
+      "text": "يبين كيف كانت الآثار تجسد\nسلطة الحاكم وتربط صورته"
+    },
+    {
+      "startSeconds": 23.291,
+      "endSeconds": 24.532,
+      "text": "بالأماكن المقدسة."
+    }
+  ],
+  "words": [
+    {
+      "text": "أمامك",
+      "startSeconds": 0.08,
+      "endSeconds": 0.4202,
+      "alignmentScore": 0.9921
+    },
+    {
+      "text": "الجزء",
+      "startSeconds": 0.5002,
+      "endSeconds": 0.7604,
+      "alignmentScore": 0.9516
+    },
+    {
+      "text": "العلوي",
+      "startSeconds": 0.8204,
+      "endSeconds": 1.1405,
+      "alignmentScore": 0.9521
+    },
+    {
+      "text": "من",
+      "startSeconds": 1.2006,
+      "endSeconds": 1.3006,
+      "alignmentScore": 0.9305
+    },
+    {
+      "text": "تمثال",
+      "startSeconds": 1.3206,
+      "endSeconds": 1.6408,
+      "alignmentScore": 0.9904
+    },
+    {
+      "text": "ضخم",
+      "startSeconds": 1.7808,
+      "endSeconds": 2.0009,
+      "alignmentScore": 0.9948
+    },
+    {
+      "text": "لرمسيس",
+      "startSeconds": 2.4612,
+      "endSeconds": 2.8814,
+      "alignmentScore": 0.987
+    },
+    {
+      "text": "الثاني.",
+      "startSeconds": 2.9614,
+      "endSeconds": 3.3016,
+      "alignmentScore": 0.9778
+    },
+    {
+      "text": "جاء",
+      "startSeconds": 3.8018,
+      "endSeconds": 4.0019,
+      "alignmentScore": 0.9962
+    },
+    {
+      "text": "من",
+      "startSeconds": 4.0819,
+      "endSeconds": 4.182,
+      "alignmentScore": 0.9969
+    },
+    {
+      "text": "الرامسيوم،",
+      "startSeconds": 4.242,
+      "endSeconds": 4.8023,
+      "alignmentScore": 0.8863
+    },
+    {
+      "text": "معبده",
+      "startSeconds": 5.0624,
+      "endSeconds": 5.4626,
+      "alignmentScore": 0.9975
+    },
+    {
+      "text": "الجنائزي",
+      "startSeconds": 5.5026,
+      "endSeconds": 6.0829,
+      "alignmentScore": 0.901
+    },
+    {
+      "text": "في",
+      "startSeconds": 6.1629,
+      "endSeconds": 6.243,
+      "alignmentScore": 0.9873
+    },
+    {
+      "text": "طيبة.",
+      "startSeconds": 6.303,
+      "endSeconds": 6.5831,
+      "alignmentScore": 0.9932
+    },
+    {
+      "text": "يرتدي",
+      "startSeconds": 7.1634,
+      "endSeconds": 7.5036,
+      "alignmentScore": 0.9751
+    },
+    {
+      "text": "الملك",
+      "startSeconds": 7.5436,
+      "endSeconds": 7.8237,
+      "alignmentScore": 0.9377
+    },
+    {
+      "text": "النمس،",
+      "startSeconds": 7.9038,
+      "endSeconds": 8.2439,
+      "alignmentScore": 0.9057
+    },
+    {
+      "text": "وهو",
+      "startSeconds": 8.5441,
+      "endSeconds": 8.7441,
+      "alignmentScore": 0.9447
+    },
+    {
+      "text": "غطاء",
+      "startSeconds": 8.8042,
+      "endSeconds": 9.1043,
+      "alignmentScore": 0.9291
+    },
+    {
+      "text": "الرأس",
+      "startSeconds": 9.1643,
+      "endSeconds": 9.3644,
+      "alignmentScore": 0.9157
+    },
+    {
+      "text": "المخطط",
+      "startSeconds": 9.4445,
+      "endSeconds": 9.8847,
+      "alignmentScore": 0.8875
+    },
+    {
+      "text": "الذي",
+      "startSeconds": 9.9447,
+      "endSeconds": 10.2048,
+      "alignmentScore": 0.9349
+    },
+    {
+      "text": "يرتديه",
+      "startSeconds": 10.2249,
+      "endSeconds": 10.625,
+      "alignmentScore": 0.9494
+    },
+    {
+      "text": "الفراعنة.",
+      "startSeconds": 10.6651,
+      "endSeconds": 11.1453,
+      "alignmentScore": 0.9777
+    },
+    {
+      "text": "تأمل",
+      "startSeconds": 11.7056,
+      "endSeconds": 12.0857,
+      "alignmentScore": 0.9747
+    },
+    {
+      "text": "الوجه",
+      "startSeconds": 12.1458,
+      "endSeconds": 12.4259,
+      "alignmentScore": 0.9833
+    },
+    {
+      "text": "والكتفين",
+      "startSeconds": 12.4659,
+      "endSeconds": 13.0462,
+      "alignmentScore": 0.9512
+    },
+    {
+      "text": "وتدرجات",
+      "startSeconds": 13.3063,
+      "endSeconds": 13.9666,
+      "alignmentScore": 0.9538
+    },
+    {
+      "text": "لون",
+      "startSeconds": 14.0467,
+      "endSeconds": 14.1867,
+      "alignmentScore": 0.9973
+    },
+    {
+      "text": "الحجر.",
+      "startSeconds": 14.2468,
+      "endSeconds": 14.5669,
+      "alignmentScore": 0.9836
+    },
+    {
+      "text": "ورغم",
+      "startSeconds": 15.2472,
+      "endSeconds": 15.5474,
+      "alignmentScore": 0.9755
+    },
+    {
+      "text": "أن",
+      "startSeconds": 15.6474,
+      "endSeconds": 15.7475,
+      "alignmentScore": 0.9953
+    },
+    {
+      "text": "التمثال",
+      "startSeconds": 15.8275,
+      "endSeconds": 16.2077,
+      "alignmentScore": 0.9707
+    },
+    {
+      "text": "غير",
+      "startSeconds": 16.2677,
+      "endSeconds": 16.4278,
+      "alignmentScore": 0.9634
+    },
+    {
+      "text": "مكتمل،",
+      "startSeconds": 16.5078,
+      "endSeconds": 16.888,
+      "alignmentScore": 0.9339
+    },
+    {
+      "text": "فإنه",
+      "startSeconds": 17.1681,
+      "endSeconds": 17.4883,
+      "alignmentScore": 0.9982
+    },
+    {
+      "text": "يحتفظ",
+      "startSeconds": 17.5483,
+      "endSeconds": 17.9285,
+      "alignmentScore": 0.9388
+    },
+    {
+      "text": "بحضور",
+      "startSeconds": 18.0286,
+      "endSeconds": 18.3887,
+      "alignmentScore": 0.988
+    },
+    {
+      "text": "قوي.",
+      "startSeconds": 18.5288,
+      "endSeconds": 18.7889,
+      "alignmentScore": 0.9705
+    },
+    {
+      "text": "يبين",
+      "startSeconds": 19.3692,
+      "endSeconds": 19.7694,
+      "alignmentScore": 0.9755
+    },
+    {
+      "text": "كيف",
+      "startSeconds": 19.8494,
+      "endSeconds": 20.0295,
+      "alignmentScore": 0.7952
+    },
+    {
+      "text": "كانت",
+      "startSeconds": 20.1296,
+      "endSeconds": 20.3497,
+      "alignmentScore": 0.8124
+    },
+    {
+      "text": "الآثار",
+      "startSeconds": 20.4097,
+      "endSeconds": 20.7899,
+      "alignmentScore": 0.982
+    },
+    {
+      "text": "تجسد",
+      "startSeconds": 20.8699,
+      "endSeconds": 21.3301,
+      "alignmentScore": 0.8472
+    },
+    {
+      "text": "سلطة",
+      "startSeconds": 21.4302,
+      "endSeconds": 21.6903,
+      "alignmentScore": 0.982
+    },
+    {
+      "text": "الحاكم",
+      "startSeconds": 21.8304,
+      "endSeconds": 22.2506,
+      "alignmentScore": 0.9543
+    },
+    {
+      "text": "وتربط",
+      "startSeconds": 22.3106,
+      "endSeconds": 22.6908,
+      "alignmentScore": 0.9504
+    },
+    {
+      "text": "صورته",
+      "startSeconds": 22.8108,
+      "endSeconds": 23.211,
+      "alignmentScore": 0.993
+    },
+    {
+      "text": "بالأماكن",
+      "startSeconds": 23.2911,
+      "endSeconds": 23.7713,
+      "alignmentScore": 0.996
+    },
+    {
+      "text": "المقدسة.",
+      "startSeconds": 23.8313,
+      "endSeconds": 24.4516,
+      "alignmentScore": 0.9752
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea19.narration.ar",
+    "wordCount": 51,
+    "cueCount": 7,
+    "meanAlignmentScore": 0.9556,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

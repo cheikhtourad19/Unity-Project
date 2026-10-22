@@ -1,0 +1,1188 @@
+{
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-08",
+  "purpose": "asset_inventory_not_application_database",
+  "collectionTheme": "Ancient Egypt",
+  "sourceArchive": {
+    "path": "AssetSources/Downloads/DH-OculusVR-models-master.zip",
+    "bytes": 61295571,
+    "sha256": "1f2f61906c47a6768871675fef4a703a71469a9b19cfe400b072b75aa6fb2c72"
+  },
+  "scope": "20 objects in the public BritishMuseumDH low-poly pack; not the complete 26-object Sketchfab collection",
+  "objectCount": 20,
+  "primaryModelCount": 20,
+  "additionalModelVariantCount": 1,
+  "sourceTextureCount": 29,
+  "unityProjectInitialized": true,
+  "sourceLicenseNote": "README badge says CC BY-SA, while README license paragraph and LICENSE.md specify CC BY-NC-SA 4.0. Preserve original files; inventory follows LICENSE.md.",
+  "artworks": [
+    {
+      "id": "bm_ea1643",
+      "museumObjectId": "EA1643",
+      "workingTitleFr": "Statue stélophore de Mentouemhat",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/a-stelophorous-statue-of-mentuemhat-EA1643",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/a-stelophorous-statue-of-mentuemhat-EA1643/mentuemhat.obj",
+        "bytes": 1064425,
+        "sha256": "2893005e7bba9560e2c547459f7c684e48c74b3cb7b41abb497e688e734b65fe"
+      },
+      "geometry": {
+        "vertices": 5008,
+        "textureCoordinates": 7566,
+        "normals": 5008,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/a-stelophorous-statue-of-mentuemhat-EA1643/mentuemhat.obj.mtl",
+          "bytes": 223,
+          "sha256": "597f1d176a365e2c4e4cbaf62c842845e4104d43cf504c5e420f58d11c95cd44"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/a-stelophorous-statue-of-mentuemhat-EA1643/mentuemhat.jpg",
+          "bytes": 2335245,
+          "sha256": "9c0444eeb47d7b8812d33536ddcdb90c1ae5a2735427ecde379fb24aa17d7dfe"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    },
+    {
+      "id": "bm_ea1007",
+      "museumObjectId": "EA1007",
+      "workingTitleFr": "Statue d’Ankhkhérednéfer",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/ankhkherednefer-EA1007.zip",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/ankhkherednefer-EA1007.zip/model.obj",
+        "bytes": 1027431,
+        "sha256": "1992582c1263693b8058d55d1ae1fbdcc345b4077eb944318506565eae807d06"
+      },
+      "geometry": {
+        "vertices": 5002,
+        "textureCoordinates": 6250,
+        "normals": 5002,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/ankhkherednefer-EA1007.zip/model.obj.mtl",
+          "bytes": 218,
+          "sha256": "2a35d28b49eeaa13fad013e30ac0029fe9f18846f42d0d5537de830a821ab2d8"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/ankhkherednefer-EA1007.zip/model.jpg",
+          "bytes": 2563716,
+          "sha256": "3f6c3125b6b972d483c5cb08fab2668aabde460b98d638f5be87a23d0163d5c3"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    },
+    {
+      "id": "bm_ea55",
+      "museumObjectId": "EA55",
+      "workingTitleFr": "Bras colossal",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/colossal-arm-EA55",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/colossal-arm-EA55/colossalArm.obj",
+        "bytes": 1093129,
+        "sha256": "ff903db292fb4d7b65a76b245274b5d07e5074498cfc8af32269d288e520bedc"
+      },
+      "geometry": {
+        "vertices": 5012,
+        "textureCoordinates": 8875,
+        "normals": 5012,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/colossal-arm-EA55/colossalArm.obj.mtl",
+          "bytes": 224,
+          "sha256": "8d39079e44fe59ffbe30ccee3b7736a6b629068e4e82c43ef90eb327ea4df1af"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/colossal-arm-EA55/colossalArm.jpg",
+          "bytes": 2907089,
+          "sha256": "b9296b9c3621523c244343a833a50d59e1a18339dbcac27286d10580b6fad465"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    },
+    {
+      "id": "bm_ea97",
+      "museumObjectId": "EA97",
+      "workingTitleFr": "Tête du roi Nectanébo Ier ou II",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/head-of-king-nectanebo-i-or-ii-EA97",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/head-of-king-nectanebo-i-or-ii-EA97/model.obj",
+        "bytes": 1068954,
+        "sha256": "b1637853916d3e904b395545d69d49d5b9bb4a12c0af759ece87ea34ec82c259"
+      },
+      "geometry": {
+        "vertices": 5001,
+        "textureCoordinates": 8124,
+        "normals": 5001,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/head-of-king-nectanebo-i-or-ii-EA97/model.obj.mtl",
+          "bytes": 218,
+          "sha256": "2a35d28b49eeaa13fad013e30ac0029fe9f18846f42d0d5537de830a821ab2d8"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/head-of-king-nectanebo-i-or-ii-EA97/model.jpg",
+          "bytes": 1819787,
+          "sha256": "f530c6c70286c84fd27547042a62fc4122e9d9ad05b32567f28921278064dc13"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    },
+    {
+      "id": "bm_ea1",
+      "museumObjectId": "EA1",
+      "workingTitleFr": "Lion de Prudhoe, variante EA1",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/leftPrudhoeLion-EA1",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/leftPrudhoeLion-EA1/model.obj",
+        "bytes": 1045285,
+        "sha256": "487e90a6c099caeecc4d143b85ae333c3e83f24640a6c15cc2bf87424382743f"
+      },
+      "geometry": {
+        "vertices": 5002,
+        "textureCoordinates": 7126,
+        "normals": 5002,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/leftPrudhoeLion-EA1/model.obj.mtl",
+          "bytes": 218,
+          "sha256": "2a35d28b49eeaa13fad013e30ac0029fe9f18846f42d0d5537de830a821ab2d8"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/leftPrudhoeLion-EA1/model.jpg",
+          "bytes": 2490414,
+          "sha256": "f13b7285477f0f390eb7db5942b0e31163ae8ff38ee33311d8334f124d1187db"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    },
+    {
+      "id": "bm_ea1485",
+      "museumObjectId": "EA1485",
+      "workingTitleFr": "Table d’offrandes de Nesptah",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/offering-table-of-nesptah-EA1485",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/offering-table-of-nesptah-EA1485/nesptah.obj",
+        "bytes": 1048963,
+        "sha256": "feff7b94f9b6976336cc83a969b45b06bcefd86828315401172435c82a1376aa"
+      },
+      "geometry": {
+        "vertices": 5004,
+        "textureCoordinates": 7055,
+        "normals": 5004,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/offering-table-of-nesptah-EA1485/nesptah.obj.mtl",
+          "bytes": 220,
+          "sha256": "fb89740c529e2e1341988c33819b4dcd964ac12a3b374b92f9f8daf963dcf979"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/offering-table-of-nesptah-EA1485/nesptah.jpg",
+          "bytes": 2809808,
+          "sha256": "2429d8505506094a4e8978a39d2a66d5e15e26cf276d936d644f9383af825863"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    },
+    {
+      "id": "bm_ea64",
+      "museumObjectId": "EA64",
+      "workingTitleFr": "Colonne papyriforme",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/papyrusColumn-EA64",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/papyrusColumn-EA64/sculpt.obj",
+        "bytes": 1017783,
+        "sha256": "5bdb37b3df2d30a6c7823c73694f00b5a4ef70ada0fe7f561b4fbeb9bad3174c"
+      },
+      "geometry": {
+        "vertices": 5002,
+        "textureCoordinates": 5566,
+        "normals": 5002,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/papyrusColumn-EA64/sculpt.obj.mtl",
+          "bytes": 219,
+          "sha256": "03c63bd7b2c0a3c10dbb2d49c12853f4d729d7639fa077b55a6a456e7141aa07"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/papyrusColumn-EA64/sculpt.jpg",
+          "bytes": 1145466,
+          "sha256": "e0294a732733989eb2d7042d2039c812c1e2e918c002d996effd631c490627af"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    },
+    {
+      "id": "bm_ea947",
+      "museumObjectId": "EA947",
+      "workingTitleFr": "Prince Khâemouaset",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/prince-khaemwaset-EA947",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/prince-khaemwaset-EA947/model.obj",
+        "bytes": 1056361,
+        "sha256": "489897c301ae821de8a62ff55d97ec25375d192d22c919f64a5a88cf231d20cf"
+      },
+      "geometry": {
+        "vertices": 4994,
+        "textureCoordinates": 7475,
+        "normals": 4994,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/prince-khaemwaset-EA947/model.obj.mtl",
+          "bytes": 218,
+          "sha256": "2a35d28b49eeaa13fad013e30ac0029fe9f18846f42d0d5537de830a821ab2d8"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/prince-khaemwaset-EA947/model.jpg",
+          "bytes": 1750032,
+          "sha256": "b90ecb9a0e9efa072577e070b898a0733541b89bf3cb9865b145a35ae478cb9e"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    },
+    {
+      "id": "bm_ea1816",
+      "museumObjectId": "EA1816",
+      "workingTitleFr": "Ramsès IV",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/rameses-iv-EA1816",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/rameses-iv-EA1816/model.obj",
+        "bytes": 1069340,
+        "sha256": "ac17600042547e14c4a27c235de11ddbaea01c1fbce743e327a20807df5dc8bd"
+      },
+      "geometry": {
+        "vertices": 5075,
+        "textureCoordinates": 7889,
+        "normals": 5075,
+        "triangles": 9999
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/rameses-iv-EA1816/model.obj.mtl",
+          "bytes": 218,
+          "sha256": "2a35d28b49eeaa13fad013e30ac0029fe9f18846f42d0d5537de830a821ab2d8"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/rameses-iv-EA1816/model.jpg",
+          "bytes": 1712077,
+          "sha256": "33606ccc52bd6bfbd5b39b567f2b1d3e694b46508aa514526f5c766e2b49c41a"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    },
+    {
+      "id": "bm_ea19",
+      "museumObjectId": "EA19",
+      "workingTitleFr": "Ramsès II",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/ramesesII-EA19",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/ramesesII-EA19/sculpt.obj",
+        "bytes": 1009674,
+        "sha256": "f4e02a48a1624f33f540f9b97ffa37acec0d15b6226c2ccfe7747860940ee635"
+      },
+      "geometry": {
+        "vertices": 5002,
+        "textureCoordinates": 5633,
+        "normals": 5002,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/ramesesII-EA19/sculpt.obj.mtl",
+          "bytes": 379,
+          "sha256": "2861c312c546dda2a962a6d48554b24a70a82ff531d466bd968e3570f199c1ce"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/ramesesII-EA19/sculpt.jpg",
+          "bytes": 1187550,
+          "sha256": "b1f1563198b3880a1a6574b9ecb8eb8e7f0d928d8ef29885b8193b80e67944b8"
+        },
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/ramesesII-EA19/sculpt1.jpg",
+          "bytes": 1325483,
+          "sha256": "2470a6f351d60ac992d7ac7f7852e30b9f06d7a530e2ea80e591bb673a1565f2"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    },
+    {
+      "id": "bm_ea71620",
+      "museumObjectId": "EA71620",
+      "workingTitleFr": "Sarcophage en granite rouge",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/redGraniteSarcophagus-EA71620",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/redGraniteSarcophagus-EA71620/sculpt.obj",
+        "bytes": 1002948,
+        "sha256": "38ee0b12cfa5e10cacf41f8a51e8ce27b0769b01bd22400246da799a9f0524d0"
+      },
+      "geometry": {
+        "vertices": 5002,
+        "textureCoordinates": 5121,
+        "normals": 5002,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/redGraniteSarcophagus-EA71620/sculpt.obj.mtl",
+          "bytes": 379,
+          "sha256": "2861c312c546dda2a962a6d48554b24a70a82ff531d466bd968e3570f199c1ce"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/redGraniteSarcophagus-EA71620/sculpt.jpg",
+          "bytes": 1245395,
+          "sha256": "4badfb644cc459271f401d62c7c2cae0a9a757d999f2e7bfd924a85819845c98"
+        },
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/redGraniteSarcophagus-EA71620/sculpt1.jpg",
+          "bytes": 829983,
+          "sha256": "1fe805cc9313a6a118fe3f75ee4145f86085c4152dca2831fea439abec9633df"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    },
+    {
+      "id": "bm_ea24",
+      "museumObjectId": "EA24",
+      "workingTitleFr": "Pierre de Rosette",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/rosetta-stone-EA24",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/rosetta-stone-EA24/fiveHundred.obj",
+        "bytes": 1091781,
+        "sha256": "ccc78df479aa435df25122eb7816dd261d28efc3338210c7619a12958db93f80"
+      },
+      "geometry": {
+        "vertices": 4880,
+        "textureCoordinates": 9302,
+        "normals": 4880,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/rosetta-stone-EA24/fiveHundred.obj.mtl",
+          "bytes": 224,
+          "sha256": "715c85c9a9921f7aaaae4b3556673be890ad6e14d701463a57ec67d4a29bee7c"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/rosetta-stone-EA24/fiveHundred.jpg",
+          "bytes": 3384293,
+          "sha256": "ce42150ea753f813186932915c5e778d9a4ebe9645a1481b8a2303ed01705c81"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "imported_in_unity_prototype",
+      "trackingImage": {
+        "id": "target_bm_ea24",
+        "path": "AssetSources/Images/Source/rosetta_stone.jpg",
+        "bytes": 1048282,
+        "sha256": "3ec757ef8d870f64b23addc6b756f1cb5d9fbc8b732f17514f82a12d155ebd1b",
+        "sha1": "8a9493c12ac8e06e2696e9950798383422ee9215",
+        "pixelWidth": 1846,
+        "pixelHeight": 3091,
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone_at_the_British_Museum.jpg",
+        "author": "BabelStone",
+        "licence": "CC-BY-SA-3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "modified": false,
+        "imageRole": "candidate_reference_image",
+        "physicalWidthMeters": 0.12,
+        "printed": false,
+        "arTrackingValidated": false,
+        "dimensionStatus": "prototype_print_specification_not_measured",
+        "unityTexturePath": "Assets/HeritageXR/Photos/bm_ea24.jpg",
+        "referenceLibraryPath": "Assets/HeritageXR/Settings/ArtworkImages.asset"
+      },
+      "trackingImageStatus": "source_received_identity_verified_ar_not_validated",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": true,
+      "additionalModelVariants": [
+        {
+          "sourceRepository": "https://github.com/BritishMuseumDH/rosettaStone",
+          "model": {
+            "path": "AssetSources/Downloads/tenK/tenK.obj",
+            "bytes": 869112,
+            "sha256": "ed381aee4e854ea2642178bff4b1011d75d453ef5af9bc2f9095305315e10177"
+          },
+          "materials": [
+            {
+              "path": "AssetSources/Downloads/tenK/tenK.mtl",
+              "bytes": 185,
+              "sha256": "9c59607d2f16f008b46cf81b589cbbd8f52e2f77f732e3f4610fae53a605574d"
+            }
+          ],
+          "textures": [
+            {
+              "path": "AssetSources/Downloads/tenK/tenK.jpg",
+              "bytes": 3403359,
+              "sha256": "9173f8cf8dd36cbde61b49df2b67797958696fe245089e0e532edde1c626688a"
+            }
+          ],
+          "triangles": 10174,
+          "licence": "CC-BY-NC-SA-4.0"
+        }
+      ],
+      "unityPrefabPath": "Assets/HeritageXR/Models/bm_ea24/Artwork.prefab"
+    },
+    {
+      "id": "bm_ea23",
+      "museumObjectId": "EA23",
+      "workingTitleFr": "Sarcophage EA23",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/sarcophagus-EA23",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/sarcophagus-EA23/model.obj",
+        "bytes": 1258797,
+        "sha256": "d828cfeeb2a53601173f7d6fe3065b8667d3d8a6d9cb51fc1c154cbf2d508a15"
+      },
+      "geometry": {
+        "vertices": 5571,
+        "textureCoordinates": 13932,
+        "normals": 5571,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/sarcophagus-EA23/model.obj.mtl",
+          "bytes": 377,
+          "sha256": "dadc2eae1f117516288042debeaa7968378515933eff06652e9850e47878f33b"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/sarcophagus-EA23/model.jpg",
+          "bytes": 2990512,
+          "sha256": "56270fcff341aa70dd946be7029c2883d353ef4d4d8fb689b34571baef76911c"
+        },
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/sarcophagus-EA23/model1.jpg",
+          "bytes": 2283499,
+          "sha256": "baac85b96d4da17d790545cf817c634d5ae7b2bb859bde3a65bd70fc3c88e214"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    },
+    {
+      "id": "bm_ea74",
+      "museumObjectId": "EA74",
+      "workingTitleFr": "Scarabée monumental",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/scarabBeetle-EA74",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/scarabBeetle-EA74/model.obj",
+        "bytes": 1064770,
+        "sha256": "65b0655dbb2f1d71cd7703ff8501ed88a299ff1907cba45ed1f70597b54e413d"
+      },
+      "geometry": {
+        "vertices": 5004,
+        "textureCoordinates": 7931,
+        "normals": 5004,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/scarabBeetle-EA74/model.obj.mtl",
+          "bytes": 218,
+          "sha256": "2a35d28b49eeaa13fad013e30ac0029fe9f18846f42d0d5537de830a821ab2d8"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/scarabBeetle-EA74/model.jpg",
+          "bytes": 2755734,
+          "sha256": "e8c1264c37e04db1b56ec3aab02144e6a6d15b432798c6274dd677c311ae2006"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "imported_in_unity_prototype",
+      "trackingImage": {
+        "id": "target_bm_ea74",
+        "path": "AssetSources/Images/Source/scarab_beetle.jpg",
+        "bytes": 5807231,
+        "sha256": "1ea2f6eee9c46b44383726e7b7ee01488a893d6435ee105f21db372ae8907951",
+        "sha1": "b7ab8dc4acd539ed0764febf302fae2ee76d7f07",
+        "pixelWidth": 2612,
+        "pixelHeight": 2148,
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Giant_scarab_in_the_British_Museum.jpg",
+        "author": "Szilas",
+        "licence": "CC-BY-SA-4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "identityVerification": "caption_monumental_scarab_british_museum_and_visual_identification",
+        "modified": false,
+        "imageRole": "candidate_reference_image",
+        "physicalWidthMeters": 0.12,
+        "printed": false,
+        "arTrackingValidated": false,
+        "authorNote": "Szilas is identified in the source and upload history; the author field in the page summary is incomplete.",
+        "dimensionStatus": "prototype_print_specification_not_measured",
+        "unityTexturePath": "Assets/HeritageXR/Photos/bm_ea74.jpg",
+        "referenceLibraryPath": "Assets/HeritageXR/Settings/ArtworkImages.asset"
+      },
+      "trackingImageStatus": "source_received_identity_checked_ar_not_validated",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": true,
+      "additionalModelVariants": [],
+      "unityPrefabPath": "Assets/HeritageXR/Models/bm_ea74/Artwork.prefab"
+    },
+    {
+      "id": "bm_ea4",
+      "museumObjectId": "EA4",
+      "workingTitleFr": "Statue assise d’Amenhotep III",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/seated-statue-of-amenhotep-iii-EA4",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/seated-statue-of-amenhotep-iii-EA4/sculpt.obj",
+        "bytes": 1011706,
+        "sha256": "62ee34d242bfc2c2174258682d708ecf167620d5c4cdec779209dec4b922ae64"
+      },
+      "geometry": {
+        "vertices": 5002,
+        "textureCoordinates": 5338,
+        "normals": 5002,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/seated-statue-of-amenhotep-iii-EA4/sculpt.obj.mtl",
+          "bytes": 219,
+          "sha256": "03c63bd7b2c0a3c10dbb2d49c12853f4d729d7639fa077b55a6a456e7141aa07"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/seated-statue-of-amenhotep-iii-EA4/sculpt.jpg",
+          "bytes": 1032571,
+          "sha256": "3fe60559470f82a50b729a8ba76a175eb8b53dcfe8fe3256490384dd745dc1c2"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    },
+    {
+      "id": "bm_ea43",
+      "museumObjectId": "EA43",
+      "workingTitleFr": "Statue sur une barque",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/statue-boat-EA43",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/statue-boat-EA43/barge.obj",
+        "bytes": 1087939,
+        "sha256": "b13f840066b1494f998fdc7a40bb90952102431d649a41bc10e8bb4d1e119b37"
+      },
+      "geometry": {
+        "vertices": 5028,
+        "textureCoordinates": 8701,
+        "normals": 5028,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/statue-boat-EA43/barge.obj.mtl",
+          "bytes": 218,
+          "sha256": "47d51cf6bd5ae3b18fb49c2a94da2c26e602e56cc9b15c0a32f2d86ca8bd01a9"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/statue-boat-EA43/barge.jpg",
+          "bytes": 2023485,
+          "sha256": "05fd756c7e0f3bcee63d0bdfb33b6c105535bc5f810bab7c1738ae5bc359f3e0"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    },
+    {
+      "id": "bm_ea1779",
+      "museumObjectId": "EA1779",
+      "workingTitleFr": "Statue du bélier d’Amon",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/statue-of-the-ram-of-amun-EA1779",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/statue-of-the-ram-of-amun-EA1779/model.obj",
+        "bytes": 1064154,
+        "sha256": "e9234a9fef393f65eb0f2e8db468e28adb6dccbb2b153aa4a6f51eb68a1ea19e"
+      },
+      "geometry": {
+        "vertices": 5002,
+        "textureCoordinates": 7993,
+        "normals": 5002,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/statue-of-the-ram-of-amun-EA1779/model.obj.mtl",
+          "bytes": 218,
+          "sha256": "2a35d28b49eeaa13fad013e30ac0029fe9f18846f42d0d5537de830a821ab2d8"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/statue-of-the-ram-of-amun-EA1779/model.jpg",
+          "bytes": 2573975,
+          "sha256": "ce36aaeadc2edfc4f9cb84853d9e1ef0f1ac829b0b87110c2061a866a381c741"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "imported_in_unity_prototype",
+      "trackingImage": {
+        "id": "target_bm_ea1779",
+        "path": "AssetSources/Images/Source/amun_ram.jpg",
+        "bytes": 4963824,
+        "sha256": "6f9c68b30f1815a9b755dcd2330698dce4148d00a1ea256f9c257fc599f8a77f",
+        "sha1": "83a919c80da5c0bf9ffa50410ab0703a91c00154",
+        "pixelWidth": 2848,
+        "pixelHeight": 4272,
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Granite_ram_of_Amun_with_King_Taharqa_-_British_Museum.jpg",
+        "author": "M0tty",
+        "licence": "CC-BY-SA-3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "identityVerification": "published_object_number_EA1779_and_original_sha1",
+        "modified": false,
+        "imageRole": "candidate_reference_image",
+        "physicalWidthMeters": 0.12,
+        "printed": false,
+        "arTrackingValidated": false,
+        "dimensionStatus": "prototype_print_specification_not_measured",
+        "unityTexturePath": "Assets/HeritageXR/Photos/bm_ea1779.jpg",
+        "referenceLibraryPath": "Assets/HeritageXR/Settings/ArtworkImages.asset"
+      },
+      "trackingImageStatus": "source_received_identity_checked_ar_not_validated",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": true,
+      "additionalModelVariants": [],
+      "unityPrefabPath": "Assets/HeritageXR/Models/bm_ea1779/Artwork.prefab"
+    },
+    {
+      "id": "bm_ea81",
+      "museumObjectId": "EA81",
+      "workingTitleFr": "Statue de Roy",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/statueOfRoy-EA81.zip",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/statueOfRoy-EA81.zip/statueRoy.obj",
+        "bytes": 1066222,
+        "sha256": "a7ff792fe8ea2f40720e9ccf06e43c699a6e3dafeeba2565af5fc6fdb31b078e"
+      },
+      "geometry": {
+        "vertices": 5008,
+        "textureCoordinates": 7510,
+        "normals": 5008,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/statueOfRoy-EA81.zip/statueRoy.obj.mtl",
+          "bytes": 222,
+          "sha256": "a149df3be51dea49038c94ff19fc40a3276b0f057d0bcf7d3477ad4b747da7af"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/statueOfRoy-EA81.zip/statueRoy.jpg",
+          "bytes": 2379959,
+          "sha256": "35bcbcde06d8e0a71a9ef2e6ac2cd00461c02b129c15ea89c84863feb05f3a3c"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    },
+    {
+      "id": "bm_ea2",
+      "museumObjectId": "EA2",
+      "workingTitleFr": "Lion de Prudhoe, variante EA2",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/the-right-prudhoe-lion-EA2",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/the-right-prudhoe-lion-EA2/model.obj",
+        "bytes": 1035763,
+        "sha256": "20032bb7e7ea3b9d17ab0dcf090905985d421b9590656b14259c43807580936a"
+      },
+      "geometry": {
+        "vertices": 5000,
+        "textureCoordinates": 6563,
+        "normals": 5000,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/the-right-prudhoe-lion-EA2/model.obj.mtl",
+          "bytes": 218,
+          "sha256": "2a35d28b49eeaa13fad013e30ac0029fe9f18846f42d0d5537de830a821ab2d8"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery4-rendered10K/the-right-prudhoe-lion-EA2/model.jpg",
+          "bytes": 3146367,
+          "sha256": "12c4497bf3c4277dce57d81ca05191734cf12980c33674a79ae8525ab59d6eda"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    },
+    {
+      "id": "bm_ea2462",
+      "museumObjectId": "EA2462",
+      "workingTitleFr": "Maquette de maison-tour",
+      "titleStatus": "working_translation_from_source_folder_not_curatorial_validation",
+      "sourceFolder": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery61-rendered10k/tower-house-model-EA2462",
+      "model": {
+        "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery61-rendered10k/tower-house-model-EA2462/model-house-med-res.obj",
+        "bytes": 1051839,
+        "sha256": "ce2835c7fc9f65340fd9df131c7886976c78bafd32826323b229aa026f6f96f2"
+      },
+      "geometry": {
+        "vertices": 4998,
+        "textureCoordinates": 6715,
+        "normals": 4998,
+        "triangles": 10000
+      },
+      "materials": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery61-rendered10k/tower-house-model-EA2462/model-house-med-res.obj.mtl",
+          "bytes": 232,
+          "sha256": "0a927fd2475fa545c7b1fd50dbc5bb596921d569b08526f68bd3d09209b9e117"
+        }
+      ],
+      "textures": [
+        {
+          "path": "AssetSources/BritishMuseum/DH-OculusVR-models-master/models/Gallery61-rendered10k/tower-house-model-EA2462/model-house-med-res.jpg",
+          "bytes": 2979183,
+          "sha256": "17c2429b01e151268b920ab2ef8465198876b88000dd245c4de50e4faa14d6d6"
+        }
+      ],
+      "licence": "CC-BY-NC-SA-4.0",
+      "licenseFile": "AssetSources/BritishMuseum/DH-OculusVR-models-master/LICENSE.md",
+      "credits": [
+        "Daniel Pett",
+        "Jennifer Wexler",
+        "Thomas Flynn",
+        "Copyright Trustees of the British Museum"
+      ],
+      "sourceRepository": "https://github.com/BritishMuseumDH/DH-OculusVR-models",
+      "downloadStatus": "downloaded_verified",
+      "unityImportStatus": "not_imported",
+      "trackingImage": null,
+      "trackingImageStatus": "not_prepared",
+      "historicalDescriptionFr": null,
+      "descriptionStatus": "not_written",
+      "audio": null,
+      "audioStatus": "deferred",
+      "physicalDimensionsMeters": null,
+      "scaleStatus": "requires_validation",
+      "prototypeCandidate": false,
+      "additionalModelVariants": []
+    }
+  ],
+  "receivedTrackingImageCount": 3,
+  "unityImportedArtworkCount": 3
+}

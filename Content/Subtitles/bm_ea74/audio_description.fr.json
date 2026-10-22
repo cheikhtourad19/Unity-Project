@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea74.audio_description.fr",
+  "language": "fr",
+  "kind": "audio_description",
+  "audioSha256": "6d99f6cf01f4c21fe328e0844cdf15e71d80729ad97099b3768a3a6a6c3234e1",
+  "scriptSha256": "fba914d50c6e21de08b3e599c5704ba810fd3eead1ff5f874f42fd9a9fa637e9",
+  "durationSeconds": 19.252245,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020006,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.06,
+      "endSeconds": 2.721,
+      "text": "Un scarabée de pierre repose\nsur une base rectangulaire."
+    },
+    {
+      "startSeconds": 3.161,
+      "endSeconds": 6.582,
+      "text": "Son corps est large et\narrondi, avec un dos bombé."
+    },
+    {
+      "startSeconds": 7.042,
+      "endSeconds": 9.403,
+      "text": "La tête occupe l’une des\nextrémités."
+    },
+    {
+      "startSeconds": 9.663,
+      "endSeconds": 12.464,
+      "text": "Les pattes sont sculptées\nsur les côtés, près de la"
+    },
+    {
+      "startSeconds": 12.464,
+      "endSeconds": 16.845,
+      "text": "base. L’ensemble est compact\n: la masse du corps domine"
+    },
+    {
+      "startSeconds": 17.005,
+      "endSeconds": 19.066,
+      "text": "les détails plus fins de\nl’insecte."
+    }
+  ],
+  "words": [
+    {
+      "text": "Un",
+      "startSeconds": 0.06,
+      "endSeconds": 0.14,
+      "alignmentScore": 0.9943
+    },
+    {
+      "text": "scarabée",
+      "startSeconds": 0.1601,
+      "endSeconds": 0.5602,
+      "alignmentScore": 0.8632
+    },
+    {
+      "text": "de",
+      "startSeconds": 0.5802,
+      "endSeconds": 0.6202,
+      "alignmentScore": 0.9622
+    },
+    {
+      "text": "pierre",
+      "startSeconds": 0.6402,
+      "endSeconds": 0.9203,
+      "alignmentScore": 0.9811
+    },
+    {
+      "text": "repose",
+      "startSeconds": 1.0003,
+      "endSeconds": 1.3804,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "sur",
+      "startSeconds": 1.4405,
+      "endSeconds": 1.5805,
+      "alignmentScore": 0.961
+    },
+    {
+      "text": "une",
+      "startSeconds": 1.6205,
+      "endSeconds": 1.7205,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "base",
+      "startSeconds": 1.7406,
+      "endSeconds": 1.9606,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "rectangulaire.",
+      "startSeconds": 2.0006,
+      "endSeconds": 2.6408,
+      "alignmentScore": 0.9885
+    },
+    {
+      "text": "Son",
+      "startSeconds": 3.161,
+      "endSeconds": 3.281,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "corps",
+      "startSeconds": 3.3411,
+      "endSeconds": 3.6412,
+      "alignmentScore": 0.8279
+    },
+    {
+      "text": "est",
+      "startSeconds": 3.7612,
+      "endSeconds": 3.8612,
+      "alignmentScore": 0.9852
+    },
+    {
+      "text": "large",
+      "startSeconds": 3.8812,
+      "endSeconds": 4.2614,
+      "alignmentScore": 0.9299
+    },
+    {
+      "text": "et",
+      "startSeconds": 4.5214,
+      "endSeconds": 4.6015,
+      "alignmentScore": 0.9765
+    },
+    {
+      "text": "arrondi,",
+      "startSeconds": 4.6415,
+      "endSeconds": 4.9816,
+      "alignmentScore": 0.9888
+    },
+    {
+      "text": "avec",
+      "startSeconds": 5.4617,
+      "endSeconds": 5.6818,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "un",
+      "startSeconds": 5.7618,
+      "endSeconds": 5.8619,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "dos",
+      "startSeconds": 5.9619,
+      "endSeconds": 6.162,
+      "alignmentScore": 0.3776
+    },
+    {
+      "text": "bombé.",
+      "startSeconds": 6.222,
+      "endSeconds": 6.5021,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "La",
+      "startSeconds": 7.0422,
+      "endSeconds": 7.1223,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "tête",
+      "startSeconds": 7.2023,
+      "endSeconds": 7.4824,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "occupe",
+      "startSeconds": 7.6424,
+      "endSeconds": 8.0426,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "l’une",
+      "startSeconds": 8.2826,
+      "endSeconds": 8.5027,
+      "alignmentScore": 0.9803
+    },
+    {
+      "text": "des",
+      "startSeconds": 8.5627,
+      "endSeconds": 8.6828,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "extrémités.",
+      "startSeconds": 8.7228,
+      "endSeconds": 9.323,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "Les",
+      "startSeconds": 9.6631,
+      "endSeconds": 9.7631,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "pattes",
+      "startSeconds": 9.8031,
+      "endSeconds": 10.1032,
+      "alignmentScore": 0.8469
+    },
+    {
+      "text": "sont",
+      "startSeconds": 10.3033,
+      "endSeconds": 10.4833,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "sculptées",
+      "startSeconds": 10.5434,
+      "endSeconds": 11.1035,
+      "alignmentScore": 0.9352
+    },
+    {
+      "text": "sur",
+      "startSeconds": 11.1636,
+      "endSeconds": 11.2636,
+      "alignmentScore": 0.9988
+    },
+    {
+      "text": "les",
+      "startSeconds": 11.3036,
+      "endSeconds": 11.4036,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "côtés,",
+      "startSeconds": 11.4236,
+      "endSeconds": 11.7437,
+      "alignmentScore": 0.9979
+    },
+    {
+      "text": "près",
+      "startSeconds": 11.9638,
+      "endSeconds": 12.2239,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "de",
+      "startSeconds": 12.2439,
+      "endSeconds": 12.3039,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "la",
+      "startSeconds": 12.3439,
+      "endSeconds": 12.404,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "base.",
+      "startSeconds": 12.464,
+      "endSeconds": 12.7841,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "L’ensemble",
+      "startSeconds": 13.2242,
+      "endSeconds": 13.7244,
+      "alignmentScore": 0.9726
+    },
+    {
+      "text": "est",
+      "startSeconds": 14.0245,
+      "endSeconds": 14.1245,
+      "alignmentScore": 0.8739
+    },
+    {
+      "text": "compact :",
+      "startSeconds": 14.1645,
+      "endSeconds": 14.6447,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "la",
+      "startSeconds": 15.1248,
+      "endSeconds": 15.2048,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "masse",
+      "startSeconds": 15.2849,
+      "endSeconds": 15.5249,
+      "alignmentScore": 0.9341
+    },
+    {
+      "text": "du",
+      "startSeconds": 15.545,
+      "endSeconds": 15.625,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "corps",
+      "startSeconds": 15.705,
+      "endSeconds": 16.0451,
+      "alignmentScore": 0.8898
+    },
+    {
+      "text": "domine",
+      "startSeconds": 16.3052,
+      "endSeconds": 16.7653,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "les",
+      "startSeconds": 17.0054,
+      "endSeconds": 17.1054,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "détails",
+      "startSeconds": 17.1455,
+      "endSeconds": 17.5456,
+      "alignmentScore": 0.9
+    },
+    {
+      "text": "plus",
+      "startSeconds": 17.5856,
+      "endSeconds": 17.7857,
+      "alignmentScore": 0.9676
+    },
+    {
+      "text": "fins",
+      "startSeconds": 17.8257,
+      "endSeconds": 18.0658,
+      "alignmentScore": 0.9599
+    },
+    {
+      "text": "de",
+      "startSeconds": 18.3258,
+      "endSeconds": 18.3859,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "l’insecte.",
+      "startSeconds": 18.4059,
+      "endSeconds": 18.986,
+      "alignmentScore": 0.9683
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea74.audio_description.fr",
+    "wordCount": 50,
+    "cueCount": 6,
+    "meanAlignmentScore": 0.961,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

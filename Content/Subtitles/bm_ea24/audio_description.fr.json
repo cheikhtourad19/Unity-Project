@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea24.audio_description.fr",
+  "language": "fr",
+  "kind": "audio_description",
+  "audioSha256": "47e8b8dcc883593681bc6d19424f2864a274a49e14fcd0b879ef77f431070d33",
+  "scriptSha256": "31b46eccf2a902f9fce339b8688be636dfa40ed18496f2dd7325fe3b855aa2bc",
+  "durationSeconds": 21.394286,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020021,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.08,
+      "endSeconds": 3.263,
+      "text": "La pierre se présente comme\nune plaque épaisse dressée"
+    },
+    {
+      "startSeconds": 3.404,
+      "endSeconds": 7.988,
+      "text": "verticalement. Sa face\nprincipale porte des rangées"
+    },
+    {
+      "startSeconds": 7.988,
+      "endSeconds": 10.751,
+      "text": "serrées de signes gravés. La\npartie supérieure est"
+    },
+    {
+      "startSeconds": 10.751,
+      "endSeconds": 13.214,
+      "text": "brisée et son contour est\nirrégulier."
+    },
+    {
+      "startSeconds": 13.514,
+      "endSeconds": 16.077,
+      "text": "Les inscriptions forment\nplusieurs ensembles superposés."
+    },
+    {
+      "startSeconds": 16.397,
+      "endSeconds": 18.399,
+      "text": "Cette description donne les\ngrandes formes ;"
+    },
+    {
+      "startSeconds": 18.7,
+      "endSeconds": 21.222,
+      "text": "elle ne lit ni ne traduit\nles signes."
+    }
+  ],
+  "words": [
+    {
+      "text": "La",
+      "startSeconds": 0.0801,
+      "endSeconds": 0.1602,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "pierre",
+      "startSeconds": 0.2202,
+      "endSeconds": 0.4605,
+      "alignmentScore": 0.9959
+    },
+    {
+      "text": "se",
+      "startSeconds": 0.4805,
+      "endSeconds": 0.5406,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "présente",
+      "startSeconds": 0.6006,
+      "endSeconds": 0.961,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "comme",
+      "startSeconds": 1.001,
+      "endSeconds": 1.1412,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "une",
+      "startSeconds": 1.1812,
+      "endSeconds": 1.3014,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "plaque",
+      "startSeconds": 1.3414,
+      "endSeconds": 1.6818,
+      "alignmentScore": 0.9957
+    },
+    {
+      "text": "épaisse",
+      "startSeconds": 1.862,
+      "endSeconds": 2.4025,
+      "alignmentScore": 0.6917
+    },
+    {
+      "text": "dressée",
+      "startSeconds": 2.6828,
+      "endSeconds": 3.1833,
+      "alignmentScore": 0.9265
+    },
+    {
+      "text": "verticalement.",
+      "startSeconds": 3.4036,
+      "endSeconds": 4.0843,
+      "alignmentScore": 0.9974
+    },
+    {
+      "text": "Sa",
+      "startSeconds": 4.5848,
+      "endSeconds": 4.6649,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "face",
+      "startSeconds": 4.745,
+      "endSeconds": 5.0853,
+      "alignmentScore": 0.9641
+    },
+    {
+      "text": "principale",
+      "startSeconds": 5.5058,
+      "endSeconds": 6.2265,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "porte",
+      "startSeconds": 6.7671,
+      "endSeconds": 7.1475,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "des",
+      "startSeconds": 7.3677,
+      "endSeconds": 7.4878,
+      "alignmentScore": 0.995
+    },
+    {
+      "text": "rangées",
+      "startSeconds": 7.5279,
+      "endSeconds": 7.9083,
+      "alignmentScore": 0.8454
+    },
+    {
+      "text": "serrées",
+      "startSeconds": 7.9884,
+      "endSeconds": 8.3287,
+      "alignmentScore": 0.7142
+    },
+    {
+      "text": "de",
+      "startSeconds": 8.3487,
+      "endSeconds": 8.4088,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "signes",
+      "startSeconds": 8.5089,
+      "endSeconds": 8.8092,
+      "alignmentScore": 0.9206
+    },
+    {
+      "text": "gravés.",
+      "startSeconds": 9.0295,
+      "endSeconds": 9.4899,
+      "alignmentScore": 0.8349
+    },
+    {
+      "text": "La",
+      "startSeconds": 9.7302,
+      "endSeconds": 9.7903,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "partie",
+      "startSeconds": 9.8503,
+      "endSeconds": 10.1506,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "supérieure",
+      "startSeconds": 10.1707,
+      "endSeconds": 10.6111,
+      "alignmentScore": 0.9568
+    },
+    {
+      "text": "est",
+      "startSeconds": 10.6512,
+      "endSeconds": 10.7312,
+      "alignmentScore": 0.9501
+    },
+    {
+      "text": "brisée",
+      "startSeconds": 10.7513,
+      "endSeconds": 11.2117,
+      "alignmentScore": 0.9914
+    },
+    {
+      "text": "et",
+      "startSeconds": 11.6722,
+      "endSeconds": 11.7523,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "son",
+      "startSeconds": 11.7924,
+      "endSeconds": 11.9125,
+      "alignmentScore": 0.9834
+    },
+    {
+      "text": "contour",
+      "startSeconds": 11.9525,
+      "endSeconds": 12.2729,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "est",
+      "startSeconds": 12.3329,
+      "endSeconds": 12.453,
+      "alignmentScore": 0.9939
+    },
+    {
+      "text": "irrégulier.",
+      "startSeconds": 12.5531,
+      "endSeconds": 13.1338,
+      "alignmentScore": 0.9972
+    },
+    {
+      "text": "Les",
+      "startSeconds": 13.5142,
+      "endSeconds": 13.6343,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "inscriptions",
+      "startSeconds": 13.6743,
+      "endSeconds": 14.1748,
+      "alignmentScore": 0.9965
+    },
+    {
+      "text": "forment",
+      "startSeconds": 14.1949,
+      "endSeconds": 14.4752,
+      "alignmentScore": 0.9303
+    },
+    {
+      "text": "plusieurs",
+      "startSeconds": 14.4752,
+      "endSeconds": 14.8556,
+      "alignmentScore": 0.902
+    },
+    {
+      "text": "ensembles",
+      "startSeconds": 14.8956,
+      "endSeconds": 15.296,
+      "alignmentScore": 0.9597
+    },
+    {
+      "text": "superposés.",
+      "startSeconds": 15.3561,
+      "endSeconds": 15.9968,
+      "alignmentScore": 0.9781
+    },
+    {
+      "text": "Cette",
+      "startSeconds": 16.3972,
+      "endSeconds": 16.5774,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "description",
+      "startSeconds": 16.5974,
+      "endSeconds": 17.0979,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "donne",
+      "startSeconds": 17.158,
+      "endSeconds": 17.3382,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "les",
+      "startSeconds": 17.3982,
+      "endSeconds": 17.4983,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "grandes",
+      "startSeconds": 17.5183,
+      "endSeconds": 17.8987,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "formes ;",
+      "startSeconds": 17.9388,
+      "endSeconds": 18.3192,
+      "alignmentScore": 0.9815
+    },
+    {
+      "text": "elle",
+      "startSeconds": 18.6996,
+      "endSeconds": 18.8397,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "ne",
+      "startSeconds": 18.8598,
+      "endSeconds": 18.9398,
+      "alignmentScore": 0.8448
+    },
+    {
+      "text": "lit",
+      "startSeconds": 19.0199,
+      "endSeconds": 19.2201,
+      "alignmentScore": 0.7855
+    },
+    {
+      "text": "ni",
+      "startSeconds": 19.7207,
+      "endSeconds": 19.8208,
+      "alignmentScore": 0.998
+    },
+    {
+      "text": "ne",
+      "startSeconds": 20.1211,
+      "endSeconds": 20.2012,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "traduit",
+      "startSeconds": 20.2612,
+      "endSeconds": 20.6216,
+      "alignmentScore": 0.9893
+    },
+    {
+      "text": "les",
+      "startSeconds": 20.6616,
+      "endSeconds": 20.7617,
+      "alignmentScore": 0.9975
+    },
+    {
+      "text": "signes.",
+      "startSeconds": 20.8218,
+      "endSeconds": 21.1421,
+      "alignmentScore": 0.9071
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea24.audio_description.fr",
+    "wordCount": 50,
+    "cueCount": 7,
+    "meanAlignmentScore": 0.9603,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

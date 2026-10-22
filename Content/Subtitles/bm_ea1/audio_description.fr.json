@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea1.audio_description.fr",
+  "language": "fr",
+  "kind": "audio_description",
+  "audioSha256": "e847ce28bc66348fc398b00da9fecc8392d5e92f8f3295df192083a233da9a21",
+  "scriptSha256": "a32d888d1a0678f97d1267e474d5b365e79e4521f039f46d2014bad6256f23be",
+  "durationSeconds": 18.520816,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020025,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.06,
+      "endSeconds": 2.603,
+      "text": "Un lion de pierre est couché\nsur un socle."
+    },
+    {
+      "startSeconds": 3.024,
+      "endSeconds": 5.767,
+      "text": "Son corps allongé se termine\npar une tête modelée et des"
+    },
+    {
+      "startSeconds": 5.767,
+      "endSeconds": 9.051,
+      "text": "pattes sculptées. Le granite\nrouge donne à l’ensemble"
+    },
+    {
+      "startSeconds": 9.071,
+      "endSeconds": 12.355,
+      "text": "une teinte chaude. Des\ninscriptions occupent la poitrine"
+    },
+    {
+      "startSeconds": 12.376,
+      "endSeconds": 15.339,
+      "text": "et plusieurs surfaces du\nsocle. Les formes du corps sont"
+    },
+    {
+      "startSeconds": 15.359,
+      "endSeconds": 17.842,
+      "text": "arrondies, tandis que la\nbase présente des lignes"
+    },
+    {
+      "startSeconds": 17.842,
+      "endSeconds": 18.483,
+      "text": "droites."
+    }
+  ],
+  "words": [
+    {
+      "text": "Un",
+      "startSeconds": 0.0601,
+      "endSeconds": 0.1402,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "lion",
+      "startSeconds": 0.2003,
+      "endSeconds": 0.4806,
+      "alignmentScore": 0.9848
+    },
+    {
+      "text": "de",
+      "startSeconds": 0.5407,
+      "endSeconds": 0.6208,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "pierre",
+      "startSeconds": 0.7009,
+      "endSeconds": 1.0814,
+      "alignmentScore": 0.9884
+    },
+    {
+      "text": "est",
+      "startSeconds": 1.2215,
+      "endSeconds": 1.3417,
+      "alignmentScore": 0.8171
+    },
+    {
+      "text": "couché",
+      "startSeconds": 1.562,
+      "endSeconds": 1.8023,
+      "alignmentScore": 0.9899
+    },
+    {
+      "text": "sur",
+      "startSeconds": 1.9024,
+      "endSeconds": 2.0225,
+      "alignmentScore": 0.9884
+    },
+    {
+      "text": "un",
+      "startSeconds": 2.0826,
+      "endSeconds": 2.1627,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "socle.",
+      "startSeconds": 2.2228,
+      "endSeconds": 2.5232,
+      "alignmentScore": 0.9888
+    },
+    {
+      "text": "Son",
+      "startSeconds": 3.0238,
+      "endSeconds": 3.164,
+      "alignmentScore": 0.9412
+    },
+    {
+      "text": "corps",
+      "startSeconds": 3.204,
+      "endSeconds": 3.4844,
+      "alignmentScore": 0.8929
+    },
+    {
+      "text": "allongé",
+      "startSeconds": 3.6446,
+      "endSeconds": 4.005,
+      "alignmentScore": 0.9767
+    },
+    {
+      "text": "se",
+      "startSeconds": 4.0651,
+      "endSeconds": 4.1252,
+      "alignmentScore": 0.9646
+    },
+    {
+      "text": "termine",
+      "startSeconds": 4.1452,
+      "endSeconds": 4.4255,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "par",
+      "startSeconds": 4.4456,
+      "endSeconds": 4.5657,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "une",
+      "startSeconds": 4.6058,
+      "endSeconds": 4.7259,
+      "alignmentScore": 0.9026
+    },
+    {
+      "text": "tête",
+      "startSeconds": 4.766,
+      "endSeconds": 4.9862,
+      "alignmentScore": 0.9919
+    },
+    {
+      "text": "modelée",
+      "startSeconds": 5.0463,
+      "endSeconds": 5.4068,
+      "alignmentScore": 0.9567
+    },
+    {
+      "text": "et",
+      "startSeconds": 5.5269,
+      "endSeconds": 5.587,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "des",
+      "startSeconds": 5.627,
+      "endSeconds": 5.7272,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "pattes",
+      "startSeconds": 5.7672,
+      "endSeconds": 6.0676,
+      "alignmentScore": 0.8439
+    },
+    {
+      "text": "sculptées.",
+      "startSeconds": 6.2879,
+      "endSeconds": 6.7685,
+      "alignmentScore": 0.8762
+    },
+    {
+      "text": "Le",
+      "startSeconds": 7.189,
+      "endSeconds": 7.2691,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "granite",
+      "startSeconds": 7.3091,
+      "endSeconds": 7.6496,
+      "alignmentScore": 0.895
+    },
+    {
+      "text": "rouge",
+      "startSeconds": 7.7096,
+      "endSeconds": 8.01,
+      "alignmentScore": 0.991
+    },
+    {
+      "text": "donne",
+      "startSeconds": 8.1302,
+      "endSeconds": 8.3504,
+      "alignmentScore": 0.9925
+    },
+    {
+      "text": "à",
+      "startSeconds": 8.3905,
+      "endSeconds": 8.4105,
+      "alignmentScore": 0.9945
+    },
+    {
+      "text": "l’ensemble",
+      "startSeconds": 8.4506,
+      "endSeconds": 8.9712,
+      "alignmentScore": 0.9744
+    },
+    {
+      "text": "une",
+      "startSeconds": 9.0713,
+      "endSeconds": 9.1915,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "teinte",
+      "startSeconds": 9.2315,
+      "endSeconds": 9.4518,
+      "alignmentScore": 0.8693
+    },
+    {
+      "text": "chaude.",
+      "startSeconds": 9.4919,
+      "endSeconds": 9.7923,
+      "alignmentScore": 0.9941
+    },
+    {
+      "text": "Des",
+      "startSeconds": 10.413,
+      "endSeconds": 10.5332,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "inscriptions",
+      "startSeconds": 10.5732,
+      "endSeconds": 11.0739,
+      "alignmentScore": 0.9734
+    },
+    {
+      "text": "occupent",
+      "startSeconds": 11.174,
+      "endSeconds": 11.4944,
+      "alignmentScore": 0.9267
+    },
+    {
+      "text": "la",
+      "startSeconds": 11.7347,
+      "endSeconds": 11.7948,
+      "alignmentScore": 0.9485
+    },
+    {
+      "text": "poitrine",
+      "startSeconds": 11.8348,
+      "endSeconds": 12.2754,
+      "alignmentScore": 0.9894
+    },
+    {
+      "text": "et",
+      "startSeconds": 12.3755,
+      "endSeconds": 12.4556,
+      "alignmentScore": 0.8916
+    },
+    {
+      "text": "plusieurs",
+      "startSeconds": 12.4756,
+      "endSeconds": 12.8961,
+      "alignmentScore": 0.9849
+    },
+    {
+      "text": "surfaces",
+      "startSeconds": 12.9562,
+      "endSeconds": 13.3968,
+      "alignmentScore": 0.9985
+    },
+    {
+      "text": "du",
+      "startSeconds": 13.4168,
+      "endSeconds": 13.4769,
+      "alignmentScore": 0.9958
+    },
+    {
+      "text": "socle.",
+      "startSeconds": 13.557,
+      "endSeconds": 13.8573,
+      "alignmentScore": 0.889
+    },
+    {
+      "text": "Les",
+      "startSeconds": 14.2779,
+      "endSeconds": 14.378,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "formes",
+      "startSeconds": 14.398,
+      "endSeconds": 14.6583,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "du",
+      "startSeconds": 14.6784,
+      "endSeconds": 14.7384,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "corps",
+      "startSeconds": 14.8185,
+      "endSeconds": 15.0789,
+      "alignmentScore": 0.8927
+    },
+    {
+      "text": "sont",
+      "startSeconds": 15.1189,
+      "endSeconds": 15.2591,
+      "alignmentScore": 0.9973
+    },
+    {
+      "text": "arrondies,",
+      "startSeconds": 15.3592,
+      "endSeconds": 15.8198,
+      "alignmentScore": 0.9703
+    },
+    {
+      "text": "tandis",
+      "startSeconds": 16.1602,
+      "endSeconds": 16.4205,
+      "alignmentScore": 0.9742
+    },
+    {
+      "text": "que",
+      "startSeconds": 16.4406,
+      "endSeconds": 16.5207,
+      "alignmentScore": 0.9983
+    },
+    {
+      "text": "la",
+      "startSeconds": 16.5607,
+      "endSeconds": 16.6008,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "base",
+      "startSeconds": 16.6608,
+      "endSeconds": 16.9212,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "présente",
+      "startSeconds": 16.9412,
+      "endSeconds": 17.3217,
+      "alignmentScore": 0.992
+    },
+    {
+      "text": "des",
+      "startSeconds": 17.3817,
+      "endSeconds": 17.4819,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "lignes",
+      "startSeconds": 17.5419,
+      "endSeconds": 17.8023,
+      "alignmentScore": 0.9786
+    },
+    {
+      "text": "droites.",
+      "startSeconds": 17.8423,
+      "endSeconds": 18.2829,
+      "alignmentScore": 0.9321
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea1.audio_description.fr",
+    "wordCount": 55,
+    "cueCount": 7,
+    "meanAlignmentScore": 0.9662,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

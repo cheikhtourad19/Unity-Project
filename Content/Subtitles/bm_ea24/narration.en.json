@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea24.narration.en",
+  "language": "en",
+  "kind": "narration",
+  "audioSha256": "7576d70bddda08c2dd71e330bf30ac1228446721e3bc71616de2b087e6640859",
+  "scriptSha256": "87501fc551b154d14a085444e5969b1b228f6c505ce6c4b8545ce5a3855e2eb9",
+  "durationSeconds": 39.653878,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020007,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.06,
+      "endSeconds": 1.4,
+      "text": "This is the Rosetta Stone,"
+    },
+    {
+      "startSeconds": 1.981,
+      "endSeconds": 4.241,
+      "text": "a fragment of a granodiorite\nstele."
+    },
+    {
+      "startSeconds": 5.142,
+      "endSeconds": 9.103,
+      "text": "It bears a decree from one\nhundred and ninety-six BCE,"
+    },
+    {
+      "startSeconds": 9.683,
+      "endSeconds": 11.584,
+      "text": "honouring Ptolemy the Fifth."
+    },
+    {
+      "startSeconds": 12.484,
+      "endSeconds": 14.705,
+      "text": "The same decree appears in\nthree scripts:"
+    },
+    {
+      "startSeconds": 15.445,
+      "endSeconds": 18.086,
+      "text": "hieroglyphs, Demotic and\nGreek."
+    },
+    {
+      "startSeconds": 18.926,
+      "endSeconds": 22.387,
+      "text": "Comparing them helped\nscholars decipher Egyptian"
+    },
+    {
+      "startSeconds": 22.928,
+      "endSeconds": 24.068,
+      "text": "hieroglyphs."
+    },
+    {
+      "startSeconds": 25.428,
+      "endSeconds": 29.59,
+      "text": "Look at the different groups\nof signs on its surface."
+    },
+    {
+      "startSeconds": 30.93,
+      "endSeconds": 36.152,
+      "text": "This fragment shows how a\nwritten text can open a"
+    },
+    {
+      "startSeconds": 36.232,
+      "endSeconds": 39.173,
+      "text": "window onto a civilisation."
+    }
+  ],
+  "words": [
+    {
+      "text": "This",
+      "startSeconds": 0.06,
+      "endSeconds": 0.2201,
+      "alignmentScore": 0.9983
+    },
+    {
+      "text": "is",
+      "startSeconds": 0.3201,
+      "endSeconds": 0.4001,
+      "alignmentScore": 0.9975
+    },
+    {
+      "text": "the",
+      "startSeconds": 0.4401,
+      "endSeconds": 0.5002,
+      "alignmentScore": 0.9954
+    },
+    {
+      "text": "Rosetta",
+      "startSeconds": 0.5402,
+      "endSeconds": 0.9003,
+      "alignmentScore": 0.8933
+    },
+    {
+      "text": "Stone,",
+      "startSeconds": 0.9803,
+      "endSeconds": 1.3204,
+      "alignmentScore": 0.9885
+    },
+    {
+      "text": "a",
+      "startSeconds": 1.9807,
+      "endSeconds": 2.0007,
+      "alignmentScore": 0.9985
+    },
+    {
+      "text": "fragment",
+      "startSeconds": 2.0807,
+      "endSeconds": 2.4608,
+      "alignmentScore": 0.9984
+    },
+    {
+      "text": "of",
+      "startSeconds": 2.6809,
+      "endSeconds": 2.7409,
+      "alignmentScore": 0.9947
+    },
+    {
+      "text": "a",
+      "startSeconds": 2.7609,
+      "endSeconds": 2.7809,
+      "alignmentScore": 0.9663
+    },
+    {
+      "text": "granodiorite",
+      "startSeconds": 2.841,
+      "endSeconds": 3.7413,
+      "alignmentScore": 0.8643
+    },
+    {
+      "text": "stele.",
+      "startSeconds": 3.8613,
+      "endSeconds": 4.1614,
+      "alignmentScore": 0.5971
+    },
+    {
+      "text": "It",
+      "startSeconds": 5.1417,
+      "endSeconds": 5.2217,
+      "alignmentScore": 0.9978
+    },
+    {
+      "text": "bears",
+      "startSeconds": 5.2618,
+      "endSeconds": 5.5018,
+      "alignmentScore": 0.9448
+    },
+    {
+      "text": "a",
+      "startSeconds": 5.5218,
+      "endSeconds": 5.5419,
+      "alignmentScore": 0.9936
+    },
+    {
+      "text": "decree",
+      "startSeconds": 5.5819,
+      "endSeconds": 5.962,
+      "alignmentScore": 0.9758
+    },
+    {
+      "text": "from",
+      "startSeconds": 6.062,
+      "endSeconds": 6.2021,
+      "alignmentScore": 0.9976
+    },
+    {
+      "text": "one",
+      "startSeconds": 6.3621,
+      "endSeconds": 6.4822,
+      "alignmentScore": 0.0036
+    },
+    {
+      "text": "hundred",
+      "startSeconds": 6.5622,
+      "endSeconds": 6.8823,
+      "alignmentScore": 0.0015
+    },
+    {
+      "text": "and",
+      "startSeconds": 6.9623,
+      "endSeconds": 7.0424,
+      "alignmentScore": 0.7157
+    },
+    {
+      "text": "ninety-six",
+      "startSeconds": 7.1224,
+      "endSeconds": 7.7026,
+      "alignmentScore": 0.0012
+    },
+    {
+      "text": "BCE,",
+      "startSeconds": 8.1227,
+      "endSeconds": 9.023,
+      "alignmentScore": 0.9827
+    },
+    {
+      "text": "honouring",
+      "startSeconds": 9.6832,
+      "endSeconds": 10.0234,
+      "alignmentScore": 0.9003
+    },
+    {
+      "text": "Ptolemy",
+      "startSeconds": 10.0434,
+      "endSeconds": 10.6035,
+      "alignmentScore": 0.6434
+    },
+    {
+      "text": "the",
+      "startSeconds": 11.1037,
+      "endSeconds": 11.1837,
+      "alignmentScore": 0.9092
+    },
+    {
+      "text": "Fifth.",
+      "startSeconds": 11.2238,
+      "endSeconds": 11.5038,
+      "alignmentScore": 0.4053
+    },
+    {
+      "text": "The",
+      "startSeconds": 12.4842,
+      "endSeconds": 12.5642,
+      "alignmentScore": 0.9988
+    },
+    {
+      "text": "same",
+      "startSeconds": 12.6242,
+      "endSeconds": 12.8443,
+      "alignmentScore": 0.946
+    },
+    {
+      "text": "decree",
+      "startSeconds": 12.8643,
+      "endSeconds": 13.1644,
+      "alignmentScore": 0.8566
+    },
+    {
+      "text": "appears",
+      "startSeconds": 13.4245,
+      "endSeconds": 13.7246,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "in",
+      "startSeconds": 13.8046,
+      "endSeconds": 13.8846,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "three",
+      "startSeconds": 13.9447,
+      "endSeconds": 14.1847,
+      "alignmentScore": 0.9323
+    },
+    {
+      "text": "scripts:",
+      "startSeconds": 14.2448,
+      "endSeconds": 14.6249,
+      "alignmentScore": 0.9792
+    },
+    {
+      "text": "hieroglyphs,",
+      "startSeconds": 15.4452,
+      "endSeconds": 15.9853,
+      "alignmentScore": 0.6048
+    },
+    {
+      "text": "Demotic",
+      "startSeconds": 16.5455,
+      "endSeconds": 17.0057,
+      "alignmentScore": 0.9636
+    },
+    {
+      "text": "and",
+      "startSeconds": 17.4058,
+      "endSeconds": 17.5659,
+      "alignmentScore": 0.9853
+    },
+    {
+      "text": "Greek.",
+      "startSeconds": 17.7459,
+      "endSeconds": 18.006,
+      "alignmentScore": 0.9477
+    },
+    {
+      "text": "Comparing",
+      "startSeconds": 18.9263,
+      "endSeconds": 19.3865,
+      "alignmentScore": 0.9955
+    },
+    {
+      "text": "them",
+      "startSeconds": 19.3865,
+      "endSeconds": 19.4865,
+      "alignmentScore": 0.9927
+    },
+    {
+      "text": "helped",
+      "startSeconds": 19.8266,
+      "endSeconds": 20.0667,
+      "alignmentScore": 0.9684
+    },
+    {
+      "text": "scholars",
+      "startSeconds": 20.1467,
+      "endSeconds": 20.5069,
+      "alignmentScore": 0.8474
+    },
+    {
+      "text": "decipher",
+      "startSeconds": 20.6269,
+      "endSeconds": 21.3071,
+      "alignmentScore": 0.6727
+    },
+    {
+      "text": "Egyptian",
+      "startSeconds": 21.6472,
+      "endSeconds": 22.3075,
+      "alignmentScore": 0.9278
+    },
+    {
+      "text": "hieroglyphs.",
+      "startSeconds": 22.9277,
+      "endSeconds": 23.988,
+      "alignmentScore": 0.6134
+    },
+    {
+      "text": "Look",
+      "startSeconds": 25.4285,
+      "endSeconds": 25.6086,
+      "alignmentScore": 0.9946
+    },
+    {
+      "text": "at",
+      "startSeconds": 25.6486,
+      "endSeconds": 25.7286,
+      "alignmentScore": 0.9982
+    },
+    {
+      "text": "the",
+      "startSeconds": 25.7886,
+      "endSeconds": 25.8687,
+      "alignmentScore": 0.9976
+    },
+    {
+      "text": "different",
+      "startSeconds": 26.0087,
+      "endSeconds": 26.5289,
+      "alignmentScore": 0.9839
+    },
+    {
+      "text": "groups",
+      "startSeconds": 26.6689,
+      "endSeconds": 27.1891,
+      "alignmentScore": 0.93
+    },
+    {
+      "text": "of",
+      "startSeconds": 27.2891,
+      "endSeconds": 27.3692,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "signs",
+      "startSeconds": 27.4892,
+      "endSeconds": 28.1494,
+      "alignmentScore": 0.8593
+    },
+    {
+      "text": "on",
+      "startSeconds": 28.3095,
+      "endSeconds": 28.4095,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "its",
+      "startSeconds": 28.4895,
+      "endSeconds": 28.6496,
+      "alignmentScore": 0.9286
+    },
+    {
+      "text": "surface.",
+      "startSeconds": 28.7496,
+      "endSeconds": 29.5099,
+      "alignmentScore": 0.9516
+    },
+    {
+      "text": "This",
+      "startSeconds": 30.9303,
+      "endSeconds": 31.1304,
+      "alignmentScore": 0.9963
+    },
+    {
+      "text": "fragment",
+      "startSeconds": 31.2304,
+      "endSeconds": 31.8306,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "shows",
+      "startSeconds": 32.2108,
+      "endSeconds": 32.6709,
+      "alignmentScore": 0.9376
+    },
+    {
+      "text": "how",
+      "startSeconds": 32.771,
+      "endSeconds": 32.971,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "a",
+      "startSeconds": 33.1111,
+      "endSeconds": 33.1311,
+      "alignmentScore": 0.9968
+    },
+    {
+      "text": "written",
+      "startSeconds": 33.2311,
+      "endSeconds": 33.7313,
+      "alignmentScore": 0.8652
+    },
+    {
+      "text": "text",
+      "startSeconds": 33.9113,
+      "endSeconds": 34.6116,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "can",
+      "startSeconds": 35.1718,
+      "endSeconds": 35.3518,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "open",
+      "startSeconds": 35.5719,
+      "endSeconds": 35.952,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "a",
+      "startSeconds": 36.0521,
+      "endSeconds": 36.0721,
+      "alignmentScore": 0.9964
+    },
+    {
+      "text": "window",
+      "startSeconds": 36.2321,
+      "endSeconds": 36.7323,
+      "alignmentScore": 0.9891
+    },
+    {
+      "text": "onto",
+      "startSeconds": 37.3525,
+      "endSeconds": 37.6726,
+      "alignmentScore": 0.9922
+    },
+    {
+      "text": "a",
+      "startSeconds": 37.7526,
+      "endSeconds": 37.7726,
+      "alignmentScore": 0.9964
+    },
+    {
+      "text": "civilisation.",
+      "startSeconds": 37.9327,
+      "endSeconds": 39.0931,
+      "alignmentScore": 0.9016
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea24.narration.en",
+    "wordCount": 67,
+    "cueCount": 11,
+    "meanAlignmentScore": 0.8852,
+    "lowScoreWords": [
+      {
+        "text": "one",
+        "startSeconds": 6.3621,
+        "endSeconds": 6.4822,
+        "alignmentScore": 0.0036
+      },
+      {
+        "text": "hundred",
+        "startSeconds": 6.5622,
+        "endSeconds": 6.8823,
+        "alignmentScore": 0.0015
+      },
+      {
+        "text": "ninety-six",
+        "startSeconds": 7.1224,
+        "endSeconds": 7.7026,
+        "alignmentScore": 0.0012
+      }
+    ],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

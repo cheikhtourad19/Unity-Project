@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea74.audio_description.en",
+  "language": "en",
+  "kind": "audio_description",
+  "audioSha256": "25750683bda5243ff68b049bf9251184c50a2a3e259a3d9fbeb436dc9ea72cb6",
+  "scriptSha256": "6a58fd3dd4641c03fe667e6b3a1dd76cb3c810771194562cb14f619f39cc66e1",
+  "durationSeconds": 46.654694,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020002,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.08,
+      "endSeconds": 1.84,
+      "text": "A stone scarab"
+    },
+    {
+      "startSeconds": 2.76,
+      "endSeconds": 6.361,
+      "text": "rests on a rectangular base."
+    },
+    {
+      "startSeconds": 7.861,
+      "endSeconds": 8.681,
+      "text": "Its body"
+    },
+    {
+      "startSeconds": 9.461,
+      "endSeconds": 12.101,
+      "text": "is broad and rounded,"
+    },
+    {
+      "startSeconds": 13.282,
+      "endSeconds": 15.142,
+      "text": "with a domed back."
+    },
+    {
+      "startSeconds": 16.302,
+      "endSeconds": 17.102,
+      "text": "The head"
+    },
+    {
+      "startSeconds": 17.742,
+      "endSeconds": 20.262,
+      "text": "occupies one end."
+    },
+    {
+      "startSeconds": 21.403,
+      "endSeconds": 26.283,
+      "text": "Its legs are carved along\nthe"
+    },
+    {
+      "startSeconds": 26.423,
+      "endSeconds": 27.423,
+      "text": "sides,"
+    },
+    {
+      "startSeconds": 28.303,
+      "endSeconds": 30.684,
+      "text": "close to the base."
+    },
+    {
+      "startSeconds": 32.444,
+      "endSeconds": 36.264,
+      "text": "The overall form is compact:"
+    },
+    {
+      "startSeconds": 37.725,
+      "endSeconds": 39.345,
+      "text": "the body’s mass"
+    },
+    {
+      "startSeconds": 39.985,
+      "endSeconds": 44.905,
+      "text": "dominates the finer details\nof the"
+    },
+    {
+      "startSeconds": 45.066,
+      "endSeconds": 46.226,
+      "text": "insect."
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "startSeconds": 0.08,
+      "endSeconds": 0.1,
+      "alignmentScore": 0.9968
+    },
+    {
+      "text": "stone",
+      "startSeconds": 0.3,
+      "endSeconds": 0.9401,
+      "alignmentScore": 0.9981
+    },
+    {
+      "text": "scarab",
+      "startSeconds": 1.1001,
+      "endSeconds": 1.7602,
+      "alignmentScore": 0.9038
+    },
+    {
+      "text": "rests",
+      "startSeconds": 2.7603,
+      "endSeconds": 3.5404,
+      "alignmentScore": 0.951
+    },
+    {
+      "text": "on",
+      "startSeconds": 3.8805,
+      "endSeconds": 4.0205,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "a",
+      "startSeconds": 4.1005,
+      "endSeconds": 4.1205,
+      "alignmentScore": 0.9972
+    },
+    {
+      "text": "rectangular",
+      "startSeconds": 4.3205,
+      "endSeconds": 5.5007,
+      "alignmentScore": 0.9857
+    },
+    {
+      "text": "base.",
+      "startSeconds": 5.6407,
+      "endSeconds": 6.2808,
+      "alignmentScore": 0.998
+    },
+    {
+      "text": "Its",
+      "startSeconds": 7.861,
+      "endSeconds": 8.081,
+      "alignmentScore": 0.9981
+    },
+    {
+      "text": "body",
+      "startSeconds": 8.221,
+      "endSeconds": 8.601,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "is",
+      "startSeconds": 9.4612,
+      "endSeconds": 9.6412,
+      "alignmentScore": 0.9981
+    },
+    {
+      "text": "broad",
+      "startSeconds": 9.7812,
+      "endSeconds": 10.4013,
+      "alignmentScore": 0.9576
+    },
+    {
+      "text": "and",
+      "startSeconds": 11.0413,
+      "endSeconds": 11.2214,
+      "alignmentScore": 0.9664
+    },
+    {
+      "text": "rounded,",
+      "startSeconds": 11.3414,
+      "endSeconds": 12.0215,
+      "alignmentScore": 0.9122
+    },
+    {
+      "text": "with",
+      "startSeconds": 13.2816,
+      "endSeconds": 13.4816,
+      "alignmentScore": 0.9764
+    },
+    {
+      "text": "a",
+      "startSeconds": 13.5817,
+      "endSeconds": 13.6017,
+      "alignmentScore": 0.0888
+    },
+    {
+      "text": "domed",
+      "startSeconds": 13.8217,
+      "endSeconds": 14.4218,
+      "alignmentScore": 0.9293
+    },
+    {
+      "text": "back.",
+      "startSeconds": 14.6218,
+      "endSeconds": 15.0618,
+      "alignmentScore": 0.9911
+    },
+    {
+      "text": "The",
+      "startSeconds": 16.302,
+      "endSeconds": 16.422,
+      "alignmentScore": 0.9626
+    },
+    {
+      "text": "head",
+      "startSeconds": 16.582,
+      "endSeconds": 16.9421,
+      "alignmentScore": 0.9976
+    },
+    {
+      "text": "occupies",
+      "startSeconds": 17.7422,
+      "endSeconds": 18.8823,
+      "alignmentScore": 0.8685
+    },
+    {
+      "text": "one",
+      "startSeconds": 19.2824,
+      "endSeconds": 19.5224,
+      "alignmentScore": 0.9815
+    },
+    {
+      "text": "end.",
+      "startSeconds": 19.6824,
+      "endSeconds": 20.1825,
+      "alignmentScore": 0.9051
+    },
+    {
+      "text": "Its",
+      "startSeconds": 21.4026,
+      "endSeconds": 21.8027,
+      "alignmentScore": 0.9653
+    },
+    {
+      "text": "legs",
+      "startSeconds": 22.3827,
+      "endSeconds": 23.0428,
+      "alignmentScore": 0.9806
+    },
+    {
+      "text": "are",
+      "startSeconds": 23.6029,
+      "endSeconds": 23.8429,
+      "alignmentScore": 0.8698
+    },
+    {
+      "text": "carved",
+      "startSeconds": 24.0829,
+      "endSeconds": 25.0231,
+      "alignmentScore": 0.833
+    },
+    {
+      "text": "along",
+      "startSeconds": 25.3231,
+      "endSeconds": 25.9032,
+      "alignmentScore": 0.9975
+    },
+    {
+      "text": "the",
+      "startSeconds": 26.1032,
+      "endSeconds": 26.2032,
+      "alignmentScore": 0.9796
+    },
+    {
+      "text": "sides,",
+      "startSeconds": 26.4232,
+      "endSeconds": 27.3433,
+      "alignmentScore": 0.9728
+    },
+    {
+      "text": "close",
+      "startSeconds": 28.3035,
+      "endSeconds": 29.1236,
+      "alignmentScore": 0.9841
+    },
+    {
+      "text": "to",
+      "startSeconds": 29.4036,
+      "endSeconds": 29.5636,
+      "alignmentScore": 0.9962
+    },
+    {
+      "text": "the",
+      "startSeconds": 29.7436,
+      "endSeconds": 29.8636,
+      "alignmentScore": 0.995
+    },
+    {
+      "text": "base.",
+      "startSeconds": 30.0037,
+      "endSeconds": 30.6037,
+      "alignmentScore": 0.9956
+    },
+    {
+      "text": "The",
+      "startSeconds": 32.444,
+      "endSeconds": 32.564,
+      "alignmentScore": 0.9366
+    },
+    {
+      "text": "overall",
+      "startSeconds": 32.844,
+      "endSeconds": 33.7041,
+      "alignmentScore": 0.9804
+    },
+    {
+      "text": "form",
+      "startSeconds": 33.9441,
+      "endSeconds": 34.4242,
+      "alignmentScore": 0.9569
+    },
+    {
+      "text": "is",
+      "startSeconds": 34.6642,
+      "endSeconds": 34.8042,
+      "alignmentScore": 0.9972
+    },
+    {
+      "text": "compact:",
+      "startSeconds": 34.9843,
+      "endSeconds": 36.1844,
+      "alignmentScore": 0.7426
+    },
+    {
+      "text": "the",
+      "startSeconds": 37.7246,
+      "endSeconds": 37.8246,
+      "alignmentScore": 0.913
+    },
+    {
+      "text": "body’s",
+      "startSeconds": 38.0046,
+      "endSeconds": 38.5647,
+      "alignmentScore": 0.8885
+    },
+    {
+      "text": "mass",
+      "startSeconds": 38.7447,
+      "endSeconds": 39.2648,
+      "alignmentScore": 0.9978
+    },
+    {
+      "text": "dominates",
+      "startSeconds": 39.9849,
+      "endSeconds": 40.945,
+      "alignmentScore": 0.9794
+    },
+    {
+      "text": "the",
+      "startSeconds": 41.245,
+      "endSeconds": 41.345,
+      "alignmentScore": 0.9931
+    },
+    {
+      "text": "finer",
+      "startSeconds": 41.5451,
+      "endSeconds": 42.1251,
+      "alignmentScore": 0.9481
+    },
+    {
+      "text": "details",
+      "startSeconds": 42.5452,
+      "endSeconds": 43.5453,
+      "alignmentScore": 0.986
+    },
+    {
+      "text": "of",
+      "startSeconds": 44.0854,
+      "endSeconds": 44.3854,
+      "alignmentScore": 0.9988
+    },
+    {
+      "text": "the",
+      "startSeconds": 44.6855,
+      "endSeconds": 44.8255,
+      "alignmentScore": 0.8652
+    },
+    {
+      "text": "insect.",
+      "startSeconds": 45.0655,
+      "endSeconds": 46.1456,
+      "alignmentScore": 0.9947
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea74.audio_description.en",
+    "wordCount": 49,
+    "cueCount": 14,
+    "meanAlignmentScore": 0.941,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

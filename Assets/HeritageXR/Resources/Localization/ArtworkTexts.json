@@ -1,0 +1,112 @@
+{
+  "artworks": [
+    {
+      "id": "bm_ea24",
+      "fr": {
+        "title": "Pierre de Rosette",
+        "summary": "Une stèle portant un décret en trois écritures, essentielle au déchiffrement des hiéroglyphes.",
+        "description": "La pierre de Rosette est un fragment de stèle en granodiorite portant un décret en l’honneur de Ptolémée V. Le texte est inscrit en hiéroglyphes, en démotique et en grec. La comparaison de ces écritures a fourni une clé majeure au déchiffrement des hiéroglyphes égyptiens."
+      },
+      "ar": {
+        "title": "حجر رشيد",
+        "summary": "جزء من لوحة تحمل مرسومًا بثلاثة أنظمة كتابة، وكان أساسيًا في فك رموز الهيروغليفية.",
+        "description": "حجر رشيد جزء من لوحة من الجرانوديوريت تحمل مرسومًا تكريمًا لبطليموس الخامس. كُتب النص بالهيروغليفية والديموطيقية واليونانية. وقد وفرت مقارنة هذه الكتابات مفتاحًا مهمًا لفك رموز الهيروغليفية المصرية."
+      },
+      "en": {
+        "title": "Rosetta Stone",
+        "summary": "A stele bearing a decree in three scripts, central to deciphering hieroglyphs.",
+        "description": "The Rosetta Stone is a fragment of a granodiorite stele bearing a decree in honour of Ptolemy V. The text is written in hieroglyphs, Demotic and Greek. Comparing these scripts provided a major key to deciphering Egyptian hieroglyphs."
+      }
+    },
+    {
+      "id": "bm_ea74",
+      "fr": {
+        "title": "Scarabée monumental",
+        "summary": "Une sculpture de scarabée en diorite, probablement liée au dieu Khépri.",
+        "description": "Cette sculpture monumentale en diorite représente un scarabée et figure dans la collection du British Museum sous le numéro EA74. La notice du musée l’identifie comme représentant probablement Khépri. Son corps arrondi et ses pattes sont sculptés au-dessus d’une base rectangulaire."
+      },
+      "ar": {
+        "title": "الجعران الضخم",
+        "summary": "تمثال لجعران من الديوريت، يُرجّح ارتباطه بالإله خبري.",
+        "description": "يمثل هذا التمثال الضخم المصنوع من الديوريت جعرانًا، ويُحفظ في مجموعة المتحف البريطاني تحت الرقم EA74. وتُرجّح بطاقة المتحف أنه يمثل الإله خبري. نُحت جسمه المستدير وأرجله فوق قاعدة مستطيلة."
+      },
+      "en": {
+        "title": "Monumental scarab",
+        "summary": "A diorite scarab sculpture, probably associated with the god Khepri.",
+        "description": "This monumental diorite sculpture depicts a scarab and belongs to the British Museum collection under number EA74. The museum record identifies it as probably representing Khepri. Its rounded body and legs are carved above a rectangular base."
+      }
+    },
+    {
+      "id": "bm_ea1779",
+      "fr": {
+        "title": "Bélier d’Amon protégeant Taharqa",
+        "summary": "Le dieu Amon représenté sous la forme d’un bélier abritant le roi Taharqa.",
+        "description": "Cette statue représente Amon sous la forme d’un bélier couché. Entre ses pattes avant se tient une petite figure du roi Taharqa, placé sous sa protection. L’objet, conservé au British Museum sous le numéro EA1779, provient de Kawa en Nubie. Des hiéroglyphes parcourent sa base rectangulaire."
+      },
+      "ar": {
+        "title": "كبش آمون يحمي تهارقا",
+        "summary": "الإله آمون في هيئة كبش يحمي الملك تهارقا.",
+        "description": "يمثل هذا التمثال آمون في هيئة كبش راقد. وبين ساقيه الأماميتين يقف تمثال صغير للملك تهارقا تحت حمايته. تُحفظ القطعة في المتحف البريطاني تحت الرقم EA1779، وقد جاءت من كاوا في النوبة. وتمتد نقوش هيروغليفية على قاعدتها المستطيلة."
+      },
+      "en": {
+        "title": "Ram of Amun protecting Taharqa",
+        "summary": "The god Amun depicted as a ram sheltering King Taharqa.",
+        "description": "This statue depicts Amun as a reclining ram. A small figure of King Taharqa stands between its front legs, under its protection. The object, kept at the British Museum under number EA1779, comes from Kawa in Nubia. Hieroglyphs run along its rectangular base."
+      }
+    },
+    {
+      "id": "bm_ea19",
+      "fr": {
+        "title": "Buste colossal de Ramsès II",
+        "summary": "Un fragment de statue royale provenant du Ramesseum, à Thèbes.",
+        "description": "Ce fragment monumental représente la tête et le haut du corps de Ramsès II. Il provient du Ramesseum, son temple funéraire à Thèbes. Le souverain porte le némès. La sculpture associe le visage et le buste aux variations de couleur de la pierre."
+      },
+      "ar": {
+        "title": "تمثال نصفي ضخم لرمسيس الثاني",
+        "summary": "جزء من تمثال ملكي جاء من الرامسيوم في طيبة.",
+        "description": "يمثل هذا الجزء الضخم رأس رمسيس الثاني والجزء العلوي من جسمه. جاء من الرامسيوم، معبده الجنائزي في طيبة. يرتدي الملك غطاء الرأس المعروف بالنمس. وتجمع المنحوتة بين الوجه والجذع وتدرجات لون الحجر."
+      },
+      "en": {
+        "title": "Colossal bust of Ramesses II",
+        "summary": "A fragment of a royal statue from the Ramesseum at Thebes.",
+        "description": "This monumental fragment depicts the head and upper body of Ramesses II. It comes from the Ramesseum, his mortuary temple at Thebes. The king wears the nemes headdress. The sculpture combines the face and torso with variations in the colour of the stone."
+      }
+    },
+    {
+      "id": "bm_ea1",
+      "fr": {
+        "title": "Lion de Prudhoe — EA1",
+        "summary": "Un lion de granite rouge associé à Amenhotep III.",
+        "description": "Cette sculpture en granite rouge représente un lion couché et appartient à la paire des lions de Prudhoe. Elle est associée au règne d’Amenhotep III. Des inscriptions sur le corps et le socle évoquent plusieurs souverains, témoignant des réemplois de cette image du pouvoir royal."
+      },
+      "ar": {
+        "title": "أسد برودهو — EA1",
+        "summary": "أسد من الجرانيت الأحمر مرتبط بأمنحتب الثالث.",
+        "description": "يمثل هذا التمثال المصنوع من الجرانيت الأحمر أسداً مستلقياً، وينتمي إلى الزوج المعروف باسم أسدي برودهو. وهو مرتبط بعهد أمنحتب الثالث. وتشير النقوش على الجسم والقاعدة إلى عدة حكام، مما يعكس إعادة استخدام هذه الصورة للسلطة الملكية."
+      },
+      "en": {
+        "title": "Prudhoe Lion — EA1",
+        "summary": "A red granite lion associated with Amenhotep III.",
+        "description": "This red granite sculpture depicts a reclining lion and belongs to the pair known as the Prudhoe Lions. It is associated with the reign of Amenhotep III. Inscriptions on the body and pedestal refer to several rulers, reflecting the reuse of this image of royal power."
+      }
+    },
+    {
+      "id": "bm_ea23",
+      "fr": {
+        "title": "Sarcophage de Hapmen",
+        "summary": "Une cuve de granite décorée de textes et de divinités funéraires.",
+        "description": "Ce sarcophage de granite appartenait à Hapmen, un haut fonctionnaire. Ses parois sont décorées de textes et de divinités funéraires ; Nout figure au fond de la cuve. Il fut ensuite réutilisé pour des ablutions dans la mosquée Ibn Touloun au Caire."
+      },
+      "ar": {
+        "title": "تابوت حابمن",
+        "summary": "حوض من الجرانيت مزين بنصوص وآلهة جنائزية.",
+        "description": "كان هذا التابوت الجرانيتي يخص حابمن، وهو من كبار الموظفين. زُينت جدرانه بنصوص وصور لآلهة جنائزية، وتظهر نوت في قاع الحوض. وأُعيد استخدامه لاحقاً للاغتسال الطقسي في مسجد ابن طولون بالقاهرة."
+      },
+      "en": {
+        "title": "Sarcophagus of Hapmen",
+        "summary": "A granite chest decorated with texts and funerary deities.",
+        "description": "This granite sarcophagus belonged to Hapmen, a high official. Its walls are decorated with texts and funerary deities; Nut appears on the bottom of the chest. It was later reused for ritual washing in the Ibn Tulun Mosque in Cairo."
+      }
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea19.audio_description.ar",
+  "language": "ar",
+  "kind": "audio_description",
+  "audioSha256": "20465927f28e984492c3b2b262a0dcc50c1847e7efad90eb68e79cea45035d7f",
+  "scriptSha256": "28eb908ce53e2080f636bb8e51124d2889b7918d799185d3feb170f75ff48c07",
+  "durationSeconds": 23.719184,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020021,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.08,
+      "endSeconds": 4.665,
+      "text": "تحتفظ المنحوتة برأس بشري\nوالجزء العلوي من الجذع."
+    },
+    {
+      "startSeconds": 5.386,
+      "endSeconds": 9.69,
+      "text": "يحيط بالوجه غطاء رأس مخطط\nيمتد على الكتفين."
+    },
+    {
+      "startSeconds": 10.391,
+      "endSeconds": 14.535,
+      "text": "تجعل الأجزاء المفقودة حدود\nالجذع غير منتظمة."
+    },
+    {
+      "startSeconds": 15.256,
+      "endSeconds": 17.878,
+      "text": "وتظهر في الحجر تدرجات لونية."
+    },
+    {
+      "startSeconds": 18.539,
+      "endSeconds": 23.284,
+      "text": "تتجه الهيئة إلى الأمام، مما\nيمنح الوجه حضوراً بارزاً."
+    }
+  ],
+  "words": [
+    {
+      "text": "تحتفظ",
+      "startSeconds": 0.0801,
+      "endSeconds": 0.5606,
+      "alignmentScore": 0.9408
+    },
+    {
+      "text": "المنحوتة",
+      "startSeconds": 0.6607,
+      "endSeconds": 1.1812,
+      "alignmentScore": 0.9931
+    },
+    {
+      "text": "برأس",
+      "startSeconds": 1.3814,
+      "endSeconds": 1.6817,
+      "alignmentScore": 0.9973
+    },
+    {
+      "text": "بشري",
+      "startSeconds": 1.8619,
+      "endSeconds": 2.3224,
+      "alignmentScore": 0.9971
+    },
+    {
+      "text": "والجزء",
+      "startSeconds": 2.903,
+      "endSeconds": 3.3234,
+      "alignmentScore": 0.9371
+    },
+    {
+      "text": "العلوي",
+      "startSeconds": 3.3835,
+      "endSeconds": 3.844,
+      "alignmentScore": 0.9867
+    },
+    {
+      "text": "من",
+      "startSeconds": 3.9841,
+      "endSeconds": 4.0842,
+      "alignmentScore": 0.9988
+    },
+    {
+      "text": "الجذع.",
+      "startSeconds": 4.1443,
+      "endSeconds": 4.5847,
+      "alignmentScore": 0.9704
+    },
+    {
+      "text": "يحيط",
+      "startSeconds": 5.3855,
+      "endSeconds": 5.7659,
+      "alignmentScore": 0.9962
+    },
+    {
+      "text": "بالوجه",
+      "startSeconds": 5.8861,
+      "endSeconds": 6.3465,
+      "alignmentScore": 0.9935
+    },
+    {
+      "text": "غطاء",
+      "startSeconds": 6.787,
+      "endSeconds": 7.1474,
+      "alignmentScore": 0.9562
+    },
+    {
+      "text": "رأس",
+      "startSeconds": 7.2475,
+      "endSeconds": 7.4477,
+      "alignmentScore": 0.996
+    },
+    {
+      "text": "مخطط",
+      "startSeconds": 7.5878,
+      "endSeconds": 8.0683,
+      "alignmentScore": 0.8237
+    },
+    {
+      "text": "يمتد",
+      "startSeconds": 8.2685,
+      "endSeconds": 8.6689,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "على",
+      "startSeconds": 8.789,
+      "endSeconds": 8.9292,
+      "alignmentScore": 0.8812
+    },
+    {
+      "text": "الكتفين.",
+      "startSeconds": 8.9692,
+      "endSeconds": 9.6099,
+      "alignmentScore": 0.9961
+    },
+    {
+      "text": "تجعل",
+      "startSeconds": 10.3907,
+      "endSeconds": 10.7711,
+      "alignmentScore": 0.9967
+    },
+    {
+      "text": "الأجزاء",
+      "startSeconds": 10.8512,
+      "endSeconds": 11.3717,
+      "alignmentScore": 0.9477
+    },
+    {
+      "text": "المفقودة",
+      "startSeconds": 11.4518,
+      "endSeconds": 12.0324,
+      "alignmentScore": 0.941
+    },
+    {
+      "text": "حدود",
+      "startSeconds": 12.2726,
+      "endSeconds": 12.593,
+      "alignmentScore": 0.9874
+    },
+    {
+      "text": "الجذع",
+      "startSeconds": 12.673,
+      "endSeconds": 13.0534,
+      "alignmentScore": 0.8939
+    },
+    {
+      "text": "غير",
+      "startSeconds": 13.4739,
+      "endSeconds": 13.7341,
+      "alignmentScore": 0.9862
+    },
+    {
+      "text": "منتظمة.",
+      "startSeconds": 13.8543,
+      "endSeconds": 14.4549,
+      "alignmentScore": 0.9903
+    },
+    {
+      "text": "وتظهر",
+      "startSeconds": 15.2557,
+      "endSeconds": 15.7162,
+      "alignmentScore": 0.9965
+    },
+    {
+      "text": "في",
+      "startSeconds": 15.8163,
+      "endSeconds": 15.8964,
+      "alignmentScore": 0.9508
+    },
+    {
+      "text": "الحجر",
+      "startSeconds": 15.9164,
+      "endSeconds": 16.2968,
+      "alignmentScore": 0.9985
+    },
+    {
+      "text": "تدرجات",
+      "startSeconds": 16.4169,
+      "endSeconds": 17.0976,
+      "alignmentScore": 0.8149
+    },
+    {
+      "text": "لونية.",
+      "startSeconds": 17.2778,
+      "endSeconds": 17.7983,
+      "alignmentScore": 0.9786
+    },
+    {
+      "text": "تتجه",
+      "startSeconds": 18.5391,
+      "endSeconds": 19.0196,
+      "alignmentScore": 0.9976
+    },
+    {
+      "text": "الهيئة",
+      "startSeconds": 19.0796,
+      "endSeconds": 19.46,
+      "alignmentScore": 0.857
+    },
+    {
+      "text": "إلى",
+      "startSeconds": 19.6803,
+      "endSeconds": 19.7804,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "الأمام،",
+      "startSeconds": 19.8404,
+      "endSeconds": 20.3209,
+      "alignmentScore": 0.9986
+    },
+    {
+      "text": "مما",
+      "startSeconds": 20.8815,
+      "endSeconds": 21.2018,
+      "alignmentScore": 0.9967
+    },
+    {
+      "text": "يمنح",
+      "startSeconds": 21.2819,
+      "endSeconds": 21.6223,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "الوجه",
+      "startSeconds": 21.7224,
+      "endSeconds": 22.0427,
+      "alignmentScore": 0.9619
+    },
+    {
+      "text": "حضوراً",
+      "startSeconds": 22.1828,
+      "endSeconds": 22.6433,
+      "alignmentScore": 0.8572
+    },
+    {
+      "text": "بارزاً.",
+      "startSeconds": 22.7034,
+      "endSeconds": 23.2039,
+      "alignmentScore": 0.8565
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea19.audio_description.ar",
+    "wordCount": 37,
+    "cueCount": 5,
+    "meanAlignmentScore": 0.9586,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

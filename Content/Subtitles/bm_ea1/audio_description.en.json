@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea1.audio_description.en",
+  "language": "en",
+  "kind": "audio_description",
+  "audioSha256": "d45afaeb5dbe4cdeba804b13320bb4a4f1ece992aa8cca5d127bad182f200fed",
+  "scriptSha256": "e0b668eb24653b0c4e7c6c16ae3abb156ccd4f62e7fa024b62757bd8b7d54d39",
+  "durationSeconds": 48.013061,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020005,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.06,
+      "endSeconds": 1.821,
+      "text": "A stone lion"
+    },
+    {
+      "startSeconds": 2.761,
+      "endSeconds": 4.981,
+      "text": "lies on a pedestal."
+    },
+    {
+      "startSeconds": 6.562,
+      "endSeconds": 8.762,
+      "text": "Its elongated body"
+    },
+    {
+      "startSeconds": 9.783,
+      "endSeconds": 11.603,
+      "text": "has a modelled head"
+    },
+    {
+      "startSeconds": 12.703,
+      "endSeconds": 15.004,
+      "text": "and carved paws."
+    },
+    {
+      "startSeconds": 16.604,
+      "endSeconds": 17.885,
+      "text": "Red granite"
+    },
+    {
+      "startSeconds": 18.705,
+      "endSeconds": 20.565,
+      "text": "gives the sculpture"
+    },
+    {
+      "startSeconds": 21.466,
+      "endSeconds": 22.686,
+      "text": "a warm"
+    },
+    {
+      "startSeconds": 23.266,
+      "endSeconds": 24.066,
+      "text": "colour."
+    },
+    {
+      "startSeconds": 25.587,
+      "endSeconds": 27.227,
+      "text": "Inscriptions"
+    },
+    {
+      "startSeconds": 27.927,
+      "endSeconds": 30.148,
+      "text": "occupy the chest"
+    },
+    {
+      "startSeconds": 30.868,
+      "endSeconds": 33.209,
+      "text": "and several surfaces"
+    },
+    {
+      "startSeconds": 33.949,
+      "endSeconds": 35.649,
+      "text": "of the pedestal."
+    },
+    {
+      "startSeconds": 37.15,
+      "endSeconds": 37.95,
+      "text": "The body"
+    },
+    {
+      "startSeconds": 38.57,
+      "endSeconds": 41.071,
+      "text": "has rounded forms,"
+    },
+    {
+      "startSeconds": 42.511,
+      "endSeconds": 43.871,
+      "text": "while the base"
+    },
+    {
+      "startSeconds": 44.892,
+      "endSeconds": 46.072,
+      "text": "has straight"
+    },
+    {
+      "startSeconds": 46.812,
+      "endSeconds": 47.612,
+      "text": "edges."
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "startSeconds": 0.06,
+      "endSeconds": 0.08,
+      "alignmentScore": 0.9907
+    },
+    {
+      "text": "stone",
+      "startSeconds": 0.3201,
+      "endSeconds": 1.0203,
+      "alignmentScore": 0.9982
+    },
+    {
+      "text": "lion",
+      "startSeconds": 1.1803,
+      "endSeconds": 1.7405,
+      "alignmentScore": 0.9572
+    },
+    {
+      "text": "lies",
+      "startSeconds": 2.7607,
+      "endSeconds": 3.3009,
+      "alignmentScore": 0.7589
+    },
+    {
+      "text": "on",
+      "startSeconds": 3.5209,
+      "endSeconds": 3.6609,
+      "alignmentScore": 0.9843
+    },
+    {
+      "text": "a",
+      "startSeconds": 3.781,
+      "endSeconds": 3.801,
+      "alignmentScore": 0.9501
+    },
+    {
+      "text": "pedestal.",
+      "startSeconds": 4.041,
+      "endSeconds": 4.9013,
+      "alignmentScore": 0.8529
+    },
+    {
+      "text": "Its",
+      "startSeconds": 6.5617,
+      "endSeconds": 6.8018,
+      "alignmentScore": 0.9843
+    },
+    {
+      "text": "elongated",
+      "startSeconds": 7.1018,
+      "endSeconds": 8.1821,
+      "alignmentScore": 0.9184
+    },
+    {
+      "text": "body",
+      "startSeconds": 8.3222,
+      "endSeconds": 8.6823,
+      "alignmentScore": 0.9984
+    },
+    {
+      "text": "has",
+      "startSeconds": 9.7825,
+      "endSeconds": 10.0026,
+      "alignmentScore": 0.9905
+    },
+    {
+      "text": "a",
+      "startSeconds": 10.0826,
+      "endSeconds": 10.1026,
+      "alignmentScore": 0.9886
+    },
+    {
+      "text": "modelled",
+      "startSeconds": 10.3427,
+      "endSeconds": 10.9628,
+      "alignmentScore": 0.8187
+    },
+    {
+      "text": "head",
+      "startSeconds": 11.1429,
+      "endSeconds": 11.523,
+      "alignmentScore": 0.966
+    },
+    {
+      "text": "and",
+      "startSeconds": 12.7033,
+      "endSeconds": 12.8633,
+      "alignmentScore": 0.9273
+    },
+    {
+      "text": "carved",
+      "startSeconds": 13.0834,
+      "endSeconds": 13.9036,
+      "alignmentScore": 0.8749
+    },
+    {
+      "text": "paws.",
+      "startSeconds": 14.1437,
+      "endSeconds": 14.9239,
+      "alignmentScore": 0.7068
+    },
+    {
+      "text": "Red",
+      "startSeconds": 16.6043,
+      "endSeconds": 16.8644,
+      "alignmentScore": 0.9979
+    },
+    {
+      "text": "granite",
+      "startSeconds": 17.0244,
+      "endSeconds": 17.8046,
+      "alignmentScore": 0.8296
+    },
+    {
+      "text": "gives",
+      "startSeconds": 18.7048,
+      "endSeconds": 19.105,
+      "alignmentScore": 0.9965
+    },
+    {
+      "text": "the",
+      "startSeconds": 19.225,
+      "endSeconds": 19.325,
+      "alignmentScore": 0.8774
+    },
+    {
+      "text": "sculpture",
+      "startSeconds": 19.5051,
+      "endSeconds": 20.4853,
+      "alignmentScore": 0.9403
+    },
+    {
+      "text": "a",
+      "startSeconds": 21.4656,
+      "endSeconds": 21.4856,
+      "alignmentScore": 0.9971
+    },
+    {
+      "text": "warm",
+      "startSeconds": 21.9657,
+      "endSeconds": 22.6059,
+      "alignmentScore": 0.8729
+    },
+    {
+      "text": "colour.",
+      "startSeconds": 23.266,
+      "endSeconds": 23.8062,
+      "alignmentScore": 0.803
+    },
+    {
+      "text": "Inscriptions",
+      "startSeconds": 25.5866,
+      "endSeconds": 27.147,
+      "alignmentScore": 0.9933
+    },
+    {
+      "text": "occupy",
+      "startSeconds": 27.9272,
+      "endSeconds": 28.8875,
+      "alignmentScore": 0.8605
+    },
+    {
+      "text": "the",
+      "startSeconds": 29.0075,
+      "endSeconds": 29.1276,
+      "alignmentScore": 0.9586
+    },
+    {
+      "text": "chest",
+      "startSeconds": 29.2876,
+      "endSeconds": 30.0678,
+      "alignmentScore": 0.9717
+    },
+    {
+      "text": "and",
+      "startSeconds": 30.868,
+      "endSeconds": 31.048,
+      "alignmentScore": 0.9988
+    },
+    {
+      "text": "several",
+      "startSeconds": 31.2881,
+      "endSeconds": 31.8683,
+      "alignmentScore": 0.995
+    },
+    {
+      "text": "surfaces",
+      "startSeconds": 32.0883,
+      "endSeconds": 33.1286,
+      "alignmentScore": 0.9407
+    },
+    {
+      "text": "of",
+      "startSeconds": 33.9488,
+      "endSeconds": 34.1889,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "the",
+      "startSeconds": 34.4089,
+      "endSeconds": 34.529,
+      "alignmentScore": 0.9343
+    },
+    {
+      "text": "pedestal.",
+      "startSeconds": 34.689,
+      "endSeconds": 35.5692,
+      "alignmentScore": 0.8729
+    },
+    {
+      "text": "The",
+      "startSeconds": 37.1496,
+      "endSeconds": 37.2697,
+      "alignmentScore": 0.8774
+    },
+    {
+      "text": "body",
+      "startSeconds": 37.4097,
+      "endSeconds": 37.7298,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "has",
+      "startSeconds": 38.57,
+      "endSeconds": 38.9101,
+      "alignmentScore": 0.9389
+    },
+    {
+      "text": "rounded",
+      "startSeconds": 39.1902,
+      "endSeconds": 39.9304,
+      "alignmentScore": 0.9462
+    },
+    {
+      "text": "forms,",
+      "startSeconds": 40.1704,
+      "endSeconds": 40.9906,
+      "alignmentScore": 0.9958
+    },
+    {
+      "text": "while",
+      "startSeconds": 42.511,
+      "endSeconds": 42.8711,
+      "alignmentScore": 0.9855
+    },
+    {
+      "text": "the",
+      "startSeconds": 42.9311,
+      "endSeconds": 43.0312,
+      "alignmentScore": 0.9402
+    },
+    {
+      "text": "base",
+      "startSeconds": 43.2112,
+      "endSeconds": 43.7914,
+      "alignmentScore": 0.8998
+    },
+    {
+      "text": "has",
+      "startSeconds": 44.8916,
+      "endSeconds": 45.1317,
+      "alignmentScore": 0.9944
+    },
+    {
+      "text": "straight",
+      "startSeconds": 45.2917,
+      "endSeconds": 45.9919,
+      "alignmentScore": 0.6796
+    },
+    {
+      "text": "edges.",
+      "startSeconds": 46.8121,
+      "endSeconds": 47.4923,
+      "alignmentScore": 0.889
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea1.audio_description.en",
+    "wordCount": 46,
+    "cueCount": 18,
+    "meanAlignmentScore": 0.9272,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

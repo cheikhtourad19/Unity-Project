@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea19.audio_description.fr",
+  "language": "fr",
+  "kind": "audio_description",
+  "audioSha256": "78ace50b3cb3af786b1e6ce9a1aef1a6ccb67f618da3b57aa5464591f232a37d",
+  "scriptSha256": "b4307f1a6c966c5498816257f5ba17375d1ebd15353c0acac803953076759eae",
+  "durationSeconds": 20.715102,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020006,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.08,
+      "endSeconds": 0.88,
+      "text": "La sculpture"
+    },
+    {
+      "startSeconds": 1.36,
+      "endSeconds": 4.021,
+      "text": "conserve une tête et le haut\nd’un buste humain."
+    },
+    {
+      "startSeconds": 4.661,
+      "endSeconds": 7.402,
+      "text": "Le visage est encadré par\nune coiffe rayée qui descend"
+    },
+    {
+      "startSeconds": 7.402,
+      "endSeconds": 10.543,
+      "text": "sur les épaules. Les parties\nmanquantes rendent le"
+    },
+    {
+      "startSeconds": 10.543,
+      "endSeconds": 13.864,
+      "text": "contour du torse irrégulier.\nLa pierre présente des"
+    },
+    {
+      "startSeconds": 13.864,
+      "endSeconds": 15.024,
+      "text": "variations de teinte."
+    },
+    {
+      "startSeconds": 15.804,
+      "endSeconds": 19.345,
+      "text": "La figure est tournée vers\nl’avant, donnant une forte"
+    },
+    {
+      "startSeconds": 19.345,
+      "endSeconds": 20.406,
+      "text": "présence au visage."
+    }
+  ],
+  "words": [
+    {
+      "text": "La",
+      "startSeconds": 0.08,
+      "endSeconds": 0.14,
+      "alignmentScore": 0.9983
+    },
+    {
+      "text": "sculpture",
+      "startSeconds": 0.2001,
+      "endSeconds": 0.7002,
+      "alignmentScore": 0.9188
+    },
+    {
+      "text": "conserve",
+      "startSeconds": 1.3604,
+      "endSeconds": 1.8005,
+      "alignmentScore": 0.9783
+    },
+    {
+      "text": "une",
+      "startSeconds": 1.8605,
+      "endSeconds": 2.0006,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "tête",
+      "startSeconds": 2.0806,
+      "endSeconds": 2.4207,
+      "alignmentScore": 0.9883
+    },
+    {
+      "text": "et",
+      "startSeconds": 2.7208,
+      "endSeconds": 2.7808,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "le",
+      "startSeconds": 2.8208,
+      "endSeconds": 2.8808,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "haut",
+      "startSeconds": 3.0008,
+      "endSeconds": 3.1409,
+      "alignmentScore": 0.9181
+    },
+    {
+      "text": "d’un",
+      "startSeconds": 3.1609,
+      "endSeconds": 3.3009,
+      "alignmentScore": 0.9674
+    },
+    {
+      "text": "buste",
+      "startSeconds": 3.3209,
+      "endSeconds": 3.601,
+      "alignmentScore": 0.916
+    },
+    {
+      "text": "humain.",
+      "startSeconds": 3.661,
+      "endSeconds": 3.9411,
+      "alignmentScore": 0.9227
+    },
+    {
+      "text": "Le",
+      "startSeconds": 4.6613,
+      "endSeconds": 4.7413,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "visage",
+      "startSeconds": 4.7813,
+      "endSeconds": 5.1615,
+      "alignmentScore": 0.9324
+    },
+    {
+      "text": "est",
+      "startSeconds": 5.2215,
+      "endSeconds": 5.3215,
+      "alignmentScore": 0.9121
+    },
+    {
+      "text": "encadré",
+      "startSeconds": 5.3415,
+      "endSeconds": 5.7016,
+      "alignmentScore": 0.996
+    },
+    {
+      "text": "par",
+      "startSeconds": 5.7616,
+      "endSeconds": 5.8817,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "une",
+      "startSeconds": 5.9217,
+      "endSeconds": 6.0217,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "coiffe",
+      "startSeconds": 6.0617,
+      "endSeconds": 6.2818,
+      "alignmentScore": 0.5957
+    },
+    {
+      "text": "rayée",
+      "startSeconds": 6.3418,
+      "endSeconds": 6.6819,
+      "alignmentScore": 0.8193
+    },
+    {
+      "text": "qui",
+      "startSeconds": 6.9219,
+      "endSeconds": 7.002,
+      "alignmentScore": 0.9965
+    },
+    {
+      "text": "descend",
+      "startSeconds": 7.062,
+      "endSeconds": 7.3421,
+      "alignmentScore": 0.9432
+    },
+    {
+      "text": "sur",
+      "startSeconds": 7.4021,
+      "endSeconds": 7.5021,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "les",
+      "startSeconds": 7.5421,
+      "endSeconds": 7.6622,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "épaules.",
+      "startSeconds": 7.7222,
+      "endSeconds": 8.0823,
+      "alignmentScore": 0.9168
+    },
+    {
+      "text": "Les",
+      "startSeconds": 8.6424,
+      "endSeconds": 8.7625,
+      "alignmentScore": 0.9422
+    },
+    {
+      "text": "parties",
+      "startSeconds": 8.7625,
+      "endSeconds": 9.1026,
+      "alignmentScore": 0.9677
+    },
+    {
+      "text": "manquantes",
+      "startSeconds": 9.1226,
+      "endSeconds": 9.6027,
+      "alignmentScore": 0.9569
+    },
+    {
+      "text": "rendent",
+      "startSeconds": 10.1028,
+      "endSeconds": 10.3429,
+      "alignmentScore": 0.8604
+    },
+    {
+      "text": "le",
+      "startSeconds": 10.4029,
+      "endSeconds": 10.4629,
+      "alignmentScore": 0.9976
+    },
+    {
+      "text": "contour",
+      "startSeconds": 10.543,
+      "endSeconds": 10.9231,
+      "alignmentScore": 0.9957
+    },
+    {
+      "text": "du",
+      "startSeconds": 10.9831,
+      "endSeconds": 11.0631,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "torse",
+      "startSeconds": 11.1631,
+      "endSeconds": 11.4832,
+      "alignmentScore": 0.8422
+    },
+    {
+      "text": "irrégulier.",
+      "startSeconds": 11.6233,
+      "endSeconds": 12.2034,
+      "alignmentScore": 0.9977
+    },
+    {
+      "text": "La",
+      "startSeconds": 12.6035,
+      "endSeconds": 12.6836,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "pierre",
+      "startSeconds": 12.7636,
+      "endSeconds": 13.1437,
+      "alignmentScore": 0.9931
+    },
+    {
+      "text": "présente",
+      "startSeconds": 13.1837,
+      "endSeconds": 13.6038,
+      "alignmentScore": 0.9915
+    },
+    {
+      "text": "des",
+      "startSeconds": 13.6838,
+      "endSeconds": 13.8039,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "variations",
+      "startSeconds": 13.8639,
+      "endSeconds": 14.4441,
+      "alignmentScore": 0.996
+    },
+    {
+      "text": "de",
+      "startSeconds": 14.4641,
+      "endSeconds": 14.5441,
+      "alignmentScore": 0.9184
+    },
+    {
+      "text": "teinte.",
+      "startSeconds": 14.6441,
+      "endSeconds": 14.9442,
+      "alignmentScore": 0.8313
+    },
+    {
+      "text": "La",
+      "startSeconds": 15.8044,
+      "endSeconds": 15.8645,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "figure",
+      "startSeconds": 15.9245,
+      "endSeconds": 16.3646,
+      "alignmentScore": 0.9616
+    },
+    {
+      "text": "est",
+      "startSeconds": 16.8447,
+      "endSeconds": 16.9448,
+      "alignmentScore": 0.9738
+    },
+    {
+      "text": "tournée",
+      "startSeconds": 17.0048,
+      "endSeconds": 17.3649,
+      "alignmentScore": 0.9539
+    },
+    {
+      "text": "vers",
+      "startSeconds": 17.3849,
+      "endSeconds": 17.5449,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "l’avant,",
+      "startSeconds": 17.5649,
+      "endSeconds": 17.905,
+      "alignmentScore": 0.9178
+    },
+    {
+      "text": "donnant",
+      "startSeconds": 18.2851,
+      "endSeconds": 18.5852,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "une",
+      "startSeconds": 18.6652,
+      "endSeconds": 18.8053,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "forte",
+      "startSeconds": 18.9053,
+      "endSeconds": 19.2854,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "présence",
+      "startSeconds": 19.3454,
+      "endSeconds": 19.8056,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "au",
+      "startSeconds": 19.8256,
+      "endSeconds": 19.8856,
+      "alignmentScore": 0.9023
+    },
+    {
+      "text": "visage.",
+      "startSeconds": 19.9256,
+      "endSeconds": 20.3257,
+      "alignmentScore": 0.9998
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea19.audio_description.fr",
+    "wordCount": 52,
+    "cueCount": 8,
+    "meanAlignmentScore": 0.956,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

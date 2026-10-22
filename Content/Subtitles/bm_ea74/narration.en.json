@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea74.narration.en",
+  "language": "en",
+  "kind": "narration",
+  "audioSha256": "9d6c458fc31391b4ea3ba49ad2047a9e82fb75718961acbd4e1946539360e810",
+  "scriptSha256": "b258c0298a8a97e35afb076268798e7de42eb30d50a259132770f642bd5c6288",
+  "durationSeconds": 37.276735,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020013,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.06,
+      "endSeconds": 3.342,
+      "text": "This monumental scarab is\ncarved from diorite."
+    },
+    {
+      "startSeconds": 4.123,
+      "endSeconds": 6.144,
+      "text": "It probably represents\nKhepri,"
+    },
+    {
+      "startSeconds": 7.025,
+      "endSeconds": 9.826,
+      "text": "a form of the sun god\nassociated with sunrise."
+    },
+    {
+      "startSeconds": 10.807,
+      "endSeconds": 14.61,
+      "text": "In ancient Egyptian beliefs,\nthe scarab evoked birth and"
+    },
+    {
+      "startSeconds": 14.61,
+      "endSeconds": 15.41,
+      "text": "renewal."
+    },
+    {
+      "startSeconds": 16.031,
+      "endSeconds": 17.211,
+      "text": "Notice its rounded body,"
+    },
+    {
+      "startSeconds": 17.832,
+      "endSeconds": 19.833,
+      "text": "its legs and the base\nbeneath it."
+    },
+    {
+      "startSeconds": 20.734,
+      "endSeconds": 24.476,
+      "text": "The sculptor transformed a\nsmall insect into a"
+    },
+    {
+      "startSeconds": 24.536,
+      "endSeconds": 26.518,
+      "text": "monumental presence."
+    },
+    {
+      "startSeconds": 28.019,
+      "endSeconds": 32.782,
+      "text": "This work invites us to\nexplore the connection between"
+    },
+    {
+      "startSeconds": 32.782,
+      "endSeconds": 36.785,
+      "text": "the natural world and images\nof the gods."
+    }
+  ],
+  "words": [
+    {
+      "text": "This",
+      "startSeconds": 0.06,
+      "endSeconds": 0.2001,
+      "alignmentScore": 0.9866
+    },
+    {
+      "text": "monumental",
+      "startSeconds": 0.3402,
+      "endSeconds": 0.9206,
+      "alignmentScore": 0.9985
+    },
+    {
+      "text": "scarab",
+      "startSeconds": 0.9807,
+      "endSeconds": 1.3609,
+      "alignmentScore": 0.9525
+    },
+    {
+      "text": "is",
+      "startSeconds": 1.8212,
+      "endSeconds": 1.9013,
+      "alignmentScore": 0.9974
+    },
+    {
+      "text": "carved",
+      "startSeconds": 1.9813,
+      "endSeconds": 2.3616,
+      "alignmentScore": 0.8356
+    },
+    {
+      "text": "from",
+      "startSeconds": 2.4416,
+      "endSeconds": 2.5817,
+      "alignmentScore": 0.9981
+    },
+    {
+      "text": "diorite.",
+      "startSeconds": 2.7018,
+      "endSeconds": 3.2622,
+      "alignmentScore": 0.8153
+    },
+    {
+      "text": "It",
+      "startSeconds": 4.1227,
+      "endSeconds": 4.2028,
+      "alignmentScore": 0.9931
+    },
+    {
+      "text": "probably",
+      "startSeconds": 4.2829,
+      "endSeconds": 4.6631,
+      "alignmentScore": 0.9961
+    },
+    {
+      "text": "represents",
+      "startSeconds": 4.8632,
+      "endSeconds": 5.3836,
+      "alignmentScore": 0.9944
+    },
+    {
+      "text": "Khepri,",
+      "startSeconds": 5.6838,
+      "endSeconds": 6.064,
+      "alignmentScore": 0.6924
+    },
+    {
+      "text": "a",
+      "startSeconds": 7.0247,
+      "endSeconds": 7.0447,
+      "alignmentScore": 0.997
+    },
+    {
+      "text": "form",
+      "startSeconds": 7.1448,
+      "endSeconds": 7.3649,
+      "alignmentScore": 0.9983
+    },
+    {
+      "text": "of",
+      "startSeconds": 7.4049,
+      "endSeconds": 7.465,
+      "alignmentScore": 0.9983
+    },
+    {
+      "text": "the",
+      "startSeconds": 7.505,
+      "endSeconds": 7.5851,
+      "alignmentScore": 0.9968
+    },
+    {
+      "text": "sun",
+      "startSeconds": 7.6851,
+      "endSeconds": 7.8652,
+      "alignmentScore": 0.8842
+    },
+    {
+      "text": "god",
+      "startSeconds": 7.9653,
+      "endSeconds": 8.1254,
+      "alignmentScore": 0.9986
+    },
+    {
+      "text": "associated",
+      "startSeconds": 8.3055,
+      "endSeconds": 8.966,
+      "alignmentScore": 0.9975
+    },
+    {
+      "text": "with",
+      "startSeconds": 9.026,
+      "endSeconds": 9.1661,
+      "alignmentScore": 0.9737
+    },
+    {
+      "text": "sunrise.",
+      "startSeconds": 9.2061,
+      "endSeconds": 9.7465,
+      "alignmentScore": 0.9979
+    },
+    {
+      "text": "In",
+      "startSeconds": 10.8072,
+      "endSeconds": 10.8873,
+      "alignmentScore": 0.9143
+    },
+    {
+      "text": "ancient",
+      "startSeconds": 10.9873,
+      "endSeconds": 11.3275,
+      "alignmentScore": 0.7419
+    },
+    {
+      "text": "Egyptian",
+      "startSeconds": 11.4676,
+      "endSeconds": 11.8279,
+      "alignmentScore": 0.7007
+    },
+    {
+      "text": "beliefs,",
+      "startSeconds": 11.8679,
+      "endSeconds": 12.2682,
+      "alignmentScore": 0.8031
+    },
+    {
+      "text": "the",
+      "startSeconds": 12.8285,
+      "endSeconds": 12.9086,
+      "alignmentScore": 0.9981
+    },
+    {
+      "text": "scarab",
+      "startSeconds": 12.9686,
+      "endSeconds": 13.3289,
+      "alignmentScore": 0.9572
+    },
+    {
+      "text": "evoked",
+      "startSeconds": 13.469,
+      "endSeconds": 13.8492,
+      "alignmentScore": 0.9869
+    },
+    {
+      "text": "birth",
+      "startSeconds": 13.9693,
+      "endSeconds": 14.2695,
+      "alignmentScore": 0.9649
+    },
+    {
+      "text": "and",
+      "startSeconds": 14.4696,
+      "endSeconds": 14.5697,
+      "alignmentScore": 0.9965
+    },
+    {
+      "text": "renewal.",
+      "startSeconds": 14.6097,
+      "endSeconds": 14.97,
+      "alignmentScore": 0.7035
+    },
+    {
+      "text": "Notice",
+      "startSeconds": 16.0307,
+      "endSeconds": 16.3509,
+      "alignmentScore": 0.853
+    },
+    {
+      "text": "its",
+      "startSeconds": 16.3909,
+      "endSeconds": 16.491,
+      "alignmentScore": 0.965
+    },
+    {
+      "text": "rounded",
+      "startSeconds": 16.571,
+      "endSeconds": 16.8913,
+      "alignmentScore": 0.9902
+    },
+    {
+      "text": "body,",
+      "startSeconds": 16.9313,
+      "endSeconds": 17.1314,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "its",
+      "startSeconds": 17.8319,
+      "endSeconds": 17.952,
+      "alignmentScore": 0.998
+    },
+    {
+      "text": "legs",
+      "startSeconds": 18.032,
+      "endSeconds": 18.3322,
+      "alignmentScore": 0.9984
+    },
+    {
+      "text": "and",
+      "startSeconds": 18.7725,
+      "endSeconds": 18.8526,
+      "alignmentScore": 0.9973
+    },
+    {
+      "text": "the",
+      "startSeconds": 18.8726,
+      "endSeconds": 18.9526,
+      "alignmentScore": 0.9979
+    },
+    {
+      "text": "base",
+      "startSeconds": 18.9726,
+      "endSeconds": 19.2128,
+      "alignmentScore": 0.9542
+    },
+    {
+      "text": "beneath",
+      "startSeconds": 19.2528,
+      "endSeconds": 19.553,
+      "alignmentScore": 0.8574
+    },
+    {
+      "text": "it.",
+      "startSeconds": 19.6131,
+      "endSeconds": 19.7532,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "The",
+      "startSeconds": 20.7338,
+      "endSeconds": 20.8139,
+      "alignmentScore": 0.9766
+    },
+    {
+      "text": "sculptor",
+      "startSeconds": 20.8539,
+      "endSeconds": 21.2542,
+      "alignmentScore": 0.9348
+    },
+    {
+      "text": "transformed",
+      "startSeconds": 21.3542,
+      "endSeconds": 22.1948,
+      "alignmentScore": 0.9986
+    },
+    {
+      "text": "a",
+      "startSeconds": 22.2348,
+      "endSeconds": 22.2548,
+      "alignmentScore": 0.9854
+    },
+    {
+      "text": "small",
+      "startSeconds": 22.3949,
+      "endSeconds": 22.8152,
+      "alignmentScore": 0.9842
+    },
+    {
+      "text": "insect",
+      "startSeconds": 22.9753,
+      "endSeconds": 23.6758,
+      "alignmentScore": 0.9885
+    },
+    {
+      "text": "into",
+      "startSeconds": 24.036,
+      "endSeconds": 24.2762,
+      "alignmentScore": 0.9942
+    },
+    {
+      "text": "a",
+      "startSeconds": 24.3762,
+      "endSeconds": 24.3963,
+      "alignmentScore": 0.9894
+    },
+    {
+      "text": "monumental",
+      "startSeconds": 24.5363,
+      "endSeconds": 25.477,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "presence.",
+      "startSeconds": 25.6571,
+      "endSeconds": 26.4376,
+      "alignmentScore": 0.9776
+    },
+    {
+      "text": "This",
+      "startSeconds": 28.0187,
+      "endSeconds": 28.2588,
+      "alignmentScore": 0.9951
+    },
+    {
+      "text": "work",
+      "startSeconds": 28.3989,
+      "endSeconds": 28.7191,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "invites",
+      "startSeconds": 28.8792,
+      "endSeconds": 29.4596,
+      "alignmentScore": 0.9917
+    },
+    {
+      "text": "us",
+      "startSeconds": 29.5397,
+      "endSeconds": 29.7198,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "to",
+      "startSeconds": 29.8199,
+      "endSeconds": 29.9199,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "explore",
+      "startSeconds": 30.02,
+      "endSeconds": 30.6604,
+      "alignmentScore": 0.9845
+    },
+    {
+      "text": "the",
+      "startSeconds": 30.7605,
+      "endSeconds": 30.8606,
+      "alignmentScore": 0.945
+    },
+    {
+      "text": "connection",
+      "startSeconds": 30.9406,
+      "endSeconds": 31.6611,
+      "alignmentScore": 0.9679
+    },
+    {
+      "text": "between",
+      "startSeconds": 32.2815,
+      "endSeconds": 32.7218,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "the",
+      "startSeconds": 32.7818,
+      "endSeconds": 32.8819,
+      "alignmentScore": 0.9961
+    },
+    {
+      "text": "natural",
+      "startSeconds": 32.962,
+      "endSeconds": 33.4823,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "world",
+      "startSeconds": 33.5624,
+      "endSeconds": 34.0227,
+      "alignmentScore": 0.9907
+    },
+    {
+      "text": "and",
+      "startSeconds": 34.523,
+      "endSeconds": 34.6831,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "images",
+      "startSeconds": 34.9233,
+      "endSeconds": 35.5637,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "of",
+      "startSeconds": 35.7838,
+      "endSeconds": 35.8839,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "the",
+      "startSeconds": 35.984,
+      "endSeconds": 36.064,
+      "alignmentScore": 0.9796
+    },
+    {
+      "text": "gods.",
+      "startSeconds": 36.1841,
+      "endSeconds": 36.7045,
+      "alignmentScore": 0.9673
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea74.narration.en",
+    "wordCount": 68,
+    "cueCount": 11,
+    "meanAlignmentScore": 0.9577,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

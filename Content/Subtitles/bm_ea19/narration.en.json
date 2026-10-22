@@ -1,0 +1,541 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea19.narration.en",
+  "language": "en",
+  "kind": "narration",
+  "audioSha256": "5e15bb0812cc2e67bcab5546d5f7248b8163e61d5601cd28d058e3ea9e6653df",
+  "scriptSha256": "3f211a6ae6424cefddb9824d393e104dfcebdd900e763e68b3a10943cdccb2c8",
+  "durationSeconds": 41.926531,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020004,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.06,
+      "endSeconds": 3.481,
+      "text": "Here is the upper part of a\ncolossal statue of Ramesses"
+    },
+    {
+      "startSeconds": 3.481,
+      "endSeconds": 4.281,
+      "text": "the Second."
+    },
+    {
+      "startSeconds": 5.201,
+      "endSeconds": 6.641,
+      "text": "It comes from the Ramesseum,"
+    },
+    {
+      "startSeconds": 7.242,
+      "endSeconds": 9.242,
+      "text": "his mortuary temple at\nThebes."
+    },
+    {
+      "startSeconds": 10.262,
+      "endSeconds": 13.763,
+      "text": "The king wears the nemes,\nthe striped headdress of the"
+    },
+    {
+      "startSeconds": 13.763,
+      "endSeconds": 14.563,
+      "text": "pharaohs."
+    },
+    {
+      "startSeconds": 15.363,
+      "endSeconds": 16.403,
+      "text": "Look at the face,"
+    },
+    {
+      "startSeconds": 17.024,
+      "endSeconds": 20.524,
+      "text": "the shoulders and the variations\nin the stone’s colour."
+    },
+    {
+      "startSeconds": 21.885,
+      "endSeconds": 23.365,
+      "text": "Even as a fragment,"
+    },
+    {
+      "startSeconds": 24.565,
+      "endSeconds": 28.566,
+      "text": "this sculpture retains a\npowerful presence."
+    },
+    {
+      "startSeconds": 29.886,
+      "endSeconds": 34.207,
+      "text": "It shows how monuments could\nmake royal authority"
+    },
+    {
+      "startSeconds": 35.247,
+      "endSeconds": 36.047,
+      "text": "visible"
+    },
+    {
+      "startSeconds": 36.928,
+      "endSeconds": 41.449,
+      "text": "and connect the ruler’s\nimage with sacred spaces."
+    }
+  ],
+  "words": [
+    {
+      "text": "Here",
+      "startSeconds": 0.06,
+      "endSeconds": 0.2801,
+      "alignmentScore": 0.9603
+    },
+    {
+      "text": "is",
+      "startSeconds": 0.3201,
+      "endSeconds": 0.3801,
+      "alignmentScore": 0.9976
+    },
+    {
+      "text": "the",
+      "startSeconds": 0.4201,
+      "endSeconds": 0.5201,
+      "alignmentScore": 0.9857
+    },
+    {
+      "text": "upper",
+      "startSeconds": 0.6201,
+      "endSeconds": 0.8202,
+      "alignmentScore": 0.963
+    },
+    {
+      "text": "part",
+      "startSeconds": 0.8602,
+      "endSeconds": 1.2003,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "of",
+      "startSeconds": 1.4003,
+      "endSeconds": 1.4803,
+      "alignmentScore": 0.9981
+    },
+    {
+      "text": "a",
+      "startSeconds": 1.5203,
+      "endSeconds": 1.5403,
+      "alignmentScore": 0.9965
+    },
+    {
+      "text": "colossal",
+      "startSeconds": 1.6203,
+      "endSeconds": 2.1004,
+      "alignmentScore": 0.9424
+    },
+    {
+      "text": "statue",
+      "startSeconds": 2.2205,
+      "endSeconds": 2.6606,
+      "alignmentScore": 0.8506
+    },
+    {
+      "text": "of",
+      "startSeconds": 2.7606,
+      "endSeconds": 2.8406,
+      "alignmentScore": 0.9952
+    },
+    {
+      "text": "Ramesses",
+      "startSeconds": 2.9206,
+      "endSeconds": 3.4007,
+      "alignmentScore": 0.8851
+    },
+    {
+      "text": "the",
+      "startSeconds": 3.4807,
+      "endSeconds": 3.5607,
+      "alignmentScore": 0.8633
+    },
+    {
+      "text": "Second.",
+      "startSeconds": 3.6408,
+      "endSeconds": 4.0409,
+      "alignmentScore": 0.9656
+    },
+    {
+      "text": "It",
+      "startSeconds": 5.2011,
+      "endSeconds": 5.2611,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "comes",
+      "startSeconds": 5.3011,
+      "endSeconds": 5.5612,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "from",
+      "startSeconds": 5.6012,
+      "endSeconds": 5.7612,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "the",
+      "startSeconds": 5.8012,
+      "endSeconds": 5.8812,
+      "alignmentScore": 0.9928
+    },
+    {
+      "text": "Ramesseum,",
+      "startSeconds": 5.9412,
+      "endSeconds": 6.5614,
+      "alignmentScore": 0.8034
+    },
+    {
+      "text": "his",
+      "startSeconds": 7.2415,
+      "endSeconds": 7.4016,
+      "alignmentScore": 0.9575
+    },
+    {
+      "text": "mortuary",
+      "startSeconds": 7.4816,
+      "endSeconds": 7.8617,
+      "alignmentScore": 0.7941
+    },
+    {
+      "text": "temple",
+      "startSeconds": 7.9617,
+      "endSeconds": 8.3218,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "at",
+      "startSeconds": 8.5418,
+      "endSeconds": 8.6418,
+      "alignmentScore": 0.9905
+    },
+    {
+      "text": "Thebes.",
+      "startSeconds": 8.7218,
+      "endSeconds": 9.1619,
+      "alignmentScore": 0.9268
+    },
+    {
+      "text": "The",
+      "startSeconds": 10.2622,
+      "endSeconds": 10.3422,
+      "alignmentScore": 0.9845
+    },
+    {
+      "text": "king",
+      "startSeconds": 10.4222,
+      "endSeconds": 10.6422,
+      "alignmentScore": 0.9986
+    },
+    {
+      "text": "wears",
+      "startSeconds": 10.7023,
+      "endSeconds": 10.9223,
+      "alignmentScore": 0.6971
+    },
+    {
+      "text": "the",
+      "startSeconds": 10.9823,
+      "endSeconds": 11.0623,
+      "alignmentScore": 0.9914
+    },
+    {
+      "text": "nemes,",
+      "startSeconds": 11.1223,
+      "endSeconds": 11.6224,
+      "alignmentScore": 0.7605
+    },
+    {
+      "text": "the",
+      "startSeconds": 12.2426,
+      "endSeconds": 12.3226,
+      "alignmentScore": 0.9721
+    },
+    {
+      "text": "striped",
+      "startSeconds": 12.4026,
+      "endSeconds": 12.8027,
+      "alignmentScore": 0.947
+    },
+    {
+      "text": "headdress",
+      "startSeconds": 12.8627,
+      "endSeconds": 13.3228,
+      "alignmentScore": 0.9701
+    },
+    {
+      "text": "of",
+      "startSeconds": 13.5428,
+      "endSeconds": 13.6029,
+      "alignmentScore": 0.9943
+    },
+    {
+      "text": "the",
+      "startSeconds": 13.6429,
+      "endSeconds": 13.7229,
+      "alignmentScore": 0.981
+    },
+    {
+      "text": "pharaohs.",
+      "startSeconds": 13.7629,
+      "endSeconds": 14.283,
+      "alignmentScore": 0.4819
+    },
+    {
+      "text": "Look",
+      "startSeconds": 15.3632,
+      "endSeconds": 15.5233,
+      "alignmentScore": 0.9983
+    },
+    {
+      "text": "at",
+      "startSeconds": 15.6433,
+      "endSeconds": 15.7233,
+      "alignmentScore": 0.9962
+    },
+    {
+      "text": "the",
+      "startSeconds": 15.7633,
+      "endSeconds": 15.8433,
+      "alignmentScore": 0.9847
+    },
+    {
+      "text": "face,",
+      "startSeconds": 15.9233,
+      "endSeconds": 16.3234,
+      "alignmentScore": 0.9267
+    },
+    {
+      "text": "the",
+      "startSeconds": 17.0236,
+      "endSeconds": 17.1036,
+      "alignmentScore": 0.8742
+    },
+    {
+      "text": "shoulders",
+      "startSeconds": 17.1836,
+      "endSeconds": 17.6637,
+      "alignmentScore": 0.9092
+    },
+    {
+      "text": "and",
+      "startSeconds": 18.1438,
+      "endSeconds": 18.2238,
+      "alignmentScore": 0.9469
+    },
+    {
+      "text": "the",
+      "startSeconds": 18.2438,
+      "endSeconds": 18.3239,
+      "alignmentScore": 0.9862
+    },
+    {
+      "text": "variations",
+      "startSeconds": 18.3639,
+      "endSeconds": 19.144,
+      "alignmentScore": 0.9974
+    },
+    {
+      "text": "in",
+      "startSeconds": 19.3641,
+      "endSeconds": 19.4241,
+      "alignmentScore": 0.9945
+    },
+    {
+      "text": "the",
+      "startSeconds": 19.4441,
+      "endSeconds": 19.5441,
+      "alignmentScore": 0.8731
+    },
+    {
+      "text": "stone’s",
+      "startSeconds": 19.6041,
+      "endSeconds": 19.9842,
+      "alignmentScore": 0.8715
+    },
+    {
+      "text": "colour.",
+      "startSeconds": 20.0442,
+      "endSeconds": 20.4443,
+      "alignmentScore": 0.7596
+    },
+    {
+      "text": "Even",
+      "startSeconds": 21.8846,
+      "endSeconds": 22.1647,
+      "alignmentScore": 0.9822
+    },
+    {
+      "text": "as",
+      "startSeconds": 22.2247,
+      "endSeconds": 22.3247,
+      "alignmentScore": 0.9705
+    },
+    {
+      "text": "a",
+      "startSeconds": 22.3847,
+      "endSeconds": 22.4047,
+      "alignmentScore": 0.9623
+    },
+    {
+      "text": "fragment,",
+      "startSeconds": 22.5447,
+      "endSeconds": 23.2849,
+      "alignmentScore": 0.938
+    },
+    {
+      "text": "this",
+      "startSeconds": 24.5652,
+      "endSeconds": 24.7852,
+      "alignmentScore": 0.9899
+    },
+    {
+      "text": "sculpture",
+      "startSeconds": 24.8852,
+      "endSeconds": 25.6454,
+      "alignmentScore": 0.9967
+    },
+    {
+      "text": "retains",
+      "startSeconds": 25.7054,
+      "endSeconds": 26.4456,
+      "alignmentScore": 0.9972
+    },
+    {
+      "text": "a",
+      "startSeconds": 26.6656,
+      "endSeconds": 26.6856,
+      "alignmentScore": 0.9964
+    },
+    {
+      "text": "powerful",
+      "startSeconds": 26.8857,
+      "endSeconds": 27.5858,
+      "alignmentScore": 0.9953
+    },
+    {
+      "text": "presence.",
+      "startSeconds": 27.7058,
+      "endSeconds": 28.486,
+      "alignmentScore": 0.9683
+    },
+    {
+      "text": "It",
+      "startSeconds": 29.8863,
+      "endSeconds": 30.0063,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "shows",
+      "startSeconds": 30.1263,
+      "endSeconds": 30.5464,
+      "alignmentScore": 0.998
+    },
+    {
+      "text": "how",
+      "startSeconds": 30.6264,
+      "endSeconds": 30.7865,
+      "alignmentScore": 0.994
+    },
+    {
+      "text": "monuments",
+      "startSeconds": 30.9665,
+      "endSeconds": 31.7267,
+      "alignmentScore": 0.9983
+    },
+    {
+      "text": "could",
+      "startSeconds": 32.0467,
+      "endSeconds": 32.2668,
+      "alignmentScore": 0.8354
+    },
+    {
+      "text": "make",
+      "startSeconds": 32.3468,
+      "endSeconds": 32.6469,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "royal",
+      "startSeconds": 32.7869,
+      "endSeconds": 33.147,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "authority",
+      "startSeconds": 33.327,
+      "endSeconds": 34.1272,
+      "alignmentScore": 0.9848
+    },
+    {
+      "text": "visible",
+      "startSeconds": 35.2474,
+      "endSeconds": 35.8275,
+      "alignmentScore": 0.9968
+    },
+    {
+      "text": "and",
+      "startSeconds": 36.9278,
+      "endSeconds": 37.0678,
+      "alignmentScore": 0.929
+    },
+    {
+      "text": "connect",
+      "startSeconds": 37.1678,
+      "endSeconds": 37.6879,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "the",
+      "startSeconds": 37.828,
+      "endSeconds": 37.928,
+      "alignmentScore": 0.991
+    },
+    {
+      "text": "ruler’s",
+      "startSeconds": 38.048,
+      "endSeconds": 38.5081,
+      "alignmentScore": 0.8485
+    },
+    {
+      "text": "image",
+      "startSeconds": 38.6881,
+      "endSeconds": 39.1482,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "with",
+      "startSeconds": 39.6283,
+      "endSeconds": 39.8084,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "sacred",
+      "startSeconds": 39.9684,
+      "endSeconds": 40.4685,
+      "alignmentScore": 0.997
+    },
+    {
+      "text": "spaces.",
+      "startSeconds": 40.6085,
+      "endSeconds": 41.3687,
+      "alignmentScore": 0.9983
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea19.narration.en",
+    "wordCount": 74,
+    "cueCount": 13,
+    "meanAlignmentScore": 0.9476,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

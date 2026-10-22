@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea24.narration.fr",
+  "language": "fr",
+  "kind": "narration",
+  "audioSha256": "b79b5b3c15152f91ecd8635d8d9b1260e370b727db4728725308b2bf1eefed48",
+  "scriptSha256": "3b40f0717b84e929e7f87d252ab9813b1942a6b968ac1e714e6e84e36b7ef940",
+  "durationSeconds": 28.551837,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.02001,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.08,
+      "endSeconds": 2.921,
+      "text": "Voici la pierre de Rosette,\nun fragment de stèle en"
+    },
+    {
+      "startSeconds": 2.921,
+      "endSeconds": 5.883,
+      "text": "granodiorite. Elle porte un\ndécret de l’année cent"
+    },
+    {
+      "startSeconds": 5.883,
+      "endSeconds": 8.824,
+      "text": "quatre-vingt-seize avant\nnotre ère, en l’honneur de"
+    },
+    {
+      "startSeconds": 8.824,
+      "endSeconds": 12.126,
+      "text": "Ptolémée le cinquième. Le\nmême décret apparaît en trois"
+    },
+    {
+      "startSeconds": 12.126,
+      "endSeconds": 15.928,
+      "text": "écritures : les hiéroglyphes,\nle démotique et le grec."
+    },
+    {
+      "startSeconds": 16.408,
+      "endSeconds": 19.029,
+      "text": "Leur comparaison a aidé à\ndéchiffrer les hiéroglyphes"
+    },
+    {
+      "startSeconds": 19.029,
+      "endSeconds": 22.491,
+      "text": "égyptiens. Observez les\ndifférents groupes de signes sur"
+    },
+    {
+      "startSeconds": 22.491,
+      "endSeconds": 23.291,
+      "text": "sa surface."
+    },
+    {
+      "startSeconds": 23.852,
+      "endSeconds": 26.653,
+      "text": "Ce fragment rappelle comment\nun texte peut ouvrir une"
+    },
+    {
+      "startSeconds": 26.653,
+      "endSeconds": 28.234,
+      "text": "fenêtre sur une\ncivilisation."
+    }
+  ],
+  "words": [
+    {
+      "text": "Voici",
+      "startSeconds": 0.08,
+      "endSeconds": 0.3001,
+      "alignmentScore": 0.9939
+    },
+    {
+      "text": "la",
+      "startSeconds": 0.3602,
+      "endSeconds": 0.4002,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "pierre",
+      "startSeconds": 0.4602,
+      "endSeconds": 0.7003,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "de",
+      "startSeconds": 0.7204,
+      "endSeconds": 0.7804,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "Rosette,",
+      "startSeconds": 0.8804,
+      "endSeconds": 1.3807,
+      "alignmentScore": 0.8148
+    },
+    {
+      "text": "un",
+      "startSeconds": 1.6008,
+      "endSeconds": 1.6808,
+      "alignmentScore": 0.9985
+    },
+    {
+      "text": "fragment",
+      "startSeconds": 1.7209,
+      "endSeconds": 2.1611,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "de",
+      "startSeconds": 2.1811,
+      "endSeconds": 2.2411,
+      "alignmentScore": 0.9977
+    },
+    {
+      "text": "stèle",
+      "startSeconds": 2.3011,
+      "endSeconds": 2.6413,
+      "alignmentScore": 0.8531
+    },
+    {
+      "text": "en",
+      "startSeconds": 2.7814,
+      "endSeconds": 2.8414,
+      "alignmentScore": 0.9973
+    },
+    {
+      "text": "granodiorite.",
+      "startSeconds": 2.9214,
+      "endSeconds": 3.7819,
+      "alignmentScore": 0.952
+    },
+    {
+      "text": "Elle",
+      "startSeconds": 4.1421,
+      "endSeconds": 4.2621,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "porte",
+      "startSeconds": 4.3021,
+      "endSeconds": 4.5222,
+      "alignmentScore": 0.9938
+    },
+    {
+      "text": "un",
+      "startSeconds": 4.5623,
+      "endSeconds": 4.6423,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "décret",
+      "startSeconds": 4.7023,
+      "endSeconds": 5.1225,
+      "alignmentScore": 0.9986
+    },
+    {
+      "text": "de",
+      "startSeconds": 5.1626,
+      "endSeconds": 5.2226,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "l’année",
+      "startSeconds": 5.2826,
+      "endSeconds": 5.6028,
+      "alignmentScore": 0.9893
+    },
+    {
+      "text": "cent",
+      "startSeconds": 5.6828,
+      "endSeconds": 5.8629,
+      "alignmentScore": 0.0145
+    },
+    {
+      "text": "quatre-vingt-seize",
+      "startSeconds": 5.8829,
+      "endSeconds": 6.7634,
+      "alignmentScore": 0.0259
+    },
+    {
+      "text": "avant",
+      "startSeconds": 6.9434,
+      "endSeconds": 7.2236,
+      "alignmentScore": 0.9289
+    },
+    {
+      "text": "notre",
+      "startSeconds": 7.2636,
+      "endSeconds": 7.5037,
+      "alignmentScore": 0.792
+    },
+    {
+      "text": "ère,",
+      "startSeconds": 7.5838,
+      "endSeconds": 7.7638,
+      "alignmentScore": 0.6121
+    },
+    {
+      "text": "en",
+      "startSeconds": 8.2041,
+      "endSeconds": 8.2641,
+      "alignmentScore": 0.9976
+    },
+    {
+      "text": "l’honneur",
+      "startSeconds": 8.3041,
+      "endSeconds": 8.6243,
+      "alignmentScore": 0.945
+    },
+    {
+      "text": "de",
+      "startSeconds": 8.6843,
+      "endSeconds": 8.7443,
+      "alignmentScore": 0.9986
+    },
+    {
+      "text": "Ptolémée",
+      "startSeconds": 8.8244,
+      "endSeconds": 9.2446,
+      "alignmentScore": 0.7582
+    },
+    {
+      "text": "le",
+      "startSeconds": 9.2846,
+      "endSeconds": 9.3446,
+      "alignmentScore": 0.998
+    },
+    {
+      "text": "cinquième.",
+      "startSeconds": 9.4447,
+      "endSeconds": 9.9249,
+      "alignmentScore": 0.8977
+    },
+    {
+      "text": "Le",
+      "startSeconds": 10.5452,
+      "endSeconds": 10.6253,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "même",
+      "startSeconds": 10.6653,
+      "endSeconds": 10.8254,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "décret",
+      "startSeconds": 10.8654,
+      "endSeconds": 11.1855,
+      "alignmentScore": 0.9789
+    },
+    {
+      "text": "apparaît",
+      "startSeconds": 11.2256,
+      "endSeconds": 11.5657,
+      "alignmentScore": 0.9205
+    },
+    {
+      "text": "en",
+      "startSeconds": 11.6458,
+      "endSeconds": 11.7258,
+      "alignmentScore": 0.9988
+    },
+    {
+      "text": "trois",
+      "startSeconds": 11.7658,
+      "endSeconds": 12.066,
+      "alignmentScore": 0.9064
+    },
+    {
+      "text": "écritures :",
+      "startSeconds": 12.126,
+      "endSeconds": 12.6663,
+      "alignmentScore": 0.8916
+    },
+    {
+      "text": "les",
+      "startSeconds": 13.1665,
+      "endSeconds": 13.3066,
+      "alignmentScore": 0.995
+    },
+    {
+      "text": "hiéroglyphes,",
+      "startSeconds": 13.3266,
+      "endSeconds": 14.0069,
+      "alignmentScore": 0.5688
+    },
+    {
+      "text": "le",
+      "startSeconds": 14.3071,
+      "endSeconds": 14.3871,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "démotique",
+      "startSeconds": 14.4472,
+      "endSeconds": 15.0074,
+      "alignmentScore": 0.8674
+    },
+    {
+      "text": "et",
+      "startSeconds": 15.3276,
+      "endSeconds": 15.3876,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "le",
+      "startSeconds": 15.4276,
+      "endSeconds": 15.4877,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "grec.",
+      "startSeconds": 15.5477,
+      "endSeconds": 15.8479,
+      "alignmentScore": 0.9674
+    },
+    {
+      "text": "Leur",
+      "startSeconds": 16.4081,
+      "endSeconds": 16.5282,
+      "alignmentScore": 0.9118
+    },
+    {
+      "text": "comparaison",
+      "startSeconds": 16.5682,
+      "endSeconds": 17.0685,
+      "alignmentScore": 0.9849
+    },
+    {
+      "text": "a",
+      "startSeconds": 17.1485,
+      "endSeconds": 17.1685,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "aidé",
+      "startSeconds": 17.2686,
+      "endSeconds": 17.4086,
+      "alignmentScore": 0.9957
+    },
+    {
+      "text": "à",
+      "startSeconds": 17.4687,
+      "endSeconds": 17.4887,
+      "alignmentScore": 0.9976
+    },
+    {
+      "text": "déchiffrer",
+      "startSeconds": 17.5887,
+      "endSeconds": 18.109,
+      "alignmentScore": 0.9704
+    },
+    {
+      "text": "les",
+      "startSeconds": 18.169,
+      "endSeconds": 18.3091,
+      "alignmentScore": 0.9863
+    },
+    {
+      "text": "hiéroglyphes",
+      "startSeconds": 18.3491,
+      "endSeconds": 18.9494,
+      "alignmentScore": 0.6123
+    },
+    {
+      "text": "égyptiens.",
+      "startSeconds": 19.0294,
+      "endSeconds": 19.5097,
+      "alignmentScore": 0.9884
+    },
+    {
+      "text": "Observez",
+      "startSeconds": 20.15,
+      "endSeconds": 20.7303,
+      "alignmentScore": 0.9028
+    },
+    {
+      "text": "les",
+      "startSeconds": 20.9504,
+      "endSeconds": 21.0704,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "différents",
+      "startSeconds": 21.0904,
+      "endSeconds": 21.5707,
+      "alignmentScore": 0.9806
+    },
+    {
+      "text": "groupes",
+      "startSeconds": 21.5907,
+      "endSeconds": 21.8508,
+      "alignmentScore": 0.9815
+    },
+    {
+      "text": "de",
+      "startSeconds": 21.8708,
+      "endSeconds": 21.9309,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "signes",
+      "startSeconds": 22.0309,
+      "endSeconds": 22.291,
+      "alignmentScore": 0.877
+    },
+    {
+      "text": "sur",
+      "startSeconds": 22.3111,
+      "endSeconds": 22.4311,
+      "alignmentScore": 0.9896
+    },
+    {
+      "text": "sa",
+      "startSeconds": 22.4911,
+      "endSeconds": 22.5712,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "surface.",
+      "startSeconds": 22.6512,
+      "endSeconds": 23.1715,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "Ce",
+      "startSeconds": 23.8518,
+      "endSeconds": 23.9118,
+      "alignmentScore": 0.9961
+    },
+    {
+      "text": "fragment",
+      "startSeconds": 23.9719,
+      "endSeconds": 24.3721,
+      "alignmentScore": 0.9979
+    },
+    {
+      "text": "rappelle",
+      "startSeconds": 24.4121,
+      "endSeconds": 24.8123,
+      "alignmentScore": 0.9587
+    },
+    {
+      "text": "comment",
+      "startSeconds": 25.0124,
+      "endSeconds": 25.3125,
+      "alignmentScore": 0.9914
+    },
+    {
+      "text": "un",
+      "startSeconds": 25.3526,
+      "endSeconds": 25.4326,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "texte",
+      "startSeconds": 25.4926,
+      "endSeconds": 25.8128,
+      "alignmentScore": 0.9075
+    },
+    {
+      "text": "peut",
+      "startSeconds": 25.8328,
+      "endSeconds": 25.9929,
+      "alignmentScore": 0.9383
+    },
+    {
+      "text": "ouvrir",
+      "startSeconds": 26.0729,
+      "endSeconds": 26.4331,
+      "alignmentScore": 0.9783
+    },
+    {
+      "text": "une",
+      "startSeconds": 26.5131,
+      "endSeconds": 26.6332,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "fenêtre",
+      "startSeconds": 26.6532,
+      "endSeconds": 27.0534,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "sur",
+      "startSeconds": 27.1334,
+      "endSeconds": 27.2735,
+      "alignmentScore": 0.9891
+    },
+    {
+      "text": "une",
+      "startSeconds": 27.3335,
+      "endSeconds": 27.4336,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "civilisation.",
+      "startSeconds": 27.4736,
+      "endSeconds": 28.1539,
+      "alignmentScore": 0.9994
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea24.narration.fr",
+    "wordCount": 73,
+    "cueCount": 10,
+    "meanAlignmentScore": 0.9257,
+    "lowScoreWords": [
+      {
+        "text": "cent",
+        "startSeconds": 5.6828,
+        "endSeconds": 5.8629,
+        "alignmentScore": 0.0145
+      },
+      {
+        "text": "quatre-vingt-seize",
+        "startSeconds": 5.8829,
+        "endSeconds": 6.7634,
+        "alignmentScore": 0.0259
+      }
+    ],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

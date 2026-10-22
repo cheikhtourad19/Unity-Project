@@ -1,0 +1,537 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea1779.narration.fr",
+  "language": "fr",
+  "kind": "narration",
+  "audioSha256": "4d6a636d6c0e51de19ebd6f2ed216a1649ca173df55a1b2ff889ba684092345d",
+  "scriptSha256": "a18e3d2e6cc08046debcd642281d50d65c1ee3b5d2c783738aa2d6fb53b7399e",
+  "durationSeconds": 32.078367,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020015,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.08,
+      "endSeconds": 0.961,
+      "text": "Cette statue"
+    },
+    {
+      "startSeconds": 1.581,
+      "endSeconds": 4.683,
+      "text": "représente le dieu Amon sous\nla forme d’un bélier"
+    },
+    {
+      "startSeconds": 4.683,
+      "endSeconds": 5.483,
+      "text": "couché."
+    },
+    {
+      "startSeconds": 5.864,
+      "endSeconds": 9.127,
+      "text": "Entre ses pattes avant se\ntrouve une petite figure du"
+    },
+    {
+      "startSeconds": 9.127,
+      "endSeconds": 12.049,
+      "text": "roi Taharqa, placée sous sa\nprotection."
+    },
+    {
+      "startSeconds": 12.529,
+      "endSeconds": 16.032,
+      "text": "L’œuvre provient du temple\nd’Amon à Kawa, dans l’actuel"
+    },
+    {
+      "startSeconds": 16.032,
+      "endSeconds": 20.295,
+      "text": "Soudan. Observez le contraste\nentre le grand animal et"
+    },
+    {
+      "startSeconds": 20.295,
+      "endSeconds": 23.497,
+      "text": "le souverain, puis les\ninscriptions sur la base."
+    },
+    {
+      "startSeconds": 24.558,
+      "endSeconds": 27.38,
+      "text": "Cette composition exprime\nune relation entre le pouvoir"
+    },
+    {
+      "startSeconds": 27.4,
+      "endSeconds": 30.522,
+      "text": "royal et la protection\ndivine, dans l’histoire de la"
+    },
+    {
+      "startSeconds": 30.522,
+      "endSeconds": 31.783,
+      "text": "Nubie et de l’Égypte."
+    }
+  ],
+  "words": [
+    {
+      "text": "Cette",
+      "startSeconds": 0.0801,
+      "endSeconds": 0.3002,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "statue",
+      "startSeconds": 0.3603,
+      "endSeconds": 0.8806,
+      "alignmentScore": 0.9127
+    },
+    {
+      "text": "représente",
+      "startSeconds": 1.5812,
+      "endSeconds": 2.2617,
+      "alignmentScore": 0.9949
+    },
+    {
+      "text": "le",
+      "startSeconds": 2.3017,
+      "endSeconds": 2.3617,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "dieu",
+      "startSeconds": 2.4418,
+      "endSeconds": 2.6219,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "Amon",
+      "startSeconds": 2.8821,
+      "endSeconds": 3.2224,
+      "alignmentScore": 0.8663
+    },
+    {
+      "text": "sous",
+      "startSeconds": 3.5426,
+      "endSeconds": 3.6827,
+      "alignmentScore": 0.9296
+    },
+    {
+      "text": "la",
+      "startSeconds": 3.7027,
+      "endSeconds": 3.7628,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "forme",
+      "startSeconds": 3.8428,
+      "endSeconds": 4.103,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "d’un",
+      "startSeconds": 4.123,
+      "endSeconds": 4.2631,
+      "alignmentScore": 0.9627
+    },
+    {
+      "text": "bélier",
+      "startSeconds": 4.3032,
+      "endSeconds": 4.6434,
+      "alignmentScore": 0.9615
+    },
+    {
+      "text": "couché.",
+      "startSeconds": 4.6834,
+      "endSeconds": 5.0237,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "Entre",
+      "startSeconds": 5.8643,
+      "endSeconds": 6.1045,
+      "alignmentScore": 0.9936
+    },
+    {
+      "text": "ses",
+      "startSeconds": 6.2046,
+      "endSeconds": 6.3447,
+      "alignmentScore": 0.7963
+    },
+    {
+      "text": "pattes",
+      "startSeconds": 6.3847,
+      "endSeconds": 6.6649,
+      "alignmentScore": 0.7836
+    },
+    {
+      "text": "avant",
+      "startSeconds": 6.7249,
+      "endSeconds": 6.9851,
+      "alignmentScore": 0.9753
+    },
+    {
+      "text": "se",
+      "startSeconds": 7.5455,
+      "endSeconds": 7.6256,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "trouve",
+      "startSeconds": 7.7057,
+      "endSeconds": 7.9859,
+      "alignmentScore": 0.9889
+    },
+    {
+      "text": "une",
+      "startSeconds": 8.0459,
+      "endSeconds": 8.146,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "petite",
+      "startSeconds": 8.186,
+      "endSeconds": 8.5063,
+      "alignmentScore": 0.9945
+    },
+    {
+      "text": "figure",
+      "startSeconds": 8.5463,
+      "endSeconds": 8.9266,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "du",
+      "startSeconds": 8.9666,
+      "endSeconds": 9.0467,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "roi",
+      "startSeconds": 9.1267,
+      "endSeconds": 9.3068,
+      "alignmentScore": 0.9913
+    },
+    {
+      "text": "Taharqa,",
+      "startSeconds": 9.4069,
+      "endSeconds": 9.9473,
+      "alignmentScore": 0.7191
+    },
+    {
+      "text": "placée",
+      "startSeconds": 10.4877,
+      "endSeconds": 10.9881,
+      "alignmentScore": 0.9442
+    },
+    {
+      "text": "sous",
+      "startSeconds": 11.0681,
+      "endSeconds": 11.2082,
+      "alignmentScore": 0.9953
+    },
+    {
+      "text": "sa",
+      "startSeconds": 11.2483,
+      "endSeconds": 11.3283,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "protection.",
+      "startSeconds": 11.3884,
+      "endSeconds": 11.9688,
+      "alignmentScore": 0.9934
+    },
+    {
+      "text": "L’œuvre",
+      "startSeconds": 12.5292,
+      "endSeconds": 12.9295,
+      "alignmentScore": 0.9462
+    },
+    {
+      "text": "provient",
+      "startSeconds": 13.0096,
+      "endSeconds": 13.4699,
+      "alignmentScore": 0.9959
+    },
+    {
+      "text": "du",
+      "startSeconds": 13.4899,
+      "endSeconds": 13.57,
+      "alignmentScore": 0.9165
+    },
+    {
+      "text": "temple",
+      "startSeconds": 13.63,
+      "endSeconds": 13.9503,
+      "alignmentScore": 0.9858
+    },
+    {
+      "text": "d’Amon",
+      "startSeconds": 14.0103,
+      "endSeconds": 14.3105,
+      "alignmentScore": 0.9502
+    },
+    {
+      "text": "à",
+      "startSeconds": 14.5507,
+      "endSeconds": 14.5707,
+      "alignmentScore": 0.9978
+    },
+    {
+      "text": "Kawa,",
+      "startSeconds": 14.6508,
+      "endSeconds": 14.931,
+      "alignmentScore": 0.8905
+    },
+    {
+      "text": "dans",
+      "startSeconds": 15.4714,
+      "endSeconds": 15.5915,
+      "alignmentScore": 0.996
+    },
+    {
+      "text": "l’actuel",
+      "startSeconds": 15.5915,
+      "endSeconds": 15.9717,
+      "alignmentScore": 0.9816
+    },
+    {
+      "text": "Soudan.",
+      "startSeconds": 16.0318,
+      "endSeconds": 16.312,
+      "alignmentScore": 0.9227
+    },
+    {
+      "text": "Observez",
+      "startSeconds": 16.8524,
+      "endSeconds": 17.2727,
+      "alignmentScore": 0.9662
+    },
+    {
+      "text": "le",
+      "startSeconds": 17.2927,
+      "endSeconds": 17.3528,
+      "alignmentScore": 0.9988
+    },
+    {
+      "text": "contraste",
+      "startSeconds": 17.4128,
+      "endSeconds": 18.0533,
+      "alignmentScore": 0.9171
+    },
+    {
+      "text": "entre",
+      "startSeconds": 18.5536,
+      "endSeconds": 18.8338,
+      "alignmentScore": 0.9317
+    },
+    {
+      "text": "le",
+      "startSeconds": 19.054,
+      "endSeconds": 19.1341,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "grand",
+      "startSeconds": 19.1941,
+      "endSeconds": 19.4943,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "animal",
+      "startSeconds": 19.5544,
+      "endSeconds": 19.9947,
+      "alignmentScore": 0.9848
+    },
+    {
+      "text": "et",
+      "startSeconds": 20.2149,
+      "endSeconds": 20.2749,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "le",
+      "startSeconds": 20.2949,
+      "endSeconds": 20.355,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "souverain,",
+      "startSeconds": 20.435,
+      "endSeconds": 20.7953,
+      "alignmentScore": 0.9864
+    },
+    {
+      "text": "puis",
+      "startSeconds": 21.3557,
+      "endSeconds": 21.6359,
+      "alignmentScore": 0.9887
+    },
+    {
+      "text": "les",
+      "startSeconds": 21.8561,
+      "endSeconds": 21.9762,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "inscriptions",
+      "startSeconds": 22.0362,
+      "endSeconds": 22.7167,
+      "alignmentScore": 0.962
+    },
+    {
+      "text": "sur",
+      "startSeconds": 22.8168,
+      "endSeconds": 22.9369,
+      "alignmentScore": 0.9534
+    },
+    {
+      "text": "la",
+      "startSeconds": 22.9769,
+      "endSeconds": 23.0369,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "base.",
+      "startSeconds": 23.097,
+      "endSeconds": 23.4172,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "Cette",
+      "startSeconds": 24.5581,
+      "endSeconds": 24.7382,
+      "alignmentScore": 0.9689
+    },
+    {
+      "text": "composition",
+      "startSeconds": 24.7582,
+      "endSeconds": 25.2986,
+      "alignmentScore": 0.9876
+    },
+    {
+      "text": "exprime",
+      "startSeconds": 25.3987,
+      "endSeconds": 25.799,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "une",
+      "startSeconds": 25.839,
+      "endSeconds": 25.9391,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "relation",
+      "startSeconds": 25.9991,
+      "endSeconds": 26.4194,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "entre",
+      "startSeconds": 26.4995,
+      "endSeconds": 26.7196,
+      "alignmentScore": 0.9983
+    },
+    {
+      "text": "le",
+      "startSeconds": 26.7997,
+      "endSeconds": 26.8598,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "pouvoir",
+      "startSeconds": 26.9198,
+      "endSeconds": 27.3001,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "royal",
+      "startSeconds": 27.4001,
+      "endSeconds": 27.8205,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "et",
+      "startSeconds": 28.1807,
+      "endSeconds": 28.2408,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "la",
+      "startSeconds": 28.2608,
+      "endSeconds": 28.3208,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "protection",
+      "startSeconds": 28.3609,
+      "endSeconds": 28.8212,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "divine,",
+      "startSeconds": 28.8612,
+      "endSeconds": 29.2815,
+      "alignmentScore": 0.9421
+    },
+    {
+      "text": "dans",
+      "startSeconds": 29.7419,
+      "endSeconds": 29.862,
+      "alignmentScore": 0.9782
+    },
+    {
+      "text": "l’histoire",
+      "startSeconds": 29.862,
+      "endSeconds": 30.2623,
+      "alignmentScore": 0.9338
+    },
+    {
+      "text": "de",
+      "startSeconds": 30.2823,
+      "endSeconds": 30.3223,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "la",
+      "startSeconds": 30.3823,
+      "endSeconds": 30.4424,
+      "alignmentScore": 0.9984
+    },
+    {
+      "text": "Nubie",
+      "startSeconds": 30.5224,
+      "endSeconds": 30.8627,
+      "alignmentScore": 0.8279
+    },
+    {
+      "text": "et",
+      "startSeconds": 31.0829,
+      "endSeconds": 31.1429,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "de",
+      "startSeconds": 31.1829,
+      "endSeconds": 31.223,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "l’Égypte.",
+      "startSeconds": 31.263,
+      "endSeconds": 31.7033,
+      "alignmentScore": 0.8925
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea1779.narration.fr",
+    "wordCount": 75,
+    "cueCount": 11,
+    "meanAlignmentScore": 0.9678,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea1.audio_description.ar",
+  "language": "ar",
+  "kind": "audio_description",
+  "audioSha256": "b251f3451c834e9c77a094dd7b7b6b3bfe48565a680ef000092c42df21d55f85",
+  "scriptSha256": "db6c2427eaa890e097b5cd4f9288ac57586e2e9c1a1ae7a3a755da639da52ff5",
+  "durationSeconds": 22.987755,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020019,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.04,
+      "endSeconds": 2.642,
+      "text": "يستلقي أسد حجري على قاعدة."
+    },
+    {
+      "startSeconds": 3.483,
+      "endSeconds": 7.547,
+      "text": "لجسمه الممتد رأس مشكل وكفوف\nمنحوتة."
+    },
+    {
+      "startSeconds": 8.428,
+      "endSeconds": 11.951,
+      "text": "يمنح الجرانيت الأحمر التمثال\nلوناً دافئاً."
+    },
+    {
+      "startSeconds": 12.612,
+      "endSeconds": 16.435,
+      "text": "تغطي النقوش الصدر وعدة أسطح\nمن القاعدة."
+    },
+    {
+      "startSeconds": 17.256,
+      "endSeconds": 22.701,
+      "text": "أشكال الجسم مستديرة، بينما\nتتميز القاعدة بحواف مستقيمة."
+    }
+  ],
+  "words": [
+    {
+      "text": "يستلقي",
+      "startSeconds": 0.04,
+      "endSeconds": 0.6206,
+      "alignmentScore": 0.9793
+    },
+    {
+      "text": "أسد",
+      "startSeconds": 0.8007,
+      "endSeconds": 1.061,
+      "alignmentScore": 0.834
+    },
+    {
+      "text": "حجري",
+      "startSeconds": 1.2612,
+      "endSeconds": 1.7016,
+      "alignmentScore": 0.9786
+    },
+    {
+      "text": "على",
+      "startSeconds": 1.8617,
+      "endSeconds": 2.0219,
+      "alignmentScore": 0.99
+    },
+    {
+      "text": "قاعدة.",
+      "startSeconds": 2.122,
+      "endSeconds": 2.5624,
+      "alignmentScore": 0.9574
+    },
+    {
+      "text": "لجسمه",
+      "startSeconds": 3.4832,
+      "endSeconds": 4.0037,
+      "alignmentScore": 0.9844
+    },
+    {
+      "text": "الممتد",
+      "startSeconds": 4.0838,
+      "endSeconds": 4.6643,
+      "alignmentScore": 0.9728
+    },
+    {
+      "text": "رأس",
+      "startSeconds": 5.0847,
+      "endSeconds": 5.3049,
+      "alignmentScore": 0.9751
+    },
+    {
+      "text": "مشكل",
+      "startSeconds": 5.4651,
+      "endSeconds": 5.8454,
+      "alignmentScore": 0.9971
+    },
+    {
+      "text": "وكفوف",
+      "startSeconds": 6.1657,
+      "endSeconds": 6.7463,
+      "alignmentScore": 0.9887
+    },
+    {
+      "text": "منحوتة.",
+      "startSeconds": 6.9465,
+      "endSeconds": 7.467,
+      "alignmentScore": 0.9771
+    },
+    {
+      "text": "يمنح",
+      "startSeconds": 8.4279,
+      "endSeconds": 8.8082,
+      "alignmentScore": 0.992
+    },
+    {
+      "text": "الجرانيت",
+      "startSeconds": 8.9083,
+      "endSeconds": 9.4888,
+      "alignmentScore": 0.9053
+    },
+    {
+      "text": "الأحمر",
+      "startSeconds": 9.5689,
+      "endSeconds": 9.9693,
+      "alignmentScore": 0.9237
+    },
+    {
+      "text": "التمثال",
+      "startSeconds": 10.0093,
+      "endSeconds": 10.6299,
+      "alignmentScore": 0.7391
+    },
+    {
+      "text": "لوناً",
+      "startSeconds": 10.9102,
+      "endSeconds": 11.2705,
+      "alignmentScore": 0.7782
+    },
+    {
+      "text": "دافئاً.",
+      "startSeconds": 11.3306,
+      "endSeconds": 11.8711,
+      "alignmentScore": 0.7485
+    },
+    {
+      "text": "تغطي",
+      "startSeconds": 12.6118,
+      "endSeconds": 13.0922,
+      "alignmentScore": 0.8453
+    },
+    {
+      "text": "النقوش",
+      "startSeconds": 13.1322,
+      "endSeconds": 13.6127,
+      "alignmentScore": 0.9386
+    },
+    {
+      "text": "الصدر",
+      "startSeconds": 13.6928,
+      "endSeconds": 14.1131,
+      "alignmentScore": 0.9921
+    },
+    {
+      "text": "وعدة",
+      "startSeconds": 14.4735,
+      "endSeconds": 14.8739,
+      "alignmentScore": 0.8948
+    },
+    {
+      "text": "أسطح",
+      "startSeconds": 15.074,
+      "endSeconds": 15.3943,
+      "alignmentScore": 0.9747
+    },
+    {
+      "text": "من",
+      "startSeconds": 15.5745,
+      "endSeconds": 15.6746,
+      "alignmentScore": 0.9958
+    },
+    {
+      "text": "القاعدة.",
+      "startSeconds": 15.7347,
+      "endSeconds": 16.3552,
+      "alignmentScore": 0.9225
+    },
+    {
+      "text": "أشكال",
+      "startSeconds": 17.2561,
+      "endSeconds": 17.6765,
+      "alignmentScore": 0.9845
+    },
+    {
+      "text": "الجسم",
+      "startSeconds": 17.7766,
+      "endSeconds": 18.1169,
+      "alignmentScore": 0.7623
+    },
+    {
+      "text": "مستديرة،",
+      "startSeconds": 18.257,
+      "endSeconds": 18.8976,
+      "alignmentScore": 0.9644
+    },
+    {
+      "text": "بينما",
+      "startSeconds": 19.4181,
+      "endSeconds": 19.8185,
+      "alignmentScore": 0.9962
+    },
+    {
+      "text": "تتميز",
+      "startSeconds": 19.8985,
+      "endSeconds": 20.4791,
+      "alignmentScore": 0.9953
+    },
+    {
+      "text": "القاعدة",
+      "startSeconds": 20.5592,
+      "endSeconds": 21.0796,
+      "alignmentScore": 0.9274
+    },
+    {
+      "text": "بحواف",
+      "startSeconds": 21.2598,
+      "endSeconds": 21.7803,
+      "alignmentScore": 0.9935
+    },
+    {
+      "text": "مستقيمة.",
+      "startSeconds": 21.9605,
+      "endSeconds": 22.6211,
+      "alignmentScore": 0.9873
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea1.audio_description.ar",
+    "wordCount": 32,
+    "cueCount": 5,
+    "meanAlignmentScore": 0.9343,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

@@ -1,0 +1,587 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea1.narration.en",
+  "language": "en",
+  "kind": "narration",
+  "audioSha256": "7bc5c4557a27c683b189d33c59355305ab60cb2e9695c8828f52c019e81a0697",
+  "scriptSha256": "6ececacae186703cfd6d6371dbc87926c5d6f4f1de7dbc2776543240a3cc6070",
+  "durationSeconds": 70.635102,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020002,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.08,
+      "endSeconds": 2.02,
+      "text": "This reclining lion,"
+    },
+    {
+      "startSeconds": 3.42,
+      "endSeconds": 5.961,
+      "text": "carved from red granite,"
+    },
+    {
+      "startSeconds": 7.041,
+      "endSeconds": 12.441,
+      "text": "belongs to the pair known as\nthe Prudhoe Lions."
+    },
+    {
+      "startSeconds": 14.302,
+      "endSeconds": 17.922,
+      "text": "It is associated with the\nreign"
+    },
+    {
+      "startSeconds": 18.542,
+      "endSeconds": 20.662,
+      "text": "of Amenhotep"
+    },
+    {
+      "startSeconds": 21.283,
+      "endSeconds": 22.283,
+      "text": "the Third."
+    },
+    {
+      "startSeconds": 24.063,
+      "endSeconds": 25.623,
+      "text": "Its long body"
+    },
+    {
+      "startSeconds": 26.603,
+      "endSeconds": 27.443,
+      "text": "rests"
+    },
+    {
+      "startSeconds": 28.104,
+      "endSeconds": 30.664,
+      "text": "on an inscribed"
+    },
+    {
+      "startSeconds": 31.404,
+      "endSeconds": 32.424,
+      "text": "pedestal."
+    },
+    {
+      "startSeconds": 34.184,
+      "endSeconds": 35.324,
+      "text": "The texts"
+    },
+    {
+      "startSeconds": 35.924,
+      "endSeconds": 37.085,
+      "text": "refer to"
+    },
+    {
+      "startSeconds": 37.665,
+      "endSeconds": 39.705,
+      "text": "several rulers"
+    },
+    {
+      "startSeconds": 40.905,
+      "endSeconds": 42.005,
+      "text": "and reveal"
+    },
+    {
+      "startSeconds": 42.605,
+      "endSeconds": 45.646,
+      "text": "the sculpture’s long\nhistory."
+    },
+    {
+      "startSeconds": 47.386,
+      "endSeconds": 48.546,
+      "text": "Look at the head,"
+    },
+    {
+      "startSeconds": 50.046,
+      "endSeconds": 51.106,
+      "text": "the paws"
+    },
+    {
+      "startSeconds": 52.346,
+      "endSeconds": 54.967,
+      "text": "and the carved signs."
+    },
+    {
+      "startSeconds": 56.547,
+      "endSeconds": 59.087,
+      "text": "The image of a lion"
+    },
+    {
+      "startSeconds": 60.307,
+      "endSeconds": 63.428,
+      "text": "expressed royal strength"
+    },
+    {
+      "startSeconds": 64.188,
+      "endSeconds": 69.528,
+      "text": "while giving close attention\nto the animal’s"
+    },
+    {
+      "startSeconds": 69.609,
+      "endSeconds": 70.169,
+      "text": "body."
+    }
+  ],
+  "words": [
+    {
+      "text": "This",
+      "startSeconds": 0.08,
+      "endSeconds": 0.32,
+      "alignmentScore": 0.9857
+    },
+    {
+      "text": "reclining",
+      "startSeconds": 0.4401,
+      "endSeconds": 1.3002,
+      "alignmentScore": 0.9389
+    },
+    {
+      "text": "lion,",
+      "startSeconds": 1.4602,
+      "endSeconds": 1.9402,
+      "alignmentScore": 0.9818
+    },
+    {
+      "text": "carved",
+      "startSeconds": 3.4204,
+      "endSeconds": 4.0805,
+      "alignmentScore": 0.8474
+    },
+    {
+      "text": "from",
+      "startSeconds": 4.2205,
+      "endSeconds": 4.5006,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "red",
+      "startSeconds": 4.7206,
+      "endSeconds": 4.9606,
+      "alignmentScore": 0.9988
+    },
+    {
+      "text": "granite,",
+      "startSeconds": 5.1206,
+      "endSeconds": 5.8807,
+      "alignmentScore": 0.7688
+    },
+    {
+      "text": "belongs",
+      "startSeconds": 7.0409,
+      "endSeconds": 7.6809,
+      "alignmentScore": 0.9842
+    },
+    {
+      "text": "to",
+      "startSeconds": 7.761,
+      "endSeconds": 7.841,
+      "alignmentScore": 0.996
+    },
+    {
+      "text": "the",
+      "startSeconds": 7.941,
+      "endSeconds": 8.041,
+      "alignmentScore": 0.9916
+    },
+    {
+      "text": "pair",
+      "startSeconds": 8.161,
+      "endSeconds": 8.6411,
+      "alignmentScore": 0.9091
+    },
+    {
+      "text": "known",
+      "startSeconds": 9.2611,
+      "endSeconds": 9.6812,
+      "alignmentScore": 0.9442
+    },
+    {
+      "text": "as",
+      "startSeconds": 9.9012,
+      "endSeconds": 10.0612,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "the",
+      "startSeconds": 10.1613,
+      "endSeconds": 10.2813,
+      "alignmentScore": 0.9969
+    },
+    {
+      "text": "Prudhoe",
+      "startSeconds": 10.4613,
+      "endSeconds": 11.3814,
+      "alignmentScore": 0.8606
+    },
+    {
+      "text": "Lions.",
+      "startSeconds": 11.5414,
+      "endSeconds": 12.3615,
+      "alignmentScore": 0.6202
+    },
+    {
+      "text": "It",
+      "startSeconds": 14.3018,
+      "endSeconds": 14.4818,
+      "alignmentScore": 0.9948
+    },
+    {
+      "text": "is",
+      "startSeconds": 14.5618,
+      "endSeconds": 14.6818,
+      "alignmentScore": 0.9952
+    },
+    {
+      "text": "associated",
+      "startSeconds": 14.7618,
+      "endSeconds": 16.062,
+      "alignmentScore": 0.9976
+    },
+    {
+      "text": "with",
+      "startSeconds": 16.6621,
+      "endSeconds": 16.8821,
+      "alignmentScore": 0.9842
+    },
+    {
+      "text": "the",
+      "startSeconds": 17.0221,
+      "endSeconds": 17.1221,
+      "alignmentScore": 0.9574
+    },
+    {
+      "text": "reign",
+      "startSeconds": 17.3221,
+      "endSeconds": 17.8422,
+      "alignmentScore": 0.6169
+    },
+    {
+      "text": "of",
+      "startSeconds": 18.5423,
+      "endSeconds": 18.7423,
+      "alignmentScore": 0.9928
+    },
+    {
+      "text": "Amenhotep",
+      "startSeconds": 19.0823,
+      "endSeconds": 20.5825,
+      "alignmentScore": 0.9504
+    },
+    {
+      "text": "the",
+      "startSeconds": 21.2826,
+      "endSeconds": 21.4026,
+      "alignmentScore": 0.9543
+    },
+    {
+      "text": "Third.",
+      "startSeconds": 21.6027,
+      "endSeconds": 22.2027,
+      "alignmentScore": 0.8521
+    },
+    {
+      "text": "Its",
+      "startSeconds": 24.063,
+      "endSeconds": 24.303,
+      "alignmentScore": 0.9951
+    },
+    {
+      "text": "long",
+      "startSeconds": 24.543,
+      "endSeconds": 24.9231,
+      "alignmentScore": 0.9955
+    },
+    {
+      "text": "body",
+      "startSeconds": 25.1431,
+      "endSeconds": 25.5431,
+      "alignmentScore": 0.9985
+    },
+    {
+      "text": "rests",
+      "startSeconds": 26.6033,
+      "endSeconds": 27.3634,
+      "alignmentScore": 0.9984
+    },
+    {
+      "text": "on",
+      "startSeconds": 28.1035,
+      "endSeconds": 28.3035,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "an",
+      "startSeconds": 28.6235,
+      "endSeconds": 28.8235,
+      "alignmentScore": 0.997
+    },
+    {
+      "text": "inscribed",
+      "startSeconds": 29.1636,
+      "endSeconds": 30.5838,
+      "alignmentScore": 0.9849
+    },
+    {
+      "text": "pedestal.",
+      "startSeconds": 31.4039,
+      "endSeconds": 32.344,
+      "alignmentScore": 0.8553
+    },
+    {
+      "text": "The",
+      "startSeconds": 34.1842,
+      "endSeconds": 34.2842,
+      "alignmentScore": 0.0238
+    },
+    {
+      "text": "texts",
+      "startSeconds": 34.4642,
+      "endSeconds": 35.2443,
+      "alignmentScore": 0.0224
+    },
+    {
+      "text": "refer",
+      "startSeconds": 35.9244,
+      "endSeconds": 36.5645,
+      "alignmentScore": 0.8026
+    },
+    {
+      "text": "to",
+      "startSeconds": 36.8245,
+      "endSeconds": 37.0046,
+      "alignmentScore": 0.9959
+    },
+    {
+      "text": "several",
+      "startSeconds": 37.6646,
+      "endSeconds": 38.2447,
+      "alignmentScore": 0.9486
+    },
+    {
+      "text": "rulers",
+      "startSeconds": 38.8448,
+      "endSeconds": 39.6249,
+      "alignmentScore": 0.9476
+    },
+    {
+      "text": "and",
+      "startSeconds": 40.905,
+      "endSeconds": 41.1051,
+      "alignmentScore": 0.9599
+    },
+    {
+      "text": "reveal",
+      "startSeconds": 41.2251,
+      "endSeconds": 41.9252,
+      "alignmentScore": 0.9349
+    },
+    {
+      "text": "the",
+      "startSeconds": 42.6052,
+      "endSeconds": 42.7053,
+      "alignmentScore": 0.971
+    },
+    {
+      "text": "sculpture’s",
+      "startSeconds": 42.8653,
+      "endSeconds": 43.7654,
+      "alignmentScore": 0.9058
+    },
+    {
+      "text": "long",
+      "startSeconds": 43.9454,
+      "endSeconds": 44.3255,
+      "alignmentScore": 0.9764
+    },
+    {
+      "text": "history.",
+      "startSeconds": 44.8455,
+      "endSeconds": 45.5656,
+      "alignmentScore": 0.9982
+    },
+    {
+      "text": "Look",
+      "startSeconds": 47.3858,
+      "endSeconds": 47.6259,
+      "alignmentScore": 0.9884
+    },
+    {
+      "text": "at",
+      "startSeconds": 47.6859,
+      "endSeconds": 47.7859,
+      "alignmentScore": 0.9678
+    },
+    {
+      "text": "the",
+      "startSeconds": 47.8459,
+      "endSeconds": 47.9459,
+      "alignmentScore": 0.9454
+    },
+    {
+      "text": "head,",
+      "startSeconds": 48.0859,
+      "endSeconds": 48.466,
+      "alignmentScore": 0.9945
+    },
+    {
+      "text": "the",
+      "startSeconds": 50.0462,
+      "endSeconds": 50.1462,
+      "alignmentScore": 0.9766
+    },
+    {
+      "text": "paws",
+      "startSeconds": 50.3062,
+      "endSeconds": 51.0263,
+      "alignmentScore": 0.7911
+    },
+    {
+      "text": "and",
+      "startSeconds": 52.3464,
+      "endSeconds": 52.5265,
+      "alignmentScore": 0.9952
+    },
+    {
+      "text": "the",
+      "startSeconds": 52.5865,
+      "endSeconds": 52.6865,
+      "alignmentScore": 0.961
+    },
+    {
+      "text": "carved",
+      "startSeconds": 52.8465,
+      "endSeconds": 53.6066,
+      "alignmentScore": 0.836
+    },
+    {
+      "text": "signs.",
+      "startSeconds": 54.0667,
+      "endSeconds": 54.8868,
+      "alignmentScore": 0.8315
+    },
+    {
+      "text": "The",
+      "startSeconds": 56.547,
+      "endSeconds": 56.667,
+      "alignmentScore": 0.9582
+    },
+    {
+      "text": "image",
+      "startSeconds": 56.987,
+      "endSeconds": 57.5671,
+      "alignmentScore": 0.9392
+    },
+    {
+      "text": "of",
+      "startSeconds": 58.0071,
+      "endSeconds": 58.1272,
+      "alignmentScore": 0.9955
+    },
+    {
+      "text": "a",
+      "startSeconds": 58.2272,
+      "endSeconds": 58.2472,
+      "alignmentScore": 0.9855
+    },
+    {
+      "text": "lion",
+      "startSeconds": 58.4872,
+      "endSeconds": 59.0073,
+      "alignmentScore": 0.9375
+    },
+    {
+      "text": "expressed",
+      "startSeconds": 60.3074,
+      "endSeconds": 61.3275,
+      "alignmentScore": 0.9979
+    },
+    {
+      "text": "royal",
+      "startSeconds": 61.9276,
+      "endSeconds": 62.3477,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "strength",
+      "startSeconds": 62.5277,
+      "endSeconds": 63.3478,
+      "alignmentScore": 0.881
+    },
+    {
+      "text": "while",
+      "startSeconds": 64.1879,
+      "endSeconds": 64.5079,
+      "alignmentScore": 0.976
+    },
+    {
+      "text": "giving",
+      "startSeconds": 64.668,
+      "endSeconds": 65.108,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "close",
+      "startSeconds": 65.5281,
+      "endSeconds": 66.5682,
+      "alignmentScore": 0.9458
+    },
+    {
+      "text": "attention",
+      "startSeconds": 66.7882,
+      "endSeconds": 67.5883,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "to",
+      "startSeconds": 68.2084,
+      "endSeconds": 68.3284,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "the",
+      "startSeconds": 68.4084,
+      "endSeconds": 68.5284,
+      "alignmentScore": 0.9423
+    },
+    {
+      "text": "animal’s",
+      "startSeconds": 68.7685,
+      "endSeconds": 69.4485,
+      "alignmentScore": 0.9121
+    },
+    {
+      "text": "body.",
+      "startSeconds": 69.6086,
+      "endSeconds": 69.9686,
+      "alignmentScore": 0.9998
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea1.narration.en",
+    "wordCount": 72,
+    "cueCount": 22,
+    "meanAlignmentScore": 0.9192,
+    "lowScoreWords": [
+      {
+        "text": "The",
+        "startSeconds": 34.1842,
+        "endSeconds": 34.2842,
+        "alignmentScore": 0.0238
+      },
+      {
+        "text": "texts",
+        "startSeconds": 34.4642,
+        "endSeconds": 35.2443,
+        "alignmentScore": 0.0224
+      }
+    ],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

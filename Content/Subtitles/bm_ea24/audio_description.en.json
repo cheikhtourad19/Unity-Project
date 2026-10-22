@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea24.audio_description.en",
+  "language": "en",
+  "kind": "audio_description",
+  "audioSha256": "7dc476b47c47afedf304c22faf3f6be29bb387380c6d54cce965ee5247d79ebd",
+  "scriptSha256": "e0a758c92450da80549adda7b6f8e3f4f04b34dc1b8db35fde3429fd3e304392",
+  "durationSeconds": 26.409796,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020014,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.06,
+      "endSeconds": 3.242,
+      "text": "The stone is a thick slab\nstanding upright."
+    },
+    {
+      "startSeconds": 4.183,
+      "endSeconds": 7.865,
+      "text": "Its main face carries\ntightly spaced rows of carved"
+    },
+    {
+      "startSeconds": 7.905,
+      "endSeconds": 8.705,
+      "text": "signs."
+    },
+    {
+      "startSeconds": 9.386,
+      "endSeconds": 12.709,
+      "text": "The upper part is broken and\nhas an uneven outline."
+    },
+    {
+      "startSeconds": 13.689,
+      "endSeconds": 16.971,
+      "text": "The inscriptions form several\ngroups arranged one above"
+    },
+    {
+      "startSeconds": 16.971,
+      "endSeconds": 17.771,
+      "text": "another."
+    },
+    {
+      "startSeconds": 18.392,
+      "endSeconds": 20.874,
+      "text": "This description outlines\nthe main shapes;"
+    },
+    {
+      "startSeconds": 22.555,
+      "endSeconds": 25.998,
+      "text": "it does not read or\ntranslate the signs."
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "startSeconds": 0.06,
+      "endSeconds": 0.1401,
+      "alignmentScore": 0.9594
+    },
+    {
+      "text": "stone",
+      "startSeconds": 0.1801,
+      "endSeconds": 0.5404,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "is",
+      "startSeconds": 0.8206,
+      "endSeconds": 0.8806,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "a",
+      "startSeconds": 0.9206,
+      "endSeconds": 0.9406,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "thick",
+      "startSeconds": 1.0607,
+      "endSeconds": 1.2609,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "slab",
+      "startSeconds": 1.6011,
+      "endSeconds": 1.9013,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "standing",
+      "startSeconds": 2.2215,
+      "endSeconds": 2.6018,
+      "alignmentScore": 0.9866
+    },
+    {
+      "text": "upright.",
+      "startSeconds": 2.6818,
+      "endSeconds": 3.1621,
+      "alignmentScore": 0.934
+    },
+    {
+      "text": "Its",
+      "startSeconds": 4.1828,
+      "endSeconds": 4.2829,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "main",
+      "startSeconds": 4.363,
+      "endSeconds": 4.5431,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "face",
+      "startSeconds": 4.6231,
+      "endSeconds": 4.9233,
+      "alignmentScore": 0.9976
+    },
+    {
+      "text": "carries",
+      "startSeconds": 5.2836,
+      "endSeconds": 5.5838,
+      "alignmentScore": 0.8573
+    },
+    {
+      "text": "tightly",
+      "startSeconds": 5.6839,
+      "endSeconds": 6.0441,
+      "alignmentScore": 0.9752
+    },
+    {
+      "text": "spaced",
+      "startSeconds": 6.1642,
+      "endSeconds": 6.5244,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "rows",
+      "startSeconds": 6.5845,
+      "endSeconds": 6.8847,
+      "alignmentScore": 0.7925
+    },
+    {
+      "text": "of",
+      "startSeconds": 7.2449,
+      "endSeconds": 7.325,
+      "alignmentScore": 0.9986
+    },
+    {
+      "text": "carved",
+      "startSeconds": 7.405,
+      "endSeconds": 7.7853,
+      "alignmentScore": 0.9021
+    },
+    {
+      "text": "signs.",
+      "startSeconds": 7.9054,
+      "endSeconds": 8.3857,
+      "alignmentScore": 0.8495
+    },
+    {
+      "text": "The",
+      "startSeconds": 9.3864,
+      "endSeconds": 9.4664,
+      "alignmentScore": 0.9453
+    },
+    {
+      "text": "upper",
+      "startSeconds": 9.5465,
+      "endSeconds": 9.7066,
+      "alignmentScore": 0.7999
+    },
+    {
+      "text": "part",
+      "startSeconds": 9.7466,
+      "endSeconds": 10.0268,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "is",
+      "startSeconds": 10.267,
+      "endSeconds": 10.347,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "broken",
+      "startSeconds": 10.4071,
+      "endSeconds": 10.7473,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "and",
+      "startSeconds": 11.2276,
+      "endSeconds": 11.3277,
+      "alignmentScore": 0.8983
+    },
+    {
+      "text": "has",
+      "startSeconds": 11.3477,
+      "endSeconds": 11.4678,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "an",
+      "startSeconds": 11.5078,
+      "endSeconds": 11.5678,
+      "alignmentScore": 0.9981
+    },
+    {
+      "text": "uneven",
+      "startSeconds": 11.6879,
+      "endSeconds": 12.0482,
+      "alignmentScore": 0.9518
+    },
+    {
+      "text": "outline.",
+      "startSeconds": 12.2083,
+      "endSeconds": 12.6286,
+      "alignmentScore": 0.907
+    },
+    {
+      "text": "The",
+      "startSeconds": 13.6893,
+      "endSeconds": 13.7693,
+      "alignmentScore": 0.9836
+    },
+    {
+      "text": "inscriptions",
+      "startSeconds": 13.8094,
+      "endSeconds": 14.4498,
+      "alignmentScore": 0.9789
+    },
+    {
+      "text": "form",
+      "startSeconds": 14.6499,
+      "endSeconds": 14.8501,
+      "alignmentScore": 0.9992
+    },
+    {
+      "text": "several",
+      "startSeconds": 14.9501,
+      "endSeconds": 15.2303,
+      "alignmentScore": 0.9596
+    },
+    {
+      "text": "groups",
+      "startSeconds": 15.2904,
+      "endSeconds": 15.6306,
+      "alignmentScore": 0.9922
+    },
+    {
+      "text": "arranged",
+      "startSeconds": 15.9108,
+      "endSeconds": 16.271,
+      "alignmentScore": 0.9733
+    },
+    {
+      "text": "one",
+      "startSeconds": 16.3911,
+      "endSeconds": 16.5312,
+      "alignmentScore": 0.998
+    },
+    {
+      "text": "above",
+      "startSeconds": 16.6513,
+      "endSeconds": 16.9115,
+      "alignmentScore": 0.9861
+    },
+    {
+      "text": "another.",
+      "startSeconds": 16.9715,
+      "endSeconds": 17.2917,
+      "alignmentScore": 0.9873
+    },
+    {
+      "text": "This",
+      "startSeconds": 18.3925,
+      "endSeconds": 18.5526,
+      "alignmentScore": 0.9953
+    },
+    {
+      "text": "description",
+      "startSeconds": 18.5926,
+      "endSeconds": 19.0929,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "outlines",
+      "startSeconds": 19.4332,
+      "endSeconds": 19.8134,
+      "alignmentScore": 0.991
+    },
+    {
+      "text": "the",
+      "startSeconds": 19.8535,
+      "endSeconds": 19.9335,
+      "alignmentScore": 0.9968
+    },
+    {
+      "text": "main",
+      "startSeconds": 19.9735,
+      "endSeconds": 20.1937,
+      "alignmentScore": 0.9986
+    },
+    {
+      "text": "shapes;",
+      "startSeconds": 20.2938,
+      "endSeconds": 20.7941,
+      "alignmentScore": 0.9448
+    },
+    {
+      "text": "it",
+      "startSeconds": 22.5553,
+      "endSeconds": 22.6554,
+      "alignmentScore": 0.9236
+    },
+    {
+      "text": "does",
+      "startSeconds": 22.7354,
+      "endSeconds": 22.9355,
+      "alignmentScore": 0.8513
+    },
+    {
+      "text": "not",
+      "startSeconds": 23.0156,
+      "endSeconds": 23.1557,
+      "alignmentScore": 0.8534
+    },
+    {
+      "text": "read",
+      "startSeconds": 23.3158,
+      "endSeconds": 23.656,
+      "alignmentScore": 0.8525
+    },
+    {
+      "text": "or",
+      "startSeconds": 23.9963,
+      "endSeconds": 24.1163,
+      "alignmentScore": 0.9632
+    },
+    {
+      "text": "translate",
+      "startSeconds": 24.2564,
+      "endSeconds": 24.9569,
+      "alignmentScore": 0.9637
+    },
+    {
+      "text": "the",
+      "startSeconds": 25.037,
+      "endSeconds": 25.117,
+      "alignmentScore": 0.9674
+    },
+    {
+      "text": "signs.",
+      "startSeconds": 25.2371,
+      "endSeconds": 25.9176,
+      "alignmentScore": 0.8652
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea24.audio_description.en",
+    "wordCount": 51,
+    "cueCount": 8,
+    "meanAlignmentScore": 0.9563,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}

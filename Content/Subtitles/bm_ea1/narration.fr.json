@@ -1,0 +1,532 @@
+{
+  "schemaVersion": 1,
+  "trackId": "bm_ea1.narration.fr",
+  "language": "fr",
+  "kind": "narration",
+  "audioSha256": "60c248c477bacc32becc2dcad39f23b06c9914b2a8ae75b2a1b7de83d616d09e",
+  "scriptSha256": "9128a5756458e7a5164c0c2e144764ba03218595527800270c71d1a26dd06c28",
+  "durationSeconds": 27.768163,
+  "alignment": {
+    "method": "mms_ctc_forced_alignment",
+    "model": "torchaudio.pipelines.MMS_FA",
+    "torchVersion": "2.8.0",
+    "torchaudioVersion": "2.8.0",
+    "normalization": "uroman; a-z and apostrophes for alignment only",
+    "timingResolutionSeconds": 0.020018,
+    "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html"
+  },
+  "reviewStatus": "automatically_aligned_pending_user_review",
+  "segments": [
+    {
+      "startSeconds": 0.06,
+      "endSeconds": 2.622,
+      "text": "Ce lion couché, sculpté dans\nle granite rouge,"
+    },
+    {
+      "startSeconds": 2.903,
+      "endSeconds": 5.525,
+      "text": "appartient à la paire\nappelée les lions de Prudhoe."
+    },
+    {
+      "startSeconds": 6.005,
+      "endSeconds": 8.407,
+      "text": "Il est associé au règne\nd’Amenhotep trois."
+    },
+    {
+      "startSeconds": 8.688,
+      "endSeconds": 11.53,
+      "text": "Son corps allongé repose sur\nun socle portant des"
+    },
+    {
+      "startSeconds": 11.53,
+      "endSeconds": 15.233,
+      "text": "inscriptions. Ces textes\névoquent plusieurs souverains"
+    },
+    {
+      "startSeconds": 15.534,
+      "endSeconds": 18.136,
+      "text": "et témoignent de la longue\nhistoire de la sculpture."
+    },
+    {
+      "startSeconds": 18.556,
+      "endSeconds": 21.459,
+      "text": "Observez la tête, les pattes\net les signes gravés."
+    },
+    {
+      "startSeconds": 21.839,
+      "endSeconds": 24.782,
+      "text": "L’image du lion permettait\nd’exprimer la force royale,"
+    },
+    {
+      "startSeconds": 24.782,
+      "endSeconds": 27.104,
+      "text": "tout en accordant une grande\nattention au corps de"
+    },
+    {
+      "startSeconds": 27.104,
+      "endSeconds": 27.684,
+      "text": "l’animal."
+    }
+  ],
+  "words": [
+    {
+      "text": "Ce",
+      "startSeconds": 0.0601,
+      "endSeconds": 0.1401,
+      "alignmentScore": 0.9975
+    },
+    {
+      "text": "lion",
+      "startSeconds": 0.1802,
+      "endSeconds": 0.3803,
+      "alignmentScore": 0.9824
+    },
+    {
+      "text": "couché,",
+      "startSeconds": 0.4404,
+      "endSeconds": 0.7607,
+      "alignmentScore": 0.9852
+    },
+    {
+      "text": "sculpté",
+      "startSeconds": 0.9408,
+      "endSeconds": 1.3612,
+      "alignmentScore": 0.9061
+    },
+    {
+      "text": "dans",
+      "startSeconds": 1.5214,
+      "endSeconds": 1.6815,
+      "alignmentScore": 0.9602
+    },
+    {
+      "text": "le",
+      "startSeconds": 1.7215,
+      "endSeconds": 1.8016,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "granite",
+      "startSeconds": 1.8617,
+      "endSeconds": 2.222,
+      "alignmentScore": 0.9047
+    },
+    {
+      "text": "rouge,",
+      "startSeconds": 2.282,
+      "endSeconds": 2.5423,
+      "alignmentScore": 0.9873
+    },
+    {
+      "text": "appartient",
+      "startSeconds": 2.9026,
+      "endSeconds": 3.343,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "à",
+      "startSeconds": 3.403,
+      "endSeconds": 3.423,
+      "alignmentScore": 0.9981
+    },
+    {
+      "text": "la",
+      "startSeconds": 3.4631,
+      "endSeconds": 3.5431,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "paire",
+      "startSeconds": 3.6432,
+      "endSeconds": 3.9235,
+      "alignmentScore": 0.6816
+    },
+    {
+      "text": "appelée",
+      "startSeconds": 4.0036,
+      "endSeconds": 4.3439,
+      "alignmentScore": 0.8787
+    },
+    {
+      "text": "les",
+      "startSeconds": 4.4039,
+      "endSeconds": 4.524,
+      "alignmentScore": 0.9841
+    },
+    {
+      "text": "lions",
+      "startSeconds": 4.544,
+      "endSeconds": 4.8443,
+      "alignmentScore": 0.992
+    },
+    {
+      "text": "de",
+      "startSeconds": 4.9044,
+      "endSeconds": 4.9844,
+      "alignmentScore": 0.9982
+    },
+    {
+      "text": "Prudhoe.",
+      "startSeconds": 5.0645,
+      "endSeconds": 5.4448,
+      "alignmentScore": 0.6094
+    },
+    {
+      "text": "Il",
+      "startSeconds": 6.0053,
+      "endSeconds": 6.0654,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "est",
+      "startSeconds": 6.1054,
+      "endSeconds": 6.2055,
+      "alignmentScore": 0.8743
+    },
+    {
+      "text": "associé",
+      "startSeconds": 6.2255,
+      "endSeconds": 6.6459,
+      "alignmentScore": 0.9664
+    },
+    {
+      "text": "au",
+      "startSeconds": 6.786,
+      "endSeconds": 6.8461,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "règne",
+      "startSeconds": 6.9462,
+      "endSeconds": 7.2064,
+      "alignmentScore": 0.9545
+    },
+    {
+      "text": "d’Amenhotep",
+      "startSeconds": 7.3665,
+      "endSeconds": 7.9471,
+      "alignmentScore": 0.8754
+    },
+    {
+      "text": "trois.",
+      "startSeconds": 8.0471,
+      "endSeconds": 8.3274,
+      "alignmentScore": 0.7964
+    },
+    {
+      "text": "Son",
+      "startSeconds": 8.6877,
+      "endSeconds": 8.8078,
+      "alignmentScore": 0.9998
+    },
+    {
+      "text": "corps",
+      "startSeconds": 8.8679,
+      "endSeconds": 9.1681,
+      "alignmentScore": 0.8827
+    },
+    {
+      "text": "allongé",
+      "startSeconds": 9.2682,
+      "endSeconds": 9.6486,
+      "alignmentScore": 0.9875
+    },
+    {
+      "text": "repose",
+      "startSeconds": 9.8287,
+      "endSeconds": 10.2491,
+      "alignmentScore": 0.9652
+    },
+    {
+      "text": "sur",
+      "startSeconds": 10.2891,
+      "endSeconds": 10.4293,
+      "alignmentScore": 0.9999
+    },
+    {
+      "text": "un",
+      "startSeconds": 10.4893,
+      "endSeconds": 10.5694,
+      "alignmentScore": 0.9995
+    },
+    {
+      "text": "socle",
+      "startSeconds": 10.6294,
+      "endSeconds": 10.9497,
+      "alignmentScore": 0.8994
+    },
+    {
+      "text": "portant",
+      "startSeconds": 11.0098,
+      "endSeconds": 11.3301,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "des",
+      "startSeconds": 11.3701,
+      "endSeconds": 11.4702,
+      "alignmentScore": 0.9993
+    },
+    {
+      "text": "inscriptions.",
+      "startSeconds": 11.5302,
+      "endSeconds": 12.0907,
+      "alignmentScore": 0.9989
+    },
+    {
+      "text": "Ces",
+      "startSeconds": 12.5311,
+      "endSeconds": 12.6713,
+      "alignmentScore": 0.9671
+    },
+    {
+      "text": "textes",
+      "startSeconds": 12.7713,
+      "endSeconds": 13.2117,
+      "alignmentScore": 0.8672
+    },
+    {
+      "text": "évoquent",
+      "startSeconds": 13.3919,
+      "endSeconds": 13.9124,
+      "alignmentScore": 0.8397
+    },
+    {
+      "text": "plusieurs",
+      "startSeconds": 14.0925,
+      "endSeconds": 14.673,
+      "alignmentScore": 0.9514
+    },
+    {
+      "text": "souverains",
+      "startSeconds": 14.7331,
+      "endSeconds": 15.1535,
+      "alignmentScore": 0.9361
+    },
+    {
+      "text": "et",
+      "startSeconds": 15.5338,
+      "endSeconds": 15.6139,
+      "alignmentScore": 0.9971
+    },
+    {
+      "text": "témoignent",
+      "startSeconds": 15.6739,
+      "endSeconds": 16.0743,
+      "alignmentScore": 0.9354
+    },
+    {
+      "text": "de",
+      "startSeconds": 16.0943,
+      "endSeconds": 16.1543,
+      "alignmentScore": 0.9984
+    },
+    {
+      "text": "la",
+      "startSeconds": 16.1944,
+      "endSeconds": 16.2745,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "longue",
+      "startSeconds": 16.3545,
+      "endSeconds": 16.5947,
+      "alignmentScore": 0.9949
+    },
+    {
+      "text": "histoire",
+      "startSeconds": 16.6548,
+      "endSeconds": 17.2353,
+      "alignmentScore": 0.9958
+    },
+    {
+      "text": "de",
+      "startSeconds": 17.2753,
+      "endSeconds": 17.3354,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "la",
+      "startSeconds": 17.3754,
+      "endSeconds": 17.4555,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "sculpture.",
+      "startSeconds": 17.5156,
+      "endSeconds": 18.056,
+      "alignmentScore": 0.8916
+    },
+    {
+      "text": "Observez",
+      "startSeconds": 18.5565,
+      "endSeconds": 18.9368,
+      "alignmentScore": 0.9692
+    },
+    {
+      "text": "la",
+      "startSeconds": 18.9568,
+      "endSeconds": 18.9969,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "tête,",
+      "startSeconds": 19.0769,
+      "endSeconds": 19.3572,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "les",
+      "startSeconds": 19.5374,
+      "endSeconds": 19.6575,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "pattes",
+      "startSeconds": 19.6975,
+      "endSeconds": 20.0578,
+      "alignmentScore": 0.8303
+    },
+    {
+      "text": "et",
+      "startSeconds": 20.298,
+      "endSeconds": 20.3581,
+      "alignmentScore": 0.9994
+    },
+    {
+      "text": "les",
+      "startSeconds": 20.3981,
+      "endSeconds": 20.5182,
+      "alignmentScore": 0.9991
+    },
+    {
+      "text": "signes",
+      "startSeconds": 20.5983,
+      "endSeconds": 20.8986,
+      "alignmentScore": 0.9271
+    },
+    {
+      "text": "gravés.",
+      "startSeconds": 20.9586,
+      "endSeconds": 21.379,
+      "alignmentScore": 0.9896
+    },
+    {
+      "text": "L’image",
+      "startSeconds": 21.8394,
+      "endSeconds": 22.2197,
+      "alignmentScore": 0.9077
+    },
+    {
+      "text": "du",
+      "startSeconds": 22.2598,
+      "endSeconds": 22.3398,
+      "alignmentScore": 0.9937
+    },
+    {
+      "text": "lion",
+      "startSeconds": 22.3999,
+      "endSeconds": 22.5801,
+      "alignmentScore": 0.9871
+    },
+    {
+      "text": "permettait",
+      "startSeconds": 23.0805,
+      "endSeconds": 23.4809,
+      "alignmentScore": 0.8125
+    },
+    {
+      "text": "d’exprimer",
+      "startSeconds": 23.4809,
+      "endSeconds": 23.9012,
+      "alignmentScore": 0.9673
+    },
+    {
+      "text": "la",
+      "startSeconds": 23.9413,
+      "endSeconds": 23.9813,
+      "alignmentScore": 0.9982
+    },
+    {
+      "text": "force",
+      "startSeconds": 24.0414,
+      "endSeconds": 24.2816,
+      "alignmentScore": 0.996
+    },
+    {
+      "text": "royale,",
+      "startSeconds": 24.3216,
+      "endSeconds": 24.722,
+      "alignmentScore": 0.9339
+    },
+    {
+      "text": "tout",
+      "startSeconds": 24.782,
+      "endSeconds": 24.9221,
+      "alignmentScore": 0.9969
+    },
+    {
+      "text": "en",
+      "startSeconds": 24.9622,
+      "endSeconds": 25.0222,
+      "alignmentScore": 0.9987
+    },
+    {
+      "text": "accordant",
+      "startSeconds": 25.0623,
+      "endSeconds": 25.4426,
+      "alignmentScore": 0.9996
+    },
+    {
+      "text": "une",
+      "startSeconds": 25.4626,
+      "endSeconds": 25.5827,
+      "alignmentScore": 0.9256
+    },
+    {
+      "text": "grande",
+      "startSeconds": 25.6228,
+      "endSeconds": 25.9631,
+      "alignmentScore": 0.9997
+    },
+    {
+      "text": "attention",
+      "startSeconds": 25.9831,
+      "endSeconds": 26.4235,
+      "alignmentScore": 0.9975
+    },
+    {
+      "text": "au",
+      "startSeconds": 26.6036,
+      "endSeconds": 26.6637,
+      "alignmentScore": 0.9986
+    },
+    {
+      "text": "corps",
+      "startSeconds": 26.7438,
+      "endSeconds": 26.984,
+      "alignmentScore": 0.8987
+    },
+    {
+      "text": "de",
+      "startSeconds": 27.024,
+      "endSeconds": 27.064,
+      "alignmentScore": 0.999
+    },
+    {
+      "text": "l’animal.",
+      "startSeconds": 27.1041,
+      "endSeconds": 27.4844,
+      "alignmentScore": 0.987
+    }
+  ],
+  "quality": {
+    "trackId": "bm_ea1.narration.fr",
+    "wordCount": 75,
+    "cueCount": 10,
+    "meanAlignmentScore": 0.9539,
+    "lowScoreWords": [],
+    "longWords": [],
+    "userListeningReview": "pending"
+  }
+}
